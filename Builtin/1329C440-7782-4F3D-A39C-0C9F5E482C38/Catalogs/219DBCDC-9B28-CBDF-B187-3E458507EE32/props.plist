@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Test Catalog</string>
+    
+    <key>items</key>
+    <dict>
+    
+        <!-- Spanish -->
+        <key>65E23013-23B0-2C01-88A3-F57DDCCDBD1A</key>
+        <dict>
+            <key>name</key>
+            <string>Spanish</string>
+            
+            <key>asset</key>
+            <dict>
+                <key>type</key>
+                <string>item</string>
+                <key>uuid</key>
+                <string>62221265-2826-E3F8-9811-CEF4792FF8A1</string>
+                <key>url</key>
+                <string>http://www.language-machines.com/rc0/more/ontologies/01_Spanish/directory.plist</string>
+            </dict>
+            
+            <key>banner</key>
+            <string>images/65E23013-23B0-2C01-88A3-F57DDCCDBD1A/banner.jpg</string>
+            
+            <key>preview</key>
+            <dict>
+                <key>type</key><string>ImageSequence</string>
+                <key>image-format</key><string>images/65E23013-23B0-2C01-88A3-F57DDCCDBD1A/image%02d.jpg</string>
+                <key>image-frames</key><integer>77</integer>
+                <key>image-fps</key><integer>10</integer>
+				<key>image-repeat-count</key><integer>1</integer>
+                <key>poster-image</key><string>images/65E23013-23B0-2C01-88A3-F57DDCCDBD1A/image33.jpg</string>
+                <key>width</key><real>150</real>
+                <key>height</key><real>205</real>
+				<key>sound</key><string>sounds/trumpets.mp3</string>
+				<key>text</key><string>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mauris nunc, bibendum vel semper id, dapibus ut ipsum. 
+				
+Donec suscipit posuere tellus eget fringilla. Cras vitae laoreet ligula. Maecenas fermentum luctus quam at commodo. Phasellus aliquet felis et nulla viverra consequat.</string>
+				<key>text-width</key><real>130</real>
+            </dict>
+        </dict>
+    </dict>
+    
+    
+</dict>
+</plist>

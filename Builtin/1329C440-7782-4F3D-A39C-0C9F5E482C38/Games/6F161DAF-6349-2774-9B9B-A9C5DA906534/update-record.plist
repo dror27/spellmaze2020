@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>directory-entry</key>
+	<dict>
+		<key>type</key>
+		<string>item</string>
+		<key>uuid</key>
+		<string>C481DFBB-9695-7F03-71A3-51EEFC1006DD</string>
+		<key>version</key>
+		<real>0.26</real>
+		<key>name</key>
+		<string>SpellMaze Classic</string>
+		<key>url</key>
+		<string>SpellMazeClassic.zip</string>
+		<key>comment</key>
+		<string>The Classic SpellMaze Game</string>
+		<key>domain</key>
+		<string>Games</string>
+		<key>icon</key>
+		<string>StandardGame.png</string>
+		<key>leading-uuid</key>
+		<string>6F161DAF-6349-2774-9B9B-A9C5DA906534</string>
+		<key>min-version</key>
+		<string>0.5</string>
+	</dict>
+	<key>directory-url</key>
+	<string>http://sms.drorkessler.com/rc1/more/games/directory.plist</string>
+</dict>
+</plist>

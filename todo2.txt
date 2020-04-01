@@ -1,0 +1,151 @@
+
+//		[ ] - no special status
+//		[v] - done
+//		[w]	- working on it
+0 ------- considered not required
+1 ------- under consideration for inclusion 
+2 ------- defered for future
+2 [ ] [Code/Prefs]				sections in url directories
+2 [ ] [Content/Educational]		build 'spelling practice' game flavor. (for memorizing words and their spelling)
+2 [ ] [Content/General]			build language from an html page (with links)
+2 [ ] [Content/Math]			more useful math examples.
+2 [ ] [Content/More]			design level to more explicitly teach set of words (repeat, introduct words gradually)
+2 [ ] [Content/More]			implement the gradual game (?)
+2 [ ] [Content/More]			more automatic levels: 5 letters, game logics, fading, shifting letters
+2 [ ] [Content/More]			pictorial languages (e.g. two symbols matching - picture and its symbol. picture and its mirror image)
+2 [ ] [Content/Muy]				propose a logo with MUY + other red and while letters
+2 [ ] [Content/Standard]		join three tutorial levels into one
+2 [ ] [Content/Standard]		tutorial steps (0-autorunning, 1-same-but-now-you-do-it)
+2 [ ] [Game/Design]				black cells - hiding pieces under them
+2 [ ] [Game/Design]				letters color with gradient
+2 [ ] [Game/Dispensing]			add difficulty by revesing the weight of the symbols - dispensing less common symbols
+2 [ ] [Game/Logic]				apple wallet decorator enables display of last n (n=1) pieces to complete the current selected pieces into a word (on blue left-down pointing arrow)
+2 [ ] [Game/Logic]				dispense upon demand (by tapping on the dispenser?)
+2 [ ] [Game/Logic]				dispenser should complete to a word if in "stress" condition (end of game, board, etc.)
+2 [ ] [Game/Logic]				enhance engine to optionally allow near misses (one letter off (if has decoration?), one order flip ...) - play special sound?
+2 [ ] [Game/Logic]				handle the "missing last letter at end of game condition"
+2 [ ] [Game/Logic]				if apple wallet decorator can save the level from ending, automatically use it and remove apple decorator step from wallet.
+2 [ ] [Game/Logic]				option to keep full board moving (according to logic)
+2 [ ] [Game/Logic]				tile (slide-puzzle) levels
+2 [ ] [Game/Personalize]		personalize the game (with your own pictures?, background message?
+3 ------- schedule to implement (before next release to store)
+3 [ ] [Code/Admin]				setup source control
+3 [ ] [Code/Algorithms]			optimize most used compare in CSet.c in asm.
+3 [ ] [Code/Backend]			save IP address on server when processing score request
+3 [ ] [Code/Banners]			design Ad carusel (online, offline, rotatoin, clicking, batch-download of ads) - use some standard banner size
+3 [ ] [Code/Brand]				allow setting color in a brand as an image (strips for IKEA)
+3 [ ] [Code/Brand]				brand downloads - control download links
+3 [ ] [Code/Brand]				brand features - enable/disable stuff
+3 [ ] [Code/Credits]			add credits page - selectable from copyright meesage on main page
+3 [ ] [Code/Design]				Browsing level should show empty box for when no pic
+3 [ ] [Code/Design]				main menu: "PLAY" entry bottom line is half-width on DEVICE
+3 [ ] [Code/Design]				show word count on board at all times (as a show off ...) (on score widget corner?)
+3 [ ] [Code/Design]				stop using alerts for game over/failed. use splash, do not show if summary shown
+3 [ ] [Code/Facebook]			handle very large number of friends, filter on recent?
+3 [ ] [Code/Logic]				spiral not working properly on 6x6 w/ wide cells (which is in fact 3x6)
+3 [ ] [Code/Network]			turn on/off network indicator before/after done
+3 [ ] [Code/Prefs]				after download, refresh the directry pref item so that the downloaded state will be reflected
+3 [ ] [Code/Prefs]				detailed download item on listing (icon, name, description, price)
+3 [ ] [Code/Prefs]				image resize on nickface selection should show progress ...
+3 [ ] [Code/Prefs]				nickface clipping should not change image ratio (should not stretch)
+3 [ ] [Code/Prefs]				prepare a SplashPanel (with links?) that comes totally from prefs (that could be set by pull mechanism) - with limitation on number of times? is this the same as a banner?
+3 [ ] [Code/Prefs]				reminder timer/sound should be stopped when in preferences (switched on when poping into main pref panel from a sub-panel)
+3 [ ] [Code/Prefs]				squish perefernce items ... make height smaller
+3 [ ] [Code/Score]				by default (if no network), enter own score into table (or all identities on local device ...)
+3 [ ] [Code/Score]				score board sometimes gets (null) nickname ... why? when empty?
+3 [ ] [Code/Score]				show count word as overlay on score widget lower-left corner
+3 [ ] [Code/Score]				show min word size (and other restrictions?) on score widget upper-left corner
+3 [ ] [Code/Score]				sort decorators on score widget to same order all the time (Apples, Coins, Bombs)
+3 [ ] [Code/Sound]				config: sound theme
+3 [ ] [Code/Sound]				sound theme into Folders structure, part of brand, game
+3 [ ] [Code/SplashPanel]		In games with fixed set of words, show words
+3 [ ] [Content/General]			hints should be explained in the help screen
+3 [ ] [Content/General]			translation of ontologies
+3 [ ] [Content/Hebrew]			add WAVs of Hebrew Mammals
+3 [ ] [Content/Hebrew]			hebrew dictionary from babylon
+3 [ ] [Content/Hebrew]			on Mammals_Hebrew and Hebrew packages, update description to be in Hebrew
+3 [ ] [Content/IKEA]			IKEA brand
+3 [ ] [Content/Localization]	how to translate level names and descriptions? (within game definition? ontology? locale? new game?) 
+3 [ ] [Content/Mammals]			switch to Animals? to make it more accessible and fit for smaller kids (add common aminals only - pictures from WikiCommons ...)
+3 [ ] [Content/Sound]			add second sound theme (sports ... goal ...)
+3 [ ] [Game/Banners]			add a slot for advertizing ... return returned score board
+3 [ ] [Game/Design]				"LEVELS" menu - optional level picture (icon)
+3 [ ] [Game/Design]				color of vowels should be more distinct
+3 [ ] [Game/Design]				indicate min word size on score board
+3 [ ] [Game/Design]				update design (colors) of splash
+3 [ ] [Game/Design]				use game character as joker symbol
+3 [ ] [Game/Downloads]			how to automate notifications of updates on installed domain objects (such as languages/games)? via pull mechanism setting a flag?
+3 [ ] [Game/Sound]				add additional sounds to valid word (alternativing, based on word length)
+3 [ ] [Materials/Devel]			start writing developers guide 
+3 [ ] [Materials/Marketing]		tutorial movie
+4 ------ for next build
+4 [ ] [Code/Brand]				specific download sites for a brand
+4 [ ] [Code/Language]			handle order independent language (like spellmaze 21) in tutorials
+4 [ ] [Code/Logic]				Add shake game action, pinch, zoom?
+4 [ ] [Code/Logic]				failing on a non-first run on a level (using a level end menu) should repeat the level with the incremental initial blacklist
+4 [ ] [Code/Logic]				track words that were used for the first time. Sound a special effect. Show in summary panel
+4 [ ] [Code/Scores]				negative scores show up at times when playing level end menu
+4 [ ] [Code/Scores]				on scores site, only show scores which are x days old (auto remove old ones)
+4 [ ] [Code/Scripting]			non-scripted pull (of words ...)
+4 [ ] [Code/Stability]			handle memory and temp file leak from TextSpeater
+4 [ ] [Code/Store]				free purchases on Apple store
+4 [ ] [Content/Gigigo]			complete ontologies: flags (wrong cell aspect ratio), trees (cell too small)
+5 ------ immediate
+5 [ ] [Code/Performance]		performance slowdown (touch sensetivity, etc.) at times ... after configuration?
+5 [ ] [Code/Stability]			many crashes ... after configuration in programmable and more ...
+6 ------- fixed and will be included in next build
+6 [v] [Code/AutoRun]			do not speak hint in autorun mode
+6 [v] [Code/Design]				add opening image so that the screen is not blanked until the program loads
+6 [v] [Code/Design]				grid size should be influenced by language properties (see fingerspelling)
+6 [v] [Code/Design]				icons for symbols of the alphabet (as part of the language definition)
+6 [v] [Code/Download]			after finishing download (at Completed 100%) there is not completion (pop view controller and select/refresh pref ui - delegate not called)
+6 [v] [Code/General]			rethink how delegate members are handled (curr: assign/nonatomic - may memory allocation problems due to access of already freed delegate)
+6 [v] [Code/Language]			build browsing language (each word is a symbol with its picture)
+6 [v] [Code/Localization]		Unzipping ... does not get translated
+6 [v] [Code/Localization]		add <empty> string to translations (shows up on nickname)
+6 [v] [Code/Logic]				Apple jokers do not get deselected
+6 [v] [Code/Logic]				Level end menu: play again, [again w/ new set of words], next level, always next level, back
+6 [v] [Code/Logic]				add word when suspended causes a resume (it is not possible to get out suspend/resume afterwards)
+6 [v] [Code/Logic]				connect text/explanation to words, integrate with playing experience
+6 [v] [Code/Logic]				randomize joker completion (not simply by alphabet frequency)
+6 [v] [Code/Logic]				reduce capabilities when paused (can not select? why?)
+6 [v] [Code/Logic]				when game won, and there are no words on the board, finish game immediatly
+6 [v] [Code/Performance]		show progress on switching an identity. maybe avoid [ud synchronize] (no need - optimized synchronzied to be batched)
+6 [v] [Code/Prefs]				sort on titles alphabetically on MultiValue Prefs (must prefetch ...)
+6 [v] [Code/Score]				heading for score table - name of the game, etc. (impl: added allowance for brand banner named "scores")
+6 [v] [Code/Score]				show (only?) game high score as first score board?
+6 [v] [Code/Scripting]			non-scripted actions (facebook, reset to factory settings, etc.)
+6 [v] [Code/Scripts]			join Default_Level_Script and prog.txt(Programmable)
+6 [v] [Code/Speech]				stop speech when about to speak a new text
+6 [v] [Code/Stability]			reduce stack size on all threads (to 64K?)
+6 [v] [Code/Store]				bind to free store cheat so that changing it would not require restart (in StoreManager ...)
+6 [v] [Content/All]				make sure all picturial ontologies are using square images
+6 [v] [Content/Browsing]		build browsing level
+6 [v] [Content/Experipental]	Basic X steps are limited in hints to 6 letters - should be removed. All steps should be at least 3 letters higher then step limitation.
+6 [v] [Content/Facebook]		make ontology update automatically directly after its initial download (show when was last downloaded?)
+6 [v] [Content/Facebook]		no indication that facebook was updated (add last update date - maybe relative to now ...)
+6 [v] [Content/FingerSpell]		add as language with the symbols overlaying the finger images.
+6 [v] [Content/PicturePerf]		piece hint stopped working in tutorial 3 (should it work?)
+6 [v] [Content/Poker]			poker language, sum to 21
+6 [v] [Content/Programmable]	ViewTransform add device slices
+6 [v] [Content/Programmable]	ViewTransform event always uses validWord
+6 [v] [Content/Programmable]	add word stopped working in programmable ...
+6 [v] [Content/Site]			organize download by "Natural Languages", ...
+6 [v] [Content/Standard]		Add levels with ViewTransformer, device rotation, small and non-standard boards, lengthen steps with more symbols, etc.
+6 [v] [Content/Standard]		Slow down a bit ...
+6 [v] [Content/Standard]		configure score factor for higher levels of the standard game
+6 [v] [Content/Standard]		spalshes should not be automative (since there is a help button)
+6 [v] [Content/StraightUp]		Merge "English Straight Up" with game by the same name (copy props from English ...)
+6 [v] [Content/StraightUp]		adjust board full warning (now 15 s?) so that the first period will be a bit longer and significant on heigher stages.
+6 [v] [Content/StraightUp]		higher levels in Stright Up do not allow for adding words? (works for me)
+6 [v] [Content/StraightUp]		higher up levels in straight up should hint more often and provide more jokers (not required)
+6 [v] [Content/StraightUp]		rename levels in straight up ... to indicate the requested size
+6 [v] [Core/Views]				refresh symbol images when brand changes in SymbolPieceView
+6 [v] [Game/Downloads]			close in-application purchase
+6 [v] [Game/Logic]				option to play "level 2" until all words have been have been presented and selected (to learn the ontology) (covered by level end menu)
+6 [v] [Materials/Devel]			build/document matrix of game level capabilities (thank you Sigalit!)
+9 ------- done?
+Build Release Features
+
+
+Flip on MUY boards does not flip the hint board.

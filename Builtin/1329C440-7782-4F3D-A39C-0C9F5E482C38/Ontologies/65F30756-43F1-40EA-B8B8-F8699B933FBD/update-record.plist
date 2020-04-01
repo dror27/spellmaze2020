@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>directory-entry</key>
+	<dict>
+		<key>type</key>
+		<string>item</string>
+		<key>uuid</key>
+		<string>F8116CEC-BE03-DA6B-20A9-C009C1BEDF09</string>
+		<key>version</key>
+		<real>0.1</real>
+		<key>name</key>
+		<string>English</string>
+		<key>url</key>
+		<string>English.zip</string>
+		<key>comment</key>
+		<string>The English Language itself.
+by Dror Kessler Ltd.
+Copyright © 2009</string>
+		<key>domain</key>
+		<string>Ontologies</string>
+		<key>icon</key>
+		<string>English_Icon.jpg</string>
+		<key>leading-uuid</key>
+		<string>65F30756-43F1-40EA-B8B8-F8699B933FBD</string>
+		<key>min-version</key>
+		<string>0.2</string>
+		<key>item-icon</key>
+		<string>English.jpg</string>
+	</dict>
+	<key>directory-url</key>
+	<string>http://sms.drorkessler.com/rc1/more/ontologies/00_English/directory.plist</string>
+</dict>
+</plist>

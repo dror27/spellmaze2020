@@ -1,0 +1,564 @@
+done:
++ add score accumulation 
++ add support for blacklist of already used words, reset on every level?
++ give levels unique identifiers
++ close levels until opened in a sequential manner
++ disable closed levels at level selector
++ handle completion of last level properly
++ when returning to level selector - should refresh enablement of levels to reflect levels just passed
++ allow only enabled levels to run
++ show a wave of selected pieces on main menu when not selected for am idle timer - also on level selector.
++ add score exchange with server. scoreboard
++ put identity pictures on score board ...
++ associate an image with each word. show image as the word appears (good for spelling names of football players)a
++ add goal based dispenser - aim to achive a certain maximal of words on the board. 
++ add sound for blacklist word
++ make invalid word sound more brutal
++ explode symbols on valid word (to all sides of screen?)
++ cool backgrounds
++ game icon
++ program preferences implementation
++ config: tss on/off
++ setup domain, to remove www.yourcompany.com ...
++ load language from internet.
++ only inserts (turns out only inserts on duplicate update ...)
++ add nick to perferences page
++ interface: reselect - always validates word
++ interface: clear selection (word) on touching the score widget
++ add variable dispensing speed, based on fullness/emptiness of board
++ perferences: game speed
++ game selection: Language,Math,Domains,Test
++ implement real server so DEVICE can access
++ give levels interesting names (basic elements, etc.)
++ alert to add invalid word which is typed N times - yes/no/no-level/no-game
++ level download from site?
++ add failed/invalid word to dictionary while playing
++ added words do not get added to file (add all words at onces!)
++ make game level stop after having at least N words on the board
++ automatically assign dispenser depending on the size of the language (small->goal)
++ add math examples
++ add spanish word list
++ add Mammals as a language
++ name levels using sexy names
++ defualt to language background, if no level background exists
++ change labels on adding word to language alert (disable this feature, etc.)
++ must integrate black list consideation to goal based dispenser, to stop it from dispensing the same small words
++ remove hebrew names from facebook for now.
++ show images also on regular language levels
++ build demo scenarios ...
++ prepare a word list on the internet (read from general site?)
++ add cheats pref page: 
+	+ add valid words to black list (each word once)
+	+ all levels enabled
++ math level as a text file on custom language
++ custom level via url
++ barcelona as a lnguage - split words at language level
++ math as custome level (via url)
++ level names!!!
+
+8/9 done (build summary)
++ split into language/game/level data into folders Data/Languages/uuid/...
++ add weight based dispenser - aim to a achieve a balanced board of symbols (according to alphabet weights)
++ add a frame around picture hints (white)
++ add picture to identity
++ when running a single level, return to levels page after completion
++ which level should "PLAY" point to? last enabled? first? first _real_ one? (restart at last?)
++ speak level name and description when entering not from "LEVELS" menu
++ add intermediate levels - between 1 and 2 to get started (up to 5)
++ levels designed aespecially for small languages
++ create mechanism for saving preferences which does not conflict with sytem preferences
++ add flipping panel
++ define level using the device (user experience)
++ double tap (hint) does not show hint word immediatly (only after first hined piece)
++ suspend/resume doesn't display text indicator (score remains)
++ hint word in not displayed which suspended
++ goal based dispenser emits noise symbols until finally settles on a word
++ when double clicking for a hint, and there is no hint, the score is displayed on top of message1/2
++ add intermediate levels
++ facebook, allow playing when not connected to network - based on past downloaded list of friends/pictures.
++ body parts/organs (like mammals) language/ontology
++ joint pref view-cotrollers into common base
++ implement pref listeners
++ xml format for level scripts (?)
++ proper loading of facebook/flickr levels
++ reset to factory settings
++ levels with long words (4) but board not moving
++ rtl, tutorial dispensing position rtl
++ rtl, hint rtl (version 2/3)
++ rtl, selected peices on score board rtl (version 2/3)
++ hebrew, fold 'final' letters into equivalent.
++ level ordering and belonging (to game) specification
++ missing from StringsLanguage: allCaps, splitWords, addWord, wordsOrigin
++ nick name entry should be in capitalized
++ nick photo selection
++ buy tofig a device an have him start creating games, add Russian
++ center picture of file browser (origin.x=0)
++ implement download progress
++ on 2.2.1 RTL hint (hebrew) crashes program!
++ RTL hack ... remove
++ rush delivery now forces a wordset operation on entry to almost each level - which slows it down ...
++ run hint generation on a seperate thread to prevent it from freezing game
++ rtl
++ hint as background thread
++ mammals dispensing not working properly ... seems to be random (due to rush delivery?)
++ wordset rewrite
++ there are no spoken rewards (although the level is set to spoken rewards)
++ the speed must be controlled from the level preferences
++ an image hint erases the input (if there is a half-typed word).[this can be overriden by disabling piece hints]
++ expose level speed through programmable level
++ expose board order/logic through programmable level
++ implement yaki's defualts
++ remove, rename levels on programmable game
++ reorder levels on programmable game
++ expose "allow duplicate words"
++ expose snakeness, etc.
++ write facebook, gallery, etc. level
++ word size limitation is not working on hint limitations (smaller hints still comming through)
++ no spoken word on rewards and/or hint
++ clean leftover levels after updating programmable level (clear target folder?)
++ display only levels belonging to the game in the level selector on level operations
++ change max-value on (global) game level so that the defualt speed will be in the center (to make it easier to slow down the game) (switched to logarithmic)
++ make game preferences accessible from game selector itself (using details button)
++ add boardlogic role, handle exclusive roles (random/nudge,etc)
++ select English ontology on device freezes for 10 seconds ... why?
++ /c suffix on score nickname enabled cheats? /d enables development mode? (do not show suffix)
++ facebook ontology
++ show hint not working properly to re-create tutorial #1 behavior
++ tick period is not working properly ... when set to 0.75, still slow (is it effected by global game speed?)
++ mark levels which have been completed (using a checkmark overlay?)
++ contract ...
++ send picture on score table
++ retrieve pictures from scoring server
++ nickname PrefStringItem should use a keyboard which capitalizes every word (as a name does ...)
++ when moving from one level to the next automatically (by winning ...), the score seems to drop back ...
++ propose to add words only valid under the current restriction (max word size, etc.)
++ language selection causes freezes
++ make an arabic demo for Zaki
++ level indicator on main screen (to show which level you are in)
++ organize ontologies site according to language
++ variable board size
+	+ make all calculation with formular that includes 6x6
+	+ parametize 6x6
++ "Stright Up" game - all random levles, minWordSize 1 -> 12.
++ splash screens (w/ explanations?) - for levels? really required?
++ game is "Game" on "Ontology" (e.g. Picture Perfect, Mammals)
++ facebook friends does not show up pictures on tutorial levels in picture perfect
++ fix rewards on picture perfect
++ build straight up game
++ yaki bug: score and message1/2 both show up on the board 
++ implement expiry date for beta versions
++ pressing score widget on score table reproduces double message bug
++ use decoration on pieces to mutiply scores (apple, coin, bomb)
++ x7 scores when all pieces of the word have the same decoration
++ implement joker symbol
++ decoration side effects
++ add decoration logic to add games
++ add decoration logic to programmable
++ make programmable the default script for games
++ make programmable script read from level props before user-prefs
++ make level props be optionally defined in the game props.
++ completly remove need to have Levels folder and contents
++ implement [Folders ...] access to Props (without obtaining folder path first)
++ add build number qualification to downloaded zips (valid only from build # and only)
++ add special sound effects for decorated words
++ add "disable decorations" cheat
++ implement decorations only in "non-pictures" games first
++ straight up does not show decorations
++ BOARD_FULL state seems to be entered when board is not really full (probably related to decorations)
++ make sure all touches are received. redirect touches from cell and grid to pieces ...
++ piece sclaring breaks nudge - commenting it out
++ Decoration sounds: Apple, Coin, Bomb (all normal and extra)
++ add sound for second selection of a letter (? conflicts with word-valid/invalid/blacklist sound) (not implemented)
++ display black listed words in the back of the gridboard in variuos fonts, sizes and angles (? questionable feature, also performance problematic) (not implemented)
++ add multiple scoring identity support
++ keep accumulative and high score for each level as well
++ score should not accumulate if the user has not passed the level (currently gets recorded on a 'back'!)
++ switch between own score and high scores (using a segment controller?)
++ inter-level popup - a place for ads - implement using a normal window? (splash covering that?)
++ excelerate hinting schedule when in the red (buzzing) (not implemented)
+
+
+- source control
+- add credits page - selectable from copyright meesage on main page
+	- failing to select the label text. selection only working slightly above label text
+	+ implement credits page (rollup)
+	- add credits for tss, sounds, jim
+- add difficulty by revesing the weight of the symbols - dispensing less common symbols
+- add additional sounds to valid word (alternativing, based on word length)
+- add second sound theme (sports ... goal ...)
+- letters color with gradient
+- main menu: "PLAY" entry bottom line is half-width on DEVICE
+- turn on/off network indicator before/after done
+- by default (if no network), enter own score into table (or all identities on local device ...)
+- black cells - hiding pieces under them
+- build/document matrix of game level capabilities
+
+? spell levels: almost correct spelling behavior (covered by joker)
+? spell levels: skip to next word ...
+
+- more useful math examples.
+- tile (slide-puzzle) levels
+- more automatic levels: 5 letters, game logics, fading, shifting letters
+- option to keep full board moving (according to logic)
+- "LEVELS" menu - optional level picture (icon)
+
+
+integration:
+- add a slot for advertizing ... return returned score board
+
+cheats:
+? create cheats mechanisms
+? cheat: reset level enablement
+? cheat: open a level
+
+config:
+- config: sound theme
+
+prefs:
+
+dynamics:
++ define an antology using the device (user experience) (wordlist will cover?)
+
+white-labeling:
+- white labeling ideas:
+
+hardware:
+- iPhone to projector?
+
+localization:
++ main menu
++ preferences
++ messages
+
+
+
+server side:
+
+bugs:
++ no UI for confirming indivually the added words
+
+at the bar:
+
+at vodafone:
++ information (language) from gigigo site
+
+at the hotel:
++ study list of words ...
+
+at breakfast 30/7:
+? facebook application icon!!! (?)
+
+with shlomit:
+- ready language from an html page (with links)
+
+back home 3/8:
+- source control
++ branding package (zip support?)
+
+4/8:
+- source control
+? binary encoding for a language
+? load indicator for language loading
+- hebrew dictionary from babylon
+- translation of ontologies
+
+5/8
+
+6/8
+- option to play "level 2" until all words have been have been presented and selected (to learn the ontology)
+
+7/8
++ "funny" message that you have been playing too long when memry runs low (not needed anymore)
+
+8/8
++ hebrew, find how to display cross-word-style yud (+...) (not implemented)
+
+13/8
+
+15/8
+
+16/8
++ get added words of the device - use as a way to enahance dictionaries
++ brand the main panel banner
+? brand copyright message
+? path access to dictionaries
+? cache listRoleFolder to speed entry into levels pane (why is it doing so many of these)
+- start writing developers guide
++ brand: panels (main,level,game)
+- brand: dictionary key roots (panels, features, downloads)
+- brand features - enable/disable stuff
+- brand downloads - control download links
+- brand panels - background color/image, banner
+- sound theme into Folders structure, part of brand, game
++ default language for a game (have a way to set up)
++ on CrossFader levels, tapping the score board to reset selection does not reset disabled pieces
+- implement network access indicator
++ implement progress indicator while browsing network directories (not needed)
+
+16/8
+
+20/8
+
+21/8
+? optimize wordset operations (more?)
+
+22/8
+
+23/8 - yaki
++ slowdown after playing for a while (no memory is being released)
+
+24/8 - yaki
++ remove requirements to flip out of preferences on each major structure change
+
+26/8 - dror morning
++ way to get data out of the device - zip with init script containing level prefs as well?
++ details in domain listings, point to prop/prefs (what is this?)
+
+26/8 - w/ yaki - dry run
+
+26/8 - dinner w/ tofig
+- icons for symbols of the alphabet (as part of the language definition)
+- poker language, sum to 21
+- pictorial languages (e.g. two symbols matching - picture and its symbol. picture and its mirror image)
+- games for small children (also very small children)
+- dispense upon demand (by tapping on the dispenser?)
+- boards with smaller number of blocks (4x4 grid, etc.)
+- the clock game (symbols are images of a two-finger old-school wall clock - goal: match the current time?)
+- pictures with obejcts. selecting right objects eliminates them from the picture
+- enter key, in addition to double tap on last letter
+- board arrangment like a keyboard?
+- principal: level is actually a difficult level
+- level icons
+- personalize the game (with your own pictures?, background message?
+
+27/8 - morning
++ with the ontology inside the game, how to still be able to play a game on a differnet ontology (it is so much fun!)
+? slider manual entry of numbers using flow
+- heading for score table - name of the game, etc.
+
+28/8 - morning outside
+- reminder timer/sound should be stopped when in preferences
+- nickface clipping should not change image ratio (should not stretch)
+- image resize on nickface selection should show progress ...
+- reminder time/sound should be stopped when loading score board
+
+28/8 - late brith
+- design level to more explicitly teach set of words (repeat, introduct words gradually)
+
+29/8 - tofig email
+- bee (animal) helping to dispense ... for kids
+
+29/8 - morning coffee
++ order levels in level selector in programmable level (in game settings actually) according to order (implemented?)
++ font selection (implemented in brand)
++ add error handling for score board fetch
+
+30/8 - a day
+- indicate min word size on score board
+? give presents in the form of smaller words allowence
+
+31/8 - morning
+
+1/9 - afternoon
++ flipping for the first time takes too long on device - should not preload so much?
+- sections in url directories
+- sort on titles alphabetically on MultiValue Prefs (must prefetch ...)
+
+2/9 - morning
+
+3/9 - afternoon
+
+3/9 - tofig
++ x7 ontop of it if last score was x7
+- use game character as joker symbol
+
+5/9 - morning
+- improve startup time of main screen (from cold invocation)
++ improve flip time into main preference
++ add special effect for a score increment which is highly decorated
+
+5/9 - mid
++ implement "My Word List" ontology
++ when reveiving score, also receive a continuation upload of specific preference keys (to help with uploading white lists)
+
+5/9 - closing
+
+6/9 - morning
+
+7/9 - late nite
++ ensure that random generators do generate sequences which are uniform in small numbers (~10) - write a class ... for rand() jokers, decorations
++ on tapping score board, show location in total score table
+
+8/9 - morning
++ adding a word when suspended causes a resume ... then you can no longer suspend/resume
+
+8/9 - afternoon, critical for build release
++ verify that pieces hint FALSE global change does not apply to tutorial levels in all games
+- higher up levels in straight up should hint more often and provide more jokers (?)
++ check weighted dispenser algorithm by precharging lots of EEEEEEEEEEEEEEEEEE and IIIIIIIIIIIIII
++ branding of main menu banner
+- score board sometimes gets (null) nickname ... why? when empty?
++ name of ontology is not displayed while playing
+
+8/9 - yaki
+- add word stopped working in programmable ...
+
+9/9 - eve
++ splash screen should fade (alpha -> 0.0) as it is eliminated
+? nickname /u for adding url download (or add it in the development area)
+- add opening image so that the screen is not blanked until the program loads
++ still some slowdown when playing ... when hints are running in the background ... priority problem?
+- design Ad carusel (online, offline, rotatoin, clicking, batch-download of ads) - use some standard banner size
+- propose a logo with MUY + other red and while letters
+
+15/9
+? on failed, play again using the exact same sequence of symbols? 
++ add cheat to show words that have been valid and invalid on the level (covered by summary splash)
++ decide if to fix imprefections in autorun mode
+- handle memory and temp file leak from TextSpeater
++ determine hint policy in standard game
+? can standard game be used for pictures as well? (same/alternative hint strategy)
++ better moultithreading on hint generation
++ fix hint on on when disabler is on (hard ... - also autorun piece selection ...)
++ no memory leaks ... buy memory consumption is probably still going up ... 
+- implement default behavior: rewards always complement hints: If visual hint, reward is spoken. If no hints, both reqards.
+
+16/9
++ nudge on full board - too slow? simulate a test?
++ pausing when generating an hint (no real background processing ...)
+
+20/9
++ too-short words are handled as wrong words in basic 3?
++ should not allow adding too-short words
+- how to translate level names and descriptions? (within game definition? ontology? locale? new game?) 
+- adjust board full warning (now 15 s?) so that the first period will be a bit longer and significant
++ add game selection (restore it ...) under development preferences ... allow for canceling out game selection (to return to default).
+? seperate selection of game into image and non-image default? (not ...)
++ implement mywords ontology
+- implement the gradual game (?)
+- no indication that facebook was updated (add last update date - maybe relative to now ...)
++ hebrew mammals
++ arab mammals
+
+22/9
+- add <empty> string to translations (shows up on nickname)
+- on Mammals_Hebrew and Hebrew packages, update description to be in Hebrew
+- Unzipping ... does not get translated
+
+25/9
++ send application information (version, build, etc) on score request (covered by general script mechanism)
+- save IP address on server when processing score request
+? score migration from 0.2 to 0.3?
+? if score loading fails and no saved score exists, show own score?
++ make sure that tutorial languages do include 4 words if such exist in the language
++ how to make changes in the prefs of "My Words" language flush the language cache? (enable chain reaction of firing change on another key - which will be the current language key)
+- how to automate notifications of updates on installed domain objects (such as languages/games)? via pull mechanism setting a flag?
+- prepare a SplashPanel (with links?) that comes totally from prefs (that could be set by pull mechanism) - with limitation on number of times? is this the same as a banner?
++ hebrew is coming out backwards on 2.1 devices.
+
+29/9
+- show word count on board at all times (as a show off ...) (on score widget corner?)
++ build an IKEA ontology
+
+30/9
++ brand color of border of word images (hint-polaroid-frame)
+- allow setting color in a brand as an image (strips for IKEA)
+- build browsing level
+- IKEA brand
+- organize download by "Natural Languages", ...
+
+30/9 later
+- tutorial movie
++ stop/play does not work in picture perfect
+- hints should be explained in the help screen
+- optimize most used compare in CSet.c in asm.
++ WAV as spoken words
++ narrow cells in main menu widget
++ brand to indicate default board width and height
+- after download, refresh the directry pref item so that the downloaded state will be reflected
++ appriciate spelling error
+? link from application to youtube video
+- add WAVs of Hebrew Mammals
+
+30/9
+- detailed download item on listing (icon, name, description, price)
++ find an alternative way for showing up picture hints
+
+1/10
+- reduce stack size on all threads (to 64K?)
++ change default on created_at on all tables to "00/00 ..." (on server as well)
+- join three tutorial levels into one
+- build 'spelling practice' game flavor.
+
+2/10
+- adjust board full grace time on straight up based on size of word (stage - longer on higher stages).
++ check why the board full grace is not adjusted backwards on a valid work.
+- color of vowels should be more distinct
++ adjust regularity of joker probability
+- rename levels in straight up ... to indicate the requested size
++ accumulate decorations on score board (2xApple, 1x[Coin Icon] ...) - only in memory
+? use accumulated decorations as life savers ... to escape out of game over situations (or in other cases)
+- dispenser should complete to a word if in "stress" condition (end of game, board, etc.)
+- handle the "missing last letter at end of game condition"
+- enhance engine to optionally allow near misses (one letter off (if has decoration?), one order flip ...) - play special sound?
++ multiple identity support
+- squish perefernce items ... make height smaller
+- sort decorators on score widget to same order all the time (Apples, Coins, Bombs)
+
+3/10
++ make random generators (esp. for Jokers and decorators) be uniform
++ multiple identity support
+- show count word as overlay on score widget lower-left corner
+- show min word size (and other restrictions?) on score widget upper-left corner
++ do not accumulate score and (wallet) decorators on AR mode - bypass using cheats
+- apple wallet decorator enables display of last n (n=1) pieces to complete the current selected pieces into a word (on blue left-down pointing arrow)
+- if apple wallet decorator can save the level from ending, automatically use it and remove apple decorator step from wallet.
+
+5/10
++ image hint enlaged to 3x3
+- reduce capabilities when paused (can not select? why?)
+
+6/10
++ update wallet on score widget when returning to the level selector
+
+- higher levels in Stright Up do not allow for adding words?
++ game is too easy with decorators? enlarge steps? (updated to 21/18/16)
++ game score should be the sum of the max scores of all the levels (on lang)
+? score while playing is not significant? only show delta when done with level?
++ reduce contribution of decorators to score: apples (make each piece worth 1.5 pieces - all apples like 2 pieces) - bombs and coins no contribution
++ all-same-decorator: apples: more score, coin: more time, bomb: more explosions
++ joker should reduce score by one letter (letter not contributing to score
+? show highest step player has score for in score board. (7/10 - send as game-toplevel)
++ show score summary in level ending splash
+
+7/10
+- do not allow to select pieces in pause mode
+- update design (colors) of splash
++ review colors 
+- close in-application purchase
+- browsing level
+- ontology exoused? 
+- configure score factor for higher levels of the standard game
+- stop using alerts for game over/failed. use splash, do not show if summary shown
+- show game high score as first score board?
+- piece hint stopped working in tutorial 3 (should it work?)
+
+
+-------
+
+Build Release Features
+* hint image presentation
+* dispenser curving
+* programmable ?
+* branding ?
+* WAV words ?
+* wallet
+* uniform random generator for Jokers
+* FingerSpelling
+
+Missing Media
+* Joker image?
+
+-----------------------
+
+- hint displayed only when user has accumulated the right to (apples, ...)

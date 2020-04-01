@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>directory-entry</key>
+	<dict>
+		<key>type</key>
+		<string>item</string>
+		<key>uuid</key>
+		<string>2094AFC8-45F9-4E80-D9F5-BC3E24EEF579</string>
+		<key>version</key>
+		<real>0.1</real>
+		<key>name</key>
+		<string>SpellMaze Learning</string>
+		<key>url</key>
+		<string>SpellMazeLearning.zip</string>
+		<key>comment</key>
+		<string>Learn a new domain</string>
+		<key>domain</key>
+		<string>Games</string>
+		<key>icon</key>
+		<string>StandardGame.png</string>
+		<key>leading-uuid</key>
+		<string>1A767972-BDA0-B6B3-6945-CDA6488213BF</string>
+		<key>min-version</key>
+		<string>0.6</string>
+	</dict>
+	<key>directory-url</key>
+	<string>http://sms.drorkessler.com/rc1/more/games/directory.plist</string>
+</dict>
+</plist>

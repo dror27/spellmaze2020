@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>directory-entry</key>
+	<dict>
+		<key>type</key>
+		<string>item</string>
+		<key>uuid</key>
+		<string>4E713978-A5AC-06AD-D781-58DB9F60BF19</string>
+		<key>version</key>
+		<real>0.1</real>
+		<key>name</key>
+		<string>SpellMaze Brand</string>
+		<key>url</key>
+		<string>SpellMazeBrand.zip</string>
+		<key>comment</key>
+		<string>Standard SpellMaze Brand</string>
+		<key>domain</key>
+		<string>Brands</string>
+		<key>leading-uuid</key>
+		<string>86D1C949-9B24-C931-E5B5-BBAF94B06901</string>
+		<key>icon</key>
+		<string>SpellMazeBrand.png</string>
+		<key>item-icon</key>
+		<string>SpellMazeBrand_icon.png</string>
+	</dict>
+	<key>directory-url</key>
+	<string>http://sms.drorkessler.com/rc1/more/brands/directory.plist</string>
+</dict>
+</plist>

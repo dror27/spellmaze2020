@@ -1,0 +1,1012 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>SpellMaze Learning</string>
+	<key>description</key>
+	<string>Learning a new domain</string>
+	<key>all-levels-open</key>
+	<false/>
+	<key>show-levels-onces-on-play</key>
+	<true/>
+	<key>levels-open</key>
+	<array>
+		<integer>0</integer>
+		<integer>6</integer>
+		<integer>12</integer>
+	</array>
+	<key>hide-disabled-levels</key>
+	<false/>
+	<key>board-formula</key>
+	<string>
+		0 60 60 60 6 1
+		0 180 60 60 6 1
+		0 300 60 60 6 1
+		90 15 180 45 1 1 0,0,0,0
+		90 135 180 45 1 1 0,0,0,0
+		90 255 180 45 1 1 0,0,0,0
+		30 -60 300 45 1 1 0,0,0,0
+		
+	</string>
+	<key>cell-labels</key>
+	<array>
+		<string>1</string>
+		<string>2</string>
+		<string>3</string>
+		<string>4</string>
+		<string>5</string>
+		<string>6</string>
+		<string>1</string>
+		<string>2</string>
+		<string>3</string>
+		<string>4</string>
+		<string>5</string>
+		<string>6</string>
+		<string>1</string>
+		<string>2</string>
+		<string>3</string>
+		<string>4</string>
+		<string>5</string>
+		<string>6</string>
+	</array>
+	<key>cell-headings</key>
+	<array>
+		<dict>
+			<key>index</key>
+			<integer>18</integer>
+			<key>label</key>
+			<string>Learn/?/</string>
+			<key>name</key>
+			<string>Learning Levels</string>
+			<key>description</key>
+			<string>Start here if you want to learn the wordset</string>
+		</dict>
+		<dict>
+			<key>index</key>
+			<integer>19</integer>
+			<key>label</key>
+			<string>Train/?/</string>
+			<key>name</key>
+			<string>Training Levels</string>
+			<key>description</key>
+			<string>Go here once you are familiar with the wordset</string>
+		</dict>
+		<dict>
+			<key>index</key>
+			<integer>20</integer>
+			<key>label</key>
+			<string>Test/?/</string>
+			<key>name</key>
+			<string>Testing Levels</string>
+			<key>description</key>
+			<string>Play here if you are an expert at the wordset</string>
+		</dict>
+		<dict>
+			<key>index</key>
+			<integer>21</integer>
+			<key>label</key>
+			<string>Mastery in 3 Steps/?/</string>
+			<key>name</key>
+			<string>The SpellMaze Program</string>
+			<key>description</key>
+			<string>Learn, Train and Test Yourself</string>
+		</dict>
+	</array>
+	<key>levels</key>
+	<array>
+		<string>C75A9CF3-11AB-8E97-E549-1AC760CC5327</string>
+		<string>7EDE9787-DC32-2CDF-0E80-2A1297EA4D71</string>
+		<string>BF0285F6-BF32-4956-BDD4-FBC6845D07C6</string>
+		<string>BDE8405C-ED5B-378D-3AE9-254594DECA42</string>
+		<string>AFF09150-4A77-ABE0-A4EC-9886F9913321</string>
+		<string>1F9ECB05-4996-9650-A64C-DF738AE88FCE</string>
+		<string>02A38558-64A2-A4B6-C51C-09C4AB18B4E5</string>
+		<string>4B110279-8B86-2D9B-125D-FBD522A2A4BD</string>
+		<string>6C694914-972B-5D88-18D2-E7C5A5763800</string>
+		<string>C3CE1F2B-2556-154D-0AF9-07CEEC5A25F2</string>
+		<string>F0821833-5929-1A5F-98E1-28907454730F</string>
+		<string>8DC88948-B844-5475-D8C1-8DDD6C11B95A</string>
+		<string>8066A683-7248-EAB3-93CB-B5549EAD28CA</string>
+		<string>01B713E9-0F32-0D73-A413-AADB4F123A2A</string>
+		<string>458878AC-7E17-8FA8-B002-D82CC7AC645A</string>
+		<string>C29D27AE-A9CB-3FEA-4EE2-B693031094A7</string>
+		<string>418DF02A-813E-D15E-5A00-BE1B76CD42F0</string>
+		<string>E5812CF1-EAC5-61A6-0AA2-3ECA3F9860AC</string>
+	</array>
+	<key>level-props</key>
+	<dict/>
+	<key>help-splash</key>
+	<dict>
+		<key>title</key>
+		<string>Learning Game Help</string>
+		<key>text</key>
+		<string>You are presented with the different levels of the game, each one marked with its number. 
+		-
+		To examine a level, tap it once. Observe the level name and description in the bottom score area. 
+		-
+		To play a level, tap it twice.
+		</string>
+	</dict>
+	<key>C75A9CF3-11AB-8E97-E549-1AC760CC5327</key>
+	<dict>
+		<key>name</key>
+		<string>Welcome</string>
+		<key>description</key>
+		<string>Form words, tap last letter twice</string>
+		<key>prefs-data</key>
+		<dict>
+			<key>allow_play_pause</key>
+			<true/>
+			<key>allow_show_hint</key>
+			<false/>
+			<key>game_won_grace</key>
+			<integer>5</integer>
+			<key>board_override</key>
+			<true/>
+			<key>board_formula</key>
+			<string>0 0 60 60 4 4</string>
+			<key>logic_decorator</key>
+			<false/>
+			<key>dispenser_symbol_count</key>
+			<integer>50</integer>
+			<key>dispenser_tick_period</key>
+			<real>2</real>
+			<key>dispenser_joker_prob</key>
+			<real>0</real>
+			<key>valid_min_word_size</key>
+			<integer>0</integer>
+			<key>score_factor</key>
+			<real>1</real>
+			<key>between_hint_delay</key>
+			<integer>5</integer>
+			<key>show_hint_pieces</key>
+			<true/>
+			<key>hint_max_word_size</key>
+			<integer>4</integer>
+			<key>rush_words</key>
+			<integer>1</integer>
+			<key>show_hint_delay</key>
+			<integer>0</integer>
+			<key>joker_image_hints</key>
+			<true/>
+			<key>joker_image_rewards</key>
+			<true/>
+		</dict>
+		<key>help-splash</key>
+		<dict>
+			<key>title</key>
+			<string>Help</string>
+			<key>text</key>
+			<string>This a first level to get you familiar with the game.
+-
+Tap each letter in order to form a word. Remember to tap last letter twice to indicate that you are done.</string>
+			<key>auto-show</key>
+			<true/>
+		</dict>
+		<key>open-levels</key>
+		<array>
+			<string>02A38558-64A2-A4B6-C51C-09C4AB18B4E5</string>
+		</array>
+	</dict>
+	<key>7EDE9787-DC32-2CDF-0E80-2A1297EA4D71</key>
+	<dict>
+		<key>name</key>
+		<string>Learn</string>
+		<key>description</key>
+		<string>Basic level: learn your vocabulary</string>
+		<key>prefs-data</key>
+		<dict>
+			<key>allow_play_pause</key>
+			<true/>
+			<key>allow_show_hint</key>
+			<true/>
+			<key>board_override</key>
+			<true/>
+			<key>board_formula</key>
+			<string>0 0 60 60 4 4</string>
+			<key>logic_random</key>
+			<true/>
+			<key>logic_decorator</key>
+			<true/>
+			<key>logic_decorator_apple_prob</key>
+			<real>0</real>
+			<key>logic_decorator_coin_prob</key>
+			<real>0</real>
+			<key>logic_decorator_bomb_prob</key>
+			<real>0.1</real>
+			<key>dispenser_joker_prob</key>
+			<real>0.025</real>
+			<key>show_hint_delay</key>
+			<integer>0</integer>
+			<key>joker_image_hints</key>
+			<true/>
+			<key>joker_image_rewards</key>
+			<true/>
+		</dict>
+		<key>help-splash</key>
+		<dict>
+			<key>title</key>
+			<string>Basic Help</string>
+			<key>text</key>
+			<string>This level is basic level of SpellMaze.
+			-
+			Find each word and tap its letters in order, last twice. Do it fast before the board fills up!
+			-
+			Jokers (?) can be used instead of any letter. Apples, coins and bombs make life interesting ...
+			</string>
+			<key>auto-show</key>
+			<false/>
+		</dict>
+		<key>open-levels</key>
+		<array>
+			<string>4B110279-8B86-2D9B-125D-FBD522A2A4BD</string>
+		</array>
+	</dict>
+	<key>BF0285F6-BF32-4956-BDD4-FBC6845D07C6</key>
+	<dict>
+		<key>name</key>
+		<string>Learn 4</string>
+		<key>description</key>
+		<string>4 letters or more</string>
+		<key>prefs-data</key>
+		<dict>
+			<key>allow_play_pause</key>
+			<true/>
+			<key>allow_show_hint</key>
+			<true/>
+			<key>board_override</key>
+			<true/>
+			<key>board_formula</key>
+			<string>0 0 60 60 5 5</string>
+			<key>logic_random</key>
+			<true/>
+			<key>logic_decorator</key>
+			<true/>
+			<key>logic_decorator_apple_prob</key>
+			<real>0</real>
+			<key>logic_decorator_coin_prob</key>
+			<real>0</real>
+			<key>logic_decorator_bomb_prob</key>
+			<real>0.1</real>
+			<key>dispenser_joker_prob</key>
+			<real>0.025</real>
+			<key>valid_min_word_size</key>
+			<integer>4</integer>
+			<key>show_hint_delay</key>
+			<integer>0</integer>
+			<key>joker_image_hints</key>
+			<true/>
+			<key>joker_image_rewards</key>
+			<true/>
+		</dict>
+		<key>open-levels</key>
+		<array>
+			<string>6C694914-972B-5D88-18D2-E7C5A5763800</string>
+		</array>
+	</dict>
+	<key>BDE8405C-ED5B-378D-3AE9-254594DECA42</key>
+	<dict>
+		<key>name</key>
+		<string>Learn 6</string>
+		<key>description</key>
+		<string>6 letters or more</string>
+		<key>prefs-data</key>
+		<dict>
+			<key>allow_play_pause</key>
+			<true/>
+			<key>allow_show_hint</key>
+			<true/>
+			<key>board_override</key>
+			<true/>
+			<key>board_formula</key>
+			<string>0 0 60 60 5 5</string>
+			<key>logic_random</key>
+			<true/>
+			<key>logic_decorator</key>
+			<true/>
+			<key>logic_decorator_apple_prob</key>
+			<real>0</real>
+			<key>logic_decorator_coin_prob</key>
+			<real>0</real>
+			<key>logic_decorator_bomb_prob</key>
+			<real>0.1</real>
+			<key>dispenser_joker_prob</key>
+			<real>0.025</real>
+			<key>valid_min_word_size</key>
+			<integer>6</integer>
+			<key>show_hint_delay</key>
+			<integer>0</integer>
+			<key>joker_image_hints</key>
+			<true/>
+			<key>joker_image_rewards</key>
+			<true/>
+		</dict>
+		<key>open-levels</key>
+		<array>
+			<string>C3CE1F2B-2556-154D-0AF9-07CEEC5A25F2</string>
+		</array>
+	</dict>
+	<key>1F9ECB05-4996-9650-A64C-DF738AE88FCE</key>
+	<dict>
+		<key>name</key>
+		<string>Learn Remaining</string>
+		<key>description</key>
+		<string>Dig deeper into vocabulary</string>
+		<key>prefs-data</key>
+		<dict>
+			<key>allow_play_pause</key>
+			<true/>
+			<key>allow_show_hint</key>
+			<true/>
+			<key>board_override</key>
+			<true/>
+			<key>board_formula</key>
+			<string>0 0 60 60 5 5</string>
+			<key>logic_random</key>
+			<true/>
+			<key>logic_decorator</key>
+			<true/>
+			<key>logic_decorator_apple_prob</key>
+			<real>0</real>
+			<key>logic_decorator_coin_prob</key>
+			<real>0</real>
+			<key>logic_decorator_bomb_prob</key>
+			<real>0.1</real>
+			<key>dispenser_joker_prob</key>
+			<real>0.025</real>
+			<key>valid_min_word_size</key>
+			<integer>0</integer>
+			<key>show_hint_delay</key>
+			<integer>0</integer>
+			<key>joker_image_hints</key>
+			<true/>
+			<key>joker_image_rewards</key>
+			<true/>
+			<key>level_end_menu</key>
+			<true/>
+		</dict>
+		<key>help-splash</key>
+		<dict>
+			<key>title</key>
+			<string>Playing Remaining Words</string>
+			<key>text</key>
+			<string>In this level, you play only with words you did not use since you last started the application.
+
+Once you finish a set of words, you&apos;ll be asked if you want to continue with the remaining words, until you&apos;ve used all the words in the list.
+
+You have [%remaining] remaining words.</string>
+			<key>auto-show</key>
+			<true/>
+		</dict>
+		<key>open-levels</key>
+		<array>
+			<string>8DC88948-B844-5475-D8C1-8DDD6C11B95A</string>
+		</array>
+	</dict>
+	<key>AFF09150-4A77-ABE0-A4EC-9886F9913321</key>
+	<dict>
+		<key>name</key>
+		<string>Blitz</string>
+		<key>description</key>
+		<string>find one word – fast!</string>
+		<key>prefs-data</key>
+		<dict>
+			<key>show_hint_delay</key>
+			<integer>0</integer>
+			<key>allow_play_pause</key>
+			<true/>
+			<key>allow_show_hint</key>
+			<true/>
+			<key>dispenser_symbol_count</key>
+			<integer>163</integer>
+			<key>auto_valid_word_wipe</key>
+			<true/>
+			<key>game_over_grace</key>
+			<integer>9</integer>
+			<key>game_won_grace</key>
+			<integer>2</integer>
+			<key>board_override</key>
+			<true/>
+			<key>board_formula</key>
+			<string>0 0 60 60 3 3</string>
+			<key>logic_decorator</key>
+			<false/>
+			<key>dispenser_tick_period</key>
+			<real>0.01</real>
+			<key>dispenser_joker_prob</key>
+			<real>0.025</real>
+			<key>valid_min_word_size</key>
+			<integer>0</integer>
+			<key>score_factor</key>
+			<real>2</real>
+			<key>joker_image_hints</key>
+			<true/>
+			<key>joker_image_rewards</key>
+			<false/>
+			<key>show_reward_image</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>02A38558-64A2-A4B6-C51C-09C4AB18B4E5</key>
+	<dict>
+		<key>name</key>
+		<string>Train Welcome</string>
+		<key>description</key>
+		<string>Follow the hints!</string>
+		<key>prefs-data</key>
+		<dict>
+			<key>allow_play_pause</key>
+			<true/>
+			<key>allow_show_hint</key>
+			<true/>
+			<key>game_won_grace</key>
+			<integer>5</integer>
+			<key>board_override</key>
+			<true/>
+			<key>board_formula</key>
+			<string>0 0 60 60 4 4</string>
+			<key>logic_decorator</key>
+			<true/>
+			<key>logic_decorator_apple_prob</key>
+			<real>0</real>
+			<key>logic_decorator_coin_prob</key>
+			<real>0</real>
+			<key>logic_decorator_bomb_prob</key>
+			<real>0.1</real>
+			<key>dispenser_joker_prob</key>
+			<real>0.025</real>
+			<key>dispenser_symbol_count</key>
+			<integer>50</integer>
+			<key>dispenser_tick_period</key>
+			<real>2</real>
+			<key>valid_min_word_size</key>
+			<integer>0</integer>
+			<key>score_factor</key>
+			<real>1</real>
+			<key>between_hint_delay</key>
+			<integer>5</integer>
+			<key>show_hint_pieces</key>
+			<false/>
+			<key>hint_max_word_size</key>
+			<integer>4</integer>
+			<key>rush_words</key>
+			<integer>2</integer>
+			<key>show_hint_delay</key>
+			<integer>3</integer>
+			<key>show_hint_word</key>
+			<false/>
+			<key>joker_image_hints</key>
+			<true/>
+			<key>joker_image_rewards</key>
+			<true/>
+		</dict>
+		<key>open-levels</key>
+		<array>
+			<string>8066A683-7248-EAB3-93CB-B5549EAD28CA</string>
+		</array>
+	</dict>
+	<key>4B110279-8B86-2D9B-125D-FBD522A2A4BD</key>
+	<dict>
+		<key>name</key>
+		<string>Train</string>
+		<key>description</key>
+		<string>Basic training: follow hints</string>
+		<key>prefs-data</key>
+		<dict>
+			<key>allow_play_pause</key>
+			<true/>
+			<key>allow_show_hint</key>
+			<true/>
+			<key>board_override</key>
+			<true/>
+			<key>board_formula</key>
+			<string>0 0 60 60 4 4</string>
+			<key>logic_random</key>
+			<true/>
+			<key>logic_decorator</key>
+			<true/>
+			<key>logic_decorator_apple_prob</key>
+			<real>0</real>
+			<key>logic_decorator_coin_prob</key>
+			<real>0</real>
+			<key>logic_decorator_bomb_prob</key>
+			<real>0.1</real>
+			<key>dispenser_joker_prob</key>
+			<real>0.025</real>
+			<key>show_hint_delay</key>
+			<integer>3</integer>
+			<key>show_hint_word</key>
+			<false/>
+			<key>joker_image_hints</key>
+			<true/>
+			<key>joker_image_rewards</key>
+			<true/>
+		</dict>
+		<key>open-levels</key>
+		<array>
+			<string>01B713E9-0F32-0D73-A413-AADB4F123A2A</string>
+		</array>
+	</dict>
+	<key>6C694914-972B-5D88-18D2-E7C5A5763800</key>
+	<dict>
+		<key>name</key>
+		<string>Train 4</string>
+		<key>description</key>
+		<string>4 letters or more</string>
+		<key>prefs-data</key>
+		<dict>
+			<key>allow_play_pause</key>
+			<true/>
+			<key>allow_show_hint</key>
+			<true/>
+			<key>board_override</key>
+			<true/>
+			<key>board_formula</key>
+			<string>0 0 60 60 5 5</string>
+			<key>logic_random</key>
+			<true/>
+			<key>logic_decorator</key>
+			<true/>
+			<key>logic_decorator_apple_prob</key>
+			<real>0</real>
+			<key>logic_decorator_coin_prob</key>
+			<real>0</real>
+			<key>logic_decorator_bomb_prob</key>
+			<real>0.1</real>
+			<key>dispenser_joker_prob</key>
+			<real>0.025</real>
+			<key>valid_min_word_size</key>
+			<integer>4</integer>
+			<key>show_hint_delay</key>
+			<integer>3</integer>
+			<key>show_hint_word</key>
+			<false/>
+			<key>joker_image_hints</key>
+			<true/>
+			<key>joker_image_rewards</key>
+			<true/>
+		</dict>
+		<key>open-levels</key>
+		<array>
+			<string>458878AC-7E17-8FA8-B002-D82CC7AC645A</string>
+		</array>
+	</dict>
+	<key>C3CE1F2B-2556-154D-0AF9-07CEEC5A25F2</key>
+	<dict>
+		<key>name</key>
+		<string>Train 6</string>
+		<key>description</key>
+		<string>6 letters or more</string>
+		<key>prefs-data</key>
+		<dict>
+			<key>allow_play_pause</key>
+			<true/>
+			<key>allow_show_hint</key>
+			<true/>
+			<key>board_override</key>
+			<true/>
+			<key>board_formula</key>
+			<string>0 0 60 60 5 5</string>
+			<key>logic_random</key>
+			<true/>
+			<key>logic_decorator</key>
+			<true/>
+			<key>logic_decorator_apple_prob</key>
+			<real>0</real>
+			<key>logic_decorator_coin_prob</key>
+			<real>0</real>
+			<key>logic_decorator_bomb_prob</key>
+			<real>0.1</real>
+			<key>dispenser_joker_prob</key>
+			<real>0.025</real>
+			<key>valid_min_word_size</key>
+			<integer>6</integer>
+			<key>show_hint_delay</key>
+			<integer>3</integer>
+			<key>show_hint_word</key>
+			<false/>
+			<key>joker_image_hints</key>
+			<true/>
+			<key>joker_image_rewards</key>
+			<true/>
+		</dict>
+		<key>open-levels</key>
+		<array>
+			<string>C29D27AE-A9CB-3FEA-4EE2-B693031094A7</string>
+		</array>
+	</dict>
+	<key>8DC88948-B844-5475-D8C1-8DDD6C11B95A</key>
+	<dict>
+		<key>name</key>
+		<string>Train Remaining</string>
+		<key>description</key>
+		<string>Dig deeper into the vocabulary</string>
+		<key>prefs-data</key>
+		<dict>
+			<key>allow_play_pause</key>
+			<true/>
+			<key>allow_show_hint</key>
+			<true/>
+			<key>board_override</key>
+			<true/>
+			<key>board_formula</key>
+			<string>0 0 60 60 5 5</string>
+			<key>logic_random</key>
+			<true/>
+			<key>logic_decorator</key>
+			<true/>
+			<key>logic_decorator_apple_prob</key>
+			<real>0</real>
+			<key>logic_decorator_coin_prob</key>
+			<real>0</real>
+			<key>logic_decorator_bomb_prob</key>
+			<real>0.1</real>
+			<key>dispenser_joker_prob</key>
+			<real>0.025</real>
+			<key>valid_min_word_size</key>
+			<integer>0</integer>
+			<key>show_hint_delay</key>
+			<integer>3</integer>
+			<key>show_hint_word</key>
+			<false/>
+			<key>joker_image_hints</key>
+			<true/>
+			<key>joker_image_rewards</key>
+			<true/>
+			<key>level_end_menu</key>
+			<true/>
+		</dict>
+		<key>help-splash</key>
+		<dict>
+			<key>title</key>
+			<string>Playing Remaining Words</string>
+			<key>text</key>
+			<string>In this level, you play only with words you did not use since you last started the application.
+
+Once you finish a set of words, you&apos;ll be asked if you want to continue with the remaining words, until you&apos;ve used all the words in the list.
+
+You have [%remaining] remaining words.</string>
+			<key>auto-show</key>
+			<true/>
+		</dict>
+		<key>open-levels</key>
+		<array>
+			<string>E5812CF1-EAC5-61A6-0AA2-3ECA3F9860AC</string>
+		</array>
+	</dict>
+	<key>F0821833-5929-1A5F-98E1-28907454730F</key>
+	<dict>
+		<key>name</key>
+		<string>Rotate</string>
+		<key>description</key>
+		<string>Train with rotating board</string>
+		<key>prefs-data</key>
+		<dict>
+			<key>show_hint_delay</key>
+			<integer>3</integer>
+			<key>show_hint_word</key>
+			<true/>
+			<key>allow_play_pause</key>
+			<true/>
+			<key>allow_show_hint</key>
+			<false/>
+			<key>dispenser_symbol_count</key>
+			<integer>140</integer>
+			<key>game_over_grace</key>
+			<integer>12</integer>
+			<key>game_won_grace</key>
+			<integer>2</integer>
+			<key>board_override</key>
+			<true/>
+			<key>board_formula</key>
+			<string>0 0 60 60 4 4</string>
+			<key>logic_viewtrans</key>
+			<true/>
+			<key>logic_viewtrans_slices</key>
+			<integer>4</integer>
+			<key>logic_decorator</key>
+			<false/>
+			<key>dispenser_joker_prob</key>
+			<real>0.025</real>
+			<key>dispenser_tick_period</key>
+			<real>0.01</real>
+			<key>valid_min_word_size</key>
+			<integer>0</integer>
+			<key>score_factor</key>
+			<real>2</real>
+			<key>joker_image_hints</key>
+			<true/>
+			<key>joker_image_rewards</key>
+			<false/>
+			<key>show_reward_image</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>8066A683-7248-EAB3-93CB-B5549EAD28CA</key>
+	<dict>
+		<key>name</key>
+		<string>Test Welcome</string>
+		<key>description</key>
+		<string>Follow the hints!</string>
+		<key>prefs-data</key>
+		<dict>
+			<key>allow_play_pause</key>
+			<true/>
+			<key>allow_show_hint</key>
+			<true/>
+			<key>game_won_grace</key>
+			<integer>5</integer>
+			<key>board_override</key>
+			<true/>
+			<key>board_formula</key>
+			<string>0 0 60 60 4 4</string>
+			<key>logic_decorator</key>
+			<true/>
+			<key>logic_decorator_apple_prob</key>
+			<real>0</real>
+			<key>logic_decorator_coin_prob</key>
+			<real>0</real>
+			<key>logic_decorator_bomb_prob</key>
+			<real>0.1</real>
+			<key>dispenser_joker_prob</key>
+			<real>0.025</real>
+			<key>dispenser_symbol_count</key>
+			<integer>50</integer>
+			<key>dispenser_tick_period</key>
+			<real>2</real>
+			<key>valid_min_word_size</key>
+			<integer>0</integer>
+			<key>score_factor</key>
+			<real>1</real>
+			<key>between_hint_delay</key>
+			<integer>5</integer>
+			<key>show_hint_pieces</key>
+			<false/>
+			<key>hint_max_word_size</key>
+			<integer>4</integer>
+			<key>rush_words</key>
+			<integer>2</integer>
+			<key>show_hint_delay</key>
+			<integer>6</integer>
+			<key>show_hint_word</key>
+			<false/>
+			<key>speak_hint_word</key>
+			<false/>
+			<key>joker_image_hints</key>
+			<true/>
+			<key>joker_image_rewards</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>01B713E9-0F32-0D73-A413-AADB4F123A2A</key>
+	<dict>
+		<key>name</key>
+		<string>Test</string>
+		<key>description</key>
+		<string>Basic Test: follow hints</string>
+		<key>prefs-data</key>
+		<dict>
+			<key>allow_play_pause</key>
+			<true/>
+			<key>allow_show_hint</key>
+			<true/>
+			<key>board_override</key>
+			<true/>
+			<key>board_formula</key>
+			<string>0 0 60 60 4 4</string>
+			<key>logic_random</key>
+			<true/>
+			<key>logic_decorator</key>
+			<true/>
+			<key>logic_decorator_apple_prob</key>
+			<real>0</real>
+			<key>logic_decorator_coin_prob</key>
+			<real>0</real>
+			<key>logic_decorator_bomb_prob</key>
+			<real>0.1</real>
+			<key>dispenser_joker_prob</key>
+			<real>0.025</real>
+			<key>show_hint_delay</key>
+			<integer>6</integer>
+			<key>show_hint_word</key>
+			<false/>
+			<key>speak_hint_word</key>
+			<false/>
+			<key>joker_image_hints</key>
+			<true/>
+			<key>joker_image_rewards</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>458878AC-7E17-8FA8-B002-D82CC7AC645A</key>
+	<dict>
+		<key>name</key>
+		<string>Test 4</string>
+		<key>description</key>
+		<string>4 letters or more</string>
+		<key>prefs-data</key>
+		<dict>
+			<key>allow_play_pause</key>
+			<true/>
+			<key>allow_show_hint</key>
+			<true/>
+			<key>board_override</key>
+			<true/>
+			<key>board_formula</key>
+			<string>0 0 60 60 5 5</string>
+			<key>logic_random</key>
+			<true/>
+			<key>logic_decorator</key>
+			<true/>
+			<key>logic_decorator_apple_prob</key>
+			<real>0</real>
+			<key>logic_decorator_coin_prob</key>
+			<real>0</real>
+			<key>logic_decorator_bomb_prob</key>
+			<real>0.1</real>
+			<key>dispenser_joker_prob</key>
+			<real>0.025</real>
+			<key>valid_min_word_size</key>
+			<integer>4</integer>
+			<key>show_hint_delay</key>
+			<integer>6</integer>
+			<key>show_hint_word</key>
+			<false/>
+			<key>speak_hint_word</key>
+			<false/>
+			<key>joker_image_hints</key>
+			<true/>
+			<key>joker_image_rewards</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>C29D27AE-A9CB-3FEA-4EE2-B693031094A7</key>
+	<dict>
+		<key>name</key>
+		<string>Test 6</string>
+		<key>description</key>
+		<string>6 letters or more</string>
+		<key>prefs-data</key>
+		<dict>
+			<key>allow_play_pause</key>
+			<true/>
+			<key>allow_show_hint</key>
+			<true/>
+			<key>board_override</key>
+			<true/>
+			<key>board_formula</key>
+			<string>0 0 60 60 5 5</string>
+			<key>logic_random</key>
+			<true/>
+			<key>logic_decorator</key>
+			<true/>
+			<key>logic_decorator_apple_prob</key>
+			<real>0</real>
+			<key>logic_decorator_coin_prob</key>
+			<real>0</real>
+			<key>logic_decorator_bomb_prob</key>
+			<real>0.1</real>
+			<key>dispenser_joker_prob</key>
+			<real>0.025</real>
+			<key>valid_min_word_size</key>
+			<integer>6</integer>
+			<key>show_hint_delay</key>
+			<integer>6</integer>
+			<key>show_hint_word</key>
+			<false/>
+			<key>speak_hint_word</key>
+			<false/>
+			<key>joker_image_hints</key>
+			<true/>
+			<key>joker_image_rewards</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>E5812CF1-EAC5-61A6-0AA2-3ECA3F9860AC</key>
+	<dict>
+		<key>name</key>
+		<string>Test Remaining</string>
+		<key>description</key>
+		<string>Dig deeper into the vocabulary</string>
+		<key>prefs-data</key>
+		<dict>
+			<key>allow_play_pause</key>
+			<true/>
+			<key>allow_show_hint</key>
+			<true/>
+			<key>board_override</key>
+			<true/>
+			<key>board_formula</key>
+			<string>0 0 60 60 5 5</string>
+			<key>logic_random</key>
+			<true/>
+			<key>logic_decorator</key>
+			<true/>
+			<key>logic_decorator_apple_prob</key>
+			<real>0</real>
+			<key>logic_decorator_coin_prob</key>
+			<real>0</real>
+			<key>logic_decorator_bomb_prob</key>
+			<real>0.1</real>
+			<key>dispenser_joker_prob</key>
+			<real>0.025</real>
+			<key>valid_min_word_size</key>
+			<integer>0</integer>
+			<key>show_hint_delay</key>
+			<integer>6</integer>
+			<key>show_hint_word</key>
+			<false/>
+			<key>speak_hint_word</key>
+			<false/>
+			<key>joker_image_hints</key>
+			<true/>
+			<key>joker_image_rewards</key>
+			<true/>
+			<key>level_end_menu</key>
+			<true/>
+		</dict>
+		<key>help-splash</key>
+		<dict>
+			<key>title</key>
+			<string>Playing Remaining Words</string>
+			<key>text</key>
+			<string>In this level, you play only with words you did not use since you last started the application.
+
+Once you finish a set of words, you&apos;ll be asked if you want to continue with the remaining words, until you&apos;ve used all the words in the list.
+
+You have [%remaining] remaining words.</string>
+			<key>auto-show</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>418DF02A-813E-D15E-5A00-BE1B76CD42F0</key>
+	<dict>
+		<key>name</key>
+		<string>Flip</string>
+		<key>description</key>
+		<string>Test with mirror image</string>
+		<key>prefs-data</key>
+		<dict>
+			<key>show_hint_delay</key>
+			<integer>6</integer>
+			<key>show_hint_word</key>
+			<false/>
+			<key>speak_hint_word</key>
+			<false/>
+			<key>allow_play_pause</key>
+			<true/>
+			<key>allow_show_hint</key>
+			<true/>
+			<key>dispenser_symbol_count</key>
+			<integer>200</integer>
+			<key>board_override</key>
+			<true/>
+			<key>board_formula</key>
+			<string>0 0 60 60 5 5</string>
+			<key>logic_viewtrans</key>
+			<true/>
+			<key>logic_viewtrans_slices</key>
+			<integer>0</integer>
+			<key>logic_decorator</key>
+			<true/>
+			<key>logic_decorator_apple_prob</key>
+			<real>0</real>
+			<key>logic_decorator_coin_prob</key>
+			<real>0</real>
+			<key>logic_decorator_bomb_prob</key>
+			<real>0.1</real>
+			<key>dispenser_joker_prob</key>
+			<real>0.025</real>
+			<key>valid_min_word_size</key>
+			<integer>0</integer>
+			<key>score_factor</key>
+			<real>2</real>
+			<key>joker_image_hints</key>
+			<true/>
+			<key>joker_image_rewards</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

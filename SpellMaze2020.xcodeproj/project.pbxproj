@@ -16,6 +16,268 @@
 		E26A235C24339DB800AEF6CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E26A235B24339DB800AEF6CF /* main.m */; };
 		E26A236624339DB800AEF6CF /* SpellMaze2020Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E26A236524339DB800AEF6CF /* SpellMaze2020Tests.m */; };
 		E26A237124339DB800AEF6CF /* SpellMaze2020UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E26A237024339DB800AEF6CF /* SpellMaze2020UITests.m */; };
+		E2AEAE2B24349B6E00862479 /* FreeStore.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC5924349B3D00862479 /* FreeStore.m */; };
+		E2AEAE2C24349B6E00862479 /* Sound_WordValid.aif in Resources */ = {isa = PBXBuildFile; fileRef = E2AEAC5A24349B3E00862479 /* Sound_WordValid.aif */; };
+		E2AEAE2D24349B6E00862479 /* GridBoardPieceDispenserSymbols.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC5B24349B3E00862479 /* GridBoardPieceDispenserSymbols.m */; };
+		E2AEAE2E24349B6E00862479 /* todo2.txt in Resources */ = {isa = PBXBuildFile; fileRef = E2AEAC5F24349B3E00862479 /* todo2.txt */; };
+		E2AEAE2F24349B6E00862479 /* ImagePieceDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC6924349B3F00862479 /* ImagePieceDecorator.m */; };
+		E2AEAE3024349B6E00862479 /* PrefFloatItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC6C24349B3F00862479 /* PrefFloatItem.m */; };
+		E2AEAE3124349B6E00862479 /* WidgetBase.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC6E24349B3F00862479 /* WidgetBase.m */; };
+		E2AEAE3224349B6E00862479 /* PrefLabelItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC6F24349B3F00862479 /* PrefLabelItem.m */; };
+		E2AEAE3324349B6E00862479 /* NSArray_Random.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC7024349B3F00862479 /* NSArray_Random.m */; };
+		E2AEAE3424349B6E00862479 /* PieceDispensingHintsImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC7224349B4000862479 /* PieceDispensingHintsImpl.m */; };
+		E2AEAE3524349B6E00862479 /* Sound_DecorationExtra_ApplePieceDecorator.aif in Resources */ = {isa = PBXBuildFile; fileRef = E2AEAC7324349B4000862479 /* Sound_DecorationExtra_ApplePieceDecorator.aif */; };
+		E2AEAE3624349B6E00862479 /* LevelSelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC7524349B4000862479 /* LevelSelectorViewController.m */; };
+		E2AEAE3724349B6E00862479 /* StoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC7624349B4000862479 /* StoreManager.m */; };
+		E2AEAE3824349B6E00862479 /* UIDevice_AvailableMemory.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC7824349B4000862479 /* UIDevice_AvailableMemory.m */; };
+		E2AEAE3924349B6E00862479 /* CompoundBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC7924349B4000862479 /* CompoundBoard.m */; };
+		E2AEAE3A24349B6E00862479 /* PrefPageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC7A24349B4000862479 /* PrefPageItem.m */; };
+		E2AEAE3B24349B6E00862479 /* CSet_NS.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC7E24349B4100862479 /* CSet_NS.m */; };
+		E2AEAE3C24349B6E00862479 /* NSMutableString_Shuffle.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC8024349B4100862479 /* NSMutableString_Shuffle.m */; };
+		E2AEAE3D24349B6E00862479 /* ScreenDumper.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC8124349B4100862479 /* ScreenDumper.m */; };
+		E2AEAE3E24349B6E00862479 /* MainMenuWidget.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC8224349B4100862479 /* MainMenuWidget.m */; };
+		E2AEAE3F24349B6E00862479 /* GridBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC8324349B4100862479 /* GridBoard.m */; };
+		E2AEAE4024349B6E00862479 /* PrefViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC8424349B4100862479 /* PrefViewController.m */; };
+		E2AEAE4124349B6E00862479 /* PrefCheckForUpdatesActionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC8524349B4100862479 /* PrefCheckForUpdatesActionItem.m */; };
+		E2AEAE4224349B6E00862479 /* AppleStore.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC8624349B4100862479 /* AppleStore.m */; };
+		E2AEAE4324349B6E00862479 /* DigitPieceDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC8724349B4200862479 /* DigitPieceDecorator.m */; };
+		E2AEAE4424349B6E00862479 /* StringsLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC8B24349B4200862479 /* StringsLanguage.m */; };
+		E2AEAE4524349B6E00862479 /* PrefPage.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC8C24349B4200862479 /* PrefPage.m */; };
+		E2AEAE4624349B6E00862479 /* GameLevelSequenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC8E24349B4200862479 /* GameLevelSequenceViewController.m */; };
+		E2AEAE4724349B6E00862479 /* PrefReorderProgrammableActionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC9024349B4200862479 /* PrefReorderProgrammableActionItem.m */; };
+		E2AEAE4824349B6E00862479 /* PrefUrlDirectorySection.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC9324349B4300862479 /* PrefUrlDirectorySection.m */; };
+		E2AEAE4924349B6E00862479 /* PrefPurchaseRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC9624349B4300862479 /* PrefPurchaseRecordViewController.m */; };
+		E2AEAE4A24349B6E00862479 /* PassedLevelEndMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC9724349B4300862479 /* PassedLevelEndMenu.m */; };
+		E2AEAE4B24349B6E00862479 /* ScoreWidget.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC9824349B4300862479 /* ScoreWidget.m */; };
+		E2AEAE4C24349B6E00862479 /* PrefUUIDActionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC9D24349B4400862479 /* PrefUUIDActionItem.m */; };
+		E2AEAE4D24349B6E00862479 /* PrefFileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC9E24349B4400862479 /* PrefFileViewController.m */; };
+		E2AEAE4E24349B6E00862479 /* ShapeDecorationImageBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC9F24349B4400862479 /* ShapeDecorationImageBuilder.m */; };
+		E2AEAE4F24349B6E00862479 /* GridBoardPieceDispenserView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACA224349B4400862479 /* GridBoardPieceDispenserView.m */; };
+		E2AEAE5024349B6E00862479 /* Sound_WordInvalid.aif in Resources */ = {isa = PBXBuildFile; fileRef = E2AEACA324349B4400862479 /* Sound_WordInvalid.aif */; };
+		E2AEAE5124349B6E00862479 /* PrefItemViewControllerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACA424349B4400862479 /* PrefItemViewControllerBase.m */; };
+		E2AEAE5224349B6E00862479 /* StringWithProps.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACA624349B4500862479 /* StringWithProps.m */; };
+		E2AEAE5324349B6E00862479 /* jim in Resources */ = {isa = PBXBuildFile; fileRef = E2AEACA724349B4500862479 /* jim */; };
+		E2AEAE5424349B6E00862479 /* LanguageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACA924349B4500862479 /* LanguageManager.m */; };
+		E2AEAE5524349B6E00862479 /* Decoration_Apple.gif in Resources */ = {isa = PBXBuildFile; fileRef = E2AEACAD24349B4500862479 /* Decoration_Apple.gif */; };
+		E2AEAE5624349B6E00862479 /* Sound_DispenserDoneWarning-old1.aif in Resources */ = {isa = PBXBuildFile; fileRef = E2AEACAF24349B4600862479 /* Sound_DispenserDoneWarning-old1.aif */; };
+		E2AEAE5824349B6E00862479 /* PrefThreadedActionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACB624349B4600862479 /* PrefThreadedActionItem.m */; };
+		E2AEAE5924349B6E00862479 /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACB724349B4600862479 /* MainMenuViewController.m */; };
+		E2AEAE5A24349B6E00862479 /* Brand.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACB824349B4600862479 /* Brand.m */; };
+		E2AEAE5B24349B6E00862479 /* RandomPlacementGBL.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACBA24349B4700862479 /* RandomPlacementGBL.m */; };
+		E2AEAE5C24349B6E00862479 /* ListBoardOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACBB24349B4700862479 /* ListBoardOrder.m */; };
+		E2AEAE5D24349B6E00862479 /* PrefResetToFactorySettingsActionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACBE24349B4700862479 /* PrefResetToFactorySettingsActionItem.m */; };
+		E2AEAE5E24349B6E00862479 /* ScoreTableWidget.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACC124349B4700862479 /* ScoreTableWidget.m */; };
+		E2AEAE5F24349B6E00862479 /* SymbolAlphabet.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACC424349B4800862479 /* SymbolAlphabet.m */; };
+		E2AEAE6024349B6E00862479 /* PrefFilePage.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACC624349B4800862479 /* PrefFilePage.m */; };
+		E2AEAE6124349B6E00862479 /* UserPrefsUPL.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACC724349B4800862479 /* UserPrefsUPL.m */; };
+		E2AEAE6224349B6E00862479 /* Sound_DispenserDoneWarning.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E2AEACCA24349B4800862479 /* Sound_DispenserDoneWarning.mp3 */; };
+		E2AEAE6324349B6E00862479 /* SplashPanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACCB24349B4800862479 /* SplashPanelView.m */; };
+		E2AEAE6424349B6E00862479 /* SplashPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACCE24349B4800862479 /* SplashPanel.m */; };
+		E2AEAE6524349B6E00862479 /* PrefSaveAsProgrammableActionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACD024349B4800862479 /* PrefSaveAsProgrammableActionItem.m */; };
+		E2AEAE6624349B6E00862479 /* AuctionRoomImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACD324349B4900862479 /* AuctionRoomImpl.m */; };
+		E2AEAE6724349B6E00862479 /* PrefImageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACD424349B4900862479 /* PrefImageItem.m */; };
+		E2AEAE6824349B6E00862479 /* ScoresDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACDB24349B4A00862479 /* ScoresDatabase.m */; };
+		E2AEAE6924349B6E00862479 /* PrefShowLastStatusOntologyActionLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACDD24349B4A00862479 /* PrefShowLastStatusOntologyActionLabel.m */; };
+		E2AEAE6A24349B6E00862479 /* ScriptedGameLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACDE24349B4A00862479 /* ScriptedGameLevel.m */; };
+		E2AEAE6B24349B6E00862479 /* ByLanguageUUIDGameLevelFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACE024349B4A00862479 /* ByLanguageUUIDGameLevelFactory.m */; };
+		E2AEAE6C24349B6E00862479 /* GameBoardLogicBase.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACE524349B4B00862479 /* GameBoardLogicBase.m */; };
+		E2AEAE6D24349B6E00862479 /* Sound_BoardFullWarning.aif in Resources */ = {isa = PBXBuildFile; fileRef = E2AEACE624349B4B00862479 /* Sound_BoardFullWarning.aif */; };
+		E2AEAE6E24349B6E00862479 /* ByScriptGameLevelFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACEE24349B4B00862479 /* ByScriptGameLevelFactory.m */; };
+		E2AEAE6F24349B6E00862479 /* PrefUUIDActionImage.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACF124349B4C00862479 /* PrefUUIDActionImage.m */; };
+		E2AEAE7024349B6E00862479 /* Sound_Decoration_ApplePieceDecorator.aif in Resources */ = {isa = PBXBuildFile; fileRef = E2AEACF224349B4C00862479 /* Sound_Decoration_ApplePieceDecorator.aif */; };
+		E2AEAE7124349B6E00862479 /* JimTestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACF324349B4C00862479 /* JimTestClass.m */; };
+		E2AEAE7224349B6E00862479 /* ByUUIDGameLevelFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACF524349B4C00862479 /* ByUUIDGameLevelFactory.m */; };
+		E2AEAE7324349B6E00862479 /* PrefFolderPage.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACF824349B4C00862479 /* PrefFolderPage.m */; };
+		E2AEAE7424349B6E00862479 /* Sound_BoardFullWarning.wav in Resources */ = {isa = PBXBuildFile; fileRef = E2AEACFA24349B4C00862479 /* Sound_BoardFullWarning.wav */; };
+		E2AEAE7524349B6E00862479 /* PauseCurtain.png in Resources */ = {isa = PBXBuildFile; fileRef = E2AEACFE24349B4D00862479 /* PauseCurtain.png */; };
+		E2AEAE7624349B6E00862479 /* PullManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD0024349B4D00862479 /* PullManager.m */; };
+		E2AEAE7724349B6E00862479 /* CompoundGameBoardLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD0224349B4D00862479 /* CompoundGameBoardLogic.m */; };
+		E2AEAE7824349B6E00862479 /* RecItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD0624349B4E00862479 /* RecItem.m */; };
+		E2AEAE7924349B6E00862479 /* WordAuctionParticipant.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD0724349B4E00862479 /* WordAuctionParticipant.m */; };
+		E2AEAE7A24349B6E00862479 /* EditableTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD0824349B4E00862479 /* EditableTableViewCell.m */; };
+		E2AEAE7B24349B6E00862479 /* ScoreWidgetView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD0924349B4E00862479 /* ScoreWidgetView.m */; };
+		E2AEAE7C24349B6E00862479 /* WordListWordDispenser.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD0A24349B4E00862479 /* WordListWordDispenser.m */; };
+		E2AEAE7D24349B6E00862479 /* RoleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD0C24349B4E00862479 /* RoleManager.m */; };
+		E2AEAE7E24349B6E00862479 /* UserPrefs.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD0D24349B4E00862479 /* UserPrefs.m */; };
+		E2AEAE7F24349B6E00862479 /* JIMHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD0F24349B4E00862479 /* JIMHelper.m */; };
+		E2AEAE8024349B6E00862479 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD1124349B4F00862479 /* Cell.m */; };
+		E2AEAE8124349B6E00862479 /* CatalogItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD1424349B4F00862479 /* CatalogItem.m */; };
+		E2AEAE8224349B6E00862479 /* startup.png in Resources */ = {isa = PBXBuildFile; fileRef = E2AEAD1624349B4F00862479 /* startup.png */; };
+		E2AEAE8324349B6E00862479 /* SingleProbabilityURS.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD1724349B4F00862479 /* SingleProbabilityURS.m */; };
+		E2AEAE8424349B6E00862479 /* PrefCreateIdentityActionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD1824349B4F00862479 /* PrefCreateIdentityActionItem.m */; };
+		E2AEAE8524349B6E00862479 /* UUIDPropsUPL.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD1B24349B5000862479 /* UUIDPropsUPL.m */; };
+		E2AEAE8624349B6E00862479 /* Catalog.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD1C24349B5000862479 /* Catalog.m */; };
+		E2AEAE8724349B6E00862479 /* NSMutableArray_Shuffle.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD1E24349B5000862479 /* NSMutableArray_Shuffle.m */; };
+		E2AEAE8824349B6E00862479 /* PieceFaderGBL.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD1F24349B5000862479 /* PieceFaderGBL.m */; };
+		E2AEAE8924349B6E00862479 /* BrandManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD2324349B5000862479 /* BrandManager.m */; };
+		E2AEAE8A24349B6E00862479 /* PrefPurchaseRecordsSection.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD2524349B5100862479 /* PrefPurchaseRecordsSection.m */; };
+		E2AEAE8B24349B6E00862479 /* PrefImageSequenceItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD2924349B5100862479 /* PrefImageSequenceItem.m */; };
+		E2AEAE8C24349B6E00862479 /* AuctionSymbolDispenser.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD2A24349B5100862479 /* AuctionSymbolDispenser.m */; };
+		E2AEAE8D24349B6E00862479 /* PrefItemBase.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD2C24349B5100862479 /* PrefItemBase.m */; };
+		E2AEAE8E24349B6E00862479 /* PrefBrowseOntologyActionImage.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD2E24349B5100862479 /* PrefBrowseOntologyActionImage.m */; };
+		E2AEAE8F24349B6E00862479 /* Banner.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD3024349B5200862479 /* Banner.m */; };
+		E2AEAE9024349B6E00862479 /* PrefStringItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD3324349B5200862479 /* PrefStringItemViewController.m */; };
+		E2AEAE9124349B6E00862479 /* LowPassFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD3524349B5200862479 /* LowPassFilter.m */; };
+		E2AEAE9224349B6E00862479 /* GridBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD3624349B5200862479 /* GridBoardView.m */; };
+		E2AEAE9324349B6E00862479 /* PrefDeleteProgrammableActionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD3824349B5300862479 /* PrefDeleteProgrammableActionItem.m */; };
+		E2AEAE9424349B6E00862479 /* SymbolPieceView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD3924349B5300862479 /* SymbolPieceView.m */; };
+		E2AEAE9524349B6E00862479 /* AppleStore_ProductRequestDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD3B24349B5300862479 /* AppleStore_ProductRequestDelegate.m */; };
+		E2AEAE9624349B6E00862479 /* BombPieceDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD3C24349B5300862479 /* BombPieceDecorator.m */; };
+		E2AEAE9724349B6E00862479 /* ParametricGameLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD3E24349B5300862479 /* ParametricGameLevel.m */; };
+		E2AEAE9824349B6E00862479 /* PullHandlerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD3F24349B5300862479 /* PullHandlerBase.m */; };
+		E2AEAE9924349B6E00862479 /* BPF_Entry.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD4124349B5400862479 /* BPF_Entry.m */; };
+		E2AEAE9A24349B6E00862479 /* GoalSeekingSymbolDispenser.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD4224349B5400862479 /* GoalSeekingSymbolDispenser.m */; };
+		E2AEAE9B24349B6E00862479 /* CellView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD4624349B5400862479 /* CellView.m */; };
+		E2AEAE9C24349B6E00862479 /* SnakeBoardOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD4824349B5400862479 /* SnakeBoardOrder.m */; };
+		E2AEAE9D24349B6E00862479 /* PrefAbraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD4924349B5400862479 /* PrefAbraViewController.m */; };
+		E2AEAE9E24349B6E00862479 /* PrefRichPageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD4A24349B5500862479 /* PrefRichPageItem.m */; };
+		E2AEAEA024349B6E00862479 /* PrefUUIDPrefsBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD4F24349B5500862479 /* PrefUUIDPrefsBuilder.m */; };
+		E2AEAEA124349B6E00862479 /* ArrayPiecesHint.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD5024349B5500862479 /* ArrayPiecesHint.m */; };
+		E2AEAEA224349B6E00862479 /* GameLevelSequenceView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD5324349B5600862479 /* GameLevelSequenceView.m */; };
+		E2AEAEA324349B6E00862479 /* Sound_Clicked.aif in Resources */ = {isa = PBXBuildFile; fileRef = E2AEAD5624349B5600862479 /* Sound_Clicked.aif */; };
+		E2AEAEA424349B6E00862479 /* NSString_Reverse.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD5724349B5600862479 /* NSString_Reverse.m */; };
+		E2AEAEA524349B6E00862479 /* JIMInterp.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD5824349B5600862479 /* JIMInterp.m */; };
+		E2AEAEA624349B6E00862479 /* ItemSelectorWidget.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD5A24349B5600862479 /* ItemSelectorWidget.m */; };
+		E2AEAEA724349B6E00862479 /* SymbolPiece.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD5C24349B5700862479 /* SymbolPiece.m */; };
+		E2AEAEA824349B6E00862479 /* Decoration_Coin.gif in Resources */ = {isa = PBXBuildFile; fileRef = E2AEAD5E24349B5700862479 /* Decoration_Coin.gif */; };
+		E2AEAEA924349B6E00862479 /* images in Resources */ = {isa = PBXBuildFile; fileRef = E2AEAD5F24349B5700862479 /* images */; };
+		E2AEAEAA24349B6E00862479 /* PhraseWordValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD6224349B5700862479 /* PhraseWordValidator.m */; };
+		E2AEAEAB24349B6E00862479 /* Sound_WordReset.aif in Resources */ = {isa = PBXBuildFile; fileRef = E2AEAD6524349B5700862479 /* Sound_WordReset.aif */; };
+		E2AEAEAC24349B6E00862479 /* CheckedPieceDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD6724349B5800862479 /* CheckedPieceDecorator.m */; };
+		E2AEAEAE24349B6E00862479 /* SourceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD6B24349B5800862479 /* SourceCell.m */; };
+		E2AEAEAF24349B6E00862479 /* BoardContentsWeightedSymbolDispenser.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD6D24349B5800862479 /* BoardContentsWeightedSymbolDispenser.m */; };
+		E2AEAEB024349B6E00862479 /* PrefGameSelectionPageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD6F24349B5900862479 /* PrefGameSelectionPageItem.m */; };
+		E2AEAEB124349B6E00862479 /* Sound_Decoration_BombPieceDecorator.aif in Resources */ = {isa = PBXBuildFile; fileRef = E2AEAD7024349B5900862479 /* Sound_Decoration_BombPieceDecorator.aif */; };
+		E2AEAEB224349B6E00862479 /* spellmaze_logo_64x64.png in Resources */ = {isa = PBXBuildFile; fileRef = E2AEAD7324349B5900862479 /* spellmaze_logo_64x64.png */; };
+		E2AEAEB324349B6E00862479 /* JokerUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD7724349B5900862479 /* JokerUtils.m */; };
+		E2AEAEB424349B6E00862479 /* PrefRenameProgrammableActionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD7824349B5A00862479 /* PrefRenameProgrammableActionItem.m */; };
+		E2AEAEB524349B6E00862479 /* UUIDUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD7D24349B5A00862479 /* UUIDUtils.m */; };
+		E2AEAEB624349B6E00862479 /* RandomBoardOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD7E24349B5A00862479 /* RandomBoardOrder.m */; };
+		E2AEAEB724349B6E00862479 /* UIImage_ResizeImageAllocator.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD8124349B5A00862479 /* UIImage_ResizeImageAllocator.m */; };
+		E2AEAEB824349B6E00862479 /* RandomSymbolDispenser.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD8224349B5B00862479 /* RandomSymbolDispenser.m */; };
+		E2AEAEB924349B6E00862479 /* TextBlockSplitter.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD8424349B5B00862479 /* TextBlockSplitter.m */; };
+		E2AEAEBA24349B6E00862479 /* PrefShowOntologyImagesActionImage.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD8624349B5B00862479 /* PrefShowOntologyImagesActionImage.m */; };
+		E2AEAEBB24349B6E00862479 /* PrefActionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD8724349B5B00862479 /* PrefActionItem.m */; };
+		E2AEAEBC24349B6E00862479 /* BoardAuctionArticle.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD8824349B5B00862479 /* BoardAuctionArticle.m */; };
+		E2AEAEBD24349B6E00862479 /* PrefSection.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD8924349B5B00862479 /* PrefSection.m */; };
+		E2AEAEBE24349B6E00862479 /* PrefCompoundSection.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD8B24349B5B00862479 /* PrefCompoundSection.m */; };
+		E2AEAEBF24349B6F00862479 /* GameLevelSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD8C24349B5C00862479 /* GameLevelSequence.m */; };
+		E2AEAEC024349B6F00862479 /* ByFolderGameLevelFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD8D24349B5C00862479 /* ByFolderGameLevelFactory.m */; };
+		E2AEAEC124349B6F00862479 /* GridBoardPieceDispenserWords.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD8E24349B5C00862479 /* GridBoardPieceDispenserWords.m */; };
+		E2AEAEC224349B6F00862479 /* Folders.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD8F24349B5C00862479 /* Folders.m */; };
+		E2AEAEC324349B6F00862479 /* PurchaseRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD9024349B5C00862479 /* PurchaseRecord.m */; };
+		E2AEAEC424349B6F00862479 /* NSDictionary_TypedAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD9124349B5C00862479 /* NSDictionary_TypedAccess.m */; };
+		E2AEAEC524349B6F00862479 /* WordQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD9324349B5D00862479 /* WordQueue.m */; };
+		E2AEAEC624349B6F00862479 /* PrefDomainDownloadItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD9424349B5D00862479 /* PrefDomainDownloadItem.m */; };
+		E2AEAEC724349B6F00862479 /* CellTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD9524349B5D00862479 /* CellTextField.m */; };
+		E2AEAEC824349B6F00862479 /* SoundTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD9624349B5D00862479 /* SoundTheme.m */; };
+		E2AEAEC924349B6F00862479 /* NSData_TextRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD9724349B5D00862479 /* NSData_TextRepresentation.m */; };
+		E2AEAECA24349B6F00862479 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD9824349B5D00862479 /* main.m */; };
+		E2AEAECB24349B6F00862479 /* ImageSequenceMediaView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD9924349B5D00862479 /* ImageSequenceMediaView.m */; };
+		E2AEAECC24349B6F00862479 /* WordCountBPF.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD9C24349B5E00862479 /* WordCountBPF.m */; };
+		E2AEAECD24349B6F00862479 /* PrefMainPageBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD9D24349B5E00862479 /* PrefMainPageBuilder.m */; };
+		E2AEAECE24349B6F00862479 /* espeak-data in Resources */ = {isa = PBXBuildFile; fileRef = E2AEAD9E24349B5E00862479 /* espeak-data */; };
+		E2AEAECF24349B6F00862479 /* SpiralBoardOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADA324349B5F00862479 /* SpiralBoardOrder.m */; };
+		E2AEAED124349B6F00862479 /* CSetWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADA724349B5F00862479 /* CSetWrapper.m */; };
+		E2AEAED224349B6F00862479 /* Builtin in Resources */ = {isa = PBXBuildFile; fileRef = E2AEADA824349B6000862479 /* Builtin */; };
+		E2AEAED324349B6F00862479 /* ScoresViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADA924349B6000862479 /* ScoresViewController.m */; };
+		E2AEAED424349B6F00862479 /* PrefMultiValueItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADAA24349B6000862479 /* PrefMultiValueItemViewController.m */; };
+		E2AEAED524349B6F00862479 /* CellTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADAE24349B6100862479 /* CellTextView.m */; };
+		E2AEAED624349B6F00862479 /* PrefFileActionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADB224349B6100862479 /* PrefFileActionDelegate.m */; };
+		E2AEAED724349B6F00862479 /* Sound_PieceHinted.aif in Resources */ = {isa = PBXBuildFile; fileRef = E2AEADB324349B6100862479 /* Sound_PieceHinted.aif */; };
+		E2AEAED824349B6F00862479 /* PrefPurchaseRecordPage.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADB424349B6100862479 /* PrefPurchaseRecordPage.m */; };
+		E2AEAED924349B6F00862479 /* ScriptPullHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADB624349B6200862479 /* ScriptPullHandler.m */; };
+		E2AEAEDA24349B6F00862479 /* BoardLanguageWordsAuctionUsher.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADB724349B6200862479 /* BoardLanguageWordsAuctionUsher.m */; };
+		E2AEAEDB24349B6F00862479 /* CheckedPieceDecorator2.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADB824349B6200862479 /* CheckedPieceDecorator2.m */; };
+		E2AEAEDC24349B6F00862479 /* GameLevelView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADB924349B6200862479 /* GameLevelView.m */; };
+		E2AEAEDD24349B6F00862479 /* SymbolAuctionBid.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADBC24349B6200862479 /* SymbolAuctionBid.m */; };
+		E2AEAEDE24349B6F00862479 /* OrderNudgeGBL.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADBF24349B6300862479 /* OrderNudgeGBL.m */; };
+		E2AEAEDF24349B6F00862479 /* CrossPieceDisabler.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADC224349B6300862479 /* CrossPieceDisabler.m */; };
+		E2AEAEE024349B6F00862479 /* UUIDPrefs.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADC324349B6300862479 /* UUIDPrefs.m */; };
+		E2AEAEE124349B6F00862479 /* UIDevice_SystemVersionNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADC424349B6300862479 /* UIDevice_SystemVersionNumber.m */; };
+		E2AEAEE224349B6F00862479 /* DisplayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADC524349B6300862479 /* DisplayCell.m */; };
+		E2AEAEE324349B6F00862479 /* ImageWithUUID.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADC624349B6300862479 /* ImageWithUUID.m */; };
+		E2AEAEE424349B6F00862479 /* GridBoardPieceDispenserPieceArray.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADC724349B6300862479 /* GridBoardPieceDispenserPieceArray.m */; };
+		E2AEAEE524349B6F00862479 /* Decoration_Bomb.gif in Resources */ = {isa = PBXBuildFile; fileRef = E2AEADCB24349B6400862479 /* Decoration_Bomb.gif */; };
+		E2AEAEE624349B6F00862479 /* PrefDomainDirectoryListingMultiValueItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADD124349B6400862479 /* PrefDomainDirectoryListingMultiValueItem.m */; };
+		E2AEAEE724349B6F00862479 /* AuctionManagerImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADD524349B6500862479 /* AuctionManagerImpl.m */; };
+		E2AEAEE824349B6F00862479 /* PrefUpdateFacebookFriendsActionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADD624349B6500862479 /* PrefUpdateFacebookFriendsActionItem.m */; };
+		E2AEAEE924349B6F00862479 /* PrefMultiValueItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADDC24349B6600862479 /* PrefMultiValueItem.m */; };
+		E2AEAEEA24349B6F00862479 /* PrefDomainMultiValueItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADE124349B6600862479 /* PrefDomainMultiValueItem.m */; };
+		E2AEAEEB24349B6F00862479 /* PrefStringItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADE424349B6700862479 /* PrefStringItem.m */; };
+		E2AEAEEC24349B6F00862479 /* PrefDeleteIdentityActionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADE524349B6700862479 /* PrefDeleteIdentityActionItem.m */; };
+		E2AEAEED24349B6F00862479 /* UIImage_TextRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADE724349B6700862479 /* UIImage_TextRepresentation.m */; };
+		E2AEAEEE24349B6F00862479 /* GameManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADEA24349B6700862479 /* GameManager.m */; };
+		E2AEAEEF24349B6F00862479 /* Wallet.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADEC24349B6800862479 /* Wallet.m */; };
+		E2AEAEF024349B6F00862479 /* ReportLogPullHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADED24349B6800862479 /* ReportLogPullHandler.m */; };
+		E2AEAEF124349B6F00862479 /* CSet.c in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADEF24349B6800862479 /* CSet.c */; };
+		E2AEAEF224349B6F00862479 /* PrefUUIDActionLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADF024349B6800862479 /* PrefUUIDActionLabel.m */; };
+		E2AEAEF324349B6F00862479 /* GridBoardPieceDispenserBase.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADF224349B6800862479 /* GridBoardPieceDispenserBase.m */; };
+		E2AEAEF424349B6F00862479 /* GameLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADF424349B6900862479 /* GameLevel.m */; };
+		E2AEAEF524349B6F00862479 /* ViewTransformerGBL.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADF524349B6900862479 /* ViewTransformerGBL.m */; };
+		E2AEAEF624349B6F00862479 /* SimpleBoardOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADF624349B6900862479 /* SimpleBoardOrder.m */; };
+		E2AEAEF724349B6F00862479 /* ParametricGameLevelFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADF724349B6900862479 /* ParametricGameLevelFactory.m */; };
+		E2AEAEF824349B6F00862479 /* Sound_PieceSelected.aif in Resources */ = {isa = PBXBuildFile; fileRef = E2AEADF924349B6900862479 /* Sound_PieceSelected.aif */; };
+		E2AEAEF924349B6F00862479 /* LabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADFA24349B6900862479 /* LabelCell.m */; };
+		E2AEAEFA24349B6F00862479 /* LastWordPiecesHint.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADFC24349B6900862479 /* LastWordPiecesHint.m */; };
+		E2AEAEFB24349B6F00862479 /* Sound_DispenserDoneWarning.aif in Resources */ = {isa = PBXBuildFile; fileRef = E2AEADFD24349B6900862479 /* Sound_DispenserDoneWarning.aif */; };
+		E2AEAEFC24349B6F00862479 /* PrefIdentitiesMultiValueItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAE0624349B6A00862479 /* PrefIdentitiesMultiValueItem.m */; };
+		E2AEAEFD24349B6F00862479 /* FormulaEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAE0724349B6A00862479 /* FormulaEvaluator.m */; };
+		E2AEAEFE24349B6F00862479 /* PrefBooleanItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAE0924349B6B00862479 /* PrefBooleanItem.m */; };
+		E2AEAEFF24349B6F00862479 /* Sound_Decoration_CoinPieceDecorator.aif in Resources */ = {isa = PBXBuildFile; fileRef = E2AEAE0A24349B6B00862479 /* Sound_Decoration_CoinPieceDecorator.aif */; };
+		E2AEAF0024349B6F00862479 /* Sound_Swiped.aif in Resources */ = {isa = PBXBuildFile; fileRef = E2AEAE0B24349B6B00862479 /* Sound_Swiped.aif */; };
+		E2AEAF0124349B6F00862479 /* Sound_DecorationExtra_CoinPieceDecorator.aif in Resources */ = {isa = PBXBuildFile; fileRef = E2AEAE0C24349B6B00862479 /* Sound_DecorationExtra_CoinPieceDecorator.aif */; };
+		E2AEAF0224349B6F00862479 /* Sound_PieceDispensed.aif in Resources */ = {isa = PBXBuildFile; fileRef = E2AEAE0D24349B6B00862479 /* Sound_PieceDispensed.aif */; };
+		E2AEAF0324349B6F00862479 /* RTLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAE0F24349B6B00862479 /* RTLUtils.m */; };
+		E2AEAF0424349B6F00862479 /* EnvelopeDynamics.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAE1024349B6B00862479 /* EnvelopeDynamics.m */; };
+		E2AEAF0524349B6F00862479 /* CoinPieceDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAE1124349B6C00862479 /* CoinPieceDecorator.m */; };
+		E2AEAF0624349B6F00862479 /* ApplePieceDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAE1324349B6C00862479 /* ApplePieceDecorator.m */; };
+		E2AEAF0724349B6F00862479 /* SymbolForWordLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAE1424349B6C00862479 /* SymbolForWordLanguage.m */; };
+		E2AEAF0824349B6F00862479 /* PrefPromotedCatalogItemsPage.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAE1524349B6C00862479 /* PrefPromotedCatalogItemsPage.m */; };
+		E2AEAF0924349B6F00862479 /* ScoresComm.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAE1624349B6C00862479 /* ScoresComm.m */; };
+		E2AEAF0A24349B6F00862479 /* Sound_WordBlackListed.aif in Resources */ = {isa = PBXBuildFile; fileRef = E2AEAE1724349B6C00862479 /* Sound_WordBlackListed.aif */; };
+		E2AEAF0B24349B6F00862479 /* Sound_PieceHintedLast.aif in Resources */ = {isa = PBXBuildFile; fileRef = E2AEAE1824349B6C00862479 /* Sound_PieceHintedLast.aif */; };
+		E2AEAF0C24349B6F00862479 /* ProgramIcon1.png in Resources */ = {isa = PBXBuildFile; fileRef = E2AEAE1924349B6C00862479 /* ProgramIcon1.png */; };
+		E2AEAF0D24349B6F00862479 /* L.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAE1A24349B6C00862479 /* L.m */; };
+		E2AEAF0E24349B6F00862479 /* TextSpeaker.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAE1D24349B6D00862479 /* TextSpeaker.m */; };
+		E2AEAF0F24349B6F00862479 /* todo.txt in Resources */ = {isa = PBXBuildFile; fileRef = E2AEAE1E24349B6D00862479 /* todo.txt */; };
+		E2AEAF1024349B6F00862479 /* Sound_DecorationExtra_BombPieceDecorator.aif in Resources */ = {isa = PBXBuildFile; fileRef = E2AEAE2024349B6D00862479 /* Sound_DecorationExtra_BombPieceDecorator.aif */; };
+		E2AEAF1124349B6F00862479 /* GameLevel_WordInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAE2624349B6E00862479 /* GameLevel_WordInfo.m */; };
+		E2AEAF1224349B6F00862479 /* ConstantBoardPotentialFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAE2724349B6E00862479 /* ConstantBoardPotentialFunction.m */; };
+		E2AEAF182434A4F700862479 /* Board3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAF152434A4F700862479 /* Board3ViewController.m */; };
+		E2AEAF192434A4F700862479 /* Board3AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAF172434A4F700862479 /* Board3AppDelegate.m */; };
+		E2AEAF1E2434ABF800862479 /* SystemUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAF1C2434ABF800862479 /* SystemUtils.m */; };
+		E2AEAF2E2434ADBE00862479 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAF232434ADBE00862479 /* unzip.c */; };
+		E2AEAF2F2434ADBE00862479 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAF242434ADBE00862479 /* zip.c */; };
+		E2AEAF302434ADBE00862479 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAF252434ADBE00862479 /* ioapi.c */; };
+		E2AEAF312434ADBE00862479 /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAF262434ADBE00862479 /* mztools.c */; };
+		E2AEAF322434ADBE00862479 /* ZipArchive.mm in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAF2D2434ADBE00862479 /* ZipArchive.mm */; };
+		E2AEB3142434B10300862479 /* espeak_command.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2AEB2EA2434B0FE00862479 /* espeak_command.cpp */; };
+		E2AEB3152434B10300862479 /* voices.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2AEB2EC2434B0FF00862479 /* voices.cpp */; };
+		E2AEB3162434B10300862479 /* klatt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2AEB2ED2434B0FF00862479 /* klatt.cpp */; };
+		E2AEB3172434B10300862479 /* numbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2AEB2EE2434B0FF00862479 /* numbers.cpp */; };
+		E2AEB3182434B10300862479 /* readclause.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2AEB2F02434B0FF00862479 /* readclause.cpp */; };
+		E2AEB3192434B10300862479 /* synth_mbrola.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2AEB2F22434B0FF00862479 /* synth_mbrola.cpp */; };
+		E2AEB31A2434B10300862479 /* translate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2AEB2F32434B0FF00862479 /* translate.cpp */; };
+		E2AEB31B2434B10300862479 /* setlengths.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2AEB2F42434B0FF00862479 /* setlengths.cpp */; };
+		E2AEB31C2434B10300862479 /* dictionary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2AEB2F72434B10000862479 /* dictionary.cpp */; };
+		E2AEB31D2434B10300862479 /* wave_sada.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2AEB2F82434B10000862479 /* wave_sada.cpp */; };
+		E2AEB31E2434B10300862479 /* wave.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2AEB2FA2434B10000862479 /* wave.cpp */; };
+		E2AEB31F2434B10300862479 /* synthdata.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2AEB2FD2434B10100862479 /* synthdata.cpp */; };
+		E2AEB3202434B10300862479 /* wave_pulse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2AEB2FE2434B10100862479 /* wave_pulse.cpp */; };
+		E2AEB3212434B10300862479 /* compiledict.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2AEB2FF2434B10100862479 /* compiledict.cpp */; };
+		E2AEB3222434B10300862479 /* speak_lib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2AEB3002434B10100862479 /* speak_lib.cpp */; };
+		E2AEB3232434B10300862479 /* tr_languages.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2AEB3012434B10100862479 /* tr_languages.cpp */; };
+		E2AEB3242434B10300862479 /* intonation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2AEB3022434B10100862479 /* intonation.cpp */; };
+		E2AEB3252434B10300862479 /* synthesize.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2AEB3062434B10200862479 /* synthesize.cpp */; };
+		E2AEB3262434B10300862479 /* event.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2AEB3072434B10200862479 /* event.cpp */; };
+		E2AEB3272434B10300862479 /* phonemelist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2AEB3092434B10200862479 /* phonemelist.cpp */; };
+		E2AEB3292434B10300862479 /* debug.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2AEB30E2434B10300862479 /* debug.cpp */; };
+		E2AEB32A2434B10300862479 /* espeak.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2AEB30F2434B10300862479 /* espeak.cpp */; };
+		E2AEB32B2434B10300862479 /* wavegen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2AEB3112434B10300862479 /* wavegen.cpp */; };
+		E2AEB32C2434B10300862479 /* fifo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2AEB3132434B10300862479 /* fifo.cpp */; };
+		E2AEB32F2434C31500862479 /* PieceDecoratorGBL.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEB32E2434C31500862479 /* PieceDecoratorGBL.m */; };
+		E2AEB34B2434C5DE00862479 /* espeak-data in Copy Files (espeak-data) */ = {isa = PBXBuildFile; fileRef = E2AEAD9E24349B5E00862479 /* espeak-data */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +296,20 @@
 			remoteInfo = SpellMaze2020;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E2AEB34A2434C5B900862479 /* Copy Files (espeak-data) */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "espeak-data";
+			dstSubfolderSpec = 7;
+			files = (
+				E2AEB34B2434C5DE00862479 /* espeak-data in Copy Files (espeak-data) */,
+			);
+			name = "Copy Files (espeak-data)";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		E26A234624339DB600AEF6CF /* SpellMaze2020.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpellMaze2020.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,6 +330,528 @@
 		E26A236C24339DB800AEF6CF /* SpellMaze2020UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpellMaze2020UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E26A237024339DB800AEF6CF /* SpellMaze2020UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpellMaze2020UITests.m; sourceTree = "<group>"; };
 		E26A237224339DB800AEF6CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2AEAC5924349B3D00862479 /* FreeStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FreeStore.m; sourceTree = "<group>"; };
+		E2AEAC5A24349B3E00862479 /* Sound_WordValid.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sound_WordValid.aif; sourceTree = "<group>"; };
+		E2AEAC5B24349B3E00862479 /* GridBoardPieceDispenserSymbols.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridBoardPieceDispenserSymbols.m; sourceTree = "<group>"; };
+		E2AEAC5C24349B3E00862479 /* SoundTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundTheme.h; sourceTree = "<group>"; };
+		E2AEAC5D24349B3E00862479 /* NSArray_Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSArray_Random.h; sourceTree = "<group>"; };
+		E2AEAC5E24349B3E00862479 /* UIImage_TextRepresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImage_TextRepresentation.h; sourceTree = "<group>"; };
+		E2AEAC5F24349B3E00862479 /* todo2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = todo2.txt; sourceTree = "<group>"; };
+		E2AEAC6024349B3E00862479 /* PrefRenameProgrammableActionItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefRenameProgrammableActionItem.h; sourceTree = "<group>"; };
+		E2AEAC6124349B3E00862479 /* CompoundGameBoardLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompoundGameBoardLogic.h; sourceTree = "<group>"; };
+		E2AEAC6224349B3E00862479 /* GameLevelEventsTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameLevelEventsTarget.h; sourceTree = "<group>"; };
+		E2AEAC6324349B3E00862479 /* GridBoardPieceDispenserBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridBoardPieceDispenserBase.h; sourceTree = "<group>"; };
+		E2AEAC6424349B3E00862479 /* ListBoardOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListBoardOrder.h; sourceTree = "<group>"; };
+		E2AEAC6524349B3E00862479 /* LabelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelCell.h; sourceTree = "<group>"; };
+		E2AEAC6624349B3E00862479 /* PrefMultiValueItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefMultiValueItemViewController.h; sourceTree = "<group>"; };
+		E2AEAC6724349B3F00862479 /* ScoresComm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoresComm.h; sourceTree = "<group>"; };
+		E2AEAC6824349B3F00862479 /* PrefUUIDActionItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefUUIDActionItem.h; sourceTree = "<group>"; };
+		E2AEAC6924349B3F00862479 /* ImagePieceDecorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagePieceDecorator.m; sourceTree = "<group>"; };
+		E2AEAC6A24349B3F00862479 /* FreeStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FreeStore.h; sourceTree = "<group>"; };
+		E2AEAC6B24349B3F00862479 /* PrefBrowseOntologyActionImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefBrowseOntologyActionImage.h; sourceTree = "<group>"; };
+		E2AEAC6C24349B3F00862479 /* PrefFloatItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefFloatItem.m; sourceTree = "<group>"; };
+		E2AEAC6D24349B3F00862479 /* SplashPanelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashPanelView.h; sourceTree = "<group>"; };
+		E2AEAC6E24349B3F00862479 /* WidgetBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WidgetBase.m; sourceTree = "<group>"; };
+		E2AEAC6F24349B3F00862479 /* PrefLabelItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefLabelItem.m; sourceTree = "<group>"; };
+		E2AEAC7024349B3F00862479 /* NSArray_Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArray_Random.m; sourceTree = "<group>"; };
+		E2AEAC7124349B4000862479 /* SymbolPieceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SymbolPieceView.h; sourceTree = "<group>"; };
+		E2AEAC7224349B4000862479 /* PieceDispensingHintsImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieceDispensingHintsImpl.m; sourceTree = "<group>"; };
+		E2AEAC7324349B4000862479 /* Sound_DecorationExtra_ApplePieceDecorator.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sound_DecorationExtra_ApplePieceDecorator.aif; sourceTree = "<group>"; };
+		E2AEAC7424349B4000862479 /* PrefLabelItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefLabelItem.h; sourceTree = "<group>"; };
+		E2AEAC7524349B4000862479 /* LevelSelectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelSelectorViewController.m; sourceTree = "<group>"; };
+		E2AEAC7624349B4000862479 /* StoreManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoreManager.m; sourceTree = "<group>"; };
+		E2AEAC7724349B4000862479 /* CoinPieceDecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoinPieceDecorator.h; sourceTree = "<group>"; };
+		E2AEAC7824349B4000862479 /* UIDevice_AvailableMemory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIDevice_AvailableMemory.m; sourceTree = "<group>"; };
+		E2AEAC7924349B4000862479 /* CompoundBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompoundBoard.m; sourceTree = "<group>"; };
+		E2AEAC7A24349B4000862479 /* PrefPageItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefPageItem.m; sourceTree = "<group>"; };
+		E2AEAC7B24349B4000862479 /* SystemUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemUtils.h; sourceTree = "<group>"; };
+		E2AEAC7C24349B4100862479 /* GameLevelSequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameLevelSequence.h; sourceTree = "<group>"; };
+		E2AEAC7D24349B4100862479 /* UUIDUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUIDUtils.h; sourceTree = "<group>"; };
+		E2AEAC7E24349B4100862479 /* CSet_NS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSet_NS.m; sourceTree = "<group>"; };
+		E2AEAC7F24349B4100862479 /* WordListWordDispenser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordListWordDispenser.h; sourceTree = "<group>"; };
+		E2AEAC8024349B4100862479 /* NSMutableString_Shuffle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSMutableString_Shuffle.m; sourceTree = "<group>"; };
+		E2AEAC8124349B4100862479 /* ScreenDumper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenDumper.m; sourceTree = "<group>"; };
+		E2AEAC8224349B4100862479 /* MainMenuWidget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuWidget.m; sourceTree = "<group>"; };
+		E2AEAC8324349B4100862479 /* GridBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridBoard.m; sourceTree = "<group>"; };
+		E2AEAC8424349B4100862479 /* PrefViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefViewController.m; sourceTree = "<group>"; };
+		E2AEAC8524349B4100862479 /* PrefCheckForUpdatesActionItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefCheckForUpdatesActionItem.m; sourceTree = "<group>"; };
+		E2AEAC8624349B4100862479 /* AppleStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleStore.m; sourceTree = "<group>"; };
+		E2AEAC8724349B4200862479 /* DigitPieceDecorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DigitPieceDecorator.m; sourceTree = "<group>"; };
+		E2AEAC8824349B4200862479 /* PrefUUIDActionImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefUUIDActionImage.h; sourceTree = "<group>"; };
+		E2AEAC8924349B4200862479 /* PrefPurchaseRecordPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefPurchaseRecordPage.h; sourceTree = "<group>"; };
+		E2AEAC8A24349B4200862479 /* PhraseWordValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhraseWordValidator.h; sourceTree = "<group>"; };
+		E2AEAC8B24349B4200862479 /* StringsLanguage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringsLanguage.m; sourceTree = "<group>"; };
+		E2AEAC8C24349B4200862479 /* PrefPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefPage.m; sourceTree = "<group>"; };
+		E2AEAC8D24349B4200862479 /* PrefSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefSection.h; sourceTree = "<group>"; };
+		E2AEAC8E24349B4200862479 /* GameLevelSequenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameLevelSequenceViewController.m; sourceTree = "<group>"; };
+		E2AEAC8F24349B4200862479 /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
+		E2AEAC9024349B4200862479 /* PrefReorderProgrammableActionItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefReorderProgrammableActionItem.m; sourceTree = "<group>"; };
+		E2AEAC9124349B4300862479 /* ScoreTableWidget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreTableWidget.h; sourceTree = "<group>"; };
+		E2AEAC9224349B4300862479 /* ApplePieceDecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplePieceDecorator.h; sourceTree = "<group>"; };
+		E2AEAC9324349B4300862479 /* PrefUrlDirectorySection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefUrlDirectorySection.m; sourceTree = "<group>"; };
+		E2AEAC9424349B4300862479 /* PrefShowOntologyImagesActionImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefShowOntologyImagesActionImage.h; sourceTree = "<group>"; };
+		E2AEAC9524349B4300862479 /* GridBoardPieceDispenserSymbols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridBoardPieceDispenserSymbols.h; sourceTree = "<group>"; };
+		E2AEAC9624349B4300862479 /* PrefPurchaseRecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefPurchaseRecordViewController.m; sourceTree = "<group>"; };
+		E2AEAC9724349B4300862479 /* PassedLevelEndMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassedLevelEndMenu.m; sourceTree = "<group>"; };
+		E2AEAC9824349B4300862479 /* ScoreWidget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreWidget.m; sourceTree = "<group>"; };
+		E2AEAC9924349B4300862479 /* PieceFaderGBL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieceFaderGBL.h; sourceTree = "<group>"; };
+		E2AEAC9A24349B4300862479 /* Catalog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Catalog.h; sourceTree = "<group>"; };
+		E2AEAC9B24349B4400862479 /* RoleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoleManager.h; sourceTree = "<group>"; };
+		E2AEAC9C24349B4400862479 /* Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Board.h; sourceTree = "<group>"; };
+		E2AEAC9D24349B4400862479 /* PrefUUIDActionItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefUUIDActionItem.m; sourceTree = "<group>"; };
+		E2AEAC9E24349B4400862479 /* PrefFileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefFileViewController.m; sourceTree = "<group>"; };
+		E2AEAC9F24349B4400862479 /* ShapeDecorationImageBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShapeDecorationImageBuilder.m; sourceTree = "<group>"; };
+		E2AEACA024349B4400862479 /* PrefStringItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefStringItemViewController.h; sourceTree = "<group>"; };
+		E2AEACA124349B4400862479 /* ByScriptGameLevelFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ByScriptGameLevelFactory.h; sourceTree = "<group>"; };
+		E2AEACA224349B4400862479 /* GridBoardPieceDispenserView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridBoardPieceDispenserView.m; sourceTree = "<group>"; };
+		E2AEACA324349B4400862479 /* Sound_WordInvalid.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sound_WordInvalid.aif; sourceTree = "<group>"; };
+		E2AEACA424349B4400862479 /* PrefItemViewControllerBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefItemViewControllerBase.m; sourceTree = "<group>"; };
+		E2AEACA524349B4500862479 /* ConstantBoardPotentialFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstantBoardPotentialFunction.h; sourceTree = "<group>"; };
+		E2AEACA624349B4500862479 /* StringWithProps.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringWithProps.m; sourceTree = "<group>"; };
+		E2AEACA724349B4500862479 /* jim */ = {isa = PBXFileReference; lastKnownFileType = folder; path = jim; sourceTree = "<group>"; };
+		E2AEACA824349B4500862479 /* SymbolPiece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SymbolPiece.h; sourceTree = "<group>"; };
+		E2AEACA924349B4500862479 /* LanguageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LanguageManager.m; sourceTree = "<group>"; };
+		E2AEACAA24349B4500862479 /* UUIDPrefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUIDPrefs.h; sourceTree = "<group>"; };
+		E2AEACAB24349B4500862479 /* WidgetBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WidgetBase.h; sourceTree = "<group>"; };
+		E2AEACAC24349B4500862479 /* GridBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridBoardView.h; sourceTree = "<group>"; };
+		E2AEACAD24349B4500862479 /* Decoration_Apple.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Decoration_Apple.gif; sourceTree = "<group>"; };
+		E2AEACAE24349B4500862479 /* LanguageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LanguageManager.h; sourceTree = "<group>"; };
+		E2AEACAF24349B4600862479 /* Sound_DispenserDoneWarning-old1.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sound_DispenserDoneWarning-old1.aif"; sourceTree = "<group>"; };
+		E2AEACB124349B4600862479 /* GridCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridCell.h; sourceTree = "<group>"; };
+		E2AEACB224349B4600862479 /* GridBoardPieceDispenserPieceArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridBoardPieceDispenserPieceArray.h; sourceTree = "<group>"; };
+		E2AEACB324349B4600862479 /* HasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HasView.h; sourceTree = "<group>"; };
+		E2AEACB424349B4600862479 /* GridBoardPieceDispenserView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridBoardPieceDispenserView.h; sourceTree = "<group>"; };
+		E2AEACB524349B4600862479 /* CheckedPieceDecorator2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckedPieceDecorator2.h; sourceTree = "<group>"; };
+		E2AEACB624349B4600862479 /* PrefThreadedActionItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefThreadedActionItem.m; sourceTree = "<group>"; };
+		E2AEACB724349B4600862479 /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
+		E2AEACB824349B4600862479 /* Brand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Brand.m; sourceTree = "<group>"; };
+		E2AEACB924349B4600862479 /* AuctionParticipant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuctionParticipant.h; sourceTree = "<group>"; };
+		E2AEACBA24349B4700862479 /* RandomPlacementGBL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RandomPlacementGBL.m; sourceTree = "<group>"; };
+		E2AEACBB24349B4700862479 /* ListBoardOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListBoardOrder.m; sourceTree = "<group>"; };
+		E2AEACBC24349B4700862479 /* AuctionRoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuctionRoom.h; sourceTree = "<group>"; };
+		E2AEACBD24349B4700862479 /* ByFolderGameLevelFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ByFolderGameLevelFactory.h; sourceTree = "<group>"; };
+		E2AEACBE24349B4700862479 /* PrefResetToFactorySettingsActionItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefResetToFactorySettingsActionItem.m; sourceTree = "<group>"; };
+		E2AEACBF24349B4700862479 /* BoardPotentialFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardPotentialFunction.h; sourceTree = "<group>"; };
+		E2AEACC024349B4700862479 /* GameManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameManager.h; sourceTree = "<group>"; };
+		E2AEACC124349B4700862479 /* ScoreTableWidget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreTableWidget.m; sourceTree = "<group>"; };
+		E2AEACC224349B4700862479 /* PieceDispensingHints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieceDispensingHints.h; sourceTree = "<group>"; };
+		E2AEACC324349B4700862479 /* PrefReorderProgrammableActionItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefReorderProgrammableActionItem.h; sourceTree = "<group>"; };
+		E2AEACC424349B4800862479 /* SymbolAlphabet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SymbolAlphabet.m; sourceTree = "<group>"; };
+		E2AEACC524349B4800862479 /* L.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L.h; sourceTree = "<group>"; };
+		E2AEACC624349B4800862479 /* PrefFilePage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefFilePage.m; sourceTree = "<group>"; };
+		E2AEACC724349B4800862479 /* UserPrefsUPL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserPrefsUPL.m; sourceTree = "<group>"; };
+		E2AEACC824349B4800862479 /* PrefCompoundSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefCompoundSection.h; sourceTree = "<group>"; };
+		E2AEACC924349B4800862479 /* SingleProbabilityURS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleProbabilityURS.h; sourceTree = "<group>"; };
+		E2AEACCA24349B4800862479 /* Sound_DispenserDoneWarning.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sound_DispenserDoneWarning.mp3; sourceTree = "<group>"; };
+		E2AEACCB24349B4800862479 /* SplashPanelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashPanelView.m; sourceTree = "<group>"; };
+		E2AEACCC24349B4800862479 /* PieceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieceView.h; sourceTree = "<group>"; };
+		E2AEACCD24349B4800862479 /* AuctionUsher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuctionUsher.h; sourceTree = "<group>"; };
+		E2AEACCE24349B4800862479 /* SplashPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashPanel.m; sourceTree = "<group>"; };
+		E2AEACCF24349B4800862479 /* ParametricGameLevelFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParametricGameLevelFactory.h; sourceTree = "<group>"; };
+		E2AEACD024349B4800862479 /* PrefSaveAsProgrammableActionItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefSaveAsProgrammableActionItem.m; sourceTree = "<group>"; };
+		E2AEACD124349B4900862479 /* PrefFileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefFileViewController.h; sourceTree = "<group>"; };
+		E2AEACD224349B4900862479 /* PrefPromotedCatalogItemsPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefPromotedCatalogItemsPage.h; sourceTree = "<group>"; };
+		E2AEACD324349B4900862479 /* AuctionRoomImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuctionRoomImpl.m; sourceTree = "<group>"; };
+		E2AEACD424349B4900862479 /* PrefImageItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefImageItem.m; sourceTree = "<group>"; };
+		E2AEACD524349B4900862479 /* SymbolForWordLanguage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SymbolForWordLanguage.h; sourceTree = "<group>"; };
+		E2AEACD624349B4900862479 /* GridBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridBoard.h; sourceTree = "<group>"; };
+		E2AEACD724349B4900862479 /* AuctionSymbolDispenser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuctionSymbolDispenser.h; sourceTree = "<group>"; };
+		E2AEACD824349B4900862479 /* UUIDPropsUPL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUIDPropsUPL.h; sourceTree = "<group>"; };
+		E2AEACD924349B4900862479 /* PrefMultiValueItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefMultiValueItem.h; sourceTree = "<group>"; };
+		E2AEACDA24349B4A00862479 /* ByLanguageUUIDGameLevelFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ByLanguageUUIDGameLevelFactory.h; sourceTree = "<group>"; };
+		E2AEACDB24349B4A00862479 /* ScoresDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoresDatabase.m; sourceTree = "<group>"; };
+		E2AEACDC24349B4A00862479 /* UserPrefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserPrefs.h; sourceTree = "<group>"; };
+		E2AEACDD24349B4A00862479 /* PrefShowLastStatusOntologyActionLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefShowLastStatusOntologyActionLabel.m; sourceTree = "<group>"; };
+		E2AEACDE24349B4A00862479 /* ScriptedGameLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScriptedGameLevel.m; sourceTree = "<group>"; };
+		E2AEACDF24349B4A00862479 /* SourceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SourceCell.h; sourceTree = "<group>"; };
+		E2AEACE024349B4A00862479 /* ByLanguageUUIDGameLevelFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ByLanguageUUIDGameLevelFactory.m; sourceTree = "<group>"; };
+		E2AEACE124349B4A00862479 /* GameLevel_WordInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameLevel_WordInfo.h; sourceTree = "<group>"; };
+		E2AEACE224349B4A00862479 /* PrefItemViewControllerBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefItemViewControllerBase.h; sourceTree = "<group>"; };
+		E2AEACE324349B4A00862479 /* StoreManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreManager.h; sourceTree = "<group>"; };
+		E2AEACE524349B4B00862479 /* GameBoardLogicBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameBoardLogicBase.m; sourceTree = "<group>"; };
+		E2AEACE624349B4B00862479 /* Sound_BoardFullWarning.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sound_BoardFullWarning.aif; sourceTree = "<group>"; };
+		E2AEACE724349B4B00862479 /* CSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSet.h; sourceTree = "<group>"; };
+		E2AEACE824349B4B00862479 /* PiecesHint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PiecesHint.h; sourceTree = "<group>"; };
+		E2AEACE924349B4B00862479 /* UniformRandomSeries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UniformRandomSeries.h; sourceTree = "<group>"; };
+		E2AEACEA24349B4B00862479 /* PrefDeleteProgrammableActionItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefDeleteProgrammableActionItem.h; sourceTree = "<group>"; };
+		E2AEACEB24349B4B00862479 /* DisplayCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayCell.h; sourceTree = "<group>"; };
+		E2AEACEC24349B4B00862479 /* SplashPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashPanel.h; sourceTree = "<group>"; };
+		E2AEACED24349B4B00862479 /* RecItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecItem.h; sourceTree = "<group>"; };
+		E2AEACEE24349B4B00862479 /* ByScriptGameLevelFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ByScriptGameLevelFactory.m; sourceTree = "<group>"; };
+		E2AEACEF24349B4B00862479 /* PullHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PullHandler.h; sourceTree = "<group>"; };
+		E2AEACF024349B4C00862479 /* PrefCheckForUpdatesActionItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefCheckForUpdatesActionItem.h; sourceTree = "<group>"; };
+		E2AEACF124349B4C00862479 /* PrefUUIDActionImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefUUIDActionImage.m; sourceTree = "<group>"; };
+		E2AEACF224349B4C00862479 /* Sound_Decoration_ApplePieceDecorator.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sound_Decoration_ApplePieceDecorator.aif; sourceTree = "<group>"; };
+		E2AEACF324349B4C00862479 /* JimTestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JimTestClass.m; sourceTree = "<group>"; };
+		E2AEACF424349B4C00862479 /* GameLevelFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameLevelFactory.h; sourceTree = "<group>"; };
+		E2AEACF524349B4C00862479 /* ByUUIDGameLevelFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ByUUIDGameLevelFactory.m; sourceTree = "<group>"; };
+		E2AEACF624349B4C00862479 /* GameLevelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameLevelView.h; sourceTree = "<group>"; };
+		E2AEACF724349B4C00862479 /* RandomSymbolDispenser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomSymbolDispenser.h; sourceTree = "<group>"; };
+		E2AEACF824349B4C00862479 /* PrefFolderPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefFolderPage.m; sourceTree = "<group>"; };
+		E2AEACF924349B4C00862479 /* WordAuctionParticipant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordAuctionParticipant.h; sourceTree = "<group>"; };
+		E2AEACFA24349B4C00862479 /* Sound_BoardFullWarning.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Sound_BoardFullWarning.wav; sourceTree = "<group>"; };
+		E2AEACFB24349B4D00862479 /* PrefPageItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefPageItem.h; sourceTree = "<group>"; };
+		E2AEACFC24349B4D00862479 /* PrefImageItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefImageItem.h; sourceTree = "<group>"; };
+		E2AEACFD24349B4D00862479 /* OrderNudgeGBL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderNudgeGBL.h; sourceTree = "<group>"; };
+		E2AEACFE24349B4D00862479 /* PauseCurtain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PauseCurtain.png; sourceTree = "<group>"; };
+		E2AEACFF24349B4D00862479 /* PrefIdentitiesMultiValueItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefIdentitiesMultiValueItem.h; sourceTree = "<group>"; };
+		E2AEAD0024349B4D00862479 /* PullManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PullManager.m; sourceTree = "<group>"; };
+		E2AEAD0124349B4D00862479 /* LastWordPiecesHint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LastWordPiecesHint.h; sourceTree = "<group>"; };
+		E2AEAD0224349B4D00862479 /* CompoundGameBoardLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompoundGameBoardLogic.m; sourceTree = "<group>"; };
+		E2AEAD0324349B4D00862479 /* PrefViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefViewController.h; sourceTree = "<group>"; };
+		E2AEAD0424349B4D00862479 /* NSDictionary_TypedAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDictionary_TypedAccess.h; sourceTree = "<group>"; };
+		E2AEAD0524349B4E00862479 /* WordQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordQueue.h; sourceTree = "<group>"; };
+		E2AEAD0624349B4E00862479 /* RecItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecItem.m; sourceTree = "<group>"; };
+		E2AEAD0724349B4E00862479 /* WordAuctionParticipant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordAuctionParticipant.m; sourceTree = "<group>"; };
+		E2AEAD0824349B4E00862479 /* EditableTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditableTableViewCell.m; sourceTree = "<group>"; };
+		E2AEAD0924349B4E00862479 /* ScoreWidgetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreWidgetView.m; sourceTree = "<group>"; };
+		E2AEAD0A24349B4E00862479 /* WordListWordDispenser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordListWordDispenser.m; sourceTree = "<group>"; };
+		E2AEAD0B24349B4E00862479 /* Piece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Piece.h; sourceTree = "<group>"; };
+		E2AEAD0C24349B4E00862479 /* RoleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoleManager.m; sourceTree = "<group>"; };
+		E2AEAD0D24349B4E00862479 /* UserPrefs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserPrefs.m; sourceTree = "<group>"; };
+		E2AEAD0E24349B4E00862479 /* PrefImageSequenceItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefImageSequenceItem.h; sourceTree = "<group>"; };
+		E2AEAD0F24349B4E00862479 /* JIMHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JIMHelper.m; sourceTree = "<group>"; };
+		E2AEAD1024349B4F00862479 /* GameLevelSequenceEventsTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameLevelSequenceEventsTarget.h; sourceTree = "<group>"; };
+		E2AEAD1124349B4F00862479 /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
+		E2AEAD1224349B4F00862479 /* ShapeDecorationImageBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShapeDecorationImageBuilder.h; sourceTree = "<group>"; };
+		E2AEAD1324349B4F00862479 /* ItemSelectorWidget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemSelectorWidget.h; sourceTree = "<group>"; };
+		E2AEAD1424349B4F00862479 /* CatalogItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatalogItem.m; sourceTree = "<group>"; };
+		E2AEAD1524349B4F00862479 /* ScreenDumper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenDumper.h; sourceTree = "<group>"; };
+		E2AEAD1624349B4F00862479 /* startup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startup.png; sourceTree = "<group>"; };
+		E2AEAD1724349B4F00862479 /* SingleProbabilityURS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleProbabilityURS.m; sourceTree = "<group>"; };
+		E2AEAD1824349B4F00862479 /* PrefCreateIdentityActionItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefCreateIdentityActionItem.m; sourceTree = "<group>"; };
+		E2AEAD1924349B4F00862479 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		E2AEAD1A24349B5000862479 /* PrefResetToFactorySettingsActionItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefResetToFactorySettingsActionItem.h; sourceTree = "<group>"; };
+		E2AEAD1B24349B5000862479 /* UUIDPropsUPL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUIDPropsUPL.m; sourceTree = "<group>"; };
+		E2AEAD1C24349B5000862479 /* Catalog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Catalog.m; sourceTree = "<group>"; };
+		E2AEAD1D24349B5000862479 /* PrefUrlDirectorySection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefUrlDirectorySection.h; sourceTree = "<group>"; };
+		E2AEAD1E24349B5000862479 /* NSMutableArray_Shuffle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSMutableArray_Shuffle.m; sourceTree = "<group>"; };
+		E2AEAD1F24349B5000862479 /* PieceFaderGBL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieceFaderGBL.m; sourceTree = "<group>"; };
+		E2AEAD2024349B5000862479 /* CSetWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSetWrapper.h; sourceTree = "<group>"; };
+		E2AEAD2124349B5000862479 /* PrefFloatItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefFloatItem.h; sourceTree = "<group>"; };
+		E2AEAD2224349B5000862479 /* ImagePieceDecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePieceDecorator.h; sourceTree = "<group>"; };
+		E2AEAD2324349B5000862479 /* BrandManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrandManager.m; sourceTree = "<group>"; };
+		E2AEAD2424349B5000862479 /* ScoreWidgetEventsTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreWidgetEventsTarget.h; sourceTree = "<group>"; };
+		E2AEAD2524349B5100862479 /* PrefPurchaseRecordsSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefPurchaseRecordsSection.m; sourceTree = "<group>"; };
+		E2AEAD2624349B5100862479 /* WordDispenser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordDispenser.h; sourceTree = "<group>"; };
+		E2AEAD2724349B5100862479 /* SymbolDispenser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SymbolDispenser.h; sourceTree = "<group>"; };
+		E2AEAD2824349B5100862479 /* BPF_Entry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPF_Entry.h; sourceTree = "<group>"; };
+		E2AEAD2924349B5100862479 /* PrefImageSequenceItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefImageSequenceItem.m; sourceTree = "<group>"; };
+		E2AEAD2A24349B5100862479 /* AuctionSymbolDispenser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuctionSymbolDispenser.m; sourceTree = "<group>"; };
+		E2AEAD2B24349B5100862479 /* HasUUIDDirectory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HasUUIDDirectory.h; sourceTree = "<group>"; };
+		E2AEAD2C24349B5100862479 /* PrefItemBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefItemBase.m; sourceTree = "<group>"; };
+		E2AEAD2D24349B5100862479 /* AuctionManagerImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuctionManagerImpl.h; sourceTree = "<group>"; };
+		E2AEAD2E24349B5100862479 /* PrefBrowseOntologyActionImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefBrowseOntologyActionImage.m; sourceTree = "<group>"; };
+		E2AEAD2F24349B5200862479 /* PrefDomainMultiValueItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefDomainMultiValueItem.h; sourceTree = "<group>"; };
+		E2AEAD3024349B5200862479 /* Banner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Banner.m; sourceTree = "<group>"; };
+		E2AEAD3124349B5200862479 /* PrefRichPageItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefRichPageItem.h; sourceTree = "<group>"; };
+		E2AEAD3224349B5200862479 /* SnakeBoardOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnakeBoardOrder.h; sourceTree = "<group>"; };
+		E2AEAD3324349B5200862479 /* PrefStringItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefStringItemViewController.m; sourceTree = "<group>"; };
+		E2AEAD3424349B5200862479 /* PullHandlerBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PullHandlerBase.h; sourceTree = "<group>"; };
+		E2AEAD3524349B5200862479 /* LowPassFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LowPassFilter.m; sourceTree = "<group>"; };
+		E2AEAD3624349B5200862479 /* GridBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridBoardView.m; sourceTree = "<group>"; };
+		E2AEAD3724349B5200862479 /* PrefPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefPage.h; sourceTree = "<group>"; };
+		E2AEAD3824349B5300862479 /* PrefDeleteProgrammableActionItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefDeleteProgrammableActionItem.m; sourceTree = "<group>"; };
+		E2AEAD3924349B5300862479 /* SymbolPieceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SymbolPieceView.m; sourceTree = "<group>"; };
+		E2AEAD3A24349B5300862479 /* CellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellView.h; sourceTree = "<group>"; };
+		E2AEAD3B24349B5300862479 /* AppleStore_ProductRequestDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleStore_ProductRequestDelegate.m; sourceTree = "<group>"; };
+		E2AEAD3C24349B5300862479 /* BombPieceDecorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombPieceDecorator.m; sourceTree = "<group>"; };
+		E2AEAD3D24349B5300862479 /* PrefFolderPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefFolderPage.h; sourceTree = "<group>"; };
+		E2AEAD3E24349B5300862479 /* ParametricGameLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParametricGameLevel.m; sourceTree = "<group>"; };
+		E2AEAD3F24349B5300862479 /* PullHandlerBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PullHandlerBase.m; sourceTree = "<group>"; };
+		E2AEAD4024349B5400862479 /* GridBoardPieceDispenserWords.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridBoardPieceDispenserWords.h; sourceTree = "<group>"; };
+		E2AEAD4124349B5400862479 /* BPF_Entry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPF_Entry.m; sourceTree = "<group>"; };
+		E2AEAD4224349B5400862479 /* GoalSeekingSymbolDispenser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoalSeekingSymbolDispenser.m; sourceTree = "<group>"; };
+		E2AEAD4324349B5400862479 /* CrossPieceDisabler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrossPieceDisabler.h; sourceTree = "<group>"; };
+		E2AEAD4424349B5400862479 /* PrefStringItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefStringItem.h; sourceTree = "<group>"; };
+		E2AEAD4524349B5400862479 /* PrefAbraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefAbraViewController.h; sourceTree = "<group>"; };
+		E2AEAD4624349B5400862479 /* CellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellView.m; sourceTree = "<group>"; };
+		E2AEAD4724349B5400862479 /* PieceDecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieceDecorator.h; sourceTree = "<group>"; };
+		E2AEAD4824349B5400862479 /* SnakeBoardOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnakeBoardOrder.m; sourceTree = "<group>"; };
+		E2AEAD4924349B5400862479 /* PrefAbraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefAbraViewController.m; sourceTree = "<group>"; };
+		E2AEAD4A24349B5500862479 /* PrefRichPageItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefRichPageItem.m; sourceTree = "<group>"; };
+		E2AEAD4B24349B5500862479 /* NSMutableArray_Shuffle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSMutableArray_Shuffle.h; sourceTree = "<group>"; };
+		E2AEAD4C24349B5500862479 /* BoardOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardOrder.h; sourceTree = "<group>"; };
+		E2AEAD4D24349B5500862479 /* GlobalDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalDefs.h; sourceTree = "<group>"; };
+		E2AEAD4F24349B5500862479 /* PrefUUIDPrefsBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefUUIDPrefsBuilder.m; sourceTree = "<group>"; };
+		E2AEAD5024349B5500862479 /* ArrayPiecesHint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayPiecesHint.m; sourceTree = "<group>"; };
+		E2AEAD5124349B5500862479 /* BombPieceDecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombPieceDecorator.h; sourceTree = "<group>"; };
+		E2AEAD5224349B5600862479 /* PrefThreadedActionItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefThreadedActionItem.h; sourceTree = "<group>"; };
+		E2AEAD5324349B5600862479 /* GameLevelSequenceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameLevelSequenceView.m; sourceTree = "<group>"; };
+		E2AEAD5424349B5600862479 /* GameLevelSequenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameLevelSequenceViewController.h; sourceTree = "<group>"; };
+		E2AEAD5524349B5600862479 /* ImageWithUUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageWithUUID.h; sourceTree = "<group>"; };
+		E2AEAD5624349B5600862479 /* Sound_Clicked.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sound_Clicked.aif; sourceTree = "<group>"; };
+		E2AEAD5724349B5600862479 /* NSString_Reverse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSString_Reverse.m; sourceTree = "<group>"; };
+		E2AEAD5824349B5600862479 /* JIMInterp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JIMInterp.m; sourceTree = "<group>"; };
+		E2AEAD5924349B5600862479 /* Banner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Banner.h; sourceTree = "<group>"; };
+		E2AEAD5A24349B5600862479 /* ItemSelectorWidget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemSelectorWidget.m; sourceTree = "<group>"; };
+		E2AEAD5B24349B5700862479 /* PrefSaveAsProgrammableActionItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefSaveAsProgrammableActionItem.h; sourceTree = "<group>"; };
+		E2AEAD5C24349B5700862479 /* SymbolPiece.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SymbolPiece.m; sourceTree = "<group>"; };
+		E2AEAD5D24349B5700862479 /* FormulaEvaluator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormulaEvaluator.h; sourceTree = "<group>"; };
+		E2AEAD5E24349B5700862479 /* Decoration_Coin.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Decoration_Coin.gif; sourceTree = "<group>"; };
+		E2AEAD5F24349B5700862479 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		E2AEAD6024349B5700862479 /* PrefDeleteIdentityActionItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefDeleteIdentityActionItem.h; sourceTree = "<group>"; };
+		E2AEAD6124349B5700862479 /* AppleStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleStore.h; sourceTree = "<group>"; };
+		E2AEAD6224349B5700862479 /* PhraseWordValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhraseWordValidator.m; sourceTree = "<group>"; };
+		E2AEAD6324349B5700862479 /* BoardAuctionArticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardAuctionArticle.h; sourceTree = "<group>"; };
+		E2AEAD6424349B5700862479 /* PrefCreateIdentityActionItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefCreateIdentityActionItem.h; sourceTree = "<group>"; };
+		E2AEAD6524349B5700862479 /* Sound_WordReset.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sound_WordReset.aif; sourceTree = "<group>"; };
+		E2AEAD6624349B5800862479 /* UIDevice_AvailableMemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIDevice_AvailableMemory.h; sourceTree = "<group>"; };
+		E2AEAD6724349B5800862479 /* CheckedPieceDecorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckedPieceDecorator.m; sourceTree = "<group>"; };
+		E2AEAD6824349B5800862479 /* UIImage_ResizeImageAllocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImage_ResizeImageAllocator.h; sourceTree = "<group>"; };
+		E2AEAD6A24349B5800862479 /* ScriptPullHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScriptPullHandler.h; sourceTree = "<group>"; };
+		E2AEAD6B24349B5800862479 /* SourceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SourceCell.m; sourceTree = "<group>"; };
+		E2AEAD6C24349B5800862479 /* SimpleBoardOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleBoardOrder.h; sourceTree = "<group>"; };
+		E2AEAD6D24349B5800862479 /* BoardContentsWeightedSymbolDispenser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardContentsWeightedSymbolDispenser.m; sourceTree = "<group>"; };
+		E2AEAD6E24349B5900862479 /* Alphabet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alphabet.h; sourceTree = "<group>"; };
+		E2AEAD6F24349B5900862479 /* PrefGameSelectionPageItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefGameSelectionPageItem.m; sourceTree = "<group>"; };
+		E2AEAD7024349B5900862479 /* Sound_Decoration_BombPieceDecorator.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sound_Decoration_BombPieceDecorator.aif; sourceTree = "<group>"; };
+		E2AEAD7124349B5900862479 /* UIDevice_SystemVersionNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIDevice_SystemVersionNumber.h; sourceTree = "<group>"; };
+		E2AEAD7224349B5900862479 /* RTLUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTLUtils.h; sourceTree = "<group>"; };
+		E2AEAD7324349B5900862479 /* spellmaze_logo_64x64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spellmaze_logo_64x64.png; sourceTree = "<group>"; };
+		E2AEAD7424349B5900862479 /* BrandManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandManager.h; sourceTree = "<group>"; };
+		E2AEAD7524349B5900862479 /* AppleStore_ProductRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleStore_ProductRequestDelegate.h; sourceTree = "<group>"; };
+		E2AEAD7624349B5900862479 /* PrefGameSelectionPageItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefGameSelectionPageItem.h; sourceTree = "<group>"; };
+		E2AEAD7724349B5900862479 /* JokerUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JokerUtils.m; sourceTree = "<group>"; };
+		E2AEAD7824349B5A00862479 /* PrefRenameProgrammableActionItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefRenameProgrammableActionItem.m; sourceTree = "<group>"; };
+		E2AEAD7924349B5A00862479 /* CheckedPieceDecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckedPieceDecorator.h; sourceTree = "<group>"; };
+		E2AEAD7A24349B5A00862479 /* PieceDispensingTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieceDispensingTarget.h; sourceTree = "<group>"; };
+		E2AEAD7B24349B5A00862479 /* ReportLogPullHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReportLogPullHandler.h; sourceTree = "<group>"; };
+		E2AEAD7C24349B5A00862479 /* UserPrefsUPL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserPrefsUPL.h; sourceTree = "<group>"; };
+		E2AEAD7D24349B5A00862479 /* UUIDUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUIDUtils.m; sourceTree = "<group>"; };
+		E2AEAD7E24349B5A00862479 /* RandomBoardOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RandomBoardOrder.m; sourceTree = "<group>"; };
+		E2AEAD7F24349B5A00862479 /* NSString_Reverse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSString_Reverse.h; sourceTree = "<group>"; };
+		E2AEAD8024349B5A00862479 /* PrefItemBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefItemBase.h; sourceTree = "<group>"; };
+		E2AEAD8124349B5A00862479 /* UIImage_ResizeImageAllocator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImage_ResizeImageAllocator.m; sourceTree = "<group>"; };
+		E2AEAD8224349B5B00862479 /* RandomSymbolDispenser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RandomSymbolDispenser.m; sourceTree = "<group>"; };
+		E2AEAD8324349B5B00862479 /* SymbolAlphabet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SymbolAlphabet.h; sourceTree = "<group>"; };
+		E2AEAD8424349B5B00862479 /* TextBlockSplitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextBlockSplitter.m; sourceTree = "<group>"; };
+		E2AEAD8524349B5B00862479 /* MainMenuWidget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuWidget.h; sourceTree = "<group>"; };
+		E2AEAD8624349B5B00862479 /* PrefShowOntologyImagesActionImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefShowOntologyImagesActionImage.m; sourceTree = "<group>"; };
+		E2AEAD8724349B5B00862479 /* PrefActionItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefActionItem.m; sourceTree = "<group>"; };
+		E2AEAD8824349B5B00862479 /* BoardAuctionArticle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardAuctionArticle.m; sourceTree = "<group>"; };
+		E2AEAD8924349B5B00862479 /* PrefSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefSection.m; sourceTree = "<group>"; };
+		E2AEAD8A24349B5B00862479 /* StringsLanguage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringsLanguage.h; sourceTree = "<group>"; };
+		E2AEAD8B24349B5B00862479 /* PrefCompoundSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefCompoundSection.m; sourceTree = "<group>"; };
+		E2AEAD8C24349B5C00862479 /* GameLevelSequence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameLevelSequence.m; sourceTree = "<group>"; };
+		E2AEAD8D24349B5C00862479 /* ByFolderGameLevelFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ByFolderGameLevelFactory.m; sourceTree = "<group>"; };
+		E2AEAD8E24349B5C00862479 /* GridBoardPieceDispenserWords.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridBoardPieceDispenserWords.m; sourceTree = "<group>"; };
+		E2AEAD8F24349B5C00862479 /* Folders.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Folders.m; sourceTree = "<group>"; };
+		E2AEAD9024349B5C00862479 /* PurchaseRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PurchaseRecord.m; sourceTree = "<group>"; };
+		E2AEAD9124349B5C00862479 /* NSDictionary_TypedAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionary_TypedAccess.m; sourceTree = "<group>"; };
+		E2AEAD9224349B5D00862479 /* UserPrefsLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserPrefsLayer.h; sourceTree = "<group>"; };
+		E2AEAD9324349B5D00862479 /* WordQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordQueue.m; sourceTree = "<group>"; };
+		E2AEAD9424349B5D00862479 /* PrefDomainDownloadItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefDomainDownloadItem.m; sourceTree = "<group>"; };
+		E2AEAD9524349B5D00862479 /* CellTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellTextField.m; sourceTree = "<group>"; };
+		E2AEAD9624349B5D00862479 /* SoundTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundTheme.m; sourceTree = "<group>"; };
+		E2AEAD9724349B5D00862479 /* NSData_TextRepresentation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSData_TextRepresentation.m; sourceTree = "<group>"; };
+		E2AEAD9824349B5D00862479 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E2AEAD9924349B5D00862479 /* ImageSequenceMediaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageSequenceMediaView.m; sourceTree = "<group>"; };
+		E2AEAD9A24349B5D00862479 /* AuctionRoomImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuctionRoomImpl.h; sourceTree = "<group>"; };
+		E2AEAD9B24349B5D00862479 /* PrefFileActionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefFileActionDelegate.h; sourceTree = "<group>"; };
+		E2AEAD9C24349B5E00862479 /* WordCountBPF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordCountBPF.m; sourceTree = "<group>"; };
+		E2AEAD9D24349B5E00862479 /* PrefMainPageBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefMainPageBuilder.m; sourceTree = "<group>"; };
+		E2AEAD9E24349B5E00862479 /* espeak-data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "espeak-data"; sourceTree = "<group>"; };
+		E2AEAD9F24349B5E00862479 /* ScoresViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoresViewController.h; sourceTree = "<group>"; };
+		E2AEADA024349B5F00862479 /* Folders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Folders.h; sourceTree = "<group>"; };
+		E2AEADA124349B5F00862479 /* BoardContentsWeightedSymbolDispenser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardContentsWeightedSymbolDispenser.h; sourceTree = "<group>"; };
+		E2AEADA224349B5F00862479 /* CatalogItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatalogItem.h; sourceTree = "<group>"; };
+		E2AEADA324349B5F00862479 /* SpiralBoardOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpiralBoardOrder.m; sourceTree = "<group>"; };
+		E2AEADA524349B5F00862479 /* PrefShowLastStatusOntologyActionLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefShowLastStatusOntologyActionLabel.h; sourceTree = "<group>"; };
+		E2AEADA624349B5F00862479 /* CellTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellTextView.h; sourceTree = "<group>"; };
+		E2AEADA724349B5F00862479 /* CSetWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSetWrapper.m; sourceTree = "<group>"; };
+		E2AEADA824349B6000862479 /* Builtin */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Builtin; sourceTree = "<group>"; };
+		E2AEADA924349B6000862479 /* ScoresViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoresViewController.m; sourceTree = "<group>"; };
+		E2AEADAA24349B6000862479 /* PrefMultiValueItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefMultiValueItemViewController.m; sourceTree = "<group>"; };
+		E2AEADAB24349B6000862479 /* NSData_TextRepresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSData_TextRepresentation.h; sourceTree = "<group>"; };
+		E2AEADAC24349B6000862479 /* Language.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Language.h; sourceTree = "<group>"; };
+		E2AEADAD24349B6100862479 /* LowPassFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LowPassFilter.h; sourceTree = "<group>"; };
+		E2AEADAE24349B6100862479 /* CellTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellTextView.m; sourceTree = "<group>"; };
+		E2AEADAF24349B6100862479 /* GameLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameLevel.h; sourceTree = "<group>"; };
+		E2AEADB024349B6100862479 /* ScriptedGameLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScriptedGameLevel.h; sourceTree = "<group>"; };
+		E2AEADB124349B6100862479 /* WordValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordValidator.h; sourceTree = "<group>"; };
+		E2AEADB224349B6100862479 /* PrefFileActionDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefFileActionDelegate.m; sourceTree = "<group>"; };
+		E2AEADB324349B6100862479 /* Sound_PieceHinted.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sound_PieceHinted.aif; sourceTree = "<group>"; };
+		E2AEADB424349B6100862479 /* PrefPurchaseRecordPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefPurchaseRecordPage.m; sourceTree = "<group>"; };
+		E2AEADB524349B6100862479 /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
+		E2AEADB624349B6200862479 /* ScriptPullHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScriptPullHandler.m; sourceTree = "<group>"; };
+		E2AEADB724349B6200862479 /* BoardLanguageWordsAuctionUsher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardLanguageWordsAuctionUsher.m; sourceTree = "<group>"; };
+		E2AEADB824349B6200862479 /* CheckedPieceDecorator2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckedPieceDecorator2.m; sourceTree = "<group>"; };
+		E2AEADB924349B6200862479 /* GameLevelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameLevelView.m; sourceTree = "<group>"; };
+		E2AEADBA24349B6200862479 /* PurchaseRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PurchaseRecord.h; sourceTree = "<group>"; };
+		E2AEADBB24349B6200862479 /* StringWithProps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringWithProps.h; sourceTree = "<group>"; };
+		E2AEADBC24349B6200862479 /* SymbolAuctionBid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SymbolAuctionBid.m; sourceTree = "<group>"; };
+		E2AEADBD24349B6200862479 /* PrefDomainDirectoryListingMultiValueItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefDomainDirectoryListingMultiValueItem.h; sourceTree = "<group>"; };
+		E2AEADBE24349B6200862479 /* LevelSelectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelSelectorViewController.h; sourceTree = "<group>"; };
+		E2AEADBF24349B6300862479 /* OrderNudgeGBL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderNudgeGBL.m; sourceTree = "<group>"; };
+		E2AEADC024349B6300862479 /* EditableTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditableTableViewCell.h; sourceTree = "<group>"; };
+		E2AEADC124349B6300862479 /* TextSpeaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextSpeaker.h; sourceTree = "<group>"; };
+		E2AEADC224349B6300862479 /* CrossPieceDisabler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrossPieceDisabler.m; sourceTree = "<group>"; };
+		E2AEADC324349B6300862479 /* UUIDPrefs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUIDPrefs.m; sourceTree = "<group>"; };
+		E2AEADC424349B6300862479 /* UIDevice_SystemVersionNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIDevice_SystemVersionNumber.m; sourceTree = "<group>"; };
+		E2AEADC524349B6300862479 /* DisplayCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayCell.m; sourceTree = "<group>"; };
+		E2AEADC624349B6300862479 /* ImageWithUUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageWithUUID.m; sourceTree = "<group>"; };
+		E2AEADC724349B6300862479 /* GridBoardPieceDispenserPieceArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridBoardPieceDispenserPieceArray.m; sourceTree = "<group>"; };
+		E2AEADC824349B6300862479 /* JIMInterp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JIMInterp.h; sourceTree = "<group>"; };
+		E2AEADC924349B6400862479 /* GameLevelSequenceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameLevelSequenceView.h; sourceTree = "<group>"; };
+		E2AEADCA24349B6400862479 /* ScoreWidgetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreWidgetView.h; sourceTree = "<group>"; };
+		E2AEADCB24349B6400862479 /* Decoration_Bomb.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Decoration_Bomb.gif; sourceTree = "<group>"; };
+		E2AEADCC24349B6400862479 /* AuctionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuctionManager.h; sourceTree = "<group>"; };
+		E2AEADCD24349B6400862479 /* PrefActionItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefActionItem.h; sourceTree = "<group>"; };
+		E2AEADCE24349B6400862479 /* PrefDomainDownloadItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefDomainDownloadItem.h; sourceTree = "<group>"; };
+		E2AEADCF24349B6400862479 /* ScoresDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoresDatabase.h; sourceTree = "<group>"; };
+		E2AEADD024349B6400862479 /* HasUUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HasUUID.h; sourceTree = "<group>"; };
+		E2AEADD124349B6400862479 /* PrefDomainDirectoryListingMultiValueItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefDomainDirectoryListingMultiValueItem.m; sourceTree = "<group>"; };
+		E2AEADD324349B6500862479 /* RandomPlacementGBL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomPlacementGBL.h; sourceTree = "<group>"; };
+		E2AEADD424349B6500862479 /* PrefUUIDActionLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefUUIDActionLabel.h; sourceTree = "<group>"; };
+		E2AEADD524349B6500862479 /* AuctionManagerImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuctionManagerImpl.m; sourceTree = "<group>"; };
+		E2AEADD624349B6500862479 /* PrefUpdateFacebookFriendsActionItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefUpdateFacebookFriendsActionItem.m; sourceTree = "<group>"; };
+		E2AEADD724349B6500862479 /* JIMHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JIMHelper.h; sourceTree = "<group>"; };
+		E2AEADD824349B6500862479 /* PrefUUIDPrefsBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefUUIDPrefsBuilder.h; sourceTree = "<group>"; };
+		E2AEADD924349B6600862479 /* GoalSeekingSymbolDispenser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoalSeekingSymbolDispenser.h; sourceTree = "<group>"; };
+		E2AEADDA24349B6600862479 /* PieceDispenser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieceDispenser.h; sourceTree = "<group>"; };
+		E2AEADDB24349B6600862479 /* ParametricGameLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParametricGameLevel.h; sourceTree = "<group>"; };
+		E2AEADDC24349B6600862479 /* PrefMultiValueItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefMultiValueItem.m; sourceTree = "<group>"; };
+		E2AEADDD24349B6600862479 /* ArrayPiecesHint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayPiecesHint.h; sourceTree = "<group>"; };
+		E2AEADDE24349B6600862479 /* PrefFilePage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefFilePage.h; sourceTree = "<group>"; };
+		E2AEADDF24349B6600862479 /* SymbolAuctionBid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SymbolAuctionBid.h; sourceTree = "<group>"; };
+		E2AEADE024349B6600862479 /* PassedLevelEndMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassedLevelEndMenu.h; sourceTree = "<group>"; };
+		E2AEADE124349B6600862479 /* PrefDomainMultiValueItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefDomainMultiValueItem.m; sourceTree = "<group>"; };
+		E2AEADE224349B6700862479 /* GameBoardLogicBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameBoardLogicBase.h; sourceTree = "<group>"; };
+		E2AEADE324349B6700862479 /* JimTestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JimTestClass.h; sourceTree = "<group>"; };
+		E2AEADE424349B6700862479 /* PrefStringItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefStringItem.m; sourceTree = "<group>"; };
+		E2AEADE524349B6700862479 /* PrefDeleteIdentityActionItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefDeleteIdentityActionItem.m; sourceTree = "<group>"; };
+		E2AEADE624349B6700862479 /* ViewTransformerGBL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewTransformerGBL.h; sourceTree = "<group>"; };
+		E2AEADE724349B6700862479 /* UIImage_TextRepresentation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImage_TextRepresentation.m; sourceTree = "<group>"; };
+		E2AEADE824349B6700862479 /* PieceEventsTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieceEventsTarget.h; sourceTree = "<group>"; };
+		E2AEADE924349B6700862479 /* GameBoardLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameBoardLogic.h; sourceTree = "<group>"; };
+		E2AEADEA24349B6700862479 /* GameManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameManager.m; sourceTree = "<group>"; };
+		E2AEADEB24349B6800862479 /* PrefUpdateFacebookFriendsActionItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefUpdateFacebookFriendsActionItem.h; sourceTree = "<group>"; };
+		E2AEADEC24349B6800862479 /* Wallet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wallet.m; sourceTree = "<group>"; };
+		E2AEADED24349B6800862479 /* ReportLogPullHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReportLogPullHandler.m; sourceTree = "<group>"; };
+		E2AEADEE24349B6800862479 /* PieceDispensingHintsImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieceDispensingHintsImpl.h; sourceTree = "<group>"; };
+		E2AEADEF24349B6800862479 /* CSet.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CSet.c; sourceTree = "<group>"; };
+		E2AEADF024349B6800862479 /* PrefUUIDActionLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefUUIDActionLabel.m; sourceTree = "<group>"; };
+		E2AEADF124349B6800862479 /* BoardLanguageWordsAuctionUsher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardLanguageWordsAuctionUsher.h; sourceTree = "<group>"; };
+		E2AEADF224349B6800862479 /* GridBoardPieceDispenserBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridBoardPieceDispenserBase.m; sourceTree = "<group>"; };
+		E2AEADF324349B6800862479 /* HasProps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HasProps.h; sourceTree = "<group>"; };
+		E2AEADF424349B6900862479 /* GameLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameLevel.m; sourceTree = "<group>"; };
+		E2AEADF524349B6900862479 /* ViewTransformerGBL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewTransformerGBL.m; sourceTree = "<group>"; };
+		E2AEADF624349B6900862479 /* SimpleBoardOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleBoardOrder.m; sourceTree = "<group>"; };
+		E2AEADF724349B6900862479 /* ParametricGameLevelFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParametricGameLevelFactory.m; sourceTree = "<group>"; };
+		E2AEADF824349B6900862479 /* StringTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringTransformer.h; sourceTree = "<group>"; };
+		E2AEADF924349B6900862479 /* Sound_PieceSelected.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sound_PieceSelected.aif; sourceTree = "<group>"; };
+		E2AEADFA24349B6900862479 /* LabelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelCell.m; sourceTree = "<group>"; };
+		E2AEADFB24349B6900862479 /* Wallet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wallet.h; sourceTree = "<group>"; };
+		E2AEADFC24349B6900862479 /* LastWordPiecesHint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LastWordPiecesHint.m; sourceTree = "<group>"; };
+		E2AEADFD24349B6900862479 /* Sound_DispenserDoneWarning.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sound_DispenserDoneWarning.aif; sourceTree = "<group>"; };
+		E2AEADFE24349B6A00862479 /* CompoundBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompoundBoard.h; sourceTree = "<group>"; };
+		E2AEADFF24349B6A00862479 /* NSMutableString_Shuffle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSMutableString_Shuffle.h; sourceTree = "<group>"; };
+		E2AEAE0024349B6A00862479 /* ScoreWidget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreWidget.h; sourceTree = "<group>"; };
+		E2AEAE0124349B6A00862479 /* AuctionArticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuctionArticle.h; sourceTree = "<group>"; };
+		E2AEAE0224349B6A00862479 /* DigitPieceDecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DigitPieceDecorator.h; sourceTree = "<group>"; };
+		E2AEAE0324349B6A00862479 /* AuctionBid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuctionBid.h; sourceTree = "<group>"; };
+		E2AEAE0424349B6A00862479 /* PrefBooleanItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefBooleanItem.h; sourceTree = "<group>"; };
+		E2AEAE0524349B6A00862479 /* CSet_NS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSet_NS.h; sourceTree = "<group>"; };
+		E2AEAE0624349B6A00862479 /* PrefIdentitiesMultiValueItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefIdentitiesMultiValueItem.m; sourceTree = "<group>"; };
+		E2AEAE0724349B6A00862479 /* FormulaEvaluator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormulaEvaluator.m; sourceTree = "<group>"; };
+		E2AEAE0824349B6B00862479 /* PrefPurchaseRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefPurchaseRecordViewController.h; sourceTree = "<group>"; };
+		E2AEAE0924349B6B00862479 /* PrefBooleanItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefBooleanItem.m; sourceTree = "<group>"; };
+		E2AEAE0A24349B6B00862479 /* Sound_Decoration_CoinPieceDecorator.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sound_Decoration_CoinPieceDecorator.aif; sourceTree = "<group>"; };
+		E2AEAE0B24349B6B00862479 /* Sound_Swiped.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sound_Swiped.aif; sourceTree = "<group>"; };
+		E2AEAE0C24349B6B00862479 /* Sound_DecorationExtra_CoinPieceDecorator.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sound_DecorationExtra_CoinPieceDecorator.aif; sourceTree = "<group>"; };
+		E2AEAE0D24349B6B00862479 /* Sound_PieceDispensed.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sound_PieceDispensed.aif; sourceTree = "<group>"; };
+		E2AEAE0E24349B6B00862479 /* JokerUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JokerUtils.h; sourceTree = "<group>"; };
+		E2AEAE0F24349B6B00862479 /* RTLUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTLUtils.m; sourceTree = "<group>"; };
+		E2AEAE1024349B6B00862479 /* EnvelopeDynamics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnvelopeDynamics.m; sourceTree = "<group>"; };
+		E2AEAE1124349B6C00862479 /* CoinPieceDecorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoinPieceDecorator.m; sourceTree = "<group>"; };
+		E2AEAE1224349B6C00862479 /* PullManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PullManager.h; sourceTree = "<group>"; };
+		E2AEAE1324349B6C00862479 /* ApplePieceDecorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplePieceDecorator.m; sourceTree = "<group>"; };
+		E2AEAE1424349B6C00862479 /* SymbolForWordLanguage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SymbolForWordLanguage.m; sourceTree = "<group>"; };
+		E2AEAE1524349B6C00862479 /* PrefPromotedCatalogItemsPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefPromotedCatalogItemsPage.m; sourceTree = "<group>"; };
+		E2AEAE1624349B6C00862479 /* ScoresComm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoresComm.m; sourceTree = "<group>"; };
+		E2AEAE1724349B6C00862479 /* Sound_WordBlackListed.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sound_WordBlackListed.aif; sourceTree = "<group>"; };
+		E2AEAE1824349B6C00862479 /* Sound_PieceHintedLast.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sound_PieceHintedLast.aif; sourceTree = "<group>"; };
+		E2AEAE1924349B6C00862479 /* ProgramIcon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ProgramIcon1.png; sourceTree = "<group>"; };
+		E2AEAE1A24349B6C00862479 /* L.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L.m; sourceTree = "<group>"; };
+		E2AEAE1B24349B6D00862479 /* ImageSequenceMediaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageSequenceMediaView.h; sourceTree = "<group>"; };
+		E2AEAE1C24349B6D00862479 /* PrefMainPageBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefMainPageBuilder.h; sourceTree = "<group>"; };
+		E2AEAE1D24349B6D00862479 /* TextSpeaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextSpeaker.m; sourceTree = "<group>"; };
+		E2AEAE1E24349B6D00862479 /* todo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = todo.txt; sourceTree = "<group>"; };
+		E2AEAE1F24349B6D00862479 /* WordCountBPF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordCountBPF.h; sourceTree = "<group>"; };
+		E2AEAE2024349B6D00862479 /* Sound_DecorationExtra_BombPieceDecorator.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sound_DecorationExtra_BombPieceDecorator.aif; sourceTree = "<group>"; };
+		E2AEAE2124349B6D00862479 /* PrefPurchaseRecordsSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefPurchaseRecordsSection.h; sourceTree = "<group>"; };
+		E2AEAE2224349B6D00862479 /* RandomBoardOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomBoardOrder.h; sourceTree = "<group>"; };
+		E2AEAE2324349B6D00862479 /* EnvelopeDynamics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnvelopeDynamics.h; sourceTree = "<group>"; };
+		E2AEAE2424349B6E00862479 /* TextBlockSplitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextBlockSplitter.h; sourceTree = "<group>"; };
+		E2AEAE2524349B6E00862479 /* SpiralBoardOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpiralBoardOrder.h; sourceTree = "<group>"; };
+		E2AEAE2624349B6E00862479 /* GameLevel_WordInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameLevel_WordInfo.m; sourceTree = "<group>"; };
+		E2AEAE2724349B6E00862479 /* ConstantBoardPotentialFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConstantBoardPotentialFunction.m; sourceTree = "<group>"; };
+		E2AEAE2824349B6E00862479 /* ByUUIDGameLevelFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ByUUIDGameLevelFactory.h; sourceTree = "<group>"; };
+		E2AEAE2924349B6E00862479 /* CellTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellTextField.h; sourceTree = "<group>"; };
+		E2AEAE2A24349B6E00862479 /* Brand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Brand.h; sourceTree = "<group>"; };
+		E2AEAF132434A08200862479 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		E2AEAF142434A4F700862479 /* Board3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Board3ViewController.h; sourceTree = "<group>"; };
+		E2AEAF152434A4F700862479 /* Board3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Board3ViewController.m; sourceTree = "<group>"; };
+		E2AEAF162434A4F700862479 /* Board3AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Board3AppDelegate.h; sourceTree = "<group>"; };
+		E2AEAF172434A4F700862479 /* Board3AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Board3AppDelegate.m; sourceTree = "<group>"; };
+		E2AEAF1C2434ABF800862479 /* SystemUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemUtils.m; sourceTree = "<group>"; };
+		E2AEAF212434ADBE00862479 /* ZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipArchive.h; sourceTree = "<group>"; };
+		E2AEAF232434ADBE00862479 /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		E2AEAF242434ADBE00862479 /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		E2AEAF252434ADBE00862479 /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		E2AEAF262434ADBE00862479 /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		E2AEAF272434ADBE00862479 /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		E2AEAF282434ADBE00862479 /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		E2AEAF292434ADBE00862479 /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		E2AEAF2A2434ADBE00862479 /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		E2AEAF2B2434ADBE00862479 /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		E2AEAF2C2434ADBE00862479 /* zconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zconf.h; sourceTree = "<group>"; };
+		E2AEAF2D2434ADBE00862479 /* ZipArchive.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZipArchive.mm; sourceTree = "<group>"; };
+		E2AEB2E92434B0FE00862479 /* fifo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fifo.h; path = espeak/fifo.h; sourceTree = "<group>"; };
+		E2AEB2EA2434B0FE00862479 /* espeak_command.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = espeak_command.cpp; path = espeak/espeak_command.cpp; sourceTree = "<group>"; };
+		E2AEB2EB2434B0FE00862479 /* StdAfx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StdAfx.h; path = espeak/StdAfx.h; sourceTree = "<group>"; };
+		E2AEB2EC2434B0FF00862479 /* voices.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = voices.cpp; path = espeak/voices.cpp; sourceTree = "<group>"; };
+		E2AEB2ED2434B0FF00862479 /* klatt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = klatt.cpp; path = espeak/klatt.cpp; sourceTree = "<group>"; };
+		E2AEB2EE2434B0FF00862479 /* numbers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = numbers.cpp; path = espeak/numbers.cpp; sourceTree = "<group>"; };
+		E2AEB2EF2434B0FF00862479 /* espeak_command.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = espeak_command.h; path = espeak/espeak_command.h; sourceTree = "<group>"; };
+		E2AEB2F02434B0FF00862479 /* readclause.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = readclause.cpp; path = espeak/readclause.cpp; sourceTree = "<group>"; };
+		E2AEB2F12434B0FF00862479 /* event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = event.h; path = espeak/event.h; sourceTree = "<group>"; };
+		E2AEB2F22434B0FF00862479 /* synth_mbrola.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = synth_mbrola.cpp; path = espeak/synth_mbrola.cpp; sourceTree = "<group>"; };
+		E2AEB2F32434B0FF00862479 /* translate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = translate.cpp; path = espeak/translate.cpp; sourceTree = "<group>"; };
+		E2AEB2F42434B0FF00862479 /* setlengths.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = setlengths.cpp; path = espeak/setlengths.cpp; sourceTree = "<group>"; };
+		E2AEB2F52434B10000862479 /* speak_lib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = speak_lib.h; path = espeak/speak_lib.h; sourceTree = "<group>"; };
+		E2AEB2F62434B10000862479 /* wave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wave.h; path = espeak/wave.h; sourceTree = "<group>"; };
+		E2AEB2F72434B10000862479 /* dictionary.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = dictionary.cpp; path = espeak/dictionary.cpp; sourceTree = "<group>"; };
+		E2AEB2F82434B10000862479 /* wave_sada.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = wave_sada.cpp; path = espeak/wave_sada.cpp; sourceTree = "<group>"; };
+		E2AEB2F92434B10000862479 /* synthesize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = synthesize.h; path = espeak/synthesize.h; sourceTree = "<group>"; };
+		E2AEB2FA2434B10000862479 /* wave.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = wave.cpp; path = espeak/wave.cpp; sourceTree = "<group>"; };
+		E2AEB2FB2434B10000862479 /* speech.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = speech.h; path = espeak/speech.h; sourceTree = "<group>"; };
+		E2AEB2FC2434B10000862479 /* sintab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sintab.h; path = espeak/sintab.h; sourceTree = "<group>"; };
+		E2AEB2FD2434B10100862479 /* synthdata.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = synthdata.cpp; path = espeak/synthdata.cpp; sourceTree = "<group>"; };
+		E2AEB2FE2434B10100862479 /* wave_pulse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = wave_pulse.cpp; path = espeak/wave_pulse.cpp; sourceTree = "<group>"; };
+		E2AEB2FF2434B10100862479 /* compiledict.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = compiledict.cpp; path = espeak/compiledict.cpp; sourceTree = "<group>"; };
+		E2AEB3002434B10100862479 /* speak_lib.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = speak_lib.cpp; path = espeak/speak_lib.cpp; sourceTree = "<group>"; };
+		E2AEB3012434B10100862479 /* tr_languages.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tr_languages.cpp; path = espeak/tr_languages.cpp; sourceTree = "<group>"; };
+		E2AEB3022434B10100862479 /* intonation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = intonation.cpp; path = espeak/intonation.cpp; sourceTree = "<group>"; };
+		E2AEB3032434B10100862479 /* phoneme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = phoneme.h; path = espeak/phoneme.h; sourceTree = "<group>"; };
+		E2AEB3042434B10100862479 /* portaudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = portaudio.h; path = espeak/portaudio.h; sourceTree = "<group>"; };
+		E2AEB3052434B10200862479 /* translate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = translate.h; path = espeak/translate.h; sourceTree = "<group>"; };
+		E2AEB3062434B10200862479 /* synthesize.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = synthesize.cpp; path = espeak/synthesize.cpp; sourceTree = "<group>"; };
+		E2AEB3072434B10200862479 /* event.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = event.cpp; path = espeak/event.cpp; sourceTree = "<group>"; };
+		E2AEB3082434B10200862479 /* mbrolib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mbrolib.h; path = espeak/mbrolib.h; sourceTree = "<group>"; };
+		E2AEB3092434B10200862479 /* phonemelist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = phonemelist.cpp; path = espeak/phonemelist.cpp; sourceTree = "<group>"; };
+		E2AEB30A2434B10200862479 /* portaudio18.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = portaudio18.h; path = espeak/portaudio18.h; sourceTree = "<group>"; };
+		E2AEB30C2434B10200862479 /* klatt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = klatt.h; path = espeak/klatt.h; sourceTree = "<group>"; };
+		E2AEB30D2434B10200862479 /* voice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = voice.h; path = espeak/voice.h; sourceTree = "<group>"; };
+		E2AEB30E2434B10300862479 /* debug.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = debug.cpp; path = espeak/debug.cpp; sourceTree = "<group>"; };
+		E2AEB30F2434B10300862479 /* espeak.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = espeak.cpp; path = espeak/espeak.cpp; sourceTree = "<group>"; };
+		E2AEB3102434B10300862479 /* debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = debug.h; path = espeak/debug.h; sourceTree = "<group>"; };
+		E2AEB3112434B10300862479 /* wavegen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = wavegen.cpp; path = espeak/wavegen.cpp; sourceTree = "<group>"; };
+		E2AEB3122434B10300862479 /* portaudio19.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = portaudio19.h; path = espeak/portaudio19.h; sourceTree = "<group>"; };
+		E2AEB3132434B10300862479 /* fifo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fifo.cpp; path = espeak/fifo.cpp; sourceTree = "<group>"; };
+		E2AEB32D2434C31400862479 /* PieceDecoratorGBL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieceDecoratorGBL.h; sourceTree = "<group>"; };
+		E2AEB32E2434C31500862479 /* PieceDecoratorGBL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieceDecoratorGBL.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +882,517 @@
 		E26A233D24339DB600AEF6CF = {
 			isa = PBXGroup;
 			children = (
+				E2AEB32D2434C31400862479 /* PieceDecoratorGBL.h */,
+				E2AEB32E2434C31500862479 /* PieceDecoratorGBL.m */,
+				E2AEB2FF2434B10100862479 /* compiledict.cpp */,
+				E2AEB30E2434B10300862479 /* debug.cpp */,
+				E2AEB3102434B10300862479 /* debug.h */,
+				E2AEB2F72434B10000862479 /* dictionary.cpp */,
+				E2AEB2EA2434B0FE00862479 /* espeak_command.cpp */,
+				E2AEB2EF2434B0FF00862479 /* espeak_command.h */,
+				E2AEB30F2434B10300862479 /* espeak.cpp */,
+				E2AEB3072434B10200862479 /* event.cpp */,
+				E2AEB2F12434B0FF00862479 /* event.h */,
+				E2AEB3132434B10300862479 /* fifo.cpp */,
+				E2AEB2E92434B0FE00862479 /* fifo.h */,
+				E2AEB3022434B10100862479 /* intonation.cpp */,
+				E2AEB2ED2434B0FF00862479 /* klatt.cpp */,
+				E2AEB30C2434B10200862479 /* klatt.h */,
+				E2AEB3082434B10200862479 /* mbrolib.h */,
+				E2AEB2EE2434B0FF00862479 /* numbers.cpp */,
+				E2AEB3032434B10100862479 /* phoneme.h */,
+				E2AEB3092434B10200862479 /* phonemelist.cpp */,
+				E2AEB3042434B10100862479 /* portaudio.h */,
+				E2AEB30A2434B10200862479 /* portaudio18.h */,
+				E2AEB3122434B10300862479 /* portaudio19.h */,
+				E2AEB2F02434B0FF00862479 /* readclause.cpp */,
+				E2AEB2F42434B0FF00862479 /* setlengths.cpp */,
+				E2AEB2FC2434B10000862479 /* sintab.h */,
+				E2AEB3002434B10100862479 /* speak_lib.cpp */,
+				E2AEB2F52434B10000862479 /* speak_lib.h */,
+				E2AEB2FB2434B10000862479 /* speech.h */,
+				E2AEB2EB2434B0FE00862479 /* StdAfx.h */,
+				E2AEB2F22434B0FF00862479 /* synth_mbrola.cpp */,
+				E2AEB2FD2434B10100862479 /* synthdata.cpp */,
+				E2AEB3062434B10200862479 /* synthesize.cpp */,
+				E2AEB2F92434B10000862479 /* synthesize.h */,
+				E2AEB3012434B10100862479 /* tr_languages.cpp */,
+				E2AEB2F32434B0FF00862479 /* translate.cpp */,
+				E2AEB3052434B10200862479 /* translate.h */,
+				E2AEB30D2434B10200862479 /* voice.h */,
+				E2AEB2EC2434B0FF00862479 /* voices.cpp */,
+				E2AEB2FE2434B10100862479 /* wave_pulse.cpp */,
+				E2AEB2F82434B10000862479 /* wave_sada.cpp */,
+				E2AEB2FA2434B10000862479 /* wave.cpp */,
+				E2AEB2F62434B10000862479 /* wave.h */,
+				E2AEB3112434B10300862479 /* wavegen.cpp */,
+				E2AEAF202434ADBE00862479 /* ZipFile-OC */,
+				E2AEAF1C2434ABF800862479 /* SystemUtils.m */,
+				E2AEAF162434A4F700862479 /* Board3AppDelegate.h */,
+				E2AEAF172434A4F700862479 /* Board3AppDelegate.m */,
+				E2AEAF142434A4F700862479 /* Board3ViewController.h */,
+				E2AEAF152434A4F700862479 /* Board3ViewController.m */,
+				E2AEAF132434A08200862479 /* PrefixHeader.pch */,
+				E2AEAD6E24349B5900862479 /* Alphabet.h */,
+				E2AEAC9224349B4300862479 /* ApplePieceDecorator.h */,
+				E2AEAE1324349B6C00862479 /* ApplePieceDecorator.m */,
+				E2AEAD7524349B5900862479 /* AppleStore_ProductRequestDelegate.h */,
+				E2AEAD3B24349B5300862479 /* AppleStore_ProductRequestDelegate.m */,
+				E2AEAD6124349B5700862479 /* AppleStore.h */,
+				E2AEAC8624349B4100862479 /* AppleStore.m */,
+				E2AEADDD24349B6600862479 /* ArrayPiecesHint.h */,
+				E2AEAD5024349B5500862479 /* ArrayPiecesHint.m */,
+				E2AEAE0124349B6A00862479 /* AuctionArticle.h */,
+				E2AEAE0324349B6A00862479 /* AuctionBid.h */,
+				E2AEADCC24349B6400862479 /* AuctionManager.h */,
+				E2AEAD2D24349B5100862479 /* AuctionManagerImpl.h */,
+				E2AEADD524349B6500862479 /* AuctionManagerImpl.m */,
+				E2AEACB924349B4600862479 /* AuctionParticipant.h */,
+				E2AEACBC24349B4700862479 /* AuctionRoom.h */,
+				E2AEAD9A24349B5D00862479 /* AuctionRoomImpl.h */,
+				E2AEACD324349B4900862479 /* AuctionRoomImpl.m */,
+				E2AEACD724349B4900862479 /* AuctionSymbolDispenser.h */,
+				E2AEAD2A24349B5100862479 /* AuctionSymbolDispenser.m */,
+				E2AEACCD24349B4800862479 /* AuctionUsher.h */,
+				E2AEAD5924349B5600862479 /* Banner.h */,
+				E2AEAD3024349B5200862479 /* Banner.m */,
+				E2AEAC9C24349B4400862479 /* Board.h */,
+				E2AEAD6324349B5700862479 /* BoardAuctionArticle.h */,
+				E2AEAD8824349B5B00862479 /* BoardAuctionArticle.m */,
+				E2AEADA124349B5F00862479 /* BoardContentsWeightedSymbolDispenser.h */,
+				E2AEAD6D24349B5800862479 /* BoardContentsWeightedSymbolDispenser.m */,
+				E2AEADF124349B6800862479 /* BoardLanguageWordsAuctionUsher.h */,
+				E2AEADB724349B6200862479 /* BoardLanguageWordsAuctionUsher.m */,
+				E2AEAD4C24349B5500862479 /* BoardOrder.h */,
+				E2AEACBF24349B4700862479 /* BoardPotentialFunction.h */,
+				E2AEAD5124349B5500862479 /* BombPieceDecorator.h */,
+				E2AEAD3C24349B5300862479 /* BombPieceDecorator.m */,
+				E2AEAD2824349B5100862479 /* BPF_Entry.h */,
+				E2AEAD4124349B5400862479 /* BPF_Entry.m */,
+				E2AEAE2A24349B6E00862479 /* Brand.h */,
+				E2AEACB824349B4600862479 /* Brand.m */,
+				E2AEAD7424349B5900862479 /* BrandManager.h */,
+				E2AEAD2324349B5000862479 /* BrandManager.m */,
+				E2AEADA824349B6000862479 /* Builtin */,
+				E2AEACBD24349B4700862479 /* ByFolderGameLevelFactory.h */,
+				E2AEAD8D24349B5C00862479 /* ByFolderGameLevelFactory.m */,
+				E2AEACDA24349B4A00862479 /* ByLanguageUUIDGameLevelFactory.h */,
+				E2AEACE024349B4A00862479 /* ByLanguageUUIDGameLevelFactory.m */,
+				E2AEACA124349B4400862479 /* ByScriptGameLevelFactory.h */,
+				E2AEACEE24349B4B00862479 /* ByScriptGameLevelFactory.m */,
+				E2AEAE2824349B6E00862479 /* ByUUIDGameLevelFactory.h */,
+				E2AEACF524349B4C00862479 /* ByUUIDGameLevelFactory.m */,
+				E2AEAC9A24349B4300862479 /* Catalog.h */,
+				E2AEAD1C24349B5000862479 /* Catalog.m */,
+				E2AEADA224349B5F00862479 /* CatalogItem.h */,
+				E2AEAD1424349B4F00862479 /* CatalogItem.m */,
+				E2AEADB524349B6100862479 /* Cell.h */,
+				E2AEAD1124349B4F00862479 /* Cell.m */,
+				E2AEAE2924349B6E00862479 /* CellTextField.h */,
+				E2AEAD9524349B5D00862479 /* CellTextField.m */,
+				E2AEADA624349B5F00862479 /* CellTextView.h */,
+				E2AEADAE24349B6100862479 /* CellTextView.m */,
+				E2AEAD3A24349B5300862479 /* CellView.h */,
+				E2AEAD4624349B5400862479 /* CellView.m */,
+				E2AEAD7924349B5A00862479 /* CheckedPieceDecorator.h */,
+				E2AEAD6724349B5800862479 /* CheckedPieceDecorator.m */,
+				E2AEACB524349B4600862479 /* CheckedPieceDecorator2.h */,
+				E2AEADB824349B6200862479 /* CheckedPieceDecorator2.m */,
+				E2AEAC7724349B4000862479 /* CoinPieceDecorator.h */,
+				E2AEAE1124349B6C00862479 /* CoinPieceDecorator.m */,
+				E2AEADFE24349B6A00862479 /* CompoundBoard.h */,
+				E2AEAC7924349B4000862479 /* CompoundBoard.m */,
+				E2AEAC6124349B3E00862479 /* CompoundGameBoardLogic.h */,
+				E2AEAD0224349B4D00862479 /* CompoundGameBoardLogic.m */,
+				E2AEACA524349B4500862479 /* ConstantBoardPotentialFunction.h */,
+				E2AEAE2724349B6E00862479 /* ConstantBoardPotentialFunction.m */,
+				E2AEAD1924349B4F00862479 /* Constants.h */,
+				E2AEAD4324349B5400862479 /* CrossPieceDisabler.h */,
+				E2AEADC224349B6300862479 /* CrossPieceDisabler.m */,
+				E2AEAE0524349B6A00862479 /* CSet_NS.h */,
+				E2AEAC7E24349B4100862479 /* CSet_NS.m */,
+				E2AEADEF24349B6800862479 /* CSet.c */,
+				E2AEACE724349B4B00862479 /* CSet.h */,
+				E2AEAD2024349B5000862479 /* CSetWrapper.h */,
+				E2AEADA724349B5F00862479 /* CSetWrapper.m */,
+				E2AEACAD24349B4500862479 /* Decoration_Apple.gif */,
+				E2AEADCB24349B6400862479 /* Decoration_Bomb.gif */,
+				E2AEAD5E24349B5700862479 /* Decoration_Coin.gif */,
+				E2AEAE0224349B6A00862479 /* DigitPieceDecorator.h */,
+				E2AEAC8724349B4200862479 /* DigitPieceDecorator.m */,
+				E2AEACEB24349B4B00862479 /* DisplayCell.h */,
+				E2AEADC524349B6300862479 /* DisplayCell.m */,
+				E2AEADC024349B6300862479 /* EditableTableViewCell.h */,
+				E2AEAD0824349B4E00862479 /* EditableTableViewCell.m */,
+				E2AEAE2324349B6D00862479 /* EnvelopeDynamics.h */,
+				E2AEAE1024349B6B00862479 /* EnvelopeDynamics.m */,
+				E2AEAD9E24349B5E00862479 /* espeak-data */,
+				E2AEADA024349B5F00862479 /* Folders.h */,
+				E2AEAD8F24349B5C00862479 /* Folders.m */,
+				E2AEAD5D24349B5700862479 /* FormulaEvaluator.h */,
+				E2AEAE0724349B6A00862479 /* FormulaEvaluator.m */,
+				E2AEAC6A24349B3F00862479 /* FreeStore.h */,
+				E2AEAC5924349B3D00862479 /* FreeStore.m */,
+				E2AEADE924349B6700862479 /* GameBoardLogic.h */,
+				E2AEADE224349B6700862479 /* GameBoardLogicBase.h */,
+				E2AEACE524349B4B00862479 /* GameBoardLogicBase.m */,
+				E2AEACE124349B4A00862479 /* GameLevel_WordInfo.h */,
+				E2AEAE2624349B6E00862479 /* GameLevel_WordInfo.m */,
+				E2AEADAF24349B6100862479 /* GameLevel.h */,
+				E2AEADF424349B6900862479 /* GameLevel.m */,
+				E2AEAC6224349B3E00862479 /* GameLevelEventsTarget.h */,
+				E2AEACF424349B4C00862479 /* GameLevelFactory.h */,
+				E2AEAC7C24349B4100862479 /* GameLevelSequence.h */,
+				E2AEAD8C24349B5C00862479 /* GameLevelSequence.m */,
+				E2AEAD1024349B4F00862479 /* GameLevelSequenceEventsTarget.h */,
+				E2AEADC924349B6400862479 /* GameLevelSequenceView.h */,
+				E2AEAD5324349B5600862479 /* GameLevelSequenceView.m */,
+				E2AEAD5424349B5600862479 /* GameLevelSequenceViewController.h */,
+				E2AEAC8E24349B4200862479 /* GameLevelSequenceViewController.m */,
+				E2AEACF624349B4C00862479 /* GameLevelView.h */,
+				E2AEADB924349B6200862479 /* GameLevelView.m */,
+				E2AEACC024349B4700862479 /* GameManager.h */,
+				E2AEADEA24349B6700862479 /* GameManager.m */,
+				E2AEAD4D24349B5500862479 /* GlobalDefs.h */,
+				E2AEADD924349B6600862479 /* GoalSeekingSymbolDispenser.h */,
+				E2AEAD4224349B5400862479 /* GoalSeekingSymbolDispenser.m */,
+				E2AEACD624349B4900862479 /* GridBoard.h */,
+				E2AEAC8324349B4100862479 /* GridBoard.m */,
+				E2AEAC6324349B3E00862479 /* GridBoardPieceDispenserBase.h */,
+				E2AEADF224349B6800862479 /* GridBoardPieceDispenserBase.m */,
+				E2AEACB224349B4600862479 /* GridBoardPieceDispenserPieceArray.h */,
+				E2AEADC724349B6300862479 /* GridBoardPieceDispenserPieceArray.m */,
+				E2AEAC9524349B4300862479 /* GridBoardPieceDispenserSymbols.h */,
+				E2AEAC5B24349B3E00862479 /* GridBoardPieceDispenserSymbols.m */,
+				E2AEACB424349B4600862479 /* GridBoardPieceDispenserView.h */,
+				E2AEACA224349B4400862479 /* GridBoardPieceDispenserView.m */,
+				E2AEAD4024349B5400862479 /* GridBoardPieceDispenserWords.h */,
+				E2AEAD8E24349B5C00862479 /* GridBoardPieceDispenserWords.m */,
+				E2AEACAC24349B4500862479 /* GridBoardView.h */,
+				E2AEAD3624349B5200862479 /* GridBoardView.m */,
+				E2AEACB124349B4600862479 /* GridCell.h */,
+				E2AEADF324349B6800862479 /* HasProps.h */,
+				E2AEADD024349B6400862479 /* HasUUID.h */,
+				E2AEAD2B24349B5100862479 /* HasUUIDDirectory.h */,
+				E2AEACB324349B4600862479 /* HasView.h */,
+				E2AEAD2224349B5000862479 /* ImagePieceDecorator.h */,
+				E2AEAC6924349B3F00862479 /* ImagePieceDecorator.m */,
+				E2AEAD5F24349B5700862479 /* images */,
+				E2AEAE1B24349B6D00862479 /* ImageSequenceMediaView.h */,
+				E2AEAD9924349B5D00862479 /* ImageSequenceMediaView.m */,
+				E2AEAD5524349B5600862479 /* ImageWithUUID.h */,
+				E2AEADC624349B6300862479 /* ImageWithUUID.m */,
+				E2AEAD1324349B4F00862479 /* ItemSelectorWidget.h */,
+				E2AEAD5A24349B5600862479 /* ItemSelectorWidget.m */,
+				E2AEACA724349B4500862479 /* jim */,
+				E2AEADD724349B6500862479 /* JIMHelper.h */,
+				E2AEAD0F24349B4E00862479 /* JIMHelper.m */,
+				E2AEADC824349B6300862479 /* JIMInterp.h */,
+				E2AEAD5824349B5600862479 /* JIMInterp.m */,
+				E2AEADE324349B6700862479 /* JimTestClass.h */,
+				E2AEACF324349B4C00862479 /* JimTestClass.m */,
+				E2AEAE0E24349B6B00862479 /* JokerUtils.h */,
+				E2AEAD7724349B5900862479 /* JokerUtils.m */,
+				E2AEACC524349B4800862479 /* L.h */,
+				E2AEAE1A24349B6C00862479 /* L.m */,
+				E2AEAC6524349B3E00862479 /* LabelCell.h */,
+				E2AEADFA24349B6900862479 /* LabelCell.m */,
+				E2AEADAC24349B6000862479 /* Language.h */,
+				E2AEACAE24349B4500862479 /* LanguageManager.h */,
+				E2AEACA924349B4500862479 /* LanguageManager.m */,
+				E2AEAD0124349B4D00862479 /* LastWordPiecesHint.h */,
+				E2AEADFC24349B6900862479 /* LastWordPiecesHint.m */,
+				E2AEADBE24349B6200862479 /* LevelSelectorViewController.h */,
+				E2AEAC7524349B4000862479 /* LevelSelectorViewController.m */,
+				E2AEAC6424349B3E00862479 /* ListBoardOrder.h */,
+				E2AEACBB24349B4700862479 /* ListBoardOrder.m */,
+				E2AEADAD24349B6100862479 /* LowPassFilter.h */,
+				E2AEAD3524349B5200862479 /* LowPassFilter.m */,
+				E2AEAD9824349B5D00862479 /* main.m */,
+				E2AEAC8F24349B4200862479 /* MainMenuViewController.h */,
+				E2AEACB724349B4600862479 /* MainMenuViewController.m */,
+				E2AEAD8524349B5B00862479 /* MainMenuWidget.h */,
+				E2AEAC8224349B4100862479 /* MainMenuWidget.m */,
+				E2AEAC5D24349B3E00862479 /* NSArray_Random.h */,
+				E2AEAC7024349B3F00862479 /* NSArray_Random.m */,
+				E2AEADAB24349B6000862479 /* NSData_TextRepresentation.h */,
+				E2AEAD9724349B5D00862479 /* NSData_TextRepresentation.m */,
+				E2AEAD0424349B4D00862479 /* NSDictionary_TypedAccess.h */,
+				E2AEAD9124349B5C00862479 /* NSDictionary_TypedAccess.m */,
+				E2AEAD4B24349B5500862479 /* NSMutableArray_Shuffle.h */,
+				E2AEAD1E24349B5000862479 /* NSMutableArray_Shuffle.m */,
+				E2AEADFF24349B6A00862479 /* NSMutableString_Shuffle.h */,
+				E2AEAC8024349B4100862479 /* NSMutableString_Shuffle.m */,
+				E2AEAD7F24349B5A00862479 /* NSString_Reverse.h */,
+				E2AEAD5724349B5600862479 /* NSString_Reverse.m */,
+				E2AEACFD24349B4D00862479 /* OrderNudgeGBL.h */,
+				E2AEADBF24349B6300862479 /* OrderNudgeGBL.m */,
+				E2AEADDB24349B6600862479 /* ParametricGameLevel.h */,
+				E2AEAD3E24349B5300862479 /* ParametricGameLevel.m */,
+				E2AEACCF24349B4800862479 /* ParametricGameLevelFactory.h */,
+				E2AEADF724349B6900862479 /* ParametricGameLevelFactory.m */,
+				E2AEADE024349B6600862479 /* PassedLevelEndMenu.h */,
+				E2AEAC9724349B4300862479 /* PassedLevelEndMenu.m */,
+				E2AEACFE24349B4D00862479 /* PauseCurtain.png */,
+				E2AEAC8A24349B4200862479 /* PhraseWordValidator.h */,
+				E2AEAD6224349B5700862479 /* PhraseWordValidator.m */,
+				E2AEAD0B24349B4E00862479 /* Piece.h */,
+				E2AEAD4724349B5400862479 /* PieceDecorator.h */,
+				E2AEADDA24349B6600862479 /* PieceDispenser.h */,
+				E2AEACC224349B4700862479 /* PieceDispensingHints.h */,
+				E2AEADEE24349B6800862479 /* PieceDispensingHintsImpl.h */,
+				E2AEAC7224349B4000862479 /* PieceDispensingHintsImpl.m */,
+				E2AEAD7A24349B5A00862479 /* PieceDispensingTarget.h */,
+				E2AEADE824349B6700862479 /* PieceEventsTarget.h */,
+				E2AEAC9924349B4300862479 /* PieceFaderGBL.h */,
+				E2AEAD1F24349B5000862479 /* PieceFaderGBL.m */,
+				E2AEACE824349B4B00862479 /* PiecesHint.h */,
+				E2AEACCC24349B4800862479 /* PieceView.h */,
+				E2AEAD4524349B5400862479 /* PrefAbraViewController.h */,
+				E2AEAD4924349B5400862479 /* PrefAbraViewController.m */,
+				E2AEADCD24349B6400862479 /* PrefActionItem.h */,
+				E2AEAD8724349B5B00862479 /* PrefActionItem.m */,
+				E2AEAE0424349B6A00862479 /* PrefBooleanItem.h */,
+				E2AEAE0924349B6B00862479 /* PrefBooleanItem.m */,
+				E2AEAC6B24349B3F00862479 /* PrefBrowseOntologyActionImage.h */,
+				E2AEAD2E24349B5100862479 /* PrefBrowseOntologyActionImage.m */,
+				E2AEACF024349B4C00862479 /* PrefCheckForUpdatesActionItem.h */,
+				E2AEAC8524349B4100862479 /* PrefCheckForUpdatesActionItem.m */,
+				E2AEACC824349B4800862479 /* PrefCompoundSection.h */,
+				E2AEAD8B24349B5B00862479 /* PrefCompoundSection.m */,
+				E2AEAD6424349B5700862479 /* PrefCreateIdentityActionItem.h */,
+				E2AEAD1824349B4F00862479 /* PrefCreateIdentityActionItem.m */,
+				E2AEAD6024349B5700862479 /* PrefDeleteIdentityActionItem.h */,
+				E2AEADE524349B6700862479 /* PrefDeleteIdentityActionItem.m */,
+				E2AEACEA24349B4B00862479 /* PrefDeleteProgrammableActionItem.h */,
+				E2AEAD3824349B5300862479 /* PrefDeleteProgrammableActionItem.m */,
+				E2AEADBD24349B6200862479 /* PrefDomainDirectoryListingMultiValueItem.h */,
+				E2AEADD124349B6400862479 /* PrefDomainDirectoryListingMultiValueItem.m */,
+				E2AEADCE24349B6400862479 /* PrefDomainDownloadItem.h */,
+				E2AEAD9424349B5D00862479 /* PrefDomainDownloadItem.m */,
+				E2AEAD2F24349B5200862479 /* PrefDomainMultiValueItem.h */,
+				E2AEADE124349B6600862479 /* PrefDomainMultiValueItem.m */,
+				E2AEAD9B24349B5D00862479 /* PrefFileActionDelegate.h */,
+				E2AEADB224349B6100862479 /* PrefFileActionDelegate.m */,
+				E2AEADDE24349B6600862479 /* PrefFilePage.h */,
+				E2AEACC624349B4800862479 /* PrefFilePage.m */,
+				E2AEACD124349B4900862479 /* PrefFileViewController.h */,
+				E2AEAC9E24349B4400862479 /* PrefFileViewController.m */,
+				E2AEAD2124349B5000862479 /* PrefFloatItem.h */,
+				E2AEAC6C24349B3F00862479 /* PrefFloatItem.m */,
+				E2AEAD3D24349B5300862479 /* PrefFolderPage.h */,
+				E2AEACF824349B4C00862479 /* PrefFolderPage.m */,
+				E2AEAD7624349B5900862479 /* PrefGameSelectionPageItem.h */,
+				E2AEAD6F24349B5900862479 /* PrefGameSelectionPageItem.m */,
+				E2AEACFF24349B4D00862479 /* PrefIdentitiesMultiValueItem.h */,
+				E2AEAE0624349B6A00862479 /* PrefIdentitiesMultiValueItem.m */,
+				E2AEACFC24349B4D00862479 /* PrefImageItem.h */,
+				E2AEACD424349B4900862479 /* PrefImageItem.m */,
+				E2AEAD0E24349B4E00862479 /* PrefImageSequenceItem.h */,
+				E2AEAD2924349B5100862479 /* PrefImageSequenceItem.m */,
+				E2AEAD8024349B5A00862479 /* PrefItemBase.h */,
+				E2AEAD2C24349B5100862479 /* PrefItemBase.m */,
+				E2AEACE224349B4A00862479 /* PrefItemViewControllerBase.h */,
+				E2AEACA424349B4400862479 /* PrefItemViewControllerBase.m */,
+				E2AEAC7424349B4000862479 /* PrefLabelItem.h */,
+				E2AEAC6F24349B3F00862479 /* PrefLabelItem.m */,
+				E2AEAE1C24349B6D00862479 /* PrefMainPageBuilder.h */,
+				E2AEAD9D24349B5E00862479 /* PrefMainPageBuilder.m */,
+				E2AEACD924349B4900862479 /* PrefMultiValueItem.h */,
+				E2AEADDC24349B6600862479 /* PrefMultiValueItem.m */,
+				E2AEAC6624349B3E00862479 /* PrefMultiValueItemViewController.h */,
+				E2AEADAA24349B6000862479 /* PrefMultiValueItemViewController.m */,
+				E2AEAD3724349B5200862479 /* PrefPage.h */,
+				E2AEAC8C24349B4200862479 /* PrefPage.m */,
+				E2AEACFB24349B4D00862479 /* PrefPageItem.h */,
+				E2AEAC7A24349B4000862479 /* PrefPageItem.m */,
+				E2AEACD224349B4900862479 /* PrefPromotedCatalogItemsPage.h */,
+				E2AEAE1524349B6C00862479 /* PrefPromotedCatalogItemsPage.m */,
+				E2AEAC8924349B4200862479 /* PrefPurchaseRecordPage.h */,
+				E2AEADB424349B6100862479 /* PrefPurchaseRecordPage.m */,
+				E2AEAE2124349B6D00862479 /* PrefPurchaseRecordsSection.h */,
+				E2AEAD2524349B5100862479 /* PrefPurchaseRecordsSection.m */,
+				E2AEAE0824349B6B00862479 /* PrefPurchaseRecordViewController.h */,
+				E2AEAC9624349B4300862479 /* PrefPurchaseRecordViewController.m */,
+				E2AEAC6024349B3E00862479 /* PrefRenameProgrammableActionItem.h */,
+				E2AEAD7824349B5A00862479 /* PrefRenameProgrammableActionItem.m */,
+				E2AEACC324349B4700862479 /* PrefReorderProgrammableActionItem.h */,
+				E2AEAC9024349B4200862479 /* PrefReorderProgrammableActionItem.m */,
+				E2AEAD1A24349B5000862479 /* PrefResetToFactorySettingsActionItem.h */,
+				E2AEACBE24349B4700862479 /* PrefResetToFactorySettingsActionItem.m */,
+				E2AEAD3124349B5200862479 /* PrefRichPageItem.h */,
+				E2AEAD4A24349B5500862479 /* PrefRichPageItem.m */,
+				E2AEAD5B24349B5700862479 /* PrefSaveAsProgrammableActionItem.h */,
+				E2AEACD024349B4800862479 /* PrefSaveAsProgrammableActionItem.m */,
+				E2AEAC8D24349B4200862479 /* PrefSection.h */,
+				E2AEAD8924349B5B00862479 /* PrefSection.m */,
+				E2AEADA524349B5F00862479 /* PrefShowLastStatusOntologyActionLabel.h */,
+				E2AEACDD24349B4A00862479 /* PrefShowLastStatusOntologyActionLabel.m */,
+				E2AEAC9424349B4300862479 /* PrefShowOntologyImagesActionImage.h */,
+				E2AEAD8624349B5B00862479 /* PrefShowOntologyImagesActionImage.m */,
+				E2AEAD4424349B5400862479 /* PrefStringItem.h */,
+				E2AEADE424349B6700862479 /* PrefStringItem.m */,
+				E2AEACA024349B4400862479 /* PrefStringItemViewController.h */,
+				E2AEAD3324349B5200862479 /* PrefStringItemViewController.m */,
+				E2AEAD5224349B5600862479 /* PrefThreadedActionItem.h */,
+				E2AEACB624349B4600862479 /* PrefThreadedActionItem.m */,
+				E2AEADEB24349B6800862479 /* PrefUpdateFacebookFriendsActionItem.h */,
+				E2AEADD624349B6500862479 /* PrefUpdateFacebookFriendsActionItem.m */,
+				E2AEAD1D24349B5000862479 /* PrefUrlDirectorySection.h */,
+				E2AEAC9324349B4300862479 /* PrefUrlDirectorySection.m */,
+				E2AEAC8824349B4200862479 /* PrefUUIDActionImage.h */,
+				E2AEACF124349B4C00862479 /* PrefUUIDActionImage.m */,
+				E2AEAC6824349B3F00862479 /* PrefUUIDActionItem.h */,
+				E2AEAC9D24349B4400862479 /* PrefUUIDActionItem.m */,
+				E2AEADD424349B6500862479 /* PrefUUIDActionLabel.h */,
+				E2AEADF024349B6800862479 /* PrefUUIDActionLabel.m */,
+				E2AEADD824349B6500862479 /* PrefUUIDPrefsBuilder.h */,
+				E2AEAD4F24349B5500862479 /* PrefUUIDPrefsBuilder.m */,
+				E2AEAD0324349B4D00862479 /* PrefViewController.h */,
+				E2AEAC8424349B4100862479 /* PrefViewController.m */,
+				E2AEAE1924349B6C00862479 /* ProgramIcon1.png */,
+				E2AEACEF24349B4B00862479 /* PullHandler.h */,
+				E2AEAD3424349B5200862479 /* PullHandlerBase.h */,
+				E2AEAD3F24349B5300862479 /* PullHandlerBase.m */,
+				E2AEAE1224349B6C00862479 /* PullManager.h */,
+				E2AEAD0024349B4D00862479 /* PullManager.m */,
+				E2AEADBA24349B6200862479 /* PurchaseRecord.h */,
+				E2AEAD9024349B5C00862479 /* PurchaseRecord.m */,
+				E2AEAE2224349B6D00862479 /* RandomBoardOrder.h */,
+				E2AEAD7E24349B5A00862479 /* RandomBoardOrder.m */,
+				E2AEADD324349B6500862479 /* RandomPlacementGBL.h */,
+				E2AEACBA24349B4700862479 /* RandomPlacementGBL.m */,
+				E2AEACF724349B4C00862479 /* RandomSymbolDispenser.h */,
+				E2AEAD8224349B5B00862479 /* RandomSymbolDispenser.m */,
+				E2AEACED24349B4B00862479 /* RecItem.h */,
+				E2AEAD0624349B4E00862479 /* RecItem.m */,
+				E2AEAD7B24349B5A00862479 /* ReportLogPullHandler.h */,
+				E2AEADED24349B6800862479 /* ReportLogPullHandler.m */,
+				E2AEAC9B24349B4400862479 /* RoleManager.h */,
+				E2AEAD0C24349B4E00862479 /* RoleManager.m */,
+				E2AEAD7224349B5900862479 /* RTLUtils.h */,
+				E2AEAE0F24349B6B00862479 /* RTLUtils.m */,
+				E2AEAC6724349B3F00862479 /* ScoresComm.h */,
+				E2AEAE1624349B6C00862479 /* ScoresComm.m */,
+				E2AEADCF24349B6400862479 /* ScoresDatabase.h */,
+				E2AEACDB24349B4A00862479 /* ScoresDatabase.m */,
+				E2AEAD9F24349B5E00862479 /* ScoresViewController.h */,
+				E2AEADA924349B6000862479 /* ScoresViewController.m */,
+				E2AEAC9124349B4300862479 /* ScoreTableWidget.h */,
+				E2AEACC124349B4700862479 /* ScoreTableWidget.m */,
+				E2AEAE0024349B6A00862479 /* ScoreWidget.h */,
+				E2AEAC9824349B4300862479 /* ScoreWidget.m */,
+				E2AEAD2424349B5000862479 /* ScoreWidgetEventsTarget.h */,
+				E2AEADCA24349B6400862479 /* ScoreWidgetView.h */,
+				E2AEAD0924349B4E00862479 /* ScoreWidgetView.m */,
+				E2AEAD1524349B4F00862479 /* ScreenDumper.h */,
+				E2AEAC8124349B4100862479 /* ScreenDumper.m */,
+				E2AEADB024349B6100862479 /* ScriptedGameLevel.h */,
+				E2AEACDE24349B4A00862479 /* ScriptedGameLevel.m */,
+				E2AEAD6A24349B5800862479 /* ScriptPullHandler.h */,
+				E2AEADB624349B6200862479 /* ScriptPullHandler.m */,
+				E2AEAD1224349B4F00862479 /* ShapeDecorationImageBuilder.h */,
+				E2AEAC9F24349B4400862479 /* ShapeDecorationImageBuilder.m */,
+				E2AEAD6C24349B5800862479 /* SimpleBoardOrder.h */,
+				E2AEADF624349B6900862479 /* SimpleBoardOrder.m */,
+				E2AEACC924349B4800862479 /* SingleProbabilityURS.h */,
+				E2AEAD1724349B4F00862479 /* SingleProbabilityURS.m */,
+				E2AEAD3224349B5200862479 /* SnakeBoardOrder.h */,
+				E2AEAD4824349B5400862479 /* SnakeBoardOrder.m */,
+				E2AEACE624349B4B00862479 /* Sound_BoardFullWarning.aif */,
+				E2AEACFA24349B4C00862479 /* Sound_BoardFullWarning.wav */,
+				E2AEAD5624349B5600862479 /* Sound_Clicked.aif */,
+				E2AEACF224349B4C00862479 /* Sound_Decoration_ApplePieceDecorator.aif */,
+				E2AEAD7024349B5900862479 /* Sound_Decoration_BombPieceDecorator.aif */,
+				E2AEAE0A24349B6B00862479 /* Sound_Decoration_CoinPieceDecorator.aif */,
+				E2AEAC7324349B4000862479 /* Sound_DecorationExtra_ApplePieceDecorator.aif */,
+				E2AEAE2024349B6D00862479 /* Sound_DecorationExtra_BombPieceDecorator.aif */,
+				E2AEAE0C24349B6B00862479 /* Sound_DecorationExtra_CoinPieceDecorator.aif */,
+				E2AEACAF24349B4600862479 /* Sound_DispenserDoneWarning-old1.aif */,
+				E2AEADFD24349B6900862479 /* Sound_DispenserDoneWarning.aif */,
+				E2AEACCA24349B4800862479 /* Sound_DispenserDoneWarning.mp3 */,
+				E2AEAE0D24349B6B00862479 /* Sound_PieceDispensed.aif */,
+				E2AEADB324349B6100862479 /* Sound_PieceHinted.aif */,
+				E2AEAE1824349B6C00862479 /* Sound_PieceHintedLast.aif */,
+				E2AEADF924349B6900862479 /* Sound_PieceSelected.aif */,
+				E2AEAE0B24349B6B00862479 /* Sound_Swiped.aif */,
+				E2AEAE1724349B6C00862479 /* Sound_WordBlackListed.aif */,
+				E2AEACA324349B4400862479 /* Sound_WordInvalid.aif */,
+				E2AEAD6524349B5700862479 /* Sound_WordReset.aif */,
+				E2AEAC5A24349B3E00862479 /* Sound_WordValid.aif */,
+				E2AEAC5C24349B3E00862479 /* SoundTheme.h */,
+				E2AEAD9624349B5D00862479 /* SoundTheme.m */,
+				E2AEACDF24349B4A00862479 /* SourceCell.h */,
+				E2AEAD6B24349B5800862479 /* SourceCell.m */,
+				E2AEAD7324349B5900862479 /* spellmaze_logo_64x64.png */,
+				E2AEAE2524349B6E00862479 /* SpiralBoardOrder.h */,
+				E2AEADA324349B5F00862479 /* SpiralBoardOrder.m */,
+				E2AEACEC24349B4B00862479 /* SplashPanel.h */,
+				E2AEACCE24349B4800862479 /* SplashPanel.m */,
+				E2AEAC6D24349B3F00862479 /* SplashPanelView.h */,
+				E2AEACCB24349B4800862479 /* SplashPanelView.m */,
+				E2AEAD1624349B4F00862479 /* startup.png */,
+				E2AEACE324349B4A00862479 /* StoreManager.h */,
+				E2AEAC7624349B4000862479 /* StoreManager.m */,
+				E2AEAD8A24349B5B00862479 /* StringsLanguage.h */,
+				E2AEAC8B24349B4200862479 /* StringsLanguage.m */,
+				E2AEADF824349B6900862479 /* StringTransformer.h */,
+				E2AEADBB24349B6200862479 /* StringWithProps.h */,
+				E2AEACA624349B4500862479 /* StringWithProps.m */,
+				E2AEAD8324349B5B00862479 /* SymbolAlphabet.h */,
+				E2AEACC424349B4800862479 /* SymbolAlphabet.m */,
+				E2AEADDF24349B6600862479 /* SymbolAuctionBid.h */,
+				E2AEADBC24349B6200862479 /* SymbolAuctionBid.m */,
+				E2AEAD2724349B5100862479 /* SymbolDispenser.h */,
+				E2AEACD524349B4900862479 /* SymbolForWordLanguage.h */,
+				E2AEAE1424349B6C00862479 /* SymbolForWordLanguage.m */,
+				E2AEACA824349B4500862479 /* SymbolPiece.h */,
+				E2AEAD5C24349B5700862479 /* SymbolPiece.m */,
+				E2AEAC7124349B4000862479 /* SymbolPieceView.h */,
+				E2AEAD3924349B5300862479 /* SymbolPieceView.m */,
+				E2AEAC7B24349B4000862479 /* SystemUtils.h */,
+				E2AEAE2424349B6E00862479 /* TextBlockSplitter.h */,
+				E2AEAD8424349B5B00862479 /* TextBlockSplitter.m */,
+				E2AEADC124349B6300862479 /* TextSpeaker.h */,
+				E2AEAE1D24349B6D00862479 /* TextSpeaker.m */,
+				E2AEAE1E24349B6D00862479 /* todo.txt */,
+				E2AEAC5F24349B3E00862479 /* todo2.txt */,
+				E2AEAD6624349B5800862479 /* UIDevice_AvailableMemory.h */,
+				E2AEAC7824349B4000862479 /* UIDevice_AvailableMemory.m */,
+				E2AEAD7124349B5900862479 /* UIDevice_SystemVersionNumber.h */,
+				E2AEADC424349B6300862479 /* UIDevice_SystemVersionNumber.m */,
+				E2AEAD6824349B5800862479 /* UIImage_ResizeImageAllocator.h */,
+				E2AEAD8124349B5A00862479 /* UIImage_ResizeImageAllocator.m */,
+				E2AEAC5E24349B3E00862479 /* UIImage_TextRepresentation.h */,
+				E2AEADE724349B6700862479 /* UIImage_TextRepresentation.m */,
+				E2AEACE924349B4B00862479 /* UniformRandomSeries.h */,
+				E2AEACDC24349B4A00862479 /* UserPrefs.h */,
+				E2AEAD0D24349B4E00862479 /* UserPrefs.m */,
+				E2AEAD9224349B5D00862479 /* UserPrefsLayer.h */,
+				E2AEAD7C24349B5A00862479 /* UserPrefsUPL.h */,
+				E2AEACC724349B4800862479 /* UserPrefsUPL.m */,
+				E2AEACAA24349B4500862479 /* UUIDPrefs.h */,
+				E2AEADC324349B6300862479 /* UUIDPrefs.m */,
+				E2AEACD824349B4900862479 /* UUIDPropsUPL.h */,
+				E2AEAD1B24349B5000862479 /* UUIDPropsUPL.m */,
+				E2AEAC7D24349B4100862479 /* UUIDUtils.h */,
+				E2AEAD7D24349B5A00862479 /* UUIDUtils.m */,
+				E2AEADE624349B6700862479 /* ViewTransformerGBL.h */,
+				E2AEADF524349B6900862479 /* ViewTransformerGBL.m */,
+				E2AEADFB24349B6900862479 /* Wallet.h */,
+				E2AEADEC24349B6800862479 /* Wallet.m */,
+				E2AEACAB24349B4500862479 /* WidgetBase.h */,
+				E2AEAC6E24349B3F00862479 /* WidgetBase.m */,
+				E2AEACF924349B4C00862479 /* WordAuctionParticipant.h */,
+				E2AEAD0724349B4E00862479 /* WordAuctionParticipant.m */,
+				E2AEAE1F24349B6D00862479 /* WordCountBPF.h */,
+				E2AEAD9C24349B5E00862479 /* WordCountBPF.m */,
+				E2AEAD2624349B5100862479 /* WordDispenser.h */,
+				E2AEAC7F24349B4100862479 /* WordListWordDispenser.h */,
+				E2AEAD0A24349B4E00862479 /* WordListWordDispenser.m */,
+				E2AEAD0524349B4E00862479 /* WordQueue.h */,
+				E2AEAD9324349B5D00862479 /* WordQueue.m */,
+				E2AEADB124349B6100862479 /* WordValidator.h */,
 				E26A234824339DB600AEF6CF /* SpellMaze2020 */,
 				E26A236424339DB800AEF6CF /* SpellMaze2020Tests */,
 				E26A236F24339DB800AEF6CF /* SpellMaze2020UITests */,
@@ -137,6 +1446,33 @@
 			path = SpellMaze2020UITests;
 			sourceTree = "<group>";
 		};
+		E2AEAF202434ADBE00862479 /* ZipFile-OC */ = {
+			isa = PBXGroup;
+			children = (
+				E2AEAF212434ADBE00862479 /* ZipArchive.h */,
+				E2AEAF222434ADBE00862479 /* minizip */,
+				E2AEAF2D2434ADBE00862479 /* ZipArchive.mm */,
+			);
+			path = "ZipFile-OC";
+			sourceTree = "<group>";
+		};
+		E2AEAF222434ADBE00862479 /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				E2AEAF232434ADBE00862479 /* unzip.c */,
+				E2AEAF242434ADBE00862479 /* zip.c */,
+				E2AEAF252434ADBE00862479 /* ioapi.c */,
+				E2AEAF262434ADBE00862479 /* mztools.c */,
+				E2AEAF272434ADBE00862479 /* crypt.h */,
+				E2AEAF282434ADBE00862479 /* zip.h */,
+				E2AEAF292434ADBE00862479 /* unzip.h */,
+				E2AEAF2A2434ADBE00862479 /* mztools.h */,
+				E2AEAF2B2434ADBE00862479 /* ioapi.h */,
+				E2AEAF2C2434ADBE00862479 /* zconf.h */,
+			);
+			path = minizip;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,6 +1480,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E26A237524339DB800AEF6CF /* Build configuration list for PBXNativeTarget "SpellMaze2020" */;
 			buildPhases = (
+				E2AEB34A2434C5B900862479 /* Copy Files (espeak-data) */,
 				E26A234224339DB600AEF6CF /* Sources */,
 				E26A234324339DB600AEF6CF /* Frameworks */,
 				E26A234424339DB600AEF6CF /* Resources */,
@@ -240,9 +1577,43 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2AEAEF824349B6F00862479 /* Sound_PieceSelected.aif in Resources */,
+				E2AEAEA924349B6E00862479 /* images in Resources */,
+				E2AEAF0024349B6F00862479 /* Sound_Swiped.aif in Resources */,
+				E2AEAEA824349B6E00862479 /* Decoration_Coin.gif in Resources */,
+				E2AEAEA324349B6E00862479 /* Sound_Clicked.aif in Resources */,
+				E2AEAF0B24349B6F00862479 /* Sound_PieceHintedLast.aif in Resources */,
+				E2AEAEB224349B6E00862479 /* spellmaze_logo_64x64.png in Resources */,
 				E26A235924339DB800AEF6CF /* LaunchScreen.storyboard in Resources */,
+				E2AEAE8224349B6E00862479 /* startup.png in Resources */,
+				E2AEAE3524349B6E00862479 /* Sound_DecorationExtra_ApplePieceDecorator.aif in Resources */,
+				E2AEAF0224349B6F00862479 /* Sound_PieceDispensed.aif in Resources */,
+				E2AEAE7524349B6E00862479 /* PauseCurtain.png in Resources */,
+				E2AEAF0F24349B6F00862479 /* todo.txt in Resources */,
+				E2AEAEB124349B6E00862479 /* Sound_Decoration_BombPieceDecorator.aif in Resources */,
+				E2AEAEE524349B6F00862479 /* Decoration_Bomb.gif in Resources */,
+				E2AEAE5524349B6E00862479 /* Decoration_Apple.gif in Resources */,
+				E2AEAED724349B6F00862479 /* Sound_PieceHinted.aif in Resources */,
+				E2AEAE7424349B6E00862479 /* Sound_BoardFullWarning.wav in Resources */,
+				E2AEAE5624349B6E00862479 /* Sound_DispenserDoneWarning-old1.aif in Resources */,
+				E2AEAF0C24349B6F00862479 /* ProgramIcon1.png in Resources */,
+				E2AEAE7024349B6E00862479 /* Sound_Decoration_ApplePieceDecorator.aif in Resources */,
+				E2AEAE2C24349B6E00862479 /* Sound_WordValid.aif in Resources */,
+				E2AEAF1024349B6F00862479 /* Sound_DecorationExtra_BombPieceDecorator.aif in Resources */,
+				E2AEAED224349B6F00862479 /* Builtin in Resources */,
+				E2AEAE6D24349B6E00862479 /* Sound_BoardFullWarning.aif in Resources */,
+				E2AEAEFF24349B6F00862479 /* Sound_Decoration_CoinPieceDecorator.aif in Resources */,
+				E2AEAE5324349B6E00862479 /* jim in Resources */,
+				E2AEAE5024349B6E00862479 /* Sound_WordInvalid.aif in Resources */,
+				E2AEAECE24349B6F00862479 /* espeak-data in Resources */,
 				E26A235624339DB800AEF6CF /* Assets.xcassets in Resources */,
+				E2AEAE2E24349B6E00862479 /* todo2.txt in Resources */,
+				E2AEAF0A24349B6F00862479 /* Sound_WordBlackListed.aif in Resources */,
+				E2AEAE6224349B6E00862479 /* Sound_DispenserDoneWarning.mp3 in Resources */,
+				E2AEAF0124349B6F00862479 /* Sound_DecorationExtra_CoinPieceDecorator.aif in Resources */,
+				E2AEAEFB24349B6F00862479 /* Sound_DispenserDoneWarning.aif in Resources */,
 				E26A235424339DB600AEF6CF /* Main.storyboard in Resources */,
+				E2AEAEAB24349B6E00862479 /* Sound_WordReset.aif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,10 +1638,237 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2AEB3292434B10300862479 /* debug.cpp in Sources */,
+				E2AEAF0524349B6F00862479 /* CoinPieceDecorator.m in Sources */,
+				E2AEAED524349B6F00862479 /* CellTextView.m in Sources */,
+				E2AEAED324349B6F00862479 /* ScoresViewController.m in Sources */,
+				E2AEAE5A24349B6E00862479 /* Brand.m in Sources */,
+				E2AEAEB924349B6E00862479 /* TextBlockSplitter.m in Sources */,
+				E2AEAECC24349B6F00862479 /* WordCountBPF.m in Sources */,
+				E2AEAE7824349B6E00862479 /* RecItem.m in Sources */,
 				E26A235124339DB600AEF6CF /* ViewController.m in Sources */,
+				E2AEAE6C24349B6E00862479 /* GameBoardLogicBase.m in Sources */,
+				E2AEAED824349B6F00862479 /* PrefPurchaseRecordPage.m in Sources */,
+				E2AEB3142434B10300862479 /* espeak_command.cpp in Sources */,
+				E2AEAF1124349B6F00862479 /* GameLevel_WordInfo.m in Sources */,
+				E2AEAE3724349B6E00862479 /* StoreManager.m in Sources */,
+				E2AEAEA424349B6E00862479 /* NSString_Reverse.m in Sources */,
+				E2AEAE9124349B6E00862479 /* LowPassFilter.m in Sources */,
+				E2AEAE9624349B6E00862479 /* BombPieceDecorator.m in Sources */,
+				E2AEAEDE24349B6F00862479 /* OrderNudgeGBL.m in Sources */,
+				E2AEAEAE24349B6E00862479 /* SourceCell.m in Sources */,
+				E2AEAEA524349B6E00862479 /* JIMInterp.m in Sources */,
+				E2AEAEDB24349B6F00862479 /* CheckedPieceDecorator2.m in Sources */,
+				E2AEB3262434B10300862479 /* event.cpp in Sources */,
+				E2AEAE8F24349B6E00862479 /* Banner.m in Sources */,
+				E2AEAF192434A4F700862479 /* Board3AppDelegate.m in Sources */,
+				E2AEAE9E24349B6E00862479 /* PrefRichPageItem.m in Sources */,
+				E2AEAEB824349B6E00862479 /* RandomSymbolDispenser.m in Sources */,
+				E2AEAE4E24349B6E00862479 /* ShapeDecorationImageBuilder.m in Sources */,
+				E2AEAF312434ADBE00862479 /* mztools.c in Sources */,
+				E2AEAE7924349B6E00862479 /* WordAuctionParticipant.m in Sources */,
+				E2AEAE7A24349B6E00862479 /* EditableTableViewCell.m in Sources */,
+				E2AEB3222434B10300862479 /* speak_lib.cpp in Sources */,
+				E2AEAE3D24349B6E00862479 /* ScreenDumper.m in Sources */,
+				E2AEAE6B24349B6E00862479 /* ByLanguageUUIDGameLevelFactory.m in Sources */,
+				E2AEAE3124349B6E00862479 /* WidgetBase.m in Sources */,
+				E2AEAEEA24349B6F00862479 /* PrefDomainMultiValueItem.m in Sources */,
+				E2AEB31A2434B10300862479 /* translate.cpp in Sources */,
+				E2AEAE6624349B6E00862479 /* AuctionRoomImpl.m in Sources */,
+				E2AEB3202434B10300862479 /* wave_pulse.cpp in Sources */,
+				E2AEAF0424349B6F00862479 /* EnvelopeDynamics.m in Sources */,
+				E2AEAE4724349B6E00862479 /* PrefReorderProgrammableActionItem.m in Sources */,
+				E2AEAEF924349B6F00862479 /* LabelCell.m in Sources */,
+				E2AEAE3C24349B6E00862479 /* NSMutableString_Shuffle.m in Sources */,
+				E2AEAECD24349B6F00862479 /* PrefMainPageBuilder.m in Sources */,
+				E2AEAF0624349B6F00862479 /* ApplePieceDecorator.m in Sources */,
+				E2AEAF0E24349B6F00862479 /* TextSpeaker.m in Sources */,
+				E2AEAE8324349B6E00862479 /* SingleProbabilityURS.m in Sources */,
+				E2AEAEF224349B6F00862479 /* PrefUUIDActionLabel.m in Sources */,
+				E2AEAF0824349B6F00862479 /* PrefPromotedCatalogItemsPage.m in Sources */,
+				E2AEAE8524349B6E00862479 /* UUIDPropsUPL.m in Sources */,
+				E2AEAE6024349B6E00862479 /* PrefFilePage.m in Sources */,
+				E2AEAE5824349B6E00862479 /* PrefThreadedActionItem.m in Sources */,
+				E2AEAE2B24349B6E00862479 /* FreeStore.m in Sources */,
+				E2AEAE4D24349B6E00862479 /* PrefFileViewController.m in Sources */,
+				E2AEAEBF24349B6F00862479 /* GameLevelSequence.m in Sources */,
+				E2AEAEA224349B6E00862479 /* GameLevelSequenceView.m in Sources */,
+				E2AEAEF724349B6F00862479 /* ParametricGameLevelFactory.m in Sources */,
+				E2AEAE3424349B6E00862479 /* PieceDispensingHintsImpl.m in Sources */,
+				E2AEB3152434B10300862479 /* voices.cpp in Sources */,
+				E2AEAE9524349B6E00862479 /* AppleStore_ProductRequestDelegate.m in Sources */,
+				E2AEAE3B24349B6E00862479 /* CSet_NS.m in Sources */,
+				E2AEAE5224349B6E00862479 /* StringWithProps.m in Sources */,
+				E2AEAEEF24349B6F00862479 /* Wallet.m in Sources */,
+				E2AEAEC624349B6F00862479 /* PrefDomainDownloadItem.m in Sources */,
+				E2AEAEE824349B6F00862479 /* PrefUpdateFacebookFriendsActionItem.m in Sources */,
+				E2AEAEF324349B6F00862479 /* GridBoardPieceDispenserBase.m in Sources */,
+				E2AEAF2F2434ADBE00862479 /* zip.c in Sources */,
+				E2AEB31D2434B10300862479 /* wave_sada.cpp in Sources */,
+				E2AEAE7724349B6E00862479 /* CompoundGameBoardLogic.m in Sources */,
+				E2AEAE7F24349B6E00862479 /* JIMHelper.m in Sources */,
+				E2AEAEC324349B6F00862479 /* PurchaseRecord.m in Sources */,
+				E2AEAE2D24349B6E00862479 /* GridBoardPieceDispenserSymbols.m in Sources */,
+				E2AEB3272434B10300862479 /* phonemelist.cpp in Sources */,
+				E2AEAEBB24349B6E00862479 /* PrefActionItem.m in Sources */,
+				E2AEAEDF24349B6F00862479 /* CrossPieceDisabler.m in Sources */,
+				E2AEAED624349B6F00862479 /* PrefFileActionDelegate.m in Sources */,
+				E2AEB31B2434B10300862479 /* setlengths.cpp in Sources */,
+				E2AEB3232434B10300862479 /* tr_languages.cpp in Sources */,
+				E2AEAE3824349B6E00862479 /* UIDevice_AvailableMemory.m in Sources */,
+				E2AEAECB24349B6F00862479 /* ImageSequenceMediaView.m in Sources */,
+				E2AEAE6A24349B6E00862479 /* ScriptedGameLevel.m in Sources */,
+				E2AEAE9B24349B6E00862479 /* CellView.m in Sources */,
+				E2AEAEC524349B6F00862479 /* WordQueue.m in Sources */,
+				E2AEAE6124349B6E00862479 /* UserPrefsUPL.m in Sources */,
+				E2AEAE5F24349B6E00862479 /* SymbolAlphabet.m in Sources */,
+				E2AEAE9724349B6E00862479 /* ParametricGameLevel.m in Sources */,
+				E2AEAE7D24349B6E00862479 /* RoleManager.m in Sources */,
+				E2AEB3252434B10300862479 /* synthesize.cpp in Sources */,
+				E2AEAE8624349B6E00862479 /* Catalog.m in Sources */,
+				E2AEAEBE24349B6E00862479 /* PrefCompoundSection.m in Sources */,
+				E2AEAE5C24349B6E00862479 /* ListBoardOrder.m in Sources */,
+				E2AEAEDA24349B6F00862479 /* BoardLanguageWordsAuctionUsher.m in Sources */,
+				E2AEAF322434ADBE00862479 /* ZipArchive.mm in Sources */,
+				E2AEAE7624349B6E00862479 /* PullManager.m in Sources */,
+				E2AEAE7B24349B6E00862479 /* ScoreWidgetView.m in Sources */,
+				E2AEAE3924349B6E00862479 /* CompoundBoard.m in Sources */,
+				E2AEAEFC24349B6F00862479 /* PrefIdentitiesMultiValueItem.m in Sources */,
+				E2AEAED924349B6F00862479 /* ScriptPullHandler.m in Sources */,
+				E2AEB32A2434B10300862479 /* espeak.cpp in Sources */,
+				E2AEAE6E24349B6E00862479 /* ByScriptGameLevelFactory.m in Sources */,
+				E2AEAE9C24349B6E00862479 /* SnakeBoardOrder.m in Sources */,
+				E2AEAE4624349B6E00862479 /* GameLevelSequenceViewController.m in Sources */,
+				E2AEAE3224349B6E00862479 /* PrefLabelItem.m in Sources */,
+				E2AEAEE124349B6F00862479 /* UIDevice_SystemVersionNumber.m in Sources */,
+				E2AEAE3324349B6E00862479 /* NSArray_Random.m in Sources */,
+				E2AEAE5B24349B6E00862479 /* RandomPlacementGBL.m in Sources */,
+				E2AEAEA624349B6E00862479 /* ItemSelectorWidget.m in Sources */,
+				E2AEAEE424349B6F00862479 /* GridBoardPieceDispenserPieceArray.m in Sources */,
+				E2AEAE8124349B6E00862479 /* CatalogItem.m in Sources */,
+				E2AEAE5424349B6E00862479 /* LanguageManager.m in Sources */,
+				E2AEAF0324349B6F00862479 /* RTLUtils.m in Sources */,
+				E2AEAE4A24349B6E00862479 /* PassedLevelEndMenu.m in Sources */,
+				E2AEB3172434B10300862479 /* numbers.cpp in Sources */,
+				E2AEAE9324349B6E00862479 /* PrefDeleteProgrammableActionItem.m in Sources */,
+				E2AEAEE624349B6F00862479 /* PrefDomainDirectoryListingMultiValueItem.m in Sources */,
+				E2AEAE7224349B6E00862479 /* ByUUIDGameLevelFactory.m in Sources */,
+				E2AEAE4924349B6E00862479 /* PrefPurchaseRecordViewController.m in Sources */,
+				E2AEAE5E24349B6E00862479 /* ScoreTableWidget.m in Sources */,
+				E2AEB3212434B10300862479 /* compiledict.cpp in Sources */,
+				E2AEAEC024349B6F00862479 /* ByFolderGameLevelFactory.m in Sources */,
+				E2AEB3162434B10300862479 /* klatt.cpp in Sources */,
+				E2AEAF1224349B6F00862479 /* ConstantBoardPotentialFunction.m in Sources */,
 				E26A234B24339DB600AEF6CF /* AppDelegate.m in Sources */,
+				E2AEAE3F24349B6E00862479 /* GridBoard.m in Sources */,
+				E2AEAECF24349B6F00862479 /* SpiralBoardOrder.m in Sources */,
+				E2AEAE8B24349B6E00862479 /* PrefImageSequenceItem.m in Sources */,
+				E2AEAEA024349B6E00862479 /* PrefUUIDPrefsBuilder.m in Sources */,
+				E2AEAE4524349B6E00862479 /* PrefPage.m in Sources */,
+				E2AEAF0924349B6F00862479 /* ScoresComm.m in Sources */,
+				E2AEAE6424349B6E00862479 /* SplashPanel.m in Sources */,
+				E2AEAEDD24349B6F00862479 /* SymbolAuctionBid.m in Sources */,
+				E2AEAE8E24349B6E00862479 /* PrefBrowseOntologyActionImage.m in Sources */,
+				E2AEAE8424349B6E00862479 /* PrefCreateIdentityActionItem.m in Sources */,
+				E2AEAE8724349B6E00862479 /* NSMutableArray_Shuffle.m in Sources */,
+				E2AEAEC824349B6F00862479 /* SoundTheme.m in Sources */,
+				E2AEAEA124349B6E00862479 /* ArrayPiecesHint.m in Sources */,
+				E2AEAEF424349B6F00862479 /* GameLevel.m in Sources */,
+				E2AEB3182434B10300862479 /* readclause.cpp in Sources */,
+				E2AEAEE024349B6F00862479 /* UUIDPrefs.m in Sources */,
+				E2AEAEED24349B6F00862479 /* UIImage_TextRepresentation.m in Sources */,
+				E2AEAED424349B6F00862479 /* PrefMultiValueItemViewController.m in Sources */,
+				E2AEAE9A24349B6E00862479 /* GoalSeekingSymbolDispenser.m in Sources */,
+				E2AEAE4124349B6E00862479 /* PrefCheckForUpdatesActionItem.m in Sources */,
+				E2AEAEBC24349B6E00862479 /* BoardAuctionArticle.m in Sources */,
+				E2AEAE6724349B6E00862479 /* PrefImageItem.m in Sources */,
+				E2AEAEAC24349B6E00862479 /* CheckedPieceDecorator.m in Sources */,
+				E2AEAF0D24349B6F00862479 /* L.m in Sources */,
+				E2AEAE4324349B6E00862479 /* DigitPieceDecorator.m in Sources */,
+				E2AEAEFA24349B6F00862479 /* LastWordPiecesHint.m in Sources */,
+				E2AEAEC724349B6F00862479 /* CellTextField.m in Sources */,
+				E2AEAEAA24349B6E00862479 /* PhraseWordValidator.m in Sources */,
+				E2AEAE5924349B6E00862479 /* MainMenuViewController.m in Sources */,
+				E2AEAE9824349B6E00862479 /* PullHandlerBase.m in Sources */,
+				E2AEAE4024349B6E00862479 /* PrefViewController.m in Sources */,
+				E2AEAEC424349B6F00862479 /* NSDictionary_TypedAccess.m in Sources */,
+				E2AEAE9D24349B6E00862479 /* PrefAbraViewController.m in Sources */,
+				E2AEAEFE24349B6F00862479 /* PrefBooleanItem.m in Sources */,
+				E2AEAE8924349B6E00862479 /* BrandManager.m in Sources */,
+				E2AEAEEB24349B6F00862479 /* PrefStringItem.m in Sources */,
+				E2AEAE3024349B6E00862479 /* PrefFloatItem.m in Sources */,
+				E2AEAEBD24349B6E00862479 /* PrefSection.m in Sources */,
+				E2AEB31F2434B10300862479 /* synthdata.cpp in Sources */,
+				E2AEAE6924349B6E00862479 /* PrefShowLastStatusOntologyActionLabel.m in Sources */,
+				E2AEAE4824349B6E00862479 /* PrefUrlDirectorySection.m in Sources */,
+				E2AEAEF524349B6F00862479 /* ViewTransformerGBL.m in Sources */,
+				E2AEAF302434ADBE00862479 /* ioapi.c in Sources */,
+				E2AEAEDC24349B6F00862479 /* GameLevelView.m in Sources */,
+				E2AEAE2F24349B6E00862479 /* ImagePieceDecorator.m in Sources */,
+				E2AEB32F2434C31500862479 /* PieceDecoratorGBL.m in Sources */,
+				E2AEB3242434B10300862479 /* intonation.cpp in Sources */,
+				E2AEAEB624349B6E00862479 /* RandomBoardOrder.m in Sources */,
+				E2AEAEC924349B6F00862479 /* NSData_TextRepresentation.m in Sources */,
+				E2AEAE9424349B6E00862479 /* SymbolPieceView.m in Sources */,
+				E2AEAE6824349B6E00862479 /* ScoresDatabase.m in Sources */,
+				E2AEB3192434B10300862479 /* synth_mbrola.cpp in Sources */,
+				E2AEAE4C24349B6E00862479 /* PrefUUIDActionItem.m in Sources */,
+				E2AEAE5124349B6E00862479 /* PrefItemViewControllerBase.m in Sources */,
+				E2AEAE9924349B6E00862479 /* BPF_Entry.m in Sources */,
+				E2AEAE6524349B6E00862479 /* PrefSaveAsProgrammableActionItem.m in Sources */,
+				E2AEAF182434A4F700862479 /* Board3ViewController.m in Sources */,
+				E2AEAE8824349B6E00862479 /* PieceFaderGBL.m in Sources */,
+				E2AEAE9024349B6E00862479 /* PrefStringItemViewController.m in Sources */,
+				E2AEAE4B24349B6E00862479 /* ScoreWidget.m in Sources */,
+				E2AEAE7124349B6E00862479 /* JimTestClass.m in Sources */,
+				E2AEAE6F24349B6E00862479 /* PrefUUIDActionImage.m in Sources */,
+				E2AEAE3A24349B6E00862479 /* PrefPageItem.m in Sources */,
+				E2AEAF1E2434ABF800862479 /* SystemUtils.m in Sources */,
+				E2AEAE8024349B6E00862479 /* Cell.m in Sources */,
+				E2AEAF0724349B6F00862479 /* SymbolForWordLanguage.m in Sources */,
+				E2AEAEC124349B6F00862479 /* GridBoardPieceDispenserWords.m in Sources */,
+				E2AEAE9224349B6E00862479 /* GridBoardView.m in Sources */,
+				E2AEAEEC24349B6F00862479 /* PrefDeleteIdentityActionItem.m in Sources */,
+				E2AEAE7C24349B6E00862479 /* WordListWordDispenser.m in Sources */,
 				E26A235C24339DB800AEF6CF /* main.m in Sources */,
+				E2AEAEAF24349B6E00862479 /* BoardContentsWeightedSymbolDispenser.m in Sources */,
+				E2AEAE7324349B6E00862479 /* PrefFolderPage.m in Sources */,
+				E2AEAEB424349B6E00862479 /* PrefRenameProgrammableActionItem.m in Sources */,
+				E2AEAEFD24349B6F00862479 /* FormulaEvaluator.m in Sources */,
+				E2AEAE6324349B6E00862479 /* SplashPanelView.m in Sources */,
+				E2AEAE4F24349B6E00862479 /* GridBoardPieceDispenserView.m in Sources */,
+				E2AEAEC224349B6F00862479 /* Folders.m in Sources */,
+				E2AEAEEE24349B6F00862479 /* GameManager.m in Sources */,
+				E2AEAF2E2434ADBE00862479 /* unzip.c in Sources */,
+				E2AEAEF624349B6F00862479 /* SimpleBoardOrder.m in Sources */,
+				E2AEAEB324349B6E00862479 /* JokerUtils.m in Sources */,
+				E2AEAEB024349B6E00862479 /* PrefGameSelectionPageItem.m in Sources */,
+				E2AEAEB524349B6E00862479 /* UUIDUtils.m in Sources */,
+				E2AEAEE924349B6F00862479 /* PrefMultiValueItem.m in Sources */,
+				E2AEAE5D24349B6E00862479 /* PrefResetToFactorySettingsActionItem.m in Sources */,
+				E2AEAECA24349B6F00862479 /* main.m in Sources */,
+				E2AEAE4224349B6E00862479 /* AppleStore.m in Sources */,
+				E2AEB31E2434B10300862479 /* wave.cpp in Sources */,
+				E2AEAEBA24349B6E00862479 /* PrefShowOntologyImagesActionImage.m in Sources */,
+				E2AEAE4424349B6E00862479 /* StringsLanguage.m in Sources */,
+				E2AEAE3E24349B6E00862479 /* MainMenuWidget.m in Sources */,
+				E2AEAEE224349B6F00862479 /* DisplayCell.m in Sources */,
+				E2AEAED124349B6F00862479 /* CSetWrapper.m in Sources */,
+				E2AEAE8A24349B6E00862479 /* PrefPurchaseRecordsSection.m in Sources */,
+				E2AEAEE724349B6F00862479 /* AuctionManagerImpl.m in Sources */,
+				E2AEB31C2434B10300862479 /* dictionary.cpp in Sources */,
+				E2AEAEA724349B6E00862479 /* SymbolPiece.m in Sources */,
+				E2AEAEE324349B6F00862479 /* ImageWithUUID.m in Sources */,
+				E2AEAE7E24349B6E00862479 /* UserPrefs.m in Sources */,
+				E2AEAE8C24349B6E00862479 /* AuctionSymbolDispenser.m in Sources */,
+				E2AEB32B2434B10300862479 /* wavegen.cpp in Sources */,
+				E2AEAEF124349B6F00862479 /* CSet.c in Sources */,
 				E26A234E24339DB600AEF6CF /* SceneDelegate.m in Sources */,
+				E2AEAE8D24349B6E00862479 /* PrefItemBase.m in Sources */,
+				E2AEAEF024349B6F00862479 /* ReportLogPullHandler.m in Sources */,
+				E2AEB32C2434B10300862479 /* fifo.cpp in Sources */,
+				E2AEAE3624349B6E00862479 /* LevelSelectorViewController.m in Sources */,
+				E2AEAEB724349B6E00862479 /* UIImage_ResizeImageAllocator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,11 +2037,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = SpellMaze2020/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				OTHER_CFLAGS = (
+					"-Ijim",
+					"-Iespeak",
+					"-IZipFile-OC",
+					"-IZipFile-OC/minizip",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dk.SpellMaze2020;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -455,11 +2061,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = SpellMaze2020/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				OTHER_CFLAGS = (
+					"-Ijim",
+					"-Iespeak",
+					"-IZipFile-OC",
+					"-IZipFile-OC/minizip",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dk.SpellMaze2020;
 				PRODUCT_NAME = "$(TARGET_NAME)";

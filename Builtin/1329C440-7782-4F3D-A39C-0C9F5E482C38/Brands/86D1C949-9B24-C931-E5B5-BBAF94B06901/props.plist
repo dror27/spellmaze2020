@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Generic</string>
+	<key>description</key>
+	<string>The way SpellMaze looks coming out of the factory</string>
+    <key>global</key>
+    <dict>
+        <key>skin</key>
+        <dict>
+            <key>colors</key>
+            <dict>
+                <key>grid</key>
+                <string>0.5,0.5,0.5,1.0</string>
+                <key>text</key>
+                <string>1.0,1.0,1.0,1.0</string>
+
+				<key>OUT-piece-shadow-color</key>
+                <string>808080</string>
+				
+				<!-- ? -->
+				<key>joker-custom-color</key>
+				<string>000000</string>
+				<key>joker-custom-text-color</key>
+				<string>FFFFFF</string>
+
+				<!-- A -->
+				<key>piece-custom-color-0</key>
+				<string>6A5ACD</string>
+
+				<!-- B -->
+				<key>piece-custom-color-1</key>
+				<string>191970</string>
+				<key>piece-custom-text-color-1</key>
+				<string>FFFFFF</string>
+
+				<!-- C -->
+				<key>piece-custom-color-2</key>
+				<string>90EE90</string>
+				
+				<!-- D -->
+				<key>piece-custom-color-3</key>
+				<string>6495ED</string>
+				
+				<!-- E -->
+				<key>piece-custom-color-4</key>
+				<string>FF0000</string>
+				
+				<!-- F -->
+				<key>piece-custom-color-5</key>
+				<string>3CB371</string>
+				
+				<!-- G -->
+				<key>piece-custom-color-6</key>
+				<string>FF00FF</string>
+				
+				<!-- H -->
+				<key>piece-custom-color-7</key>
+				<string>FF7F50</string>
+				
+				<!-- I -->
+				<key>piece-custom-color-8</key>
+				<string>BDB76B</string>
+				
+				<!-- J -->
+				<key>piece-custom-color-9</key>
+				<string>2F4F4F</string>
+				
+				<!-- K -->
+				<key>piece-custom-color-10</key>
+				<string>FFA500</string>
+				
+				<!-- L -->
+				<key>piece-custom-color-11</key>
+				<string>FFFF00</string>
+				
+				<!-- M -->
+				<key>piece-custom-color-12</key>
+				<string>00CED1</string>
+				
+				<!-- N -->
+				<key>piece-custom-color-13</key>
+				<string>0000FF</string>
+				<key>piece-custom-text-color-13</key>
+				<string>FFFFFF</string>
+				
+				<!-- O -->
+				<key>piece-custom-color-14</key>
+				<string>8B4513</string>
+				<key>piece-custom-text-color-14</key>
+				<string>FFFFFF</string>
+				
+				<!-- P -->
+				<key>piece-custom-color-15</key>
+				<string>006400</string>
+				<key>piece-custom-text-color-15</key>
+				<string>FFFFFF</string>
+				
+				<!-- Q -->
+				<key>piece-custom-color-16</key>
+				<string>BC8F8F</string>
+				
+				<!-- R -->
+				<key>piece-custom-color-17</key>
+				<string>EE82EE</string>
+				
+				<!-- S -->
+				<key>piece-custom-color-18</key>
+				<string>00FF00</string>
+				
+				<!-- T -->
+				<key>piece-custom-color-19</key>
+				<string>8B008B</string>
+				
+				<!-- U -->
+				<key>piece-custom-color-20</key>
+				<string>CD5C5C</string>
+				
+				<!-- V -->
+				<key>piece-custom-color-21</key>
+				<string>800000</string>
+				<key>piece-custom-text-color-21</key>
+				<string>FFFFFF</string>
+				
+				<!-- W -->
+				<key>piece-custom-color-22</key>
+				<string>4B0082</string>
+				<key>piece-custom-text-color-22</key>
+				<string>FFFFFF</string>
+				
+				<!-- X -->
+				<key>piece-custom-color-23</key>
+				<string>9ACD32</string>
+				
+				<!-- Y -->
+				<key>piece-custom-color-24</key>
+				<string>808000</string>
+				
+				<!-- Z -->
+				<key>piece-custom-color-25</key>
+				<string>708090</string>
+				
+            </dict>
+			<key>images</key>
+            <dict>
+                <key>background</key>
+                <string>images/background.png</string>
+
+                <key>OUT-background-menu</key>
+                <string>images/background.png</string>
+                <key>OUT-background-levels</key>
+                <string>images/background.png</string>
+                <key>OUT-background-game</key>
+                <string>images/background.png</string>
+                <key>OUT-background-scores</key>
+                <string>images/background.png</string>
+                
+                <key>piece-overlay</key>
+                <string>images/overlay_top_arc.png</string>
+				
+                <key>OUT-piece-mask</key>
+                <string>images/mask_bottom_arc.png</string>  
+				
+				<key>piece-custom-mask-0</key>
+                <string>images/mask_bottom_arc.png</string>  
+				<key>piece-custom-overlay-0</key>
+                <string>images/overlay_top_shine.png</string>  
+				
+				<key>OUT-score-progress-1</key>
+				<string>images/progress_1.png</string>
+				<key>OUT-score-progress-2</key>
+				<string>images/progress_2.png</string>
+				<key>OUT-score-progress-3</key>
+				<string>images/progress_3.png</string>
+				
+				<key>OUT-pause-curtain</key>
+				<string>images/pause_curtain.png</string>
+				
+				<key>OUT-decorator-apple</key>
+				<string>images/decoration_apple.gif</string>
+				<key>OUT-decorator-coin</key>
+				<string>images/decoration_coin.gif</string>
+				<key>OUT-decorator-bomb</key>
+				<string>images/decoration_bomb.gif</string>
+				
+				<key>OUT-button-hint</key>
+				<string>images/button_24x24.png</string>
+				<key>OUT-button-play</key>
+				<string>images/button_24x24.png</string>
+				<key>OUT-button-pause</key>
+				<string>images/button_24x24.png</string>
+                
+                <key>directory-item-icon</key>
+                <string>images/spellmaze_logo_64x64.png</string>
+			</dict> 
+            
+            <key>props</key>
+            <dict>
+                
+                <key>piece-corner-radius</key>
+                <real>0.1</real>
+                
+                <key>piece-shadow-x</key>
+                <real>0</real>
+                <key>piece-shadow-y</key>
+                <real>-1.0</real>    
+				
+				<key>OUT-piece-custom-colors</key>
+				<integer>26</integer>
+				
+				<key>OUT-piece-colors-offset</key>
+				<integer>65</integer>
+				<key>piece-custom-masks</key>
+				<false/>
+				<key>piece-custom-overlays</key>
+				<false/>
+				
+				<key>show-symbols-left-counter</key>
+				<true/>
+            </dict>
+        </dict>
+    </dict>
+</dict>
+</plist>

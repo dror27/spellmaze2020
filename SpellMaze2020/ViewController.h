@@ -12,8 +12,14 @@
 #import "BrandManager.h"
 
 @class MainMenuWidget;
+@interface ViewController : UIViewController<BrandManagerDelegate> {
+    
+    UINavigationController *_navigationController;
+    
+    MainMenuWidget*        _mainMenu;
+}
 
-@interface ViewController : UIViewController<BrandManagerDelegate>
-
+@property (retain) UINavigationController* navigationController;
+@property (retain) MainMenuWidget* mainMenu;
 @end
 

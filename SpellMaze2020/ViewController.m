@@ -23,13 +23,29 @@
 UINavigationController *_navigationController;
 MainMenuWidget*        _mainMenu;
 
-
-
 @interface ViewController ()
 
 @end
 
+@interface ViewController (Privates)
+-(void)slideView:(UIView*)currentView toNextView:(UIView*)nextView;
+-(void)slideViewBack:(UIView*)currentView toNextView:(UIView*)nextView;
+-(void)confBrandDependencies;
+@end
+
+
 @implementation ViewController
+
+@synthesize navigationController = _navigationController;
+@synthesize mainMenu = _mainMenu;
+
+-(void)dealloc
+{
+    [_navigationController release];
+    [_mainMenu release];
+    
+    [super dealloc];
+}
 
 - (void)loadView {
     [super loadView];
@@ -37,6 +53,7 @@ MainMenuWidget*        _mainMenu;
     MainMenuViewController*    rootViewController = [[[MainMenuViewController alloc] init] autorelease];
     
     UINavigationController    *aNavigationController = [[[UINavigationController alloc] initWithRootViewController:rootViewController] autorelease];
+    self.navigationController = aNavigationController;
     
     [self confBrandDependencies];
     [[BrandManager singleton] addDelegate:self];
@@ -49,6 +66,42 @@ MainMenuWidget*        _mainMenu;
     // Do any additional setup after loading the view.
 }
 
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning]; // Releases the view if it doesn't have a superview
+    // Release anything that's not essential, such as cached data
+}
+
+-(void)viewWillAppear:(BOOL)animated {
+    
+    [_navigationController viewWillAppear:animated];
+    
+    //NSLog(@"%@ viewWillAppear", self.title);
+    
+}
+
+-(void)viewDidAppear:(BOOL)animated {
+    
+    [_navigationController viewDidAppear:animated];
+    
+    //NSLog(@"%@ viewDidAppear", self.title);
+    
+}
+
+-(void)viewWillDisappear:(BOOL)animated {
+    
+    [_navigationController viewWillDisappear:animated];
+    
+    //NSLog(@"%@ viewWillDisappear", self.title);
+    
+}
+
+-(void)viewDidDisappear:(BOOL)animated {
+    
+    [_navigationController viewDidDisappear:animated];
+    
+    //NSLog(@"%@ viewDidDisappear", self.title);
+    
+}
 -(void)brandDidChange:(Brand*)brand
 {
     [self confBrandDependencies];

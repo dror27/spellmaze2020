@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+#import "GridBoardView.h"
+#import "BrandManager.h"
 
+@class MainMenuWidget;
+
+@interface ViewController : UIViewController<BrandManagerDelegate>
 
 @end
 

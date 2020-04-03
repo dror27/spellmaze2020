@@ -21,8 +21,9 @@ int espeak_main(int argc, char **argv);
 
 NSMutableDictionary*	globalData;
 
-
-int main_out(int argc, char *argv[]) {
+#define OLD_MAIN    1
+#ifdef OLD_MAIN
+int main(int argc, char *argv[]) {
     
     NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
 	
@@ -148,7 +149,7 @@ int main_out(int argc, char *argv[]) {
 	
 #if 1
 	[[[[TextSpeaker alloc] init] autorelease] performSelector:@selector(speak:) 
-								withObject:[NSArray arrayWithObjects:@"Welcome to Spell Maze", @"en", NULL] 
+								withObject:[NSArray arrayWithObjects:@"Welcome to Spell Maze 2020", @"en", NULL] 
 												   afterDelay:1.0];
 #endif
     
@@ -175,7 +176,8 @@ int main_out(int argc, char *argv[]) {
 	NSLog(@"result: %@", [interp eval:@"[JimTestClass alloc] instanceMethod_Returns_Int_Add:with: 1 2"]);
 #endif
 	
-	int retVal = UIApplicationMain(argc, argv, nil, nil);
+	int retVal = UIApplicationMain(argc, argv, nil, @"AppDelegate");
     [pool release];
     return retVal;
 }
+#endif

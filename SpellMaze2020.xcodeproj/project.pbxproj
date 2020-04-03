@@ -9,249 +9,249 @@
 /* Begin PBXBuildFile section */
 		E26A234B24339DB600AEF6CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E26A234A24339DB600AEF6CF /* AppDelegate.m */; };
 		E26A234E24339DB600AEF6CF /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E26A234D24339DB600AEF6CF /* SceneDelegate.m */; };
-		E26A235124339DB600AEF6CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E26A235024339DB600AEF6CF /* ViewController.m */; };
+		E26A235124339DB600AEF6CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E26A235024339DB600AEF6CF /* ViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E26A235424339DB600AEF6CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E26A235224339DB600AEF6CF /* Main.storyboard */; };
 		E26A235624339DB800AEF6CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E26A235524339DB800AEF6CF /* Assets.xcassets */; };
 		E26A235924339DB800AEF6CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E26A235724339DB800AEF6CF /* LaunchScreen.storyboard */; };
 		E26A235C24339DB800AEF6CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E26A235B24339DB800AEF6CF /* main.m */; };
 		E26A236624339DB800AEF6CF /* SpellMaze2020Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E26A236524339DB800AEF6CF /* SpellMaze2020Tests.m */; };
 		E26A237124339DB800AEF6CF /* SpellMaze2020UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E26A237024339DB800AEF6CF /* SpellMaze2020UITests.m */; };
-		E2AEAE2B24349B6E00862479 /* FreeStore.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC5924349B3D00862479 /* FreeStore.m */; };
+		E2AEAE2B24349B6E00862479 /* FreeStore.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC5924349B3D00862479 /* FreeStore.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E2AEAE2C24349B6E00862479 /* Sound_WordValid.aif in Resources */ = {isa = PBXBuildFile; fileRef = E2AEAC5A24349B3E00862479 /* Sound_WordValid.aif */; };
-		E2AEAE2D24349B6E00862479 /* GridBoardPieceDispenserSymbols.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC5B24349B3E00862479 /* GridBoardPieceDispenserSymbols.m */; };
+		E2AEAE2D24349B6E00862479 /* GridBoardPieceDispenserSymbols.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC5B24349B3E00862479 /* GridBoardPieceDispenserSymbols.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E2AEAE2E24349B6E00862479 /* todo2.txt in Resources */ = {isa = PBXBuildFile; fileRef = E2AEAC5F24349B3E00862479 /* todo2.txt */; };
-		E2AEAE2F24349B6E00862479 /* ImagePieceDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC6924349B3F00862479 /* ImagePieceDecorator.m */; };
-		E2AEAE3024349B6E00862479 /* PrefFloatItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC6C24349B3F00862479 /* PrefFloatItem.m */; };
-		E2AEAE3124349B6E00862479 /* WidgetBase.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC6E24349B3F00862479 /* WidgetBase.m */; };
-		E2AEAE3224349B6E00862479 /* PrefLabelItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC6F24349B3F00862479 /* PrefLabelItem.m */; };
-		E2AEAE3324349B6E00862479 /* NSArray_Random.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC7024349B3F00862479 /* NSArray_Random.m */; };
-		E2AEAE3424349B6E00862479 /* PieceDispensingHintsImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC7224349B4000862479 /* PieceDispensingHintsImpl.m */; };
+		E2AEAE2F24349B6E00862479 /* ImagePieceDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC6924349B3F00862479 /* ImagePieceDecorator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE3024349B6E00862479 /* PrefFloatItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC6C24349B3F00862479 /* PrefFloatItem.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE3124349B6E00862479 /* WidgetBase.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC6E24349B3F00862479 /* WidgetBase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE3224349B6E00862479 /* PrefLabelItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC6F24349B3F00862479 /* PrefLabelItem.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE3324349B6E00862479 /* NSArray_Random.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC7024349B3F00862479 /* NSArray_Random.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE3424349B6E00862479 /* PieceDispensingHintsImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC7224349B4000862479 /* PieceDispensingHintsImpl.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E2AEAE3524349B6E00862479 /* Sound_DecorationExtra_ApplePieceDecorator.aif in Resources */ = {isa = PBXBuildFile; fileRef = E2AEAC7324349B4000862479 /* Sound_DecorationExtra_ApplePieceDecorator.aif */; };
-		E2AEAE3624349B6E00862479 /* LevelSelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC7524349B4000862479 /* LevelSelectorViewController.m */; };
-		E2AEAE3724349B6E00862479 /* StoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC7624349B4000862479 /* StoreManager.m */; };
-		E2AEAE3824349B6E00862479 /* UIDevice_AvailableMemory.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC7824349B4000862479 /* UIDevice_AvailableMemory.m */; };
-		E2AEAE3924349B6E00862479 /* CompoundBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC7924349B4000862479 /* CompoundBoard.m */; };
-		E2AEAE3A24349B6E00862479 /* PrefPageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC7A24349B4000862479 /* PrefPageItem.m */; };
-		E2AEAE3B24349B6E00862479 /* CSet_NS.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC7E24349B4100862479 /* CSet_NS.m */; };
-		E2AEAE3C24349B6E00862479 /* NSMutableString_Shuffle.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC8024349B4100862479 /* NSMutableString_Shuffle.m */; };
-		E2AEAE3D24349B6E00862479 /* ScreenDumper.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC8124349B4100862479 /* ScreenDumper.m */; };
-		E2AEAE3E24349B6E00862479 /* MainMenuWidget.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC8224349B4100862479 /* MainMenuWidget.m */; };
-		E2AEAE3F24349B6E00862479 /* GridBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC8324349B4100862479 /* GridBoard.m */; };
-		E2AEAE4024349B6E00862479 /* PrefViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC8424349B4100862479 /* PrefViewController.m */; };
-		E2AEAE4124349B6E00862479 /* PrefCheckForUpdatesActionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC8524349B4100862479 /* PrefCheckForUpdatesActionItem.m */; };
-		E2AEAE4224349B6E00862479 /* AppleStore.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC8624349B4100862479 /* AppleStore.m */; };
-		E2AEAE4324349B6E00862479 /* DigitPieceDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC8724349B4200862479 /* DigitPieceDecorator.m */; };
-		E2AEAE4424349B6E00862479 /* StringsLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC8B24349B4200862479 /* StringsLanguage.m */; };
-		E2AEAE4524349B6E00862479 /* PrefPage.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC8C24349B4200862479 /* PrefPage.m */; };
-		E2AEAE4624349B6E00862479 /* GameLevelSequenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC8E24349B4200862479 /* GameLevelSequenceViewController.m */; };
-		E2AEAE4724349B6E00862479 /* PrefReorderProgrammableActionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC9024349B4200862479 /* PrefReorderProgrammableActionItem.m */; };
-		E2AEAE4824349B6E00862479 /* PrefUrlDirectorySection.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC9324349B4300862479 /* PrefUrlDirectorySection.m */; };
-		E2AEAE4924349B6E00862479 /* PrefPurchaseRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC9624349B4300862479 /* PrefPurchaseRecordViewController.m */; };
-		E2AEAE4A24349B6E00862479 /* PassedLevelEndMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC9724349B4300862479 /* PassedLevelEndMenu.m */; };
-		E2AEAE4B24349B6E00862479 /* ScoreWidget.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC9824349B4300862479 /* ScoreWidget.m */; };
-		E2AEAE4C24349B6E00862479 /* PrefUUIDActionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC9D24349B4400862479 /* PrefUUIDActionItem.m */; };
-		E2AEAE4D24349B6E00862479 /* PrefFileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC9E24349B4400862479 /* PrefFileViewController.m */; };
-		E2AEAE4E24349B6E00862479 /* ShapeDecorationImageBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC9F24349B4400862479 /* ShapeDecorationImageBuilder.m */; };
-		E2AEAE4F24349B6E00862479 /* GridBoardPieceDispenserView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACA224349B4400862479 /* GridBoardPieceDispenserView.m */; };
+		E2AEAE3624349B6E00862479 /* LevelSelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC7524349B4000862479 /* LevelSelectorViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE3724349B6E00862479 /* StoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC7624349B4000862479 /* StoreManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE3824349B6E00862479 /* UIDevice_AvailableMemory.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC7824349B4000862479 /* UIDevice_AvailableMemory.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE3924349B6E00862479 /* CompoundBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC7924349B4000862479 /* CompoundBoard.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE3A24349B6E00862479 /* PrefPageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC7A24349B4000862479 /* PrefPageItem.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE3B24349B6E00862479 /* CSet_NS.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC7E24349B4100862479 /* CSet_NS.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE3C24349B6E00862479 /* NSMutableString_Shuffle.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC8024349B4100862479 /* NSMutableString_Shuffle.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE3D24349B6E00862479 /* ScreenDumper.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC8124349B4100862479 /* ScreenDumper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE3E24349B6E00862479 /* MainMenuWidget.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC8224349B4100862479 /* MainMenuWidget.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE3F24349B6E00862479 /* GridBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC8324349B4100862479 /* GridBoard.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE4024349B6E00862479 /* PrefViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC8424349B4100862479 /* PrefViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE4124349B6E00862479 /* PrefCheckForUpdatesActionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC8524349B4100862479 /* PrefCheckForUpdatesActionItem.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE4224349B6E00862479 /* AppleStore.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC8624349B4100862479 /* AppleStore.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE4324349B6E00862479 /* DigitPieceDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC8724349B4200862479 /* DigitPieceDecorator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE4424349B6E00862479 /* StringsLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC8B24349B4200862479 /* StringsLanguage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE4524349B6E00862479 /* PrefPage.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC8C24349B4200862479 /* PrefPage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE4624349B6E00862479 /* GameLevelSequenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC8E24349B4200862479 /* GameLevelSequenceViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE4724349B6E00862479 /* PrefReorderProgrammableActionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC9024349B4200862479 /* PrefReorderProgrammableActionItem.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE4824349B6E00862479 /* PrefUrlDirectorySection.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC9324349B4300862479 /* PrefUrlDirectorySection.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE4924349B6E00862479 /* PrefPurchaseRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC9624349B4300862479 /* PrefPurchaseRecordViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE4A24349B6E00862479 /* PassedLevelEndMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC9724349B4300862479 /* PassedLevelEndMenu.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE4B24349B6E00862479 /* ScoreWidget.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC9824349B4300862479 /* ScoreWidget.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE4C24349B6E00862479 /* PrefUUIDActionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC9D24349B4400862479 /* PrefUUIDActionItem.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE4D24349B6E00862479 /* PrefFileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC9E24349B4400862479 /* PrefFileViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE4E24349B6E00862479 /* ShapeDecorationImageBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC9F24349B4400862479 /* ShapeDecorationImageBuilder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE4F24349B6E00862479 /* GridBoardPieceDispenserView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACA224349B4400862479 /* GridBoardPieceDispenserView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E2AEAE5024349B6E00862479 /* Sound_WordInvalid.aif in Resources */ = {isa = PBXBuildFile; fileRef = E2AEACA324349B4400862479 /* Sound_WordInvalid.aif */; };
-		E2AEAE5124349B6E00862479 /* PrefItemViewControllerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACA424349B4400862479 /* PrefItemViewControllerBase.m */; };
-		E2AEAE5224349B6E00862479 /* StringWithProps.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACA624349B4500862479 /* StringWithProps.m */; };
+		E2AEAE5124349B6E00862479 /* PrefItemViewControllerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACA424349B4400862479 /* PrefItemViewControllerBase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE5224349B6E00862479 /* StringWithProps.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACA624349B4500862479 /* StringWithProps.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E2AEAE5324349B6E00862479 /* jim in Resources */ = {isa = PBXBuildFile; fileRef = E2AEACA724349B4500862479 /* jim */; };
-		E2AEAE5424349B6E00862479 /* LanguageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACA924349B4500862479 /* LanguageManager.m */; };
+		E2AEAE5424349B6E00862479 /* LanguageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACA924349B4500862479 /* LanguageManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E2AEAE5524349B6E00862479 /* Decoration_Apple.gif in Resources */ = {isa = PBXBuildFile; fileRef = E2AEACAD24349B4500862479 /* Decoration_Apple.gif */; };
 		E2AEAE5624349B6E00862479 /* Sound_DispenserDoneWarning-old1.aif in Resources */ = {isa = PBXBuildFile; fileRef = E2AEACAF24349B4600862479 /* Sound_DispenserDoneWarning-old1.aif */; };
-		E2AEAE5824349B6E00862479 /* PrefThreadedActionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACB624349B4600862479 /* PrefThreadedActionItem.m */; };
-		E2AEAE5924349B6E00862479 /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACB724349B4600862479 /* MainMenuViewController.m */; };
-		E2AEAE5A24349B6E00862479 /* Brand.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACB824349B4600862479 /* Brand.m */; };
-		E2AEAE5B24349B6E00862479 /* RandomPlacementGBL.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACBA24349B4700862479 /* RandomPlacementGBL.m */; };
-		E2AEAE5C24349B6E00862479 /* ListBoardOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACBB24349B4700862479 /* ListBoardOrder.m */; };
-		E2AEAE5D24349B6E00862479 /* PrefResetToFactorySettingsActionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACBE24349B4700862479 /* PrefResetToFactorySettingsActionItem.m */; };
-		E2AEAE5E24349B6E00862479 /* ScoreTableWidget.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACC124349B4700862479 /* ScoreTableWidget.m */; };
-		E2AEAE5F24349B6E00862479 /* SymbolAlphabet.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACC424349B4800862479 /* SymbolAlphabet.m */; };
-		E2AEAE6024349B6E00862479 /* PrefFilePage.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACC624349B4800862479 /* PrefFilePage.m */; };
-		E2AEAE6124349B6E00862479 /* UserPrefsUPL.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACC724349B4800862479 /* UserPrefsUPL.m */; };
+		E2AEAE5824349B6E00862479 /* PrefThreadedActionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACB624349B4600862479 /* PrefThreadedActionItem.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE5924349B6E00862479 /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACB724349B4600862479 /* MainMenuViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE5A24349B6E00862479 /* Brand.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACB824349B4600862479 /* Brand.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE5B24349B6E00862479 /* RandomPlacementGBL.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACBA24349B4700862479 /* RandomPlacementGBL.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE5C24349B6E00862479 /* ListBoardOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACBB24349B4700862479 /* ListBoardOrder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE5D24349B6E00862479 /* PrefResetToFactorySettingsActionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACBE24349B4700862479 /* PrefResetToFactorySettingsActionItem.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE5E24349B6E00862479 /* ScoreTableWidget.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACC124349B4700862479 /* ScoreTableWidget.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE5F24349B6E00862479 /* SymbolAlphabet.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACC424349B4800862479 /* SymbolAlphabet.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE6024349B6E00862479 /* PrefFilePage.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACC624349B4800862479 /* PrefFilePage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE6124349B6E00862479 /* UserPrefsUPL.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACC724349B4800862479 /* UserPrefsUPL.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E2AEAE6224349B6E00862479 /* Sound_DispenserDoneWarning.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E2AEACCA24349B4800862479 /* Sound_DispenserDoneWarning.mp3 */; };
-		E2AEAE6324349B6E00862479 /* SplashPanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACCB24349B4800862479 /* SplashPanelView.m */; };
-		E2AEAE6424349B6E00862479 /* SplashPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACCE24349B4800862479 /* SplashPanel.m */; };
-		E2AEAE6524349B6E00862479 /* PrefSaveAsProgrammableActionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACD024349B4800862479 /* PrefSaveAsProgrammableActionItem.m */; };
-		E2AEAE6624349B6E00862479 /* AuctionRoomImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACD324349B4900862479 /* AuctionRoomImpl.m */; };
-		E2AEAE6724349B6E00862479 /* PrefImageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACD424349B4900862479 /* PrefImageItem.m */; };
-		E2AEAE6824349B6E00862479 /* ScoresDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACDB24349B4A00862479 /* ScoresDatabase.m */; };
-		E2AEAE6924349B6E00862479 /* PrefShowLastStatusOntologyActionLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACDD24349B4A00862479 /* PrefShowLastStatusOntologyActionLabel.m */; };
-		E2AEAE6A24349B6E00862479 /* ScriptedGameLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACDE24349B4A00862479 /* ScriptedGameLevel.m */; };
-		E2AEAE6B24349B6E00862479 /* ByLanguageUUIDGameLevelFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACE024349B4A00862479 /* ByLanguageUUIDGameLevelFactory.m */; };
-		E2AEAE6C24349B6E00862479 /* GameBoardLogicBase.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACE524349B4B00862479 /* GameBoardLogicBase.m */; };
+		E2AEAE6324349B6E00862479 /* SplashPanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACCB24349B4800862479 /* SplashPanelView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE6424349B6E00862479 /* SplashPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACCE24349B4800862479 /* SplashPanel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE6524349B6E00862479 /* PrefSaveAsProgrammableActionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACD024349B4800862479 /* PrefSaveAsProgrammableActionItem.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE6624349B6E00862479 /* AuctionRoomImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACD324349B4900862479 /* AuctionRoomImpl.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE6724349B6E00862479 /* PrefImageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACD424349B4900862479 /* PrefImageItem.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE6824349B6E00862479 /* ScoresDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACDB24349B4A00862479 /* ScoresDatabase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE6924349B6E00862479 /* PrefShowLastStatusOntologyActionLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACDD24349B4A00862479 /* PrefShowLastStatusOntologyActionLabel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE6A24349B6E00862479 /* ScriptedGameLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACDE24349B4A00862479 /* ScriptedGameLevel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE6B24349B6E00862479 /* ByLanguageUUIDGameLevelFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACE024349B4A00862479 /* ByLanguageUUIDGameLevelFactory.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE6C24349B6E00862479 /* GameBoardLogicBase.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACE524349B4B00862479 /* GameBoardLogicBase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E2AEAE6D24349B6E00862479 /* Sound_BoardFullWarning.aif in Resources */ = {isa = PBXBuildFile; fileRef = E2AEACE624349B4B00862479 /* Sound_BoardFullWarning.aif */; };
-		E2AEAE6E24349B6E00862479 /* ByScriptGameLevelFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACEE24349B4B00862479 /* ByScriptGameLevelFactory.m */; };
-		E2AEAE6F24349B6E00862479 /* PrefUUIDActionImage.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACF124349B4C00862479 /* PrefUUIDActionImage.m */; };
+		E2AEAE6E24349B6E00862479 /* ByScriptGameLevelFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACEE24349B4B00862479 /* ByScriptGameLevelFactory.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE6F24349B6E00862479 /* PrefUUIDActionImage.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACF124349B4C00862479 /* PrefUUIDActionImage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E2AEAE7024349B6E00862479 /* Sound_Decoration_ApplePieceDecorator.aif in Resources */ = {isa = PBXBuildFile; fileRef = E2AEACF224349B4C00862479 /* Sound_Decoration_ApplePieceDecorator.aif */; };
-		E2AEAE7124349B6E00862479 /* JimTestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACF324349B4C00862479 /* JimTestClass.m */; };
-		E2AEAE7224349B6E00862479 /* ByUUIDGameLevelFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACF524349B4C00862479 /* ByUUIDGameLevelFactory.m */; };
-		E2AEAE7324349B6E00862479 /* PrefFolderPage.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACF824349B4C00862479 /* PrefFolderPage.m */; };
+		E2AEAE7124349B6E00862479 /* JimTestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACF324349B4C00862479 /* JimTestClass.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE7224349B6E00862479 /* ByUUIDGameLevelFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACF524349B4C00862479 /* ByUUIDGameLevelFactory.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE7324349B6E00862479 /* PrefFolderPage.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEACF824349B4C00862479 /* PrefFolderPage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E2AEAE7424349B6E00862479 /* Sound_BoardFullWarning.wav in Resources */ = {isa = PBXBuildFile; fileRef = E2AEACFA24349B4C00862479 /* Sound_BoardFullWarning.wav */; };
 		E2AEAE7524349B6E00862479 /* PauseCurtain.png in Resources */ = {isa = PBXBuildFile; fileRef = E2AEACFE24349B4D00862479 /* PauseCurtain.png */; };
-		E2AEAE7624349B6E00862479 /* PullManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD0024349B4D00862479 /* PullManager.m */; };
-		E2AEAE7724349B6E00862479 /* CompoundGameBoardLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD0224349B4D00862479 /* CompoundGameBoardLogic.m */; };
-		E2AEAE7824349B6E00862479 /* RecItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD0624349B4E00862479 /* RecItem.m */; };
-		E2AEAE7924349B6E00862479 /* WordAuctionParticipant.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD0724349B4E00862479 /* WordAuctionParticipant.m */; };
-		E2AEAE7A24349B6E00862479 /* EditableTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD0824349B4E00862479 /* EditableTableViewCell.m */; };
-		E2AEAE7B24349B6E00862479 /* ScoreWidgetView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD0924349B4E00862479 /* ScoreWidgetView.m */; };
-		E2AEAE7C24349B6E00862479 /* WordListWordDispenser.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD0A24349B4E00862479 /* WordListWordDispenser.m */; };
-		E2AEAE7D24349B6E00862479 /* RoleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD0C24349B4E00862479 /* RoleManager.m */; };
-		E2AEAE7E24349B6E00862479 /* UserPrefs.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD0D24349B4E00862479 /* UserPrefs.m */; };
-		E2AEAE7F24349B6E00862479 /* JIMHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD0F24349B4E00862479 /* JIMHelper.m */; };
-		E2AEAE8024349B6E00862479 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD1124349B4F00862479 /* Cell.m */; };
-		E2AEAE8124349B6E00862479 /* CatalogItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD1424349B4F00862479 /* CatalogItem.m */; };
+		E2AEAE7624349B6E00862479 /* PullManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD0024349B4D00862479 /* PullManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE7724349B6E00862479 /* CompoundGameBoardLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD0224349B4D00862479 /* CompoundGameBoardLogic.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE7824349B6E00862479 /* RecItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD0624349B4E00862479 /* RecItem.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE7924349B6E00862479 /* WordAuctionParticipant.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD0724349B4E00862479 /* WordAuctionParticipant.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE7A24349B6E00862479 /* EditableTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD0824349B4E00862479 /* EditableTableViewCell.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE7B24349B6E00862479 /* ScoreWidgetView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD0924349B4E00862479 /* ScoreWidgetView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE7C24349B6E00862479 /* WordListWordDispenser.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD0A24349B4E00862479 /* WordListWordDispenser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE7D24349B6E00862479 /* RoleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD0C24349B4E00862479 /* RoleManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE7E24349B6E00862479 /* UserPrefs.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD0D24349B4E00862479 /* UserPrefs.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE7F24349B6E00862479 /* JIMHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD0F24349B4E00862479 /* JIMHelper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE8024349B6E00862479 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD1124349B4F00862479 /* Cell.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE8124349B6E00862479 /* CatalogItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD1424349B4F00862479 /* CatalogItem.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E2AEAE8224349B6E00862479 /* startup.png in Resources */ = {isa = PBXBuildFile; fileRef = E2AEAD1624349B4F00862479 /* startup.png */; };
-		E2AEAE8324349B6E00862479 /* SingleProbabilityURS.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD1724349B4F00862479 /* SingleProbabilityURS.m */; };
-		E2AEAE8424349B6E00862479 /* PrefCreateIdentityActionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD1824349B4F00862479 /* PrefCreateIdentityActionItem.m */; };
-		E2AEAE8524349B6E00862479 /* UUIDPropsUPL.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD1B24349B5000862479 /* UUIDPropsUPL.m */; };
-		E2AEAE8624349B6E00862479 /* Catalog.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD1C24349B5000862479 /* Catalog.m */; };
-		E2AEAE8724349B6E00862479 /* NSMutableArray_Shuffle.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD1E24349B5000862479 /* NSMutableArray_Shuffle.m */; };
-		E2AEAE8824349B6E00862479 /* PieceFaderGBL.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD1F24349B5000862479 /* PieceFaderGBL.m */; };
-		E2AEAE8924349B6E00862479 /* BrandManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD2324349B5000862479 /* BrandManager.m */; };
-		E2AEAE8A24349B6E00862479 /* PrefPurchaseRecordsSection.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD2524349B5100862479 /* PrefPurchaseRecordsSection.m */; };
-		E2AEAE8B24349B6E00862479 /* PrefImageSequenceItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD2924349B5100862479 /* PrefImageSequenceItem.m */; };
-		E2AEAE8C24349B6E00862479 /* AuctionSymbolDispenser.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD2A24349B5100862479 /* AuctionSymbolDispenser.m */; };
-		E2AEAE8D24349B6E00862479 /* PrefItemBase.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD2C24349B5100862479 /* PrefItemBase.m */; };
-		E2AEAE8E24349B6E00862479 /* PrefBrowseOntologyActionImage.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD2E24349B5100862479 /* PrefBrowseOntologyActionImage.m */; };
-		E2AEAE8F24349B6E00862479 /* Banner.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD3024349B5200862479 /* Banner.m */; };
-		E2AEAE9024349B6E00862479 /* PrefStringItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD3324349B5200862479 /* PrefStringItemViewController.m */; };
-		E2AEAE9124349B6E00862479 /* LowPassFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD3524349B5200862479 /* LowPassFilter.m */; };
-		E2AEAE9224349B6E00862479 /* GridBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD3624349B5200862479 /* GridBoardView.m */; };
-		E2AEAE9324349B6E00862479 /* PrefDeleteProgrammableActionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD3824349B5300862479 /* PrefDeleteProgrammableActionItem.m */; };
-		E2AEAE9424349B6E00862479 /* SymbolPieceView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD3924349B5300862479 /* SymbolPieceView.m */; };
-		E2AEAE9524349B6E00862479 /* AppleStore_ProductRequestDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD3B24349B5300862479 /* AppleStore_ProductRequestDelegate.m */; };
-		E2AEAE9624349B6E00862479 /* BombPieceDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD3C24349B5300862479 /* BombPieceDecorator.m */; };
-		E2AEAE9724349B6E00862479 /* ParametricGameLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD3E24349B5300862479 /* ParametricGameLevel.m */; };
-		E2AEAE9824349B6E00862479 /* PullHandlerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD3F24349B5300862479 /* PullHandlerBase.m */; };
-		E2AEAE9924349B6E00862479 /* BPF_Entry.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD4124349B5400862479 /* BPF_Entry.m */; };
-		E2AEAE9A24349B6E00862479 /* GoalSeekingSymbolDispenser.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD4224349B5400862479 /* GoalSeekingSymbolDispenser.m */; };
-		E2AEAE9B24349B6E00862479 /* CellView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD4624349B5400862479 /* CellView.m */; };
-		E2AEAE9C24349B6E00862479 /* SnakeBoardOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD4824349B5400862479 /* SnakeBoardOrder.m */; };
-		E2AEAE9D24349B6E00862479 /* PrefAbraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD4924349B5400862479 /* PrefAbraViewController.m */; };
-		E2AEAE9E24349B6E00862479 /* PrefRichPageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD4A24349B5500862479 /* PrefRichPageItem.m */; };
-		E2AEAEA024349B6E00862479 /* PrefUUIDPrefsBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD4F24349B5500862479 /* PrefUUIDPrefsBuilder.m */; };
-		E2AEAEA124349B6E00862479 /* ArrayPiecesHint.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD5024349B5500862479 /* ArrayPiecesHint.m */; };
-		E2AEAEA224349B6E00862479 /* GameLevelSequenceView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD5324349B5600862479 /* GameLevelSequenceView.m */; };
+		E2AEAE8324349B6E00862479 /* SingleProbabilityURS.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD1724349B4F00862479 /* SingleProbabilityURS.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE8424349B6E00862479 /* PrefCreateIdentityActionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD1824349B4F00862479 /* PrefCreateIdentityActionItem.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE8524349B6E00862479 /* UUIDPropsUPL.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD1B24349B5000862479 /* UUIDPropsUPL.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE8624349B6E00862479 /* Catalog.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD1C24349B5000862479 /* Catalog.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE8724349B6E00862479 /* NSMutableArray_Shuffle.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD1E24349B5000862479 /* NSMutableArray_Shuffle.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE8824349B6E00862479 /* PieceFaderGBL.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD1F24349B5000862479 /* PieceFaderGBL.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE8924349B6E00862479 /* BrandManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD2324349B5000862479 /* BrandManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE8A24349B6E00862479 /* PrefPurchaseRecordsSection.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD2524349B5100862479 /* PrefPurchaseRecordsSection.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE8B24349B6E00862479 /* PrefImageSequenceItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD2924349B5100862479 /* PrefImageSequenceItem.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE8C24349B6E00862479 /* AuctionSymbolDispenser.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD2A24349B5100862479 /* AuctionSymbolDispenser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE8D24349B6E00862479 /* PrefItemBase.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD2C24349B5100862479 /* PrefItemBase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE8E24349B6E00862479 /* PrefBrowseOntologyActionImage.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD2E24349B5100862479 /* PrefBrowseOntologyActionImage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE8F24349B6E00862479 /* Banner.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD3024349B5200862479 /* Banner.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE9024349B6E00862479 /* PrefStringItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD3324349B5200862479 /* PrefStringItemViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE9124349B6E00862479 /* LowPassFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD3524349B5200862479 /* LowPassFilter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE9224349B6E00862479 /* GridBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD3624349B5200862479 /* GridBoardView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE9324349B6E00862479 /* PrefDeleteProgrammableActionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD3824349B5300862479 /* PrefDeleteProgrammableActionItem.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE9424349B6E00862479 /* SymbolPieceView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD3924349B5300862479 /* SymbolPieceView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE9524349B6E00862479 /* AppleStore_ProductRequestDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD3B24349B5300862479 /* AppleStore_ProductRequestDelegate.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE9624349B6E00862479 /* BombPieceDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD3C24349B5300862479 /* BombPieceDecorator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE9724349B6E00862479 /* ParametricGameLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD3E24349B5300862479 /* ParametricGameLevel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE9824349B6E00862479 /* PullHandlerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD3F24349B5300862479 /* PullHandlerBase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE9924349B6E00862479 /* BPF_Entry.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD4124349B5400862479 /* BPF_Entry.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE9A24349B6E00862479 /* GoalSeekingSymbolDispenser.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD4224349B5400862479 /* GoalSeekingSymbolDispenser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE9B24349B6E00862479 /* CellView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD4624349B5400862479 /* CellView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE9C24349B6E00862479 /* SnakeBoardOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD4824349B5400862479 /* SnakeBoardOrder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE9D24349B6E00862479 /* PrefAbraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD4924349B5400862479 /* PrefAbraViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAE9E24349B6E00862479 /* PrefRichPageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD4A24349B5500862479 /* PrefRichPageItem.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAEA024349B6E00862479 /* PrefUUIDPrefsBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD4F24349B5500862479 /* PrefUUIDPrefsBuilder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAEA124349B6E00862479 /* ArrayPiecesHint.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD5024349B5500862479 /* ArrayPiecesHint.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAEA224349B6E00862479 /* GameLevelSequenceView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD5324349B5600862479 /* GameLevelSequenceView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E2AEAEA324349B6E00862479 /* Sound_Clicked.aif in Resources */ = {isa = PBXBuildFile; fileRef = E2AEAD5624349B5600862479 /* Sound_Clicked.aif */; };
-		E2AEAEA424349B6E00862479 /* NSString_Reverse.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD5724349B5600862479 /* NSString_Reverse.m */; };
-		E2AEAEA524349B6E00862479 /* JIMInterp.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD5824349B5600862479 /* JIMInterp.m */; };
-		E2AEAEA624349B6E00862479 /* ItemSelectorWidget.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD5A24349B5600862479 /* ItemSelectorWidget.m */; };
-		E2AEAEA724349B6E00862479 /* SymbolPiece.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD5C24349B5700862479 /* SymbolPiece.m */; };
+		E2AEAEA424349B6E00862479 /* NSString_Reverse.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD5724349B5600862479 /* NSString_Reverse.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAEA524349B6E00862479 /* JIMInterp.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD5824349B5600862479 /* JIMInterp.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAEA624349B6E00862479 /* ItemSelectorWidget.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD5A24349B5600862479 /* ItemSelectorWidget.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAEA724349B6E00862479 /* SymbolPiece.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD5C24349B5700862479 /* SymbolPiece.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E2AEAEA824349B6E00862479 /* Decoration_Coin.gif in Resources */ = {isa = PBXBuildFile; fileRef = E2AEAD5E24349B5700862479 /* Decoration_Coin.gif */; };
 		E2AEAEA924349B6E00862479 /* images in Resources */ = {isa = PBXBuildFile; fileRef = E2AEAD5F24349B5700862479 /* images */; };
-		E2AEAEAA24349B6E00862479 /* PhraseWordValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD6224349B5700862479 /* PhraseWordValidator.m */; };
+		E2AEAEAA24349B6E00862479 /* PhraseWordValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD6224349B5700862479 /* PhraseWordValidator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E2AEAEAB24349B6E00862479 /* Sound_WordReset.aif in Resources */ = {isa = PBXBuildFile; fileRef = E2AEAD6524349B5700862479 /* Sound_WordReset.aif */; };
-		E2AEAEAC24349B6E00862479 /* CheckedPieceDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD6724349B5800862479 /* CheckedPieceDecorator.m */; };
-		E2AEAEAE24349B6E00862479 /* SourceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD6B24349B5800862479 /* SourceCell.m */; };
-		E2AEAEAF24349B6E00862479 /* BoardContentsWeightedSymbolDispenser.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD6D24349B5800862479 /* BoardContentsWeightedSymbolDispenser.m */; };
-		E2AEAEB024349B6E00862479 /* PrefGameSelectionPageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD6F24349B5900862479 /* PrefGameSelectionPageItem.m */; };
+		E2AEAEAC24349B6E00862479 /* CheckedPieceDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD6724349B5800862479 /* CheckedPieceDecorator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAEAE24349B6E00862479 /* SourceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD6B24349B5800862479 /* SourceCell.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAEAF24349B6E00862479 /* BoardContentsWeightedSymbolDispenser.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD6D24349B5800862479 /* BoardContentsWeightedSymbolDispenser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAEB024349B6E00862479 /* PrefGameSelectionPageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD6F24349B5900862479 /* PrefGameSelectionPageItem.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E2AEAEB124349B6E00862479 /* Sound_Decoration_BombPieceDecorator.aif in Resources */ = {isa = PBXBuildFile; fileRef = E2AEAD7024349B5900862479 /* Sound_Decoration_BombPieceDecorator.aif */; };
 		E2AEAEB224349B6E00862479 /* spellmaze_logo_64x64.png in Resources */ = {isa = PBXBuildFile; fileRef = E2AEAD7324349B5900862479 /* spellmaze_logo_64x64.png */; };
-		E2AEAEB324349B6E00862479 /* JokerUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD7724349B5900862479 /* JokerUtils.m */; };
-		E2AEAEB424349B6E00862479 /* PrefRenameProgrammableActionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD7824349B5A00862479 /* PrefRenameProgrammableActionItem.m */; };
-		E2AEAEB524349B6E00862479 /* UUIDUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD7D24349B5A00862479 /* UUIDUtils.m */; };
-		E2AEAEB624349B6E00862479 /* RandomBoardOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD7E24349B5A00862479 /* RandomBoardOrder.m */; };
-		E2AEAEB724349B6E00862479 /* UIImage_ResizeImageAllocator.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD8124349B5A00862479 /* UIImage_ResizeImageAllocator.m */; };
-		E2AEAEB824349B6E00862479 /* RandomSymbolDispenser.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD8224349B5B00862479 /* RandomSymbolDispenser.m */; };
-		E2AEAEB924349B6E00862479 /* TextBlockSplitter.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD8424349B5B00862479 /* TextBlockSplitter.m */; };
-		E2AEAEBA24349B6E00862479 /* PrefShowOntologyImagesActionImage.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD8624349B5B00862479 /* PrefShowOntologyImagesActionImage.m */; };
-		E2AEAEBB24349B6E00862479 /* PrefActionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD8724349B5B00862479 /* PrefActionItem.m */; };
-		E2AEAEBC24349B6E00862479 /* BoardAuctionArticle.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD8824349B5B00862479 /* BoardAuctionArticle.m */; };
-		E2AEAEBD24349B6E00862479 /* PrefSection.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD8924349B5B00862479 /* PrefSection.m */; };
-		E2AEAEBE24349B6E00862479 /* PrefCompoundSection.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD8B24349B5B00862479 /* PrefCompoundSection.m */; };
-		E2AEAEBF24349B6F00862479 /* GameLevelSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD8C24349B5C00862479 /* GameLevelSequence.m */; };
-		E2AEAEC024349B6F00862479 /* ByFolderGameLevelFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD8D24349B5C00862479 /* ByFolderGameLevelFactory.m */; };
-		E2AEAEC124349B6F00862479 /* GridBoardPieceDispenserWords.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD8E24349B5C00862479 /* GridBoardPieceDispenserWords.m */; };
-		E2AEAEC224349B6F00862479 /* Folders.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD8F24349B5C00862479 /* Folders.m */; };
-		E2AEAEC324349B6F00862479 /* PurchaseRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD9024349B5C00862479 /* PurchaseRecord.m */; };
-		E2AEAEC424349B6F00862479 /* NSDictionary_TypedAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD9124349B5C00862479 /* NSDictionary_TypedAccess.m */; };
-		E2AEAEC524349B6F00862479 /* WordQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD9324349B5D00862479 /* WordQueue.m */; };
-		E2AEAEC624349B6F00862479 /* PrefDomainDownloadItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD9424349B5D00862479 /* PrefDomainDownloadItem.m */; };
-		E2AEAEC724349B6F00862479 /* CellTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD9524349B5D00862479 /* CellTextField.m */; };
-		E2AEAEC824349B6F00862479 /* SoundTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD9624349B5D00862479 /* SoundTheme.m */; };
-		E2AEAEC924349B6F00862479 /* NSData_TextRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD9724349B5D00862479 /* NSData_TextRepresentation.m */; };
-		E2AEAECA24349B6F00862479 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD9824349B5D00862479 /* main.m */; };
-		E2AEAECB24349B6F00862479 /* ImageSequenceMediaView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD9924349B5D00862479 /* ImageSequenceMediaView.m */; };
-		E2AEAECC24349B6F00862479 /* WordCountBPF.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD9C24349B5E00862479 /* WordCountBPF.m */; };
-		E2AEAECD24349B6F00862479 /* PrefMainPageBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD9D24349B5E00862479 /* PrefMainPageBuilder.m */; };
+		E2AEAEB324349B6E00862479 /* JokerUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD7724349B5900862479 /* JokerUtils.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAEB424349B6E00862479 /* PrefRenameProgrammableActionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD7824349B5A00862479 /* PrefRenameProgrammableActionItem.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAEB524349B6E00862479 /* UUIDUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD7D24349B5A00862479 /* UUIDUtils.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAEB624349B6E00862479 /* RandomBoardOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD7E24349B5A00862479 /* RandomBoardOrder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAEB724349B6E00862479 /* UIImage_ResizeImageAllocator.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD8124349B5A00862479 /* UIImage_ResizeImageAllocator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAEB824349B6E00862479 /* RandomSymbolDispenser.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD8224349B5B00862479 /* RandomSymbolDispenser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAEB924349B6E00862479 /* TextBlockSplitter.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD8424349B5B00862479 /* TextBlockSplitter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAEBA24349B6E00862479 /* PrefShowOntologyImagesActionImage.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD8624349B5B00862479 /* PrefShowOntologyImagesActionImage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAEBB24349B6E00862479 /* PrefActionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD8724349B5B00862479 /* PrefActionItem.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAEBC24349B6E00862479 /* BoardAuctionArticle.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD8824349B5B00862479 /* BoardAuctionArticle.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAEBD24349B6E00862479 /* PrefSection.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD8924349B5B00862479 /* PrefSection.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAEBE24349B6E00862479 /* PrefCompoundSection.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD8B24349B5B00862479 /* PrefCompoundSection.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAEBF24349B6F00862479 /* GameLevelSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD8C24349B5C00862479 /* GameLevelSequence.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAEC024349B6F00862479 /* ByFolderGameLevelFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD8D24349B5C00862479 /* ByFolderGameLevelFactory.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAEC124349B6F00862479 /* GridBoardPieceDispenserWords.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD8E24349B5C00862479 /* GridBoardPieceDispenserWords.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAEC224349B6F00862479 /* Folders.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD8F24349B5C00862479 /* Folders.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAEC324349B6F00862479 /* PurchaseRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD9024349B5C00862479 /* PurchaseRecord.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAEC424349B6F00862479 /* NSDictionary_TypedAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD9124349B5C00862479 /* NSDictionary_TypedAccess.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAEC524349B6F00862479 /* WordQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD9324349B5D00862479 /* WordQueue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAEC624349B6F00862479 /* PrefDomainDownloadItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD9424349B5D00862479 /* PrefDomainDownloadItem.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAEC724349B6F00862479 /* CellTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD9524349B5D00862479 /* CellTextField.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAEC824349B6F00862479 /* SoundTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD9624349B5D00862479 /* SoundTheme.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAEC924349B6F00862479 /* NSData_TextRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD9724349B5D00862479 /* NSData_TextRepresentation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAECA24349B6F00862479 /* old_main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD9824349B5D00862479 /* old_main.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAECB24349B6F00862479 /* ImageSequenceMediaView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD9924349B5D00862479 /* ImageSequenceMediaView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAECC24349B6F00862479 /* WordCountBPF.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD9C24349B5E00862479 /* WordCountBPF.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAECD24349B6F00862479 /* PrefMainPageBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAD9D24349B5E00862479 /* PrefMainPageBuilder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E2AEAECE24349B6F00862479 /* espeak-data in Resources */ = {isa = PBXBuildFile; fileRef = E2AEAD9E24349B5E00862479 /* espeak-data */; };
-		E2AEAECF24349B6F00862479 /* SpiralBoardOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADA324349B5F00862479 /* SpiralBoardOrder.m */; };
-		E2AEAED124349B6F00862479 /* CSetWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADA724349B5F00862479 /* CSetWrapper.m */; };
+		E2AEAECF24349B6F00862479 /* SpiralBoardOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADA324349B5F00862479 /* SpiralBoardOrder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAED124349B6F00862479 /* CSetWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADA724349B5F00862479 /* CSetWrapper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E2AEAED224349B6F00862479 /* Builtin in Resources */ = {isa = PBXBuildFile; fileRef = E2AEADA824349B6000862479 /* Builtin */; };
-		E2AEAED324349B6F00862479 /* ScoresViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADA924349B6000862479 /* ScoresViewController.m */; };
-		E2AEAED424349B6F00862479 /* PrefMultiValueItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADAA24349B6000862479 /* PrefMultiValueItemViewController.m */; };
-		E2AEAED524349B6F00862479 /* CellTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADAE24349B6100862479 /* CellTextView.m */; };
-		E2AEAED624349B6F00862479 /* PrefFileActionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADB224349B6100862479 /* PrefFileActionDelegate.m */; };
+		E2AEAED324349B6F00862479 /* ScoresViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADA924349B6000862479 /* ScoresViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAED424349B6F00862479 /* PrefMultiValueItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADAA24349B6000862479 /* PrefMultiValueItemViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAED524349B6F00862479 /* CellTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADAE24349B6100862479 /* CellTextView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAED624349B6F00862479 /* PrefFileActionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADB224349B6100862479 /* PrefFileActionDelegate.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E2AEAED724349B6F00862479 /* Sound_PieceHinted.aif in Resources */ = {isa = PBXBuildFile; fileRef = E2AEADB324349B6100862479 /* Sound_PieceHinted.aif */; };
-		E2AEAED824349B6F00862479 /* PrefPurchaseRecordPage.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADB424349B6100862479 /* PrefPurchaseRecordPage.m */; };
-		E2AEAED924349B6F00862479 /* ScriptPullHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADB624349B6200862479 /* ScriptPullHandler.m */; };
-		E2AEAEDA24349B6F00862479 /* BoardLanguageWordsAuctionUsher.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADB724349B6200862479 /* BoardLanguageWordsAuctionUsher.m */; };
-		E2AEAEDB24349B6F00862479 /* CheckedPieceDecorator2.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADB824349B6200862479 /* CheckedPieceDecorator2.m */; };
-		E2AEAEDC24349B6F00862479 /* GameLevelView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADB924349B6200862479 /* GameLevelView.m */; };
-		E2AEAEDD24349B6F00862479 /* SymbolAuctionBid.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADBC24349B6200862479 /* SymbolAuctionBid.m */; };
-		E2AEAEDE24349B6F00862479 /* OrderNudgeGBL.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADBF24349B6300862479 /* OrderNudgeGBL.m */; };
-		E2AEAEDF24349B6F00862479 /* CrossPieceDisabler.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADC224349B6300862479 /* CrossPieceDisabler.m */; };
-		E2AEAEE024349B6F00862479 /* UUIDPrefs.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADC324349B6300862479 /* UUIDPrefs.m */; };
-		E2AEAEE124349B6F00862479 /* UIDevice_SystemVersionNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADC424349B6300862479 /* UIDevice_SystemVersionNumber.m */; };
-		E2AEAEE224349B6F00862479 /* DisplayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADC524349B6300862479 /* DisplayCell.m */; };
-		E2AEAEE324349B6F00862479 /* ImageWithUUID.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADC624349B6300862479 /* ImageWithUUID.m */; };
-		E2AEAEE424349B6F00862479 /* GridBoardPieceDispenserPieceArray.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADC724349B6300862479 /* GridBoardPieceDispenserPieceArray.m */; };
+		E2AEAED824349B6F00862479 /* PrefPurchaseRecordPage.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADB424349B6100862479 /* PrefPurchaseRecordPage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAED924349B6F00862479 /* ScriptPullHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADB624349B6200862479 /* ScriptPullHandler.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAEDA24349B6F00862479 /* BoardLanguageWordsAuctionUsher.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADB724349B6200862479 /* BoardLanguageWordsAuctionUsher.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAEDB24349B6F00862479 /* CheckedPieceDecorator2.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADB824349B6200862479 /* CheckedPieceDecorator2.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAEDC24349B6F00862479 /* GameLevelView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADB924349B6200862479 /* GameLevelView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAEDD24349B6F00862479 /* SymbolAuctionBid.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADBC24349B6200862479 /* SymbolAuctionBid.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAEDE24349B6F00862479 /* OrderNudgeGBL.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADBF24349B6300862479 /* OrderNudgeGBL.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAEDF24349B6F00862479 /* CrossPieceDisabler.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADC224349B6300862479 /* CrossPieceDisabler.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAEE024349B6F00862479 /* UUIDPrefs.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADC324349B6300862479 /* UUIDPrefs.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAEE124349B6F00862479 /* UIDevice_SystemVersionNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADC424349B6300862479 /* UIDevice_SystemVersionNumber.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAEE224349B6F00862479 /* DisplayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADC524349B6300862479 /* DisplayCell.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAEE324349B6F00862479 /* ImageWithUUID.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADC624349B6300862479 /* ImageWithUUID.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAEE424349B6F00862479 /* GridBoardPieceDispenserPieceArray.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADC724349B6300862479 /* GridBoardPieceDispenserPieceArray.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E2AEAEE524349B6F00862479 /* Decoration_Bomb.gif in Resources */ = {isa = PBXBuildFile; fileRef = E2AEADCB24349B6400862479 /* Decoration_Bomb.gif */; };
-		E2AEAEE624349B6F00862479 /* PrefDomainDirectoryListingMultiValueItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADD124349B6400862479 /* PrefDomainDirectoryListingMultiValueItem.m */; };
-		E2AEAEE724349B6F00862479 /* AuctionManagerImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADD524349B6500862479 /* AuctionManagerImpl.m */; };
-		E2AEAEE824349B6F00862479 /* PrefUpdateFacebookFriendsActionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADD624349B6500862479 /* PrefUpdateFacebookFriendsActionItem.m */; };
-		E2AEAEE924349B6F00862479 /* PrefMultiValueItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADDC24349B6600862479 /* PrefMultiValueItem.m */; };
-		E2AEAEEA24349B6F00862479 /* PrefDomainMultiValueItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADE124349B6600862479 /* PrefDomainMultiValueItem.m */; };
-		E2AEAEEB24349B6F00862479 /* PrefStringItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADE424349B6700862479 /* PrefStringItem.m */; };
-		E2AEAEEC24349B6F00862479 /* PrefDeleteIdentityActionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADE524349B6700862479 /* PrefDeleteIdentityActionItem.m */; };
-		E2AEAEED24349B6F00862479 /* UIImage_TextRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADE724349B6700862479 /* UIImage_TextRepresentation.m */; };
-		E2AEAEEE24349B6F00862479 /* GameManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADEA24349B6700862479 /* GameManager.m */; };
-		E2AEAEEF24349B6F00862479 /* Wallet.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADEC24349B6800862479 /* Wallet.m */; };
-		E2AEAEF024349B6F00862479 /* ReportLogPullHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADED24349B6800862479 /* ReportLogPullHandler.m */; };
+		E2AEAEE624349B6F00862479 /* PrefDomainDirectoryListingMultiValueItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADD124349B6400862479 /* PrefDomainDirectoryListingMultiValueItem.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAEE724349B6F00862479 /* AuctionManagerImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADD524349B6500862479 /* AuctionManagerImpl.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAEE824349B6F00862479 /* PrefUpdateFacebookFriendsActionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADD624349B6500862479 /* PrefUpdateFacebookFriendsActionItem.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAEE924349B6F00862479 /* PrefMultiValueItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADDC24349B6600862479 /* PrefMultiValueItem.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAEEA24349B6F00862479 /* PrefDomainMultiValueItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADE124349B6600862479 /* PrefDomainMultiValueItem.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAEEB24349B6F00862479 /* PrefStringItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADE424349B6700862479 /* PrefStringItem.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAEEC24349B6F00862479 /* PrefDeleteIdentityActionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADE524349B6700862479 /* PrefDeleteIdentityActionItem.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAEED24349B6F00862479 /* UIImage_TextRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADE724349B6700862479 /* UIImage_TextRepresentation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAEEE24349B6F00862479 /* GameManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADEA24349B6700862479 /* GameManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAEEF24349B6F00862479 /* Wallet.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADEC24349B6800862479 /* Wallet.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAEF024349B6F00862479 /* ReportLogPullHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADED24349B6800862479 /* ReportLogPullHandler.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E2AEAEF124349B6F00862479 /* CSet.c in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADEF24349B6800862479 /* CSet.c */; };
-		E2AEAEF224349B6F00862479 /* PrefUUIDActionLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADF024349B6800862479 /* PrefUUIDActionLabel.m */; };
-		E2AEAEF324349B6F00862479 /* GridBoardPieceDispenserBase.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADF224349B6800862479 /* GridBoardPieceDispenserBase.m */; };
-		E2AEAEF424349B6F00862479 /* GameLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADF424349B6900862479 /* GameLevel.m */; };
-		E2AEAEF524349B6F00862479 /* ViewTransformerGBL.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADF524349B6900862479 /* ViewTransformerGBL.m */; };
-		E2AEAEF624349B6F00862479 /* SimpleBoardOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADF624349B6900862479 /* SimpleBoardOrder.m */; };
-		E2AEAEF724349B6F00862479 /* ParametricGameLevelFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADF724349B6900862479 /* ParametricGameLevelFactory.m */; };
+		E2AEAEF224349B6F00862479 /* PrefUUIDActionLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADF024349B6800862479 /* PrefUUIDActionLabel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAEF324349B6F00862479 /* GridBoardPieceDispenserBase.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADF224349B6800862479 /* GridBoardPieceDispenserBase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAEF424349B6F00862479 /* GameLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADF424349B6900862479 /* GameLevel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAEF524349B6F00862479 /* ViewTransformerGBL.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADF524349B6900862479 /* ViewTransformerGBL.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAEF624349B6F00862479 /* SimpleBoardOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADF624349B6900862479 /* SimpleBoardOrder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAEF724349B6F00862479 /* ParametricGameLevelFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADF724349B6900862479 /* ParametricGameLevelFactory.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E2AEAEF824349B6F00862479 /* Sound_PieceSelected.aif in Resources */ = {isa = PBXBuildFile; fileRef = E2AEADF924349B6900862479 /* Sound_PieceSelected.aif */; };
-		E2AEAEF924349B6F00862479 /* LabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADFA24349B6900862479 /* LabelCell.m */; };
-		E2AEAEFA24349B6F00862479 /* LastWordPiecesHint.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADFC24349B6900862479 /* LastWordPiecesHint.m */; };
+		E2AEAEF924349B6F00862479 /* LabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADFA24349B6900862479 /* LabelCell.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAEFA24349B6F00862479 /* LastWordPiecesHint.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEADFC24349B6900862479 /* LastWordPiecesHint.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E2AEAEFB24349B6F00862479 /* Sound_DispenserDoneWarning.aif in Resources */ = {isa = PBXBuildFile; fileRef = E2AEADFD24349B6900862479 /* Sound_DispenserDoneWarning.aif */; };
-		E2AEAEFC24349B6F00862479 /* PrefIdentitiesMultiValueItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAE0624349B6A00862479 /* PrefIdentitiesMultiValueItem.m */; };
-		E2AEAEFD24349B6F00862479 /* FormulaEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAE0724349B6A00862479 /* FormulaEvaluator.m */; };
-		E2AEAEFE24349B6F00862479 /* PrefBooleanItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAE0924349B6B00862479 /* PrefBooleanItem.m */; };
+		E2AEAEFC24349B6F00862479 /* PrefIdentitiesMultiValueItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAE0624349B6A00862479 /* PrefIdentitiesMultiValueItem.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAEFD24349B6F00862479 /* FormulaEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAE0724349B6A00862479 /* FormulaEvaluator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAEFE24349B6F00862479 /* PrefBooleanItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAE0924349B6B00862479 /* PrefBooleanItem.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E2AEAEFF24349B6F00862479 /* Sound_Decoration_CoinPieceDecorator.aif in Resources */ = {isa = PBXBuildFile; fileRef = E2AEAE0A24349B6B00862479 /* Sound_Decoration_CoinPieceDecorator.aif */; };
 		E2AEAF0024349B6F00862479 /* Sound_Swiped.aif in Resources */ = {isa = PBXBuildFile; fileRef = E2AEAE0B24349B6B00862479 /* Sound_Swiped.aif */; };
 		E2AEAF0124349B6F00862479 /* Sound_DecorationExtra_CoinPieceDecorator.aif in Resources */ = {isa = PBXBuildFile; fileRef = E2AEAE0C24349B6B00862479 /* Sound_DecorationExtra_CoinPieceDecorator.aif */; };
 		E2AEAF0224349B6F00862479 /* Sound_PieceDispensed.aif in Resources */ = {isa = PBXBuildFile; fileRef = E2AEAE0D24349B6B00862479 /* Sound_PieceDispensed.aif */; };
-		E2AEAF0324349B6F00862479 /* RTLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAE0F24349B6B00862479 /* RTLUtils.m */; };
-		E2AEAF0424349B6F00862479 /* EnvelopeDynamics.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAE1024349B6B00862479 /* EnvelopeDynamics.m */; };
-		E2AEAF0524349B6F00862479 /* CoinPieceDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAE1124349B6C00862479 /* CoinPieceDecorator.m */; };
-		E2AEAF0624349B6F00862479 /* ApplePieceDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAE1324349B6C00862479 /* ApplePieceDecorator.m */; };
-		E2AEAF0724349B6F00862479 /* SymbolForWordLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAE1424349B6C00862479 /* SymbolForWordLanguage.m */; };
-		E2AEAF0824349B6F00862479 /* PrefPromotedCatalogItemsPage.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAE1524349B6C00862479 /* PrefPromotedCatalogItemsPage.m */; };
-		E2AEAF0924349B6F00862479 /* ScoresComm.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAE1624349B6C00862479 /* ScoresComm.m */; };
+		E2AEAF0324349B6F00862479 /* RTLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAE0F24349B6B00862479 /* RTLUtils.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAF0424349B6F00862479 /* EnvelopeDynamics.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAE1024349B6B00862479 /* EnvelopeDynamics.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAF0524349B6F00862479 /* CoinPieceDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAE1124349B6C00862479 /* CoinPieceDecorator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAF0624349B6F00862479 /* ApplePieceDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAE1324349B6C00862479 /* ApplePieceDecorator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAF0724349B6F00862479 /* SymbolForWordLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAE1424349B6C00862479 /* SymbolForWordLanguage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAF0824349B6F00862479 /* PrefPromotedCatalogItemsPage.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAE1524349B6C00862479 /* PrefPromotedCatalogItemsPage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAF0924349B6F00862479 /* ScoresComm.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAE1624349B6C00862479 /* ScoresComm.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E2AEAF0A24349B6F00862479 /* Sound_WordBlackListed.aif in Resources */ = {isa = PBXBuildFile; fileRef = E2AEAE1724349B6C00862479 /* Sound_WordBlackListed.aif */; };
 		E2AEAF0B24349B6F00862479 /* Sound_PieceHintedLast.aif in Resources */ = {isa = PBXBuildFile; fileRef = E2AEAE1824349B6C00862479 /* Sound_PieceHintedLast.aif */; };
 		E2AEAF0C24349B6F00862479 /* ProgramIcon1.png in Resources */ = {isa = PBXBuildFile; fileRef = E2AEAE1924349B6C00862479 /* ProgramIcon1.png */; };
-		E2AEAF0D24349B6F00862479 /* L.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAE1A24349B6C00862479 /* L.m */; };
-		E2AEAF0E24349B6F00862479 /* TextSpeaker.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAE1D24349B6D00862479 /* TextSpeaker.m */; };
+		E2AEAF0D24349B6F00862479 /* L.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAE1A24349B6C00862479 /* L.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAF0E24349B6F00862479 /* TextSpeaker.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAE1D24349B6D00862479 /* TextSpeaker.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E2AEAF0F24349B6F00862479 /* todo.txt in Resources */ = {isa = PBXBuildFile; fileRef = E2AEAE1E24349B6D00862479 /* todo.txt */; };
 		E2AEAF1024349B6F00862479 /* Sound_DecorationExtra_BombPieceDecorator.aif in Resources */ = {isa = PBXBuildFile; fileRef = E2AEAE2024349B6D00862479 /* Sound_DecorationExtra_BombPieceDecorator.aif */; };
-		E2AEAF1124349B6F00862479 /* GameLevel_WordInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAE2624349B6E00862479 /* GameLevel_WordInfo.m */; };
-		E2AEAF1224349B6F00862479 /* ConstantBoardPotentialFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAE2724349B6E00862479 /* ConstantBoardPotentialFunction.m */; };
-		E2AEAF182434A4F700862479 /* Board3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAF152434A4F700862479 /* Board3ViewController.m */; };
-		E2AEAF192434A4F700862479 /* Board3AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAF172434A4F700862479 /* Board3AppDelegate.m */; };
-		E2AEAF1E2434ABF800862479 /* SystemUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAF1C2434ABF800862479 /* SystemUtils.m */; };
+		E2AEAF1124349B6F00862479 /* GameLevel_WordInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAE2624349B6E00862479 /* GameLevel_WordInfo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAF1224349B6F00862479 /* ConstantBoardPotentialFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAE2724349B6E00862479 /* ConstantBoardPotentialFunction.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAF182434A4F700862479 /* Board3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAF152434A4F700862479 /* Board3ViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAF192434A4F700862479 /* Board3AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAF172434A4F700862479 /* Board3AppDelegate.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2AEAF1E2434ABF800862479 /* SystemUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAF1C2434ABF800862479 /* SystemUtils.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E2AEAF2E2434ADBE00862479 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAF232434ADBE00862479 /* unzip.c */; };
 		E2AEAF2F2434ADBE00862479 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAF242434ADBE00862479 /* zip.c */; };
 		E2AEAF302434ADBE00862479 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAF252434ADBE00862479 /* ioapi.c */; };
 		E2AEAF312434ADBE00862479 /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAF262434ADBE00862479 /* mztools.c */; };
-		E2AEAF322434ADBE00862479 /* ZipArchive.mm in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAF2D2434ADBE00862479 /* ZipArchive.mm */; };
+		E2AEAF322434ADBE00862479 /* ZipArchive.mm in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAF2D2434ADBE00862479 /* ZipArchive.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E2AEB3142434B10300862479 /* espeak_command.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2AEB2EA2434B0FE00862479 /* espeak_command.cpp */; };
 		E2AEB3152434B10300862479 /* voices.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2AEB2EC2434B0FF00862479 /* voices.cpp */; };
 		E2AEB3162434B10300862479 /* klatt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2AEB2ED2434B0FF00862479 /* klatt.cpp */; };
@@ -276,7 +276,7 @@
 		E2AEB32A2434B10300862479 /* espeak.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2AEB30F2434B10300862479 /* espeak.cpp */; };
 		E2AEB32B2434B10300862479 /* wavegen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2AEB3112434B10300862479 /* wavegen.cpp */; };
 		E2AEB32C2434B10300862479 /* fifo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2AEB3132434B10300862479 /* fifo.cpp */; };
-		E2AEB32F2434C31500862479 /* PieceDecoratorGBL.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEB32E2434C31500862479 /* PieceDecoratorGBL.m */; };
+		E2AEB32F2434C31500862479 /* PieceDecoratorGBL.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEB32E2434C31500862479 /* PieceDecoratorGBL.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E2AEB34B2434C5DE00862479 /* espeak-data in Copy Files (espeak-data) */ = {isa = PBXBuildFile; fileRef = E2AEAD9E24349B5E00862479 /* espeak-data */; };
 /* End PBXBuildFile section */
 
@@ -312,6 +312,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E217958A24374ED40079123B /* SpellMaze2020.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SpellMaze2020.entitlements; sourceTree = "<group>"; };
 		E26A234624339DB600AEF6CF /* SpellMaze2020.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpellMaze2020.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E26A234924339DB600AEF6CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E26A234A24339DB600AEF6CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -645,7 +646,7 @@
 		E2AEAD9524349B5D00862479 /* CellTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellTextField.m; sourceTree = "<group>"; };
 		E2AEAD9624349B5D00862479 /* SoundTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundTheme.m; sourceTree = "<group>"; };
 		E2AEAD9724349B5D00862479 /* NSData_TextRepresentation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSData_TextRepresentation.m; sourceTree = "<group>"; };
-		E2AEAD9824349B5D00862479 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E2AEAD9824349B5D00862479 /* old_main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = old_main.m; sourceTree = "<group>"; };
 		E2AEAD9924349B5D00862479 /* ImageSequenceMediaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageSequenceMediaView.m; sourceTree = "<group>"; };
 		E2AEAD9A24349B5D00862479 /* AuctionRoomImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuctionRoomImpl.h; sourceTree = "<group>"; };
 		E2AEAD9B24349B5D00862479 /* PrefFileActionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefFileActionDelegate.h; sourceTree = "<group>"; };
@@ -808,48 +809,48 @@
 		E2AEAF2B2434ADBE00862479 /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
 		E2AEAF2C2434ADBE00862479 /* zconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zconf.h; sourceTree = "<group>"; };
 		E2AEAF2D2434ADBE00862479 /* ZipArchive.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZipArchive.mm; sourceTree = "<group>"; };
-		E2AEB2E92434B0FE00862479 /* fifo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fifo.h; path = espeak/fifo.h; sourceTree = "<group>"; };
-		E2AEB2EA2434B0FE00862479 /* espeak_command.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = espeak_command.cpp; path = espeak/espeak_command.cpp; sourceTree = "<group>"; };
+		E2AEB2E92434B0FE00862479 /* fifo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fifo.h; sourceTree = "<group>"; };
+		E2AEB2EA2434B0FE00862479 /* espeak_command.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = espeak_command.cpp; sourceTree = "<group>"; };
 		E2AEB2EB2434B0FE00862479 /* StdAfx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StdAfx.h; path = espeak/StdAfx.h; sourceTree = "<group>"; };
-		E2AEB2EC2434B0FF00862479 /* voices.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = voices.cpp; path = espeak/voices.cpp; sourceTree = "<group>"; };
-		E2AEB2ED2434B0FF00862479 /* klatt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = klatt.cpp; path = espeak/klatt.cpp; sourceTree = "<group>"; };
-		E2AEB2EE2434B0FF00862479 /* numbers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = numbers.cpp; path = espeak/numbers.cpp; sourceTree = "<group>"; };
-		E2AEB2EF2434B0FF00862479 /* espeak_command.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = espeak_command.h; path = espeak/espeak_command.h; sourceTree = "<group>"; };
-		E2AEB2F02434B0FF00862479 /* readclause.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = readclause.cpp; path = espeak/readclause.cpp; sourceTree = "<group>"; };
-		E2AEB2F12434B0FF00862479 /* event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = event.h; path = espeak/event.h; sourceTree = "<group>"; };
-		E2AEB2F22434B0FF00862479 /* synth_mbrola.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = synth_mbrola.cpp; path = espeak/synth_mbrola.cpp; sourceTree = "<group>"; };
-		E2AEB2F32434B0FF00862479 /* translate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = translate.cpp; path = espeak/translate.cpp; sourceTree = "<group>"; };
-		E2AEB2F42434B0FF00862479 /* setlengths.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = setlengths.cpp; path = espeak/setlengths.cpp; sourceTree = "<group>"; };
-		E2AEB2F52434B10000862479 /* speak_lib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = speak_lib.h; path = espeak/speak_lib.h; sourceTree = "<group>"; };
-		E2AEB2F62434B10000862479 /* wave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wave.h; path = espeak/wave.h; sourceTree = "<group>"; };
-		E2AEB2F72434B10000862479 /* dictionary.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = dictionary.cpp; path = espeak/dictionary.cpp; sourceTree = "<group>"; };
-		E2AEB2F82434B10000862479 /* wave_sada.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = wave_sada.cpp; path = espeak/wave_sada.cpp; sourceTree = "<group>"; };
-		E2AEB2F92434B10000862479 /* synthesize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = synthesize.h; path = espeak/synthesize.h; sourceTree = "<group>"; };
-		E2AEB2FA2434B10000862479 /* wave.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = wave.cpp; path = espeak/wave.cpp; sourceTree = "<group>"; };
-		E2AEB2FB2434B10000862479 /* speech.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = speech.h; path = espeak/speech.h; sourceTree = "<group>"; };
-		E2AEB2FC2434B10000862479 /* sintab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sintab.h; path = espeak/sintab.h; sourceTree = "<group>"; };
-		E2AEB2FD2434B10100862479 /* synthdata.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = synthdata.cpp; path = espeak/synthdata.cpp; sourceTree = "<group>"; };
-		E2AEB2FE2434B10100862479 /* wave_pulse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = wave_pulse.cpp; path = espeak/wave_pulse.cpp; sourceTree = "<group>"; };
-		E2AEB2FF2434B10100862479 /* compiledict.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = compiledict.cpp; path = espeak/compiledict.cpp; sourceTree = "<group>"; };
-		E2AEB3002434B10100862479 /* speak_lib.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = speak_lib.cpp; path = espeak/speak_lib.cpp; sourceTree = "<group>"; };
-		E2AEB3012434B10100862479 /* tr_languages.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tr_languages.cpp; path = espeak/tr_languages.cpp; sourceTree = "<group>"; };
-		E2AEB3022434B10100862479 /* intonation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = intonation.cpp; path = espeak/intonation.cpp; sourceTree = "<group>"; };
-		E2AEB3032434B10100862479 /* phoneme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = phoneme.h; path = espeak/phoneme.h; sourceTree = "<group>"; };
-		E2AEB3042434B10100862479 /* portaudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = portaudio.h; path = espeak/portaudio.h; sourceTree = "<group>"; };
-		E2AEB3052434B10200862479 /* translate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = translate.h; path = espeak/translate.h; sourceTree = "<group>"; };
-		E2AEB3062434B10200862479 /* synthesize.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = synthesize.cpp; path = espeak/synthesize.cpp; sourceTree = "<group>"; };
-		E2AEB3072434B10200862479 /* event.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = event.cpp; path = espeak/event.cpp; sourceTree = "<group>"; };
-		E2AEB3082434B10200862479 /* mbrolib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mbrolib.h; path = espeak/mbrolib.h; sourceTree = "<group>"; };
-		E2AEB3092434B10200862479 /* phonemelist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = phonemelist.cpp; path = espeak/phonemelist.cpp; sourceTree = "<group>"; };
-		E2AEB30A2434B10200862479 /* portaudio18.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = portaudio18.h; path = espeak/portaudio18.h; sourceTree = "<group>"; };
-		E2AEB30C2434B10200862479 /* klatt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = klatt.h; path = espeak/klatt.h; sourceTree = "<group>"; };
-		E2AEB30D2434B10200862479 /* voice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = voice.h; path = espeak/voice.h; sourceTree = "<group>"; };
-		E2AEB30E2434B10300862479 /* debug.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = debug.cpp; path = espeak/debug.cpp; sourceTree = "<group>"; };
-		E2AEB30F2434B10300862479 /* espeak.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = espeak.cpp; path = espeak/espeak.cpp; sourceTree = "<group>"; };
-		E2AEB3102434B10300862479 /* debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = debug.h; path = espeak/debug.h; sourceTree = "<group>"; };
-		E2AEB3112434B10300862479 /* wavegen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = wavegen.cpp; path = espeak/wavegen.cpp; sourceTree = "<group>"; };
-		E2AEB3122434B10300862479 /* portaudio19.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = portaudio19.h; path = espeak/portaudio19.h; sourceTree = "<group>"; };
-		E2AEB3132434B10300862479 /* fifo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fifo.cpp; path = espeak/fifo.cpp; sourceTree = "<group>"; };
+		E2AEB2EC2434B0FF00862479 /* voices.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = voices.cpp; sourceTree = "<group>"; };
+		E2AEB2ED2434B0FF00862479 /* klatt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = klatt.cpp; sourceTree = "<group>"; };
+		E2AEB2EE2434B0FF00862479 /* numbers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = numbers.cpp; sourceTree = "<group>"; };
+		E2AEB2EF2434B0FF00862479 /* espeak_command.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = espeak_command.h; sourceTree = "<group>"; };
+		E2AEB2F02434B0FF00862479 /* readclause.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = readclause.cpp; sourceTree = "<group>"; };
+		E2AEB2F12434B0FF00862479 /* event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = event.h; sourceTree = "<group>"; };
+		E2AEB2F22434B0FF00862479 /* synth_mbrola.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = synth_mbrola.cpp; sourceTree = "<group>"; };
+		E2AEB2F32434B0FF00862479 /* translate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = translate.cpp; sourceTree = "<group>"; };
+		E2AEB2F42434B0FF00862479 /* setlengths.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = setlengths.cpp; sourceTree = "<group>"; };
+		E2AEB2F52434B10000862479 /* speak_lib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = speak_lib.h; sourceTree = "<group>"; };
+		E2AEB2F62434B10000862479 /* wave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wave.h; sourceTree = "<group>"; };
+		E2AEB2F72434B10000862479 /* dictionary.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dictionary.cpp; sourceTree = "<group>"; };
+		E2AEB2F82434B10000862479 /* wave_sada.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = wave_sada.cpp; sourceTree = "<group>"; };
+		E2AEB2F92434B10000862479 /* synthesize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = synthesize.h; sourceTree = "<group>"; };
+		E2AEB2FA2434B10000862479 /* wave.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = wave.cpp; sourceTree = "<group>"; };
+		E2AEB2FB2434B10000862479 /* speech.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = speech.h; sourceTree = "<group>"; };
+		E2AEB2FC2434B10000862479 /* sintab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sintab.h; sourceTree = "<group>"; };
+		E2AEB2FD2434B10100862479 /* synthdata.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = synthdata.cpp; sourceTree = "<group>"; };
+		E2AEB2FE2434B10100862479 /* wave_pulse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = wave_pulse.cpp; sourceTree = "<group>"; };
+		E2AEB2FF2434B10100862479 /* compiledict.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = compiledict.cpp; sourceTree = "<group>"; };
+		E2AEB3002434B10100862479 /* speak_lib.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = speak_lib.cpp; sourceTree = "<group>"; };
+		E2AEB3012434B10100862479 /* tr_languages.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tr_languages.cpp; sourceTree = "<group>"; };
+		E2AEB3022434B10100862479 /* intonation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = intonation.cpp; sourceTree = "<group>"; };
+		E2AEB3032434B10100862479 /* phoneme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = phoneme.h; sourceTree = "<group>"; };
+		E2AEB3042434B10100862479 /* portaudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = portaudio.h; sourceTree = "<group>"; };
+		E2AEB3052434B10200862479 /* translate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = translate.h; sourceTree = "<group>"; };
+		E2AEB3062434B10200862479 /* synthesize.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = synthesize.cpp; sourceTree = "<group>"; };
+		E2AEB3072434B10200862479 /* event.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = event.cpp; sourceTree = "<group>"; };
+		E2AEB3082434B10200862479 /* mbrolib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mbrolib.h; sourceTree = "<group>"; };
+		E2AEB3092434B10200862479 /* phonemelist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = phonemelist.cpp; sourceTree = "<group>"; };
+		E2AEB30A2434B10200862479 /* portaudio18.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = portaudio18.h; sourceTree = "<group>"; };
+		E2AEB30C2434B10200862479 /* klatt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = klatt.h; sourceTree = "<group>"; };
+		E2AEB30D2434B10200862479 /* voice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = voice.h; sourceTree = "<group>"; };
+		E2AEB30E2434B10300862479 /* debug.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = debug.cpp; sourceTree = "<group>"; };
+		E2AEB30F2434B10300862479 /* espeak.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = espeak.cpp; sourceTree = "<group>"; };
+		E2AEB3102434B10300862479 /* debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = debug.h; sourceTree = "<group>"; };
+		E2AEB3112434B10300862479 /* wavegen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = wavegen.cpp; sourceTree = "<group>"; };
+		E2AEB3122434B10300862479 /* portaudio19.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = portaudio19.h; sourceTree = "<group>"; };
+		E2AEB3132434B10300862479 /* fifo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fifo.cpp; sourceTree = "<group>"; };
 		E2AEB32D2434C31400862479 /* PieceDecoratorGBL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieceDecoratorGBL.h; sourceTree = "<group>"; };
 		E2AEB32E2434C31500862479 /* PieceDecoratorGBL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieceDecoratorGBL.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -882,51 +883,11 @@
 		E26A233D24339DB600AEF6CF = {
 			isa = PBXGroup;
 			children = (
+				E2AEAF202434ADBE00862479 /* ZipFile-OC */,
+				E2AEB34C2434C6C300862479 /* espeak-code */,
 				E2AEB32D2434C31400862479 /* PieceDecoratorGBL.h */,
 				E2AEB32E2434C31500862479 /* PieceDecoratorGBL.m */,
-				E2AEB2FF2434B10100862479 /* compiledict.cpp */,
-				E2AEB30E2434B10300862479 /* debug.cpp */,
-				E2AEB3102434B10300862479 /* debug.h */,
-				E2AEB2F72434B10000862479 /* dictionary.cpp */,
-				E2AEB2EA2434B0FE00862479 /* espeak_command.cpp */,
-				E2AEB2EF2434B0FF00862479 /* espeak_command.h */,
-				E2AEB30F2434B10300862479 /* espeak.cpp */,
-				E2AEB3072434B10200862479 /* event.cpp */,
-				E2AEB2F12434B0FF00862479 /* event.h */,
-				E2AEB3132434B10300862479 /* fifo.cpp */,
-				E2AEB2E92434B0FE00862479 /* fifo.h */,
-				E2AEB3022434B10100862479 /* intonation.cpp */,
-				E2AEB2ED2434B0FF00862479 /* klatt.cpp */,
-				E2AEB30C2434B10200862479 /* klatt.h */,
-				E2AEB3082434B10200862479 /* mbrolib.h */,
-				E2AEB2EE2434B0FF00862479 /* numbers.cpp */,
-				E2AEB3032434B10100862479 /* phoneme.h */,
-				E2AEB3092434B10200862479 /* phonemelist.cpp */,
-				E2AEB3042434B10100862479 /* portaudio.h */,
-				E2AEB30A2434B10200862479 /* portaudio18.h */,
-				E2AEB3122434B10300862479 /* portaudio19.h */,
-				E2AEB2F02434B0FF00862479 /* readclause.cpp */,
-				E2AEB2F42434B0FF00862479 /* setlengths.cpp */,
-				E2AEB2FC2434B10000862479 /* sintab.h */,
-				E2AEB3002434B10100862479 /* speak_lib.cpp */,
-				E2AEB2F52434B10000862479 /* speak_lib.h */,
-				E2AEB2FB2434B10000862479 /* speech.h */,
 				E2AEB2EB2434B0FE00862479 /* StdAfx.h */,
-				E2AEB2F22434B0FF00862479 /* synth_mbrola.cpp */,
-				E2AEB2FD2434B10100862479 /* synthdata.cpp */,
-				E2AEB3062434B10200862479 /* synthesize.cpp */,
-				E2AEB2F92434B10000862479 /* synthesize.h */,
-				E2AEB3012434B10100862479 /* tr_languages.cpp */,
-				E2AEB2F32434B0FF00862479 /* translate.cpp */,
-				E2AEB3052434B10200862479 /* translate.h */,
-				E2AEB30D2434B10200862479 /* voice.h */,
-				E2AEB2EC2434B0FF00862479 /* voices.cpp */,
-				E2AEB2FE2434B10100862479 /* wave_pulse.cpp */,
-				E2AEB2F82434B10000862479 /* wave_sada.cpp */,
-				E2AEB2FA2434B10000862479 /* wave.cpp */,
-				E2AEB2F62434B10000862479 /* wave.h */,
-				E2AEB3112434B10300862479 /* wavegen.cpp */,
-				E2AEAF202434ADBE00862479 /* ZipFile-OC */,
 				E2AEAF1C2434ABF800862479 /* SystemUtils.m */,
 				E2AEAF162434A4F700862479 /* Board3AppDelegate.h */,
 				E2AEAF172434A4F700862479 /* Board3AppDelegate.m */,
@@ -1108,7 +1069,7 @@
 				E2AEACBB24349B4700862479 /* ListBoardOrder.m */,
 				E2AEADAD24349B6100862479 /* LowPassFilter.h */,
 				E2AEAD3524349B5200862479 /* LowPassFilter.m */,
-				E2AEAD9824349B5D00862479 /* main.m */,
+				E2AEAD9824349B5D00862479 /* old_main.m */,
 				E2AEAC8F24349B4200862479 /* MainMenuViewController.h */,
 				E2AEACB724349B4600862479 /* MainMenuViewController.m */,
 				E2AEAD8524349B5B00862479 /* MainMenuWidget.h */,
@@ -1413,6 +1374,7 @@
 		E26A234824339DB600AEF6CF /* SpellMaze2020 */ = {
 			isa = PBXGroup;
 			children = (
+				E217958A24374ED40079123B /* SpellMaze2020.entitlements */,
 				E26A234924339DB600AEF6CF /* AppDelegate.h */,
 				E26A234A24339DB600AEF6CF /* AppDelegate.m */,
 				E26A234C24339DB600AEF6CF /* SceneDelegate.h */,
@@ -1471,6 +1433,54 @@
 				E2AEAF2C2434ADBE00862479 /* zconf.h */,
 			);
 			path = minizip;
+			sourceTree = "<group>";
+		};
+		E2AEB34C2434C6C300862479 /* espeak-code */ = {
+			isa = PBXGroup;
+			children = (
+				E2AEB2F22434B0FF00862479 /* synth_mbrola.cpp */,
+				E2AEB2FD2434B10100862479 /* synthdata.cpp */,
+				E2AEB3062434B10200862479 /* synthesize.cpp */,
+				E2AEB2F92434B10000862479 /* synthesize.h */,
+				E2AEB3012434B10100862479 /* tr_languages.cpp */,
+				E2AEB2F32434B0FF00862479 /* translate.cpp */,
+				E2AEB3052434B10200862479 /* translate.h */,
+				E2AEB30D2434B10200862479 /* voice.h */,
+				E2AEB2EC2434B0FF00862479 /* voices.cpp */,
+				E2AEB2FE2434B10100862479 /* wave_pulse.cpp */,
+				E2AEB2F82434B10000862479 /* wave_sada.cpp */,
+				E2AEB2FA2434B10000862479 /* wave.cpp */,
+				E2AEB2F62434B10000862479 /* wave.h */,
+				E2AEB3112434B10300862479 /* wavegen.cpp */,
+				E2AEB2FF2434B10100862479 /* compiledict.cpp */,
+				E2AEB30E2434B10300862479 /* debug.cpp */,
+				E2AEB3102434B10300862479 /* debug.h */,
+				E2AEB2F72434B10000862479 /* dictionary.cpp */,
+				E2AEB2EA2434B0FE00862479 /* espeak_command.cpp */,
+				E2AEB2EF2434B0FF00862479 /* espeak_command.h */,
+				E2AEB30F2434B10300862479 /* espeak.cpp */,
+				E2AEB3072434B10200862479 /* event.cpp */,
+				E2AEB2F12434B0FF00862479 /* event.h */,
+				E2AEB3132434B10300862479 /* fifo.cpp */,
+				E2AEB2E92434B0FE00862479 /* fifo.h */,
+				E2AEB3022434B10100862479 /* intonation.cpp */,
+				E2AEB2ED2434B0FF00862479 /* klatt.cpp */,
+				E2AEB30C2434B10200862479 /* klatt.h */,
+				E2AEB3082434B10200862479 /* mbrolib.h */,
+				E2AEB2EE2434B0FF00862479 /* numbers.cpp */,
+				E2AEB3032434B10100862479 /* phoneme.h */,
+				E2AEB3092434B10200862479 /* phonemelist.cpp */,
+				E2AEB3042434B10100862479 /* portaudio.h */,
+				E2AEB30A2434B10200862479 /* portaudio18.h */,
+				E2AEB3122434B10300862479 /* portaudio19.h */,
+				E2AEB2F02434B0FF00862479 /* readclause.cpp */,
+				E2AEB2F42434B0FF00862479 /* setlengths.cpp */,
+				E2AEB2FC2434B10000862479 /* sintab.h */,
+				E2AEB3002434B10100862479 /* speak_lib.cpp */,
+				E2AEB2F52434B10000862479 /* speak_lib.h */,
+				E2AEB2FB2434B10000862479 /* speech.h */,
+			);
+			name = "espeak-code";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1846,7 +1856,7 @@
 				E2AEAEB524349B6E00862479 /* UUIDUtils.m in Sources */,
 				E2AEAEE924349B6F00862479 /* PrefMultiValueItem.m in Sources */,
 				E2AEAE5D24349B6E00862479 /* PrefResetToFactorySettingsActionItem.m in Sources */,
-				E2AEAECA24349B6F00862479 /* main.m in Sources */,
+				E2AEAECA24349B6F00862479 /* old_main.m in Sources */,
 				E2AEAE4224349B6E00862479 /* AppleStore.m in Sources */,
 				E2AEB31E2434B10300862479 /* wave.cpp in Sources */,
 				E2AEAEBA24349B6E00862479 /* PrefShowOntologyImagesActionImage.m in Sources */,
@@ -2037,8 +2047,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = SpellMaze2020/SpellMaze2020.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5MBEMM8VZS;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = SpellMaze2020/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -2053,6 +2065,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dk.SpellMaze2020;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -2061,8 +2074,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = SpellMaze2020/SpellMaze2020.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5MBEMM8VZS;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = SpellMaze2020/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -2077,6 +2092,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dk.SpellMaze2020;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

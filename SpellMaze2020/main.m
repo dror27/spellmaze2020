@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
 
+#ifdef NEW_MAIN
 int main(int argc, char * argv[]) {
     NSString * appDelegateClassName;
     @autoreleasepool {
@@ -17,3 +18,4 @@ int main(int argc, char * argv[]) {
     }
     return UIApplicationMain(argc, argv, nil, appDelegateClassName);
 }
+#endif

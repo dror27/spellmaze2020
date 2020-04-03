@@ -39,7 +39,7 @@
 	
 	float					textFontSize;
 	
-	UIAlertView*			_alertView;
+    UIAlertController*      _alertController;
 	
 	NSString*				_buttonText;
 	
@@ -59,7 +59,7 @@
 @property (retain) NSString* buttonText;
 @property (retain) NSMutableDictionary* props;
 
-@property (retain) UIAlertView* alertView;
+@property (retain) UIAlertController* alertController;
 
 -(void)show;
 -(void)hide;

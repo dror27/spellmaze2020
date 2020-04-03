@@ -32,7 +32,7 @@ extern BOOL		applicationResigned;
 @synthesize autoShow = _autoShow;
 @synthesize minShowTime = _minShowTime;
 @synthesize textFontSize;
-@synthesize alertView = _alertView;
+@synthesize alertController = _alertController;
 @synthesize buttonText = _buttonText;
 @synthesize props = _props;
 
@@ -59,7 +59,7 @@ extern BOOL		applicationResigned;
 	[_view setModel:nil];
 	[_view release];
 	
-	[_alertView release];
+	[_alertController release];
 	[_buttonText release];
 	[_props release];
 	
@@ -68,55 +68,29 @@ extern BOOL		applicationResigned;
 
 -(void)show
 {
-#ifdef	ALERT_SPLASH
-	if ( _alertView )
+	if ( _alertController )
 		return;
-	self.alertView = [[[UIAlertView alloc] initWithTitle:_title message:_text delegate:self 
-									   cancelButtonTitle:(_buttonText ? _buttonText : LOC(@"OK")) otherButtonTitles:nil] autorelease];
-	
-	[_alertView show];
-	
-	if ( [SystemUtils autorun] )
-		[self performSelector:@selector(hide) withObject:self afterDelay:2.6];
+    
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:_title message:_text preferredStyle:UIAlertControllerStyleAlert];
 
-	return;
+    UIAlertAction *ok = [UIAlertAction actionWithTitle:_buttonText ? _buttonText : LOC(@"OK") style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+                                [self.delegate splashDidFinish:self];    
+                        }];
+#if 0
+    UIAlertAction *cancel = [UIAlertAction actionWithTitle:@"Cancel" style:UIAlertActionStyleCancel handler:self];
+    [alert addAction:cancel];
 #endif
-	
-	// if already shown, ignore
-	if ( _view )
-		return;
-	
-	// log
-	//NSLog(@"show: title=%@", self.title);
-	//NSLog(@"show: text=%@", self.text);
-	//NSLog(@"show: icon=%@", self.icon);
-	
-	// create view
-	self.view = [self buildView];
-	
-	// pop on window
-	UIWindow* window = [UIApplication sharedApplication].keyWindow;
-	if (!window) {
-		window = [[UIApplication sharedApplication].windows objectAtIndex:0];
-	}
-	[window addSubview:self.view];
-	self.view.transform = CGAffineTransformMakeScale(0.3, 0.3);
-	self.view.alpha = 0.2;
-	[UIView beginAnimations:nil context:NULL];
-	[UIView setAnimationDuration:0.2];
-	[UIView setAnimationDelegate:self];
-	[UIView setAnimationDidStopSelector:@selector(showAnimationDidStop:finished:context:)];
-	self.view.transform = CGAffineTransformMakeScale(1.3, 1.3);
-	self.view.alpha = 1.0;
-	[UIView commitAnimations];	
-	
-	shownAt = [[NSDate date] timeIntervalSince1970];
-	
-	if ( _delegate && [_delegate respondsToSelector:@selector(splashDidShow:)] )
-		[self.delegate splashDidShow:self];	
-	
-	if ( [SystemUtils autorun] )
-		[self performSelector:@selector(onTouched) withObject:self afterDelay:2.6];
+    [alert addAction:ok];
+    self.alertController = alert;
+    
+    UIWindow* window = [UIApplication sharedApplication].keyWindow;
+    if (!window) {
+        window = [[UIApplication sharedApplication].windows objectAtIndex:0];
+    }
+    [window.rootViewController presentViewController:alert animated:YES completion:nil];
+
+    if ( [SystemUtils autorun] )
+		[self performSelector:@selector(hide) withObject:self afterDelay:2.6];
 }
 
 -(void)showAnimationDidStop:(NSString *)animationID finished:(NSNumber *)finished context:(void *)context 
@@ -129,33 +103,15 @@ extern BOOL		applicationResigned;
 
 -(void)hide
 {
-#ifdef	ALERT_SPLASH
-	if ( !_alertView )
+	if ( !_alertController )
 		return;
 	
-	_alertView.delegate = nil;
-	[_alertView dismissWithClickedButtonIndex:0 animated:TRUE];
-	self.alertView = nil;
+    
+    [_alertController dismissViewControllerAnimated:true completion:nil];
+	self.alertController = nil;
 
 	if ( _delegate && [_delegate respondsToSelector:@selector(splashDidFinish:)] )
-		[self.delegate splashDidFinish:self];	
-
-#endif
-	if ( !_view )
-		return;
-	
-	[UIView beginAnimations:nil context:_view];
-	[UIView setAnimationDuration:0.2];
-	[UIView setAnimationDelegate:self];
-	[UIView setAnimationDidStopSelector:@selector(hideAnimationDidStop:finished:context:)];
-	self.view.transform = CGAffineTransformMakeScale(0.3, 0.3);
-	self.view.alpha = 0.0;
-	[UIView commitAnimations];
-	
-	self.view = nil;
-	
-	if ( _delegate && [_delegate respondsToSelector:@selector(splashDidFinish:)] )
-		[self.delegate splashDidFinish:self];	
+		[self.delegate splashDidFinish:self];
 }
 
 -(void)abort
@@ -222,10 +178,7 @@ extern CGRect  globalFrame;
 
 -(BOOL)shown
 {
-#ifdef	ALERT_SPLASH
-	return _alertView != NULL;
-#endif
-	return _view != NULL;
+	return _alertController != NULL;
 }
 
 -(void)toggle
@@ -238,6 +191,7 @@ extern CGRect  globalFrame;
 	}
 }
 
+#if 0
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
 {
 	
@@ -269,6 +223,7 @@ extern CGRect  globalFrame;
 	self.alertView = nil;
 	[self autorelease];
 }
+#endif
 
 
 @end

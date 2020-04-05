@@ -298,11 +298,18 @@
 
 -(UIImageView*)globalImageView:(NSString*)name withDefaultValue:(UIImage*)value
 {
+    return [self globalImageView:name withDefaultValue:value withSizeFromView:nil];
+}
+
+-(UIImageView*)globalImageView:(NSString*)name withDefaultValue:(UIImage*)value withSizeFromView:(UIView*)sizeView
+{
 	UIImage*	image = [self imageProp:[NSString stringWithFormat:@"global/skin/images/%@", name] withDefaultValue:value];
 	if ( !image )
 		return NULL;
 	
 	CGRect			imageFrame = CGRectMake(0, 0, image.size.width, image.size.height);
+    if ( sizeView != nil )
+        imageFrame.size = sizeView.frame.size;
 	UIImageView*	view = [[[UIImageView alloc] initWithFrame:imageFrame] autorelease];
 	view.image = image;
 	

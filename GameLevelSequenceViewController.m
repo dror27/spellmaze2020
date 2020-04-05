@@ -52,9 +52,9 @@
 	self.view = view;
 	view.backgroundColor = [[BrandManager currentBrand] globalBackgroundColor];
 
-	UIImageView*	backgroundImageView = [[BrandManager currentBrand] globalImageView:@"background-game" withDefaultValue:NULL];
+	UIImageView*	backgroundImageView = [[BrandManager currentBrand] globalImageView:@"background-game" withDefaultValue:NULL withSizeFromView:view];
 	if ( !backgroundImageView )
-		backgroundImageView = [[BrandManager currentBrand] globalImageView:@"background" withDefaultValue:NULL];
+		backgroundImageView = [[BrandManager currentBrand] globalImageView:@"background" withDefaultValue:NULL withSizeFromView:view];
 	if ( backgroundImageView )
 	{
 		[self.view addSubview:backgroundImageView];

@@ -41,6 +41,7 @@
 
 -(UIImage*)globalImage:(NSString*)name withDefaultValue:(UIImage*)value;
 -(UIImageView*)globalImageView:(NSString*)name withDefaultValue:(UIImage*)value;
+-(UIImageView*)globalImageView:(NSString*)name withDefaultValue:(UIImage*)value withSizeFromView:(UIView*)sizeView;
 
 -(Banner*)globalBanner:(NSString*)name;
 

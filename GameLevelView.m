@@ -109,6 +109,7 @@
 		// score
 		{
 			CGRect		rect = {{AW(16),AW(360)}, {AW(289),AW(48)}};
+            rect.origin.y -= AW(13);
 			[self addSubview:[[_model scoreWidget] viewWithFrame:rect]];
 		}
 		

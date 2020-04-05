@@ -12,6 +12,7 @@
 #import "FormulaEvaluator.h"
 #import "TextBlockSplitter.h"
 #import "GridBoard.h"
+#import "ViewController.h"
 
 @interface CompoundBoardElement : NSObject
 {
@@ -276,7 +277,8 @@
 {
 	// comp: x y width height cols rows
 	double			x = 0, y = 0;
-	double			width = 60, height = 60;
+    double			width = [ViewController adjWidth:60];
+    double          height = width;
 	int				rows = 6, cols = 6;
 	UIColor*		gridColor = NULL;
 	
@@ -288,19 +290,19 @@
 		switch ( tokIndex++ )
 		{
 			case 0 :
-				x = atof([tok UTF8String]);
+				x = [ViewController adjWidth:atof([tok UTF8String])];
 				break;
 
 			case 1 :
-				y = atof([tok UTF8String]);
+				y = [ViewController adjWidth:atof([tok UTF8String])];
 				break;
 
 			case 2 :
-				width = atof([tok UTF8String]);
+				width = [ViewController adjWidth:atof([tok UTF8String])];
 				break;
 				
 			case 3 :
-				height = atof([tok UTF8String]);
+				height = [ViewController adjWidth:atof([tok UTF8String])];
 				break;
 				
 			case 4 :

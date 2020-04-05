@@ -278,6 +278,7 @@
 		E2AEB32C2434B10300862479 /* fifo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2AEB3132434B10300862479 /* fifo.cpp */; };
 		E2AEB32F2434C31500862479 /* PieceDecoratorGBL.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEB32E2434C31500862479 /* PieceDecoratorGBL.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E2AEB34B2434C5DE00862479 /* espeak-data in Copy Files (espeak-data) */ = {isa = PBXBuildFile; fileRef = E2AEAD9E24349B5E00862479 /* espeak-data */; };
+		E2EFB8FC2437638B00867A26 /* todo2020.txt in Resources */ = {isa = PBXBuildFile; fileRef = E2EFB8FB2437638B00867A26 /* todo2020.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -853,6 +854,7 @@
 		E2AEB3132434B10300862479 /* fifo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fifo.cpp; sourceTree = "<group>"; };
 		E2AEB32D2434C31400862479 /* PieceDecoratorGBL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieceDecoratorGBL.h; sourceTree = "<group>"; };
 		E2AEB32E2434C31500862479 /* PieceDecoratorGBL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieceDecoratorGBL.m; sourceTree = "<group>"; };
+		E2EFB8FB2437638B00867A26 /* todo2020.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = todo2020.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -883,6 +885,7 @@
 		E26A233D24339DB600AEF6CF = {
 			isa = PBXGroup;
 			children = (
+				E2EFB8FB2437638B00867A26 /* todo2020.txt */,
 				E2AEAF202434ADBE00862479 /* ZipFile-OC */,
 				E2AEB34C2434C6C300862479 /* espeak-code */,
 				E2AEB32D2434C31400862479 /* PieceDecoratorGBL.h */,
@@ -1623,6 +1626,7 @@
 				E2AEAF0124349B6F00862479 /* Sound_DecorationExtra_CoinPieceDecorator.aif in Resources */,
 				E2AEAEFB24349B6F00862479 /* Sound_DispenserDoneWarning.aif in Resources */,
 				E26A235424339DB600AEF6CF /* Main.storyboard in Resources */,
+				E2EFB8FC2437638B00867A26 /* todo2020.txt in Resources */,
 				E2AEAEAB24349B6E00862479 /* Sound_WordReset.aif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

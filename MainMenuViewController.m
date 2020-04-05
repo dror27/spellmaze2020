@@ -25,6 +25,7 @@
 #import "ScoresDatabase.h"
 #import "GlobalDefs.h"
 #import "L.h"
+#include "ViewController.h"
 
 @interface MainMenuViewController (Privates)
 -(void)doLevel:(id<HasView>)sender;
@@ -124,7 +125,7 @@ extern time_t		appStartedAt;
 	
 	
 
-    CGRect		labelFrame = CGRectMake(35, 385 + FRAME_ORIGIN_Y_OFS + COPYRIGHT_Y_OFS, frame.size.width-70, 25);
+    CGRect		labelFrame = CGRectMake(35, [ViewController adjWidth:385] + FRAME_ORIGIN_Y_OFS + COPYRIGHT_Y_OFS, frame.size.width-70, 25);
 	UILabel		*label = [[[UILabel alloc] initWithFrame:labelFrame] autorelease];
 	label.textColor = [[BrandManager currentBrand] globalTextColor];
 	label.backgroundColor = [UIColor colorWithWhite:1.0 alpha:0.0];

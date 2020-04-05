@@ -24,6 +24,7 @@
 #import "ImageWithUUID.h"
 #import "UUIDUtils.h"
 #import "ScoresDatabase.h"
+#import "ViewController.h"
 
 extern time_t		appStartedAt;
 
@@ -101,7 +102,7 @@ extern time_t		appStartedAt;
 {
 	if ( self = [super init] )
 	{
-		cellSize = 48;
+        cellSize = [ViewController adjWidth:48];
 		self.entries = [[[NSMutableArray alloc] init] autorelease];
 		self.soundTheme = [SoundTheme singleton];
 	}
@@ -463,7 +464,7 @@ extern time_t		appStartedAt;
 	NSArray*	uuidComps = [uuids componentsSeparatedByString:@","];
 	
 	CGRect		frame = _gameSelectionBoard.suggestedFrame;
-	frame.origin.y = 300;
+	frame.origin.y = [ViewController adjWidth:300];
     frame.origin.x = round((self.view.frame.size.width - frame.size.width) / 2);
 	[_view addSubview:[_gameSelectionBoard viewWithFrame:frame]];
 	
@@ -507,7 +508,7 @@ extern time_t		appStartedAt;
 		buttonType = UIButtonTypeInfoDark;
 	self.prefButton = [UIButton buttonWithType:buttonType];
 	
-    _prefButton.frame = CGRectMake(self.view.frame.size.width-20-25, 390-25, 25.0, 25.0);
+    _prefButton.frame = CGRectMake(self.view.frame.size.width-20-25, [ViewController adjWidth:390-25], 25.0, 25.0);
 	[_prefButton setTitle:@"Detail Disclosure" forState:UIControlStateNormal];
 	_prefButton.backgroundColor = [UIColor clearColor];
 	[_prefButton addTarget:self action:@selector(doPref:) forControlEvents:UIControlEventTouchUpInside];

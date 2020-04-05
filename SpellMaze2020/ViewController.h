@@ -17,7 +17,10 @@
     UINavigationController *_navigationController;
     
     MainMenuWidget*        _mainMenu;
+    
 }
++(CGFloat)adjWidth:(CGFloat)w;
+#define AW(x) ([ViewController adjWidth:x])
 
 @property (retain) UINavigationController* navigationController;
 @property (retain) MainMenuWidget* mainMenu;

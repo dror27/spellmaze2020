@@ -19,6 +19,7 @@
 #import "RoleManager.h"
 #import "L.h"
 #import "RTLUtils.h"
+#import "ViewController.h"
 
 @interface ScoreWidgetView (Privates)
 +(UIImage*)buildPauseImage;
@@ -32,13 +33,13 @@ extern NSMutableDictionary*	globalData;
 #define	PAUSEIMAGE_KEY		@"ScoreWidgetView_pauseImage"
 #define	HINTIMAGE_KEY		@"ScoreWidgetView_hintImage"
 
-#define						WALLET_ITEM_WIDTH	24
-#define						WALLET_ITEM_HEIGHT	24
-#define						WALLET_ITEM_PADDING	2
+#define						WALLET_ITEM_WIDTH	AW(24)
+#define						WALLET_ITEM_HEIGHT	AW(24)
+#define						WALLET_ITEM_PADDING	AW(2)
 
-#define						LABEL_ITEM_WIDTH	16
-#define						LABEL_ITEM_HEIGHT	16
-#define						LABEL_ITEM_PADDING	2
+#define						LABEL_ITEM_WIDTH	AW(16)
+#define						LABEL_ITEM_HEIGHT	AW(16)
+#define						LABEL_ITEM_PADDING	AW(2)
 
 @implementation ScoreWidgetView
 @synthesize model = _model;
@@ -76,30 +77,30 @@ extern NSMutableDictionary*	globalData;
 		[_scoreNumberFormatter setUsesGroupingSeparator:TRUE];
 		
 		
-		CGRect		frameRect = {{2,2}, {[self frame].size.width-4, [self frame].size.height-4}};
+		CGRect		frameRect = {{AW(2),AW(2)}, {[self frame].size.width-AW(4), [self frame].size.height-AW(4)}};
 
 		// reduce by 32 from each side for controls ...
-		frameRect.origin.x += 32;
-		frameRect.size.width -= 64;
+		frameRect.origin.x += AW(32);
+		frameRect.size.width -= AW(64);
 		
 		self.score = [[[UILabel alloc] initWithFrame:frameRect] autorelease];
 		_score.textColor = [brand globalTextColor];
 		_score.backgroundColor = [UIColor clearColor];
 		_score.textAlignment = UITextAlignmentCenter;
-		_score.font = [brand globalDefaultFont:32 bold:FALSE];
+		_score.font = [brand globalDefaultFont:AW(32) bold:FALSE];
 		[self addSubview:_score];
 
 		self.message = [[[UILabel alloc] initWithFrame:frameRect] autorelease];
 		_message.textColor = [brand globalTextColor];
 		_message.backgroundColor = [UIColor clearColor];
 		_message.textAlignment = UITextAlignmentCenter;
-		_message.font = [brand globalDefaultFont:32 bold:TRUE];
+		_message.font = [brand globalDefaultFont:AW(32) bold:TRUE];
 		_message.alpha = 0.0;
 		_message.adjustsFontSizeToFitWidth = YES; 
 		[self addSubview:_message];
 		
 		CGRect	frame1 = frameRect;
-		frame1.origin.y -= 2;
+		frame1.origin.y -= AW(2);
 		frame1.size.height = frame.size.height * 2 / 3;
 		self.message1 = [[[UILabel alloc] initWithFrame:frame1] autorelease];
 		_message1.textColor = _message.textColor;
@@ -112,12 +113,12 @@ extern NSMutableDictionary*	globalData;
 
 		CGRect	frame2 = frameRect;
 		frame2.size.height = frame.size.height - frame1.size.height;
-		frame2.origin.y = frame1.origin.y + frame1.size.height - 2;
+		frame2.origin.y = frame1.origin.y + frame1.size.height - AW(2);
 		self.message2 = [[[UILabel alloc] initWithFrame:frame2] autorelease];
 		_message2.textColor = _message.textColor;
 		_message2.backgroundColor = _message.backgroundColor;
 		_message2.textAlignment = _message.textAlignment;
-		_message2.font = [brand globalDefaultFont:14 bold:FALSE];
+		_message2.font = [brand globalDefaultFont:AW(14) bold:FALSE];
 		_message2.alpha = 0.0;
 		_message2.adjustsFontSizeToFitWidth = YES; 
 		[self addSubview:_message2];
@@ -143,7 +144,7 @@ extern NSMutableDictionary*	globalData;
 		 */
 		
 		// play/pause button
-		CGRect			playStateRect = CGRectMake(3, 3, 32, frame.size.height - 3);
+		CGRect			playStateRect = CGRectMake(AW(3), AW(3), AW(32), frame.size.height - AW(3));
 		self.playState = [[[UIButton alloc] initWithFrame:playStateRect] autorelease];
 		_playState.contentVerticalAlignment = UIControlContentVerticalAlignmentCenter;
 		_playState.contentHorizontalAlignment = UIControlContentHorizontalAlignmentCenter;
@@ -157,7 +158,7 @@ extern NSMutableDictionary*	globalData;
 		[self updatePlayState];
 
 		// gameAction button
-		CGRect			gameActionRect = CGRectMake(frame.size.width - 3 - 32, 3, 32, frame.size.height - 3);
+		CGRect			gameActionRect = CGRectMake(frame.size.width - AW(3) - AW(32), AW(3), AW(32), frame.size.height - AW(3));
 		self.gameAction = [[[UIButton alloc] initWithFrame:gameActionRect] autorelease];
 		_gameAction.contentVerticalAlignment = UIControlContentVerticalAlignmentCenter;
 		_gameAction.contentHorizontalAlignment = UIControlContentHorizontalAlignmentCenter;
@@ -231,7 +232,7 @@ extern NSMutableDictionary*	globalData;
 	CGContextStrokePath(context);
 	
 	// progress
-	CGRect			progressRect = {{4,4}, {[_model progress] * ([self frame].size.width - 8), ([self frame].size.height - 8) / 2}};
+	CGRect			progressRect = {{AW(4),AW(4)}, {[_model progress] * ([self frame].size.width - AW(8)), ([self frame].size.height - AW(8)) / 2}};
 	if ( !_progress1Image )
 	{
 		CGContextSetFillColorWithColor(context, _progress1Color.CGColor);
@@ -248,7 +249,7 @@ extern NSMutableDictionary*	globalData;
 	if ( [_model progress3] <= 0 )
 	{
 		progressRect.origin.y += progressRect.size.height;
-		progressRect.size.width = [_model progress2] * ([self frame].size.width - 8);
+		progressRect.size.width = [_model progress2] * ([self frame].size.width - AW(8));
 		if ( !_progress2Image )
 		{
 			CGContextSetFillColorWithColor(context, _progress2Color.CGColor);
@@ -265,7 +266,7 @@ extern NSMutableDictionary*	globalData;
 	else
 	{
 		progressRect.origin.y += progressRect.size.height;
-		progressRect.size.width = [_model progress3] * ([self frame].size.width - 8);
+		progressRect.size.width = [_model progress3] * ([self frame].size.width - AW(8));
 		if ( !_progress3Image )
 		{
 			CGContextSetFillColorWithColor(context, _progress3Color.CGColor);
@@ -457,7 +458,7 @@ extern NSMutableDictionary*	globalData;
 	{	
 		UIColor*		color = [[BrandManager currentBrand] globalTextColor];
 		
-		UIGraphicsBeginImageContext(CGSizeMake(24.0f, 24.0f));		
+		UIGraphicsBeginImageContext(CGSizeMake(AW(24.0f), AW(24.0f)));
 		CGContextRef context = UIGraphicsGetCurrentContext();		
 		UIGraphicsPushContext(context);								
 
@@ -465,8 +466,8 @@ extern NSMutableDictionary*	globalData;
 		CGContextSetFillColorWithColor(context, color.CGColor);
 		CGContextSetLineWidth(context, 1.0);
 
-		CGContextFillRect(context, CGRectMake(4, 4, 7, 18));
-		CGContextFillRect(context, CGRectMake(14, 4, 7, 18));
+		CGContextFillRect(context, CGRectMake(AW(4), AW(4), AW(7), AW(18)));
+		CGContextFillRect(context, CGRectMake(AW(14), AW(4), AW(7), AW(18)));
 		CGContextStrokePath(context);
 
 		UIGraphicsPopContext();								
@@ -487,7 +488,7 @@ extern NSMutableDictionary*	globalData;
 	{
 		UIColor*		color = [[BrandManager currentBrand] globalTextColor];
 		
-		UIGraphicsBeginImageContext(CGSizeMake(24.0f, 24.0f));		
+		UIGraphicsBeginImageContext(CGSizeMake(AW(24.0f), AW(24.0f)));
 		CGContextRef context = UIGraphicsGetCurrentContext();		
 		UIGraphicsPushContext(context);								
 		
@@ -495,7 +496,7 @@ extern NSMutableDictionary*	globalData;
 		CGContextSetFillColorWithColor(context, color.CGColor);
 		CGContextSetLineWidth(context, 1.0);
 		
-		CGPoint			points[] = {4, 4, 21, 13, 4, 22};
+		CGPoint			points[] = {AW(4), AW(4), AW(21), AW(13), AW(4), AW(22)};
 		CGContextAddLines(context, points, sizeof(points) / sizeof(points[0]));
 		CGContextFillPath(context);
 		
@@ -517,7 +518,7 @@ extern NSMutableDictionary*	globalData;
 	{
 		UIColor*		color = [[BrandManager currentBrand] globalTextColor];
 		
-		UIGraphicsBeginImageContext(CGSizeMake(24.0f, 24.0f));		
+		UIGraphicsBeginImageContext(CGSizeMake(AW(24.0f), AW(24.0f)));
 		CGContextRef context = UIGraphicsGetCurrentContext();		
 		UIGraphicsPushContext(context);								
 		
@@ -529,10 +530,10 @@ extern NSMutableDictionary*	globalData;
 		CGPoint			*points = alloca(sizeof(CGPoint) * pointCount);
 		double			angle = 0;
 		double			angleDelta = M_PI * 2 / pointCount;
-		double			radiusEven = 12;
-		double			radiusOdd = 6;
-		double			centerX = 12;
-		double			centerY = 12;
+		double			radiusEven = AW(12);
+		double			radiusOdd = AW(6);
+		double			centerX = AW(12);
+		double			centerY = AW(12);
 		for ( int pointIndex = 0 ; pointIndex < pointCount ; pointIndex++ )
 		{
 			double	radius = (pointIndex % 2) ? radiusOdd : radiusEven;

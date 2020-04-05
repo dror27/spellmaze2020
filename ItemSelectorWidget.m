@@ -19,6 +19,7 @@
 #import "PrefPromotedCatalogItemsPage.h"
 #import "CompoundBoard.h"
 #import "L.h"
+#import "ViewController.h"
 
 #define	PIECE_ENTRY_KEY		@"ItemSelectorWidget_EntryKey"
 
@@ -89,7 +90,7 @@
 {
 	if ( self = [super init] )
 	{
-		cellSize = 48;
+		cellSize = AW(48);
 		self.items = [[[NSMutableArray alloc] init] autorelease];
 		self.soundTheme = [SoundTheme singleton];
 	}
@@ -133,10 +134,10 @@
 		
 		self.view = [[[UIView alloc] initWithFrame:frame] autorelease];
 
-		CGRect		boardRect = {{16,56}, {289,289}};
+		CGRect		boardRect = {{AW(16),AW(56)}, {AW(289),AW(289)}};
 		[_view addSubview:[_board viewWithFrame:boardRect]];
 		
-		CGRect		panelRect = {{16,360}, {289,48}};
+		CGRect		panelRect = {{AW(16),AW(360)}, {AW(289),AW(48)}};
 		[_view addSubview:[_panel viewWithFrame:panelRect]];
 				
 	}

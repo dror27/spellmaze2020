@@ -23,6 +23,8 @@
 UINavigationController *_navigationController;
 MainMenuWidget*        _mainMenu;
 
+static CGRect           viewFrame;
+
 @interface ViewController ()
 
 @end
@@ -49,6 +51,8 @@ MainMenuWidget*        _mainMenu;
 
 - (void)loadView {
     [super loadView];
+    
+    viewFrame = self.view.frame;
     
     MainMenuViewController*    rootViewController = [[[MainMenuViewController alloc] init] autorelease];
     
@@ -113,6 +117,10 @@ MainMenuWidget*        _mainMenu;
         [[self.navigationController navigationBar] setBarStyle:UIBarStyleDefault];
     else
         [[self.navigationController navigationBar] setBarStyle:UIBarStyleBlackOpaque];
+}
+
++(CGFloat)adjWidth:(CGFloat)w {
+    return w / 320.0 * viewFrame.size.width;
 }
 
 @end

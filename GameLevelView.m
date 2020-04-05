@@ -21,6 +21,7 @@
 #import <math.h>
 #import "BrandManager.h"
 #import "RoleManager.h"
+#import "ViewController.h"
 
 @interface GameLevelView (Privates)
 -(void)hintImageSustainDidStop:(NSString *)animationID finished:(NSNumber *)finished context:(void *)context;
@@ -71,15 +72,15 @@
 		
 		// boards
 		int			cellRows = 6, cellColumns = 6;
-		float		cellWidth = 288.0 / cellColumns, cellHeight = 288.0 / cellRows;
+		float		cellWidth = AW(288.0) / cellColumns, cellHeight = AW(288.0) / cellRows;
 		{
-			CGRect		rect = {{68,2}, {cellWidth + 1, cellHeight + 1}};
+			CGRect		rect = {{AW(68),AW(2)}, {cellWidth + 1, cellHeight + 1}};
 			[self addSubview:[[_model dispenser] viewWithFrame:rect]];
 		}
 		{
 			if ( !_model.hintBoard )
 			{
-				CGRect		rect = {{16, cellHeight + 8}, {cellColumns * cellWidth + 1, cellRows * cellHeight + 1}};
+				CGRect		rect = {{AW(16), cellHeight + AW(8)}, {cellColumns * cellWidth + 1, cellRows * cellHeight + 1}};
 				[self addSubview:[[_model board] viewWithFrame:rect]];
 			}
 			else
@@ -88,11 +89,11 @@
 				CGRect		boardRect = [_model.board suggestedFrame];
 				if ( !boardRect.size.width || boardRect.size.height )
 				{
-					CGRect		rect1 = {{16, cellHeight + 8}, {cellColumns * cellWidth + 1, cellRows * cellHeight + 1}};
+					CGRect		rect1 = {{AW(16), cellHeight + AW(8)}, {cellColumns * cellWidth + 1, cellRows * cellHeight + 1}};
 
 					boardRect = rect1;
 				}
-				CGRect		rect = {{16, cellHeight + 8}, {boardRect.size.width + 1, boardRect.size.height + 1}};
+				CGRect		rect = {{AW(16), cellHeight + AW(8)}, {boardRect.size.width + 1, boardRect.size.height + 1}};
 				[self addSubview:[[_model board] viewWithFrame:rect]];
 				
 				// hint board
@@ -107,14 +108,14 @@
 		
 		// score
 		{
-			CGRect		rect = {{16,360}, {289,48}};
+			CGRect		rect = {{AW(16),AW(360)}, {AW(289),AW(48)}};
 			[self addSubview:[[_model scoreWidget] viewWithFrame:rect]];
 		}
 		
 #ifdef GAMELEVELVIEW_MONITOR
 		// monitor
 		{
-			CGRect		rect = {{0,0}, {100,20}};
+			CGRect		rect = {{0,0}, {AW(100),AW(20)}};
 			self.monitor = [[[UILabel alloc] initWithFrame:rect] autorelease];
 			_monitor.backgroundColor = [UIColor clearColor];
 			_monitor.textColor = [[BrandManager currentBrand] globalGridColor];
@@ -127,7 +128,7 @@
 		if ( showSymbolsLeftCounter )
 		{
 			//CGRect		rect = {{188,32}, {46,20}};
-			CGRect		rect = {{86,32}, {46,20}};
+			CGRect		rect = {{AW(86),AW(32)}, {AW(46),AW(20)}};
 			self.symbolsLeft = [[[UILabel alloc] initWithFrame:rect] autorelease];
 			_symbolsLeft.backgroundColor = [UIColor clearColor];
 			_symbolsLeft.textColor = [[BrandManager currentBrand] globalGridColor];
@@ -183,7 +184,7 @@
 	label.backgroundColor = [UIColor colorWithWhite:0.0 alpha:0.0];
 	label.textColor = [UIColor colorWithWhite:0.75 alpha:0.75];
 	label.textAlignment = UITextAlignmentCenter;
-	label.font = [UIFont boldSystemFontOfSize:54];
+	label.font = [UIFont boldSystemFontOfSize:AW(54)];
 	label.alpha = 0.0;
 	label.transform = CGAffineTransformScale(CGAffineTransformIdentity, 0.2, 0.2);
 	label.text = [word retain];
@@ -293,7 +294,7 @@
 			hintImageFrame = imageFrame;
 		}
 		else	
-			hintImageFrame = imageFrame = CGRectMake(9, 241, 112, 112);
+			hintImageFrame = imageFrame = CGRectMake(AW(9), AW(241), AW(112), AW(112));
 	}
 	
 	CGRect			hintFrame = imageFrame;

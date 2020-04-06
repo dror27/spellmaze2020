@@ -115,7 +115,7 @@ NSString *kDisplayCell_ID = @"DisplayCell_ID";
 	
 	if ( !self.view )
 	{
-		nameLabel.textAlignment = UITextAlignmentCenter;
+		nameLabel.textAlignment = NSTextAlignmentCenter;
 		uiFrame.size.width -= kCellLeftOffset;
 		nameLabel.adjustsFontSizeToFitWidth = YES;
 	}

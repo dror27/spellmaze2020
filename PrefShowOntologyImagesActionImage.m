@@ -11,6 +11,7 @@
 #import "LanguageManager.h"
 #import "BrandManager.h"
 #import	<QuartzCore/QuartzCore.h>
+#import "ViewController.h"
 
 #define	LABEL_HEIGHT	30
 
@@ -65,8 +66,8 @@
 		height += frame2.size.height;
 		self.labelView = [[[UILabel alloc] initWithFrame:frame2] autorelease];
 		_labelView.text = @"";
-		_labelView.textAlignment = UITextAlignmentCenter;
-		_labelView.font = [[BrandManager currentBrand] globalDefaultFont:22 bold:TRUE];
+		_labelView.textAlignment = NSTextAlignmentCenter;
+		_labelView.font = [[BrandManager currentBrand] globalDefaultFont:AW(22) bold:TRUE];
 		_labelView.backgroundColor = [UIColor clearColor];
 				
 		CGRect		frame = CGRectMake(0.0, 0.0, width, height);

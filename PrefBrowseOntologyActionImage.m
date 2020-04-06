@@ -11,6 +11,7 @@
 #import "LanguageManager.h"
 #import "BrandManager.h"
 #import "SoundTheme.h"
+#import "ViewController.h"
 
 #define	LABEL_HEIGHT	30
 #define TEXT_HEIGHT		170
@@ -196,16 +197,16 @@
 		height += frame2.size.height;
 		self.labelView = [[[UILabel alloc] initWithFrame:frame2] autorelease];
 		_labelView.text = @"";
-		_labelView.textAlignment = UITextAlignmentCenter;
-		_labelView.font = [[BrandManager currentBrand] globalDefaultFont:28 bold:TRUE];
+		_labelView.textAlignment = NSTextAlignmentCenter;
+		_labelView.font = [[BrandManager currentBrand] globalDefaultFont:AW(28) bold:TRUE];
 		_labelView.backgroundColor = [UIColor clearColor];
 
 		CGRect		frame3 = CGRectMake(0.0, height, width, TEXT_HEIGHT);
 		height += frame3.size.height;
 		_textView = [[[UILabel alloc] initWithFrame:frame3] autorelease];
 		_textView.text = @"";
-		_textView.textAlignment = UITextAlignmentCenter;
-		_textView.font = [[BrandManager currentBrand] globalDefaultFont:20 bold:TRUE];
+		_textView.textAlignment = NSTextAlignmentCenter;
+		_textView.font = [[BrandManager currentBrand] globalDefaultFont:AW(20) bold:TRUE];
 		_textView.numberOfLines = 0;
 		_textView.contentMode = UIViewContentModeTop; 
 		_textView.backgroundColor = [UIColor clearColor];
@@ -214,8 +215,8 @@
 		height += frame4.size.height;
 		self.statusView = [[[UILabel alloc] initWithFrame:frame4] autorelease];
 		_statusView.text = @"";
-		_statusView.textAlignment = UITextAlignmentCenter;
-		_statusView.font = [[BrandManager currentBrand] globalDefaultFont:12 bold:FALSE];
+		_statusView.textAlignment = NSTextAlignmentCenter;
+		_statusView.font = [[BrandManager currentBrand] globalDefaultFont:AW(12) bold:FALSE];
 		_statusView.backgroundColor = [UIColor clearColor];
 		
 		CGRect		frame = CGRectMake(0.0, 0.0, width, height);

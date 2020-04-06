@@ -13,6 +13,7 @@
 #import "UIImage_ResizeImageAllocator.h"
 #import "RTLUtils.h"
 #import "L.h"
+#import "ViewController.h"
 
 #define		TOP_PORTION		0.12
 #define		BOTTOM_PORTION	0.12
@@ -41,9 +42,9 @@
 		UILabel*	title = [[[UILabel alloc] initWithFrame:titleFrame] autorelease];
 		title.text = RTL(model.title);
 		title.backgroundColor = [UIColor clearColor];
-		title.font = [brand globalDefaultFont:16 bold:TRUE];
+		title.font = [brand globalDefaultFont:AW(16) bold:TRUE];
 		title.textColor = [brand globalTextColor];
-		title.textAlignment = UITextAlignmentCenter;
+		title.textAlignment = NSTextAlignmentCenter;
 		title.adjustsFontSizeToFitWidth = TRUE;
 		[self addSubview:title];
 		
@@ -61,9 +62,9 @@
 			UILabel*	instructions = [[[UILabel alloc] initWithFrame:instructionsFrame] autorelease];
 			instructions.text = LOC(@"Tap to Continue ..."); 
 			instructions.backgroundColor = [UIColor clearColor];
-			instructions.font = [brand globalDefaultFont:12 bold:TRUE];
+			instructions.font = [brand globalDefaultFont:AW(12) bold:TRUE];
 			instructions.textColor = [brand globalTextColor];
-			instructions.textAlignment = UITextAlignmentCenter;
+			instructions.textAlignment = NSTextAlignmentCenter;
 			[self addSubview:instructions];
 		}
 		else
@@ -93,9 +94,9 @@
 		if ( model.textFontSize )
 			text.font = [brand globalDefaultFont:model.textFontSize bold:FALSE];
 		else
-			text.font = [brand globalDefaultFont:14 bold:FALSE];
+			text.font = [brand globalDefaultFont:AW(14) bold:FALSE];
 		text.text = RTL(model.text);
-		text.textAlignment = UITextAlignmentCenter;
+		text.textAlignment = NSTextAlignmentCenter;
 		text.editable = FALSE;
 		text.userInteractionEnabled = FALSE;
 		[self addSubview:text];

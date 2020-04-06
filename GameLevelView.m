@@ -120,7 +120,7 @@
 			self.monitor = [[[UILabel alloc] initWithFrame:rect] autorelease];
 			_monitor.backgroundColor = [UIColor clearColor];
 			_monitor.textColor = [[BrandManager currentBrand] globalGridColor];
-			_monitor.font = [[BrandManager currentBrand] globalDefaultFont:14 bold:FALSE];
+			_monitor.font = [[BrandManager currentBrand] globalDefaultFont:AW(14) bold:FALSE];
 			_monitor.text = @"";
 			[self addSubview:_monitor];		
 			//NSLog(@"[GameLevelView-%p] _monitor=%p", self, _monitor);
@@ -133,7 +133,7 @@
 			self.symbolsLeft = [[[UILabel alloc] initWithFrame:rect] autorelease];
 			_symbolsLeft.backgroundColor = [UIColor clearColor];
 			_symbolsLeft.textColor = [[BrandManager currentBrand] globalGridColor];
-			_symbolsLeft.font = [[BrandManager currentBrand] globalDefaultFont:16 bold:TRUE];
+			_symbolsLeft.font = [[BrandManager currentBrand] globalDefaultFont:AW(16) bold:TRUE];
 			_symbolsLeft.text = @"";
 			_symbolsLeft.textAlignment = UITextAlignmentRight;
 			[self addSubview:_symbolsLeft];					
@@ -184,7 +184,7 @@
 	UILabel*		label = [[[UILabel alloc] initWithFrame:self.frame] autorelease];
 	label.backgroundColor = [UIColor colorWithWhite:0.0 alpha:0.0];
 	label.textColor = [UIColor colorWithWhite:0.75 alpha:0.75];
-	label.textAlignment = UITextAlignmentCenter;
+	label.textAlignment = NSTextAlignmentCenter;
 	label.font = [UIFont boldSystemFontOfSize:AW(54)];
 	label.alpha = 0.0;
 	label.transform = CGAffineTransformScale(CGAffineTransformIdentity, 0.2, 0.2);

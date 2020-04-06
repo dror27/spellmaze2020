@@ -18,6 +18,7 @@
 #import "GameLevel.h"
 #import "Folders.h"
 #import "JokerUtils.h"
+#import "ViewController.h"
 
 #define	WRITE_IMAGES		0
 
@@ -764,7 +765,7 @@ extern CGRect  globalFrame;
 	
 	[label setBackgroundColor:[self getColorForIndex:colorIndex]];
 	label.text = text;
-	label.textAlignment = UITextAlignmentCenter;
+	label.textAlignment = NSTextAlignmentCenter;
 	label.font = [[BrandManager currentBrand] globalDefaultFont:8 * frame.size.height / 10 bold:TRUE];
 	label.textColor = [self getTextColorForIndex:colorIndex];
 	

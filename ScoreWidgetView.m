@@ -86,14 +86,14 @@ extern NSMutableDictionary*	globalData;
 		self.score = [[[UILabel alloc] initWithFrame:frameRect] autorelease];
 		_score.textColor = [brand globalTextColor];
 		_score.backgroundColor = [UIColor clearColor];
-		_score.textAlignment = UITextAlignmentCenter;
+		_score.textAlignment = NSTextAlignmentCenter;
 		_score.font = [brand globalDefaultFont:AW(32) bold:FALSE];
 		[self addSubview:_score];
 
 		self.message = [[[UILabel alloc] initWithFrame:frameRect] autorelease];
 		_message.textColor = [brand globalTextColor];
 		_message.backgroundColor = [UIColor clearColor];
-        _message.textAlignment = UITextAlignmentCenter;
+        _message.textAlignment = NSTextAlignmentCenter;
         _message.textAlignment = NSTextAlignmentCenter;
 		_message.font = [brand globalDefaultFont:AW(32) bold:TRUE];
 		_message.alpha = 0.0;
@@ -140,7 +140,7 @@ extern NSMutableDictionary*	globalData;
 		self.limitationsLabel = [[[UILabel alloc] initWithFrame:frame4] autorelease];
 		_limitationsLabel.backgroundColor = [UIColor greenColor];
 		_limitationsLabel.text = @"1234";
-		_limitationsLabel.font = [brand globalDefaultFont:10 bold:FALSE];
+		_limitationsLabel.font = [brand globalDefaultFont:AW(10) bold:FALSE];
 		[self addSubview:_limitationsLabel];		
 		 */
 		

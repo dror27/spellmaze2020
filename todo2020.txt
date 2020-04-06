@@ -1,2 +1,3 @@
 [ ] progress/scores widget under ipad
 [x] background image not resized (levels, game)
+[ ] oversized font in PieceSymbolView:769

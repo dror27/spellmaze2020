@@ -129,8 +129,8 @@ extern time_t		appStartedAt;
 	UILabel		*label = [[[UILabel alloc] initWithFrame:labelFrame] autorelease];
 	label.textColor = [[BrandManager currentBrand] globalTextColor];
 	label.backgroundColor = [UIColor colorWithWhite:1.0 alpha:0.0];
-	label.textAlignment = UITextAlignmentCenter;
-	label.font = [[BrandManager currentBrand] globalDefaultFont:12 bold:FALSE];
+	label.textAlignment = NSTextAlignmentCenter;
+	label.font = [[BrandManager currentBrand] globalDefaultFont:AW(12) bold:FALSE];
 	label.text = @"Copyright © 2020 Dror Kessler";	
 	label.alpha = 0.0;
 	label.adjustsFontSizeToFitWidth = YES; 
@@ -371,7 +371,7 @@ extern time_t		appStartedAt;
 	}
 	
 	
-	self.copyrightLabel.font = [[BrandManager currentBrand] globalDefaultFont:12 bold:FALSE];
+	self.copyrightLabel.font = [[BrandManager currentBrand] globalDefaultFont:AW(12) bold:FALSE];
 	self.copyrightLabel.textColor = [[BrandManager currentBrand] globalTextColor];
 	
 	

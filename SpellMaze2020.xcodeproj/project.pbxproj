@@ -16,6 +16,7 @@
 		E26A235C24339DB800AEF6CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E26A235B24339DB800AEF6CF /* main.m */; };
 		E26A236624339DB800AEF6CF /* SpellMaze2020Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E26A236524339DB800AEF6CF /* SpellMaze2020Tests.m */; };
 		E26A237124339DB800AEF6CF /* SpellMaze2020UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E26A237024339DB800AEF6CF /* SpellMaze2020UITests.m */; };
+		E282401E244739A400A4A682 /* SpellMaze_Origin.png in Resources */ = {isa = PBXBuildFile; fileRef = E282401D244739A400A4A682 /* SpellMaze_Origin.png */; };
 		E2AEAE2B24349B6E00862479 /* FreeStore.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC5924349B3D00862479 /* FreeStore.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E2AEAE2C24349B6E00862479 /* Sound_WordValid.aif in Resources */ = {isa = PBXBuildFile; fileRef = E2AEAC5A24349B3E00862479 /* Sound_WordValid.aif */; };
 		E2AEAE2D24349B6E00862479 /* GridBoardPieceDispenserSymbols.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEAC5B24349B3E00862479 /* GridBoardPieceDispenserSymbols.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -332,6 +333,7 @@
 		E26A236C24339DB800AEF6CF /* SpellMaze2020UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpellMaze2020UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E26A237024339DB800AEF6CF /* SpellMaze2020UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpellMaze2020UITests.m; sourceTree = "<group>"; };
 		E26A237224339DB800AEF6CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E282401D244739A400A4A682 /* SpellMaze_Origin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpellMaze_Origin.png; sourceTree = "<group>"; };
 		E2AEAC5924349B3D00862479 /* FreeStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FreeStore.m; sourceTree = "<group>"; };
 		E2AEAC5A24349B3E00862479 /* Sound_WordValid.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sound_WordValid.aif; sourceTree = "<group>"; };
 		E2AEAC5B24349B3E00862479 /* GridBoardPieceDispenserSymbols.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridBoardPieceDispenserSymbols.m; sourceTree = "<group>"; };
@@ -885,6 +887,7 @@
 		E26A233D24339DB600AEF6CF = {
 			isa = PBXGroup;
 			children = (
+				E282401C2447398900A4A682 /* Icons */,
 				E2EFB8FB2437638B00867A26 /* todo2020.txt */,
 				E2AEAF202434ADBE00862479 /* ZipFile-OC */,
 				E2AEB34C2434C6C300862479 /* espeak-code */,
@@ -1411,6 +1414,14 @@
 			path = SpellMaze2020UITests;
 			sourceTree = "<group>";
 		};
+		E282401C2447398900A4A682 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				E282401D244739A400A4A682 /* SpellMaze_Origin.png */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
 		E2AEAF202434ADBE00862479 /* ZipFile-OC */ = {
 			isa = PBXGroup;
 			children = (
@@ -1596,6 +1607,7 @@
 				E2AEAEA824349B6E00862479 /* Decoration_Coin.gif in Resources */,
 				E2AEAEA324349B6E00862479 /* Sound_Clicked.aif in Resources */,
 				E2AEAF0B24349B6F00862479 /* Sound_PieceHintedLast.aif in Resources */,
+				E282401E244739A400A4A682 /* SpellMaze_Origin.png in Resources */,
 				E2AEAEB224349B6E00862479 /* spellmaze_logo_64x64.png in Resources */,
 				E26A235924339DB800AEF6CF /* LaunchScreen.storyboard in Resources */,
 				E2AEAE8224349B6E00862479 /* startup.png in Resources */,
@@ -2054,6 +2066,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = SpellMaze2020/SpellMaze2020.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 5MBEMM8VZS;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = SpellMaze2020/Info.plist;
@@ -2061,6 +2074,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.02;
 				OTHER_CFLAGS = (
 					"-Ijim",
 					"-Iespeak",
@@ -2081,6 +2095,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = SpellMaze2020/SpellMaze2020.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 5MBEMM8VZS;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = SpellMaze2020/Info.plist;
@@ -2088,6 +2103,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.02;
 				OTHER_CFLAGS = (
 					"-Ijim",
 					"-Iespeak",

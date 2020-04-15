@@ -14,6 +14,7 @@
 #import "LanguageManager.h"
 #import "PassedLevelEndMenu.h"
 #import "L.h"
+#import "SplashPanel.h"
 
 #define	OP_NEXT_LEVEL		1
 #define	OP_REPEAT_LEVEL		2
@@ -277,7 +278,7 @@
 -(void)failedLevel:(GameLevel*)level withMessage:(NSString*)message andContext:(void*)context
 {
 	[[ScoresDatabase singleton] reportLevelFailed:level];	
-
+    
 	// stay on same level
 	UIAlertView*	alert = [[[UIAlertView alloc] initWithTitle:LOC(@"Level Failed")	message:message 
 												   delegate:self cancelButtonTitle:LOC(@"OK") 

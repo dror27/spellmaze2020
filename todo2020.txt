@@ -1,3 +1,7 @@
 [ ] progress/scores widget under ipad
 [x] background image not resized (levels, game)
 [ ] oversized font in PieceSymbolView:769
+[ ] remove use of UIAlertView
+[ ] scale on-board bombs
+[ ] MacOS version screen sizing
+

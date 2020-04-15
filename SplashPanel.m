@@ -191,39 +191,5 @@ extern CGRect  globalFrame;
 	}
 }
 
-#if 0
-- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
-{
-	
-}
-
--(void)didPresentAlertView:(UIAlertView *)alertView
-{
-	[self retain];
-	if ( _delegate && [_delegate respondsToSelector:@selector(splashDidShow:)] )
-		[self.delegate splashDidShow:self];	
-	[self autorelease];
-}
-
-- (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex;
-{
-	//NSLog(@"****** alertView:didDismissWithButtonIndex: applicationResigned=%d", applicationResigned);	
-
-	if ( applicationResigned )
-	{
-		//NSLog(@"****** alertView:didDismissWithButtonIndex: ignored");
-		return;
-	}
-	//[TextSpeaker speak:[NSString stringWithFormat:@"alert View did Dismiss With Button Index %d", buttonIndex]];
-	
-	[self retain];
-	if ( _delegate && [_delegate respondsToSelector:@selector(splashDidFinish:)] )
-		[self.delegate splashDidFinish:self];	
-
-	self.alertView = nil;
-	[self autorelease];
-}
-#endif
-
 
 @end

@@ -625,6 +625,9 @@ extern CGRect  globalFrame;
 #endif		
 				
 		CGRect		frame = self.frame;
+#if 0
+        frame.size.height = frame.size.width = 1024;
+#endif
 		colorIndex = [SymbolPieceView getStringIndex:[_model text]];
 		
 		if ( fadeMask )
@@ -740,7 +743,7 @@ extern CGRect  globalFrame;
 #if WRITE_IMAGES && TARGET_IPHONE_SIMULATOR
 		// write to temp file ...
 		NSData*					imageData = UIImagePNGRepresentation(contentImage);
-		NSString*				path = [[Folders temporaryFolder] stringByAppendingPathComponent:[NSString stringWithFormat: @"%@.png"]];
+		NSString*				path = [[Folders temporaryFolder] stringByAppendingPathComponent:[NSString stringWithFormat: @"%@.png", [_model text]]];
 		
 		NSLog(@"writing %@ ...", path);
 		[imageData writeToFile:path atomically:FALSE];

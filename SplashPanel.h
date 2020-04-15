@@ -20,7 +20,7 @@
 @end
 
 
-@interface SplashPanel : NSObject<UIAlertViewDelegate> {
+@interface SplashPanel : NSObject {
 
 	NSString*				_title;
 	NSString*				_text;

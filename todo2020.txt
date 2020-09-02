@@ -3,6 +3,6 @@
 [ ] oversized font in PieceSymbolView:769
 [x] remove use of UIAlertView
 [x] remove use of UIActionSheet
-[ ] scale on-board bombs
+[x] scale on-board bombs
 [ ] MacOS version screen sizing
 

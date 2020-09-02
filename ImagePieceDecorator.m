@@ -7,6 +7,7 @@
 //
 
 #import "ImagePieceDecorator.h"
+#import "ViewController.h"
 
 
 @implementation ImagePieceDecorator
@@ -46,7 +47,7 @@
 	// establish position within parent
 	float		x = parent.frame.size.width * _xPos;
 	float		y = parent.frame.size.height * _yPos;
-	CGRect		frame = CGRectMake(x, y, _image.size.width, _image.size.height);
+	CGRect		frame = CGRectMake(x, y, AW(_image.size.width), AW(_image.size.height));
 	
 	// view image view and place it
 	self.imageView = [[[UIImageView alloc] initWithFrame:frame] autorelease];

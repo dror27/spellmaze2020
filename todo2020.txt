@@ -10,6 +10,10 @@
 [ ] PrefMainPageBuilder, investigate #if 0 around cheats
 [ ] name on iPhone home screen is "SpellMaze 2020" - does not fit!
 
+[ ] main setup page, at bottom, version string contains (null)x2
+[ ] brands download/switch causes crashed
+[ ] brand wallpaper size too small on switching into the brand
+
 [ ] progress/scores widget under ipad
 [ ] oversized font in PieceSymbolView:769
 

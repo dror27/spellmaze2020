@@ -36,6 +36,9 @@
          contextName = "-[GameLevel pieceReselected:]:GameLevel.m">
       </ContextState>
       <ContextState
+         contextName = "-[PrefUrlDirectorySection items]:PrefUrlDirectorySection.m">
+      </ContextState>
+      <ContextState
          contextName = "-[ParametricGameLevel loadCode]:ParametricGameLevel.m">
       </ContextState>
       <ContextState
@@ -43,6 +46,14 @@
          <PersistentStrings>
             <PersistentString
                value = "self.minWordSize">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SymbolPieceView getTextColorForIndex:]:SymbolPieceView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "(index + customColorsOffset) % [textColorTable count]">
             </PersistentString>
          </PersistentStrings>
       </ContextState>

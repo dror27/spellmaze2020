@@ -578,7 +578,9 @@ extern CGRect  globalFrame;
 		[SymbolPieceView initColorTable];
 	}
 	
-	[self updateText];
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [self updateText];
+    });
 }
 
 -(void)userPrefsKeyChanged:(NSString*)key

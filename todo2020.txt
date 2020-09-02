@@ -1,10 +1,19 @@
+[x] limits on word length are not working - SpellMaze 4 accepts 3 letter words
+[x] turned out that all int/float/bool prefs were not working ... 
+[x] pause curtain needs resizing and repositioning
+
 [x] background image not resized (levels, game)
 [x] remove use of UIAlertView
 [x] remove use of UIActionSheet
 [x] scale on-board bombs
 
+[ ] PrefMainPageBuilder, investigate #if 0 around cheats
+[ ] name on iPhone home screen is "SpellMaze 2020" - does not fit!
+
 [ ] progress/scores widget under ipad
 [ ] oversized font in PieceSymbolView:769
 
 [ ] MacOS version screen sizing
+
+[ ] restore shared scores?
 

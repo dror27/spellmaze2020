@@ -154,7 +154,7 @@
 		UIImage*	curtain = [[BrandManager currentBrand] globalImage:@"pause-curtain" withDefaultValue:NULL];
 		if ( !curtain )
 			curtain = [UIImage imageNamed:@"PauseCurtain.png"];
-		CGRect		curtainFrame = CGRectMake(0, -curtain.size.height, curtain.size.width, curtain.size.height);
+		CGRect		curtainFrame = CGRectMake(0, AW(-curtain.size.height), AW(curtain.size.width), AW(curtain.size.height));
 		self.pauseCurtain = [[[UIImageView alloc] initWithFrame:curtainFrame] autorelease];
 		_pauseCurtain.image = curtain;
     }
@@ -456,7 +456,7 @@
 		if ( !pauseCurtainShown )
 		{
 			CGPoint		newCenter = _pauseCurtain.center;
-			newCenter.y = _pauseCurtain.image.size.height / 2 - 32;
+			newCenter.y = _pauseCurtain.frame.size.height / 2 - AW(32);
 
 			[self addSubview:_pauseCurtain];
 			[self bringSubviewToFront:[[_model scoreWidget] view]];

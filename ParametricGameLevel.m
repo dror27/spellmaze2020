@@ -402,9 +402,7 @@
 		int				v = [value boolValue];
 		id				arg = *((id*)(&v));
 		
-#if 0
-		(*imp)(target, selector, arg, NULL);
-#endif
+        [target performSelector:selector withObject:v];
 	}
 }
 
@@ -427,10 +425,8 @@
 		IMP				imp = method_getImplementation(method);
 		int				v = [value intValue];
 		id				arg = *((id*)(&v));
-		
-#if 0
-		(*imp)(target, selector, arg, NULL);
-#endif
+        
+        [target performSelector:selector withObject:v];
 	}
 }
 
@@ -454,9 +450,7 @@
 		float			v = [value floatValue];
 		id				arg = *((id*)(&v));
 
-#if 0
-		(*imp)(target, selector, arg, NULL);
-#endif
+        [target performSelector:selector withObject:(int)v];
 	}
 }
 

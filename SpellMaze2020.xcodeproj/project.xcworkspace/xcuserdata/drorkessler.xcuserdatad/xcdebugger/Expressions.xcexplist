@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[ParametricGameLevel floatPref:sel:key:]:ParametricGameLevel.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[GameLevelView updatePauseCurtain]:GameLevelView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_pauseCurtain.image.size">
+            </PersistentString>
+            <PersistentString
+               value = "_pauseCurtain.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ParametricGameLevel boolPref:sel:key:]:ParametricGameLevel.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.allowPlayPause">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[GameLevelView initWithFrame:andModel:]:GameLevelView.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[GameLevel pieceReselected:]:GameLevel.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ParametricGameLevel loadCode]:ParametricGameLevel.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ParametricGameLevel intPref:sel:key:]:ParametricGameLevel.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.minWordSize">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

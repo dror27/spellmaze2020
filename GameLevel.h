@@ -58,7 +58,7 @@ typedef enum
 } AutoMaxWordSizeBehaviorType;
 
 @class GameLevelSequence;
-@interface GameLevel : NSObject<HasView,PieceDispensingTarget,PieceEventsTarget, ScoreWidgetEventsTarget,UIActionSheetDelegate,SplashPanelDelegate> {
+@interface GameLevel : NSObject<HasView,PieceDispensingTarget,PieceEventsTarget, ScoreWidgetEventsTarget,SplashPanelDelegate> {
 	
 	BOOL					loadDefaultLanguage;
 	BOOL					loadDefaultBoard;

@@ -21,7 +21,7 @@
 
 @class GameLevel, GameLevelSequence;
 
-@interface GameLevelSequence : NSObject<HasView,GameLevelEventsTarget,HasUUIDDirectory,UIActionSheetDelegate> {
+@interface GameLevelSequence : NSObject<HasView,GameLevelEventsTarget,HasUUIDDirectory,SplashPanelDelegate> {
 
 	NSMutableArray*		_levels;
 	int					currentLevel;
@@ -40,7 +40,8 @@
 	BOOL				languageInvalidated;
 	
 	SplashPanel*		_helpSplashPanel;	
-	
+    SplashPanel*     _failedSplashPanel;
+
 	PassedLevelEndMenu*	_passedLevelEndMenu;
 	
 	NSDictionary*		_props;
@@ -55,6 +56,7 @@
 @property (retain) NSString* uuid;
 @property (retain) id<Language> language;
 @property (retain) SplashPanel* helpSplashPanel;
+@property (retain) SplashPanel* failedSplashPanel;
 @property (retain) PassedLevelEndMenu* passedLevelEndMenu;
 @property (retain) NSDictionary* props;
 @property (retain) id<UserPrefsLayer> upl;

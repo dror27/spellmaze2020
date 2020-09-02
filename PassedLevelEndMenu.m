@@ -62,16 +62,17 @@
 		
 		self.buttonContextCodes = buttonContextCodes;
 		
-		self.actionSheet = [[[UIActionSheet alloc] initWithTitle:title
-														delegate:self cancelButtonTitle:nil destructiveButtonTitle:nil
-													   otherButtonTitles:nil] autorelease];
-		for ( NSString* buttonText in buttonTexts )
-			[_actionSheet addButtonWithTitle:buttonText];
-		
-		_actionSheet.actionSheetStyle = UIActionSheetStyleDefault;
-		/*
-		_actionSheet.destructiveButtonIndex = [_buttonContextCodes count] - 1;	
-		 */
+        self.actionSheet = [UIAlertController alertControllerWithTitle:nil message:nil preferredStyle:UIAlertControllerStyleActionSheet];
+        
+        int     buttonIndex = (int)[buttonTexts count] - 1;
+        for ( NSString* buttonText in buttonTexts ) {
+            
+            [_actionSheet addAction:[UIAlertAction actionWithTitle:buttonText style:UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
+                [self actionSheetButton:buttonIndex];
+            }]];
+            
+            buttonIndex--;
+        }
 	}
 	return self;
 }
@@ -79,17 +80,16 @@
 -(void)dealloc
 {
 	[_level release];
-	[_actionSheet release];
-	
+    [_actionSheet release];
 	[super dealloc];
 }
 
 -(void)show
 {
-	[_actionSheet showInView:[_seq view]];			
+    [self.level.view.window.rootViewController presentViewController:_actionSheet animated:YES completion:nil];
 }
 
--(void)actionSheet:(UIActionSheet*)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex
+-(void)actionSheetButton:(NSInteger)buttonIndex
 {
 	NSNumber*		code = [_buttonContextCodes objectAtIndex:buttonIndex];
 	

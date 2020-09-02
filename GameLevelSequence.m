@@ -37,6 +37,7 @@
 @synthesize uuid = _uuid;
 @synthesize language = _language;
 @synthesize helpSplashPanel = _helpSplashPanel;
+@synthesize failedSplashPanel = _failedSplashPanel;
 @synthesize passedLevelEndMenu = _passedLevelEndMenu;
 @synthesize props = _props;
 @synthesize upl = _upl;
@@ -70,7 +71,10 @@
 	
 	[_helpSplashPanel setDelegate:nil];
 	[_helpSplashPanel release];
-	
+
+    [_failedSplashPanel setDelegate:nil];
+    [_failedSplashPanel release];
+
 	[_passedLevelEndMenu setSeq:nil];
 	[_passedLevelEndMenu release];
 	
@@ -280,14 +284,17 @@
 	[[ScoresDatabase singleton] reportLevelFailed:level];	
     
 	// stay on same level
-	UIAlertView*	alert = [[[UIAlertView alloc] initWithTitle:LOC(@"Level Failed")	message:message 
-												   delegate:self cancelButtonTitle:LOC(@"OK") 
-										   otherButtonTitles:NULL] autorelease];
-	
-	if ( ![SystemUtils autorun] && message )
-		[alert show];	
+    if ( ![SystemUtils autorun] && message )
+    {
+        [_failedSplashPanel release];
+        _failedSplashPanel = [[[SplashPanel alloc] init] autorelease];
+        _failedSplashPanel.title = LOC(@"Level Failed");
+        _failedSplashPanel.buttonText = LOC(@"OK");
+        _failedSplashPanel.delegate = self;
+        [_failedSplashPanel show];
+    }
 	else
-		[self performSelector:@selector(alertView:clickedButtonAtIndex:) withObject:self afterDelay:[SystemUtils autorunDelay]];
+        [self failedLevelBody];
 }
 
 -(void)abortedLevel:(GameLevel*)level;
@@ -296,18 +303,18 @@
 		[_eventsTarget sequenceFinished];
 }
 
-- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
+-(void)failedLevelBody
 {
-	if ( currentLevel < [_levels count] )
-		[self startCurrentLevel:FALSE];
-	else if ( [SystemUtils autorunGameLoop] )
-		[self startLevel:0];
-	else
-	{
-		[self discardCurrentLevel];
-		if ( _eventsTarget )
-			[_eventsTarget sequenceFinished];
-	}
+    if ( currentLevel < [_levels count] )
+        [self startCurrentLevel:FALSE];
+    else if ( [SystemUtils autorunGameLoop] )
+        [self startLevel:0];
+    else
+    {
+        [self discardCurrentLevel];
+        if ( _eventsTarget )
+            [_eventsTarget sequenceFinished];
+    }
 }
 
 -(int)levelCount
@@ -402,5 +409,16 @@
 	
 	return index;
 }
+
+-(void)splashDidShow:(SplashPanel*)panel
+{
+    
+}
+
+-(void)splashDidFinish:(SplashPanel*)panel
+{
+    [self failedLevelBody];
+}
+
 
 @end

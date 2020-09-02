@@ -18,12 +18,11 @@ typedef enum
 } PassedLevelEndMenuContext;
 
 @class GameLevel, GameLevelSequence;
-@interface PassedLevelEndMenu : NSObject<UIActionSheetDelegate> {
+@interface PassedLevelEndMenu : NSObject {
 
-	GameLevel*				_level;
+	GameLevel*			_level;
 	GameLevelSequence*		_seq;
-	UIActionSheet*			_actionSheet;
-	
+    UIAlertController*     _actionSheet;
 	NSArray*				_buttonContextCodes;
 }
 -(id)initWithGameLevel:(GameLevel*)level andGameLevelSequence:(GameLevelSequence*)seq;
@@ -31,7 +30,7 @@ typedef enum
 
 @property (retain) GameLevel* level;
 @property (nonatomic,assign) GameLevelSequence* seq;
-@property (retain) UIActionSheet* actionSheet; 
 @property (retain) NSArray* buttonContextCodes;
+@property (nonatomic,assign) UIAlertController* actionSheet;
 
 @end

@@ -7,7 +7,7 @@
 //
 
 #import "GameLevel.h"
-#import	"GameLevelView.h"
+#import "GameLevelView.h"
 #import "Board.h"
 #import	"StringsLanguage.h"
 #import	"RandomSymbolDispenser.h"
@@ -1264,11 +1264,11 @@ static int timerTickCounter = 0;
 	}
 	else
 	{
-		UIAlertView*	alert = [[[UIAlertView alloc] initWithTitle:LOC(@"Very Nice!")	message:LOC(@"No More Symbols") 
-													   delegate:self cancelButtonTitle:LOC(@"OK") 
-											   otherButtonTitles:NULL] autorelease];
-		
-		[alert show];
+        SplashPanel*        panel = [[[SplashPanel alloc] init] autorelease];
+        panel.title = LOC(@"Very Nice!");
+        panel.text = LOC(@"No More Symbols");
+        panel.buttonText = LOC(@"OK");
+        [panel show];
 	}
 }
 
@@ -1364,11 +1364,11 @@ static int timerTickCounter = 0;
 	}
 	else
 	{
-		UIAlertView*	alert = [[[UIAlertView alloc] initWithTitle:LOC(@"Game Over")	message:LOC(@"Board Full") 
-													   delegate:self cancelButtonTitle:LOC(@"OK") 
-											   otherButtonTitles:NULL] autorelease];
-		
-		[alert show];
+        SplashPanel*        panel = [[[SplashPanel alloc] init] autorelease];
+        panel.title = LOC(@"Game Ove");
+        panel.text = LOC(@"Board Full");
+        panel.buttonText = LOC(@"OK");
+        [panel show];
 	}
 }	
 
@@ -1531,11 +1531,6 @@ static int timerTickCounter = 0;
 	
 	[_soundTheme pieceDispensed];
 	[self updateProgress];	
-}
-
-- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
-{
-	exit(0);
 }
 
 -(void)pieceSelected:(id<Piece>)piece
@@ -2267,20 +2262,31 @@ static int timerTickCounter = 0;
 
 -(void)alertInvalidWordCandidate:(NSString*)word withInfo:(GameLevel_WordInfo*)wordInfo
 {
-	CHK_DEALLOC;
-	self.addWordCandidate = word;
-	
-	// open a dialog with two custom buttons
-	UIActionSheet *actionSheet = [[UIActionSheet alloc] initWithTitle:nil
-									delegate:self cancelButtonTitle:nil destructiveButtonTitle:nil
-									otherButtonTitles:[NSString stringWithFormat:LOC(@"Add '%@'"), RTL(word)], LOC(@"Not In This Level"), LOC(@"Disable Adding Words"), LOC(@"Cancel"), nil];
-	actionSheet.actionSheetStyle = UIActionSheetStyleDefault;
-	actionSheet.destructiveButtonIndex = 3;	
-	[actionSheet showInView:[self view]];
-	[actionSheet autorelease];
+    CHK_DEALLOC;
+    self.addWordCandidate = word;
+    
+    UIAlertController *actionSheet = [UIAlertController alertControllerWithTitle:nil message:nil preferredStyle:UIAlertControllerStyleActionSheet];
+
+    [actionSheet addAction:[UIAlertAction actionWithTitle:LOC(@"Cancel") style:UIAlertActionStyleCancel handler:^(UIAlertAction *action) {
+        [self alertInvalidWordCandidateClicked:3];
+    }]];
+
+    [actionSheet addAction:[UIAlertAction actionWithTitle:LOC(@"Disable Adding Words") style:UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
+        [self alertInvalidWordCandidateClicked:2];
+    }]];
+
+    [actionSheet addAction:[UIAlertAction actionWithTitle:LOC(@"Not In This Level") style:UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
+        [self alertInvalidWordCandidateClicked:1];
+    }]];
+
+    [actionSheet addAction:[UIAlertAction actionWithTitle:[NSString stringWithFormat:LOC(@"Add Word '%@' As Valid"), RTL(word)] style:UIAlertActionStyleDestructive handler:^(UIAlertAction *action) {
+        [self alertInvalidWordCandidateClicked:0];
+    }]];
+    
+    [self.view.window.rootViewController presentViewController:actionSheet animated:YES completion:nil];
 }
 
-- (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex
+- (void)alertInvalidWordCandidateClicked:(NSInteger)buttonIndex
 {
 	CHK_DEALLOC;
 	if ( _addWordCandidate )
@@ -2390,17 +2396,19 @@ static int timerTickCounter = 0;
 	// open a dialog with two custom buttons
 	self.addWordCandidate = NULL;
 	self.commitWordCandidate = [_commitWords objectAtIndex:0];
-	UIActionSheet *actionSheet = [[[UIActionSheet alloc] initWithTitle:nil
-															  delegate:self cancelButtonTitle:nil destructiveButtonTitle:nil
-													 otherButtonTitles:
-								   [NSString stringWithFormat:LOC(@"Add '%@'"), RTL(_commitWordCandidate)],
-								   LOC(@"No"), 
-								   nil] 
-								  autorelease];
-	actionSheet.actionSheetStyle = UIActionSheetStyleDefault;
-	actionSheet.destructiveButtonIndex = 1;	
-	[actionSheet showInView:[self view]];
-	
+    
+    UIAlertController *actionSheet = [UIAlertController alertControllerWithTitle:nil message:nil preferredStyle:UIAlertControllerStyleActionSheet];
+
+    [actionSheet addAction:[UIAlertAction actionWithTitle:LOC(@"Cancel") style:UIAlertActionStyleCancel handler:^(UIAlertAction *action) {
+        [self alertInvalidWordCandidateClicked:1];
+    }]];
+
+    [actionSheet addAction:[UIAlertAction actionWithTitle:[NSString stringWithFormat:LOC(@"Add Word '%@' As Valid"), RTL(_commitWordCandidate)] style:UIAlertActionStyleDestructive handler:^(UIAlertAction *action) {
+        [self alertInvalidWordCandidateClicked:0];
+    }]];
+    
+    [self.view.window.rootViewController presentViewController:actionSheet animated:YES completion:nil];
+    	
 	[_commitWords removeObjectAtIndex:0];
 	
 	return TRUE;
@@ -2428,20 +2436,23 @@ static int timerTickCounter = 0;
 	
 	// open a dialog with two custom buttons
 	self.addWordCandidate = NULL;
-	UIActionSheet *actionSheet = [[[UIActionSheet alloc] initWithTitle:RTL([_commitWords componentsJoinedByString:@","])
-									delegate:self cancelButtonTitle:nil destructiveButtonTitle:nil
-													 otherButtonTitles:
-														[NSString stringWithFormat:LOC(@"Commit %d New Words"), addedCount], 
-														LOC(@"Approve One By One"), 
-														LOC(@"Cancel"), 
-														nil] 
-								  autorelease];
-	actionSheet.actionSheetStyle = UIActionSheetStyleDefault;
-	actionSheet.destructiveButtonIndex = 2;	
-	[actionSheet showInView:[self view]];
+    UIAlertController *actionSheet = [UIAlertController alertControllerWithTitle:nil message:nil preferredStyle:UIAlertControllerStyleActionSheet];
+
+    [actionSheet addAction:[UIAlertAction actionWithTitle:LOC(@"Cancel") style:UIAlertActionStyleCancel handler:^(UIAlertAction *action) {
+        [self alertInvalidWordCandidateClicked:2];
+    }]];
+
+    [actionSheet addAction:[UIAlertAction actionWithTitle:LOC(@"Approve One By One") style:UIAlertActionStyleDestructive handler:^(UIAlertAction *action) {
+        [self alertInvalidWordCandidateClicked:1];
+    }]];
+    
+    [actionSheet addAction:[UIAlertAction actionWithTitle:[NSString stringWithFormat:LOC(@"Commit %d New Words"), addedCount] style:UIAlertActionStyleDestructive handler:^(UIAlertAction *action) {
+        [self alertInvalidWordCandidateClicked:0];
+    }]];
+    
+    [self.view.window.rootViewController presentViewController:actionSheet animated:YES completion:nil];
 
 	return TRUE;
-	
 }
 
 -(void)pieceClicked:(id<Piece>)piece

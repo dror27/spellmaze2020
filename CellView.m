@@ -3,7 +3,7 @@
 //  Board3
 //
 //  Created by Dror Kessler on 5/8/09.
-//  Copyright 2009 Dror Kessler (M-1). All rights reserved.
+//  Copyright 2020 Dror Kessler (M-1). All rights reserved.
 //
 
 #import "CellView.h"

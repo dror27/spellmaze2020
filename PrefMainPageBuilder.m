@@ -3,7 +3,7 @@
 //  Board3
 //
 //  Created by Dror Kessler on 8/1/09.
-//  Copyright 2009 Dror Kessler (M-1). All rights reserved.
+//  Copyright 2020 Dror Kessler (M-1). All rights reserved.
 //
 
 #import "PrefMainPageBuilder.h"
@@ -76,7 +76,7 @@
 	// home section
 	PrefSection*	home = [[[PrefSection alloc] init] autorelease];
 	PrefImageItem*	icon;
-	home.comment = @"A SpellMaze Game\nby Dror Kessler Ltd.\nCopyright © 2020";
+	home.comment = @"A SpellMaze Game\nby Dror Kessler\nCopyright © 2020";
 	home.items = [NSArray arrayWithObjects:
 				  icon = [[[PrefImageItem alloc] initWithLabel:@"" andKey:NULL andImage:[UIImage imageNamed:@"ProgramIcon1.png"]] autorelease],
 				  NULL];
@@ -345,7 +345,7 @@
 	others.comment = [NSString stringWithFormat:@"Version %@, Build #%@\nSystem Version %@\nMemory %3.1f MB",
 					  [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleShortVersionString"],
 					  [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleVersion"],
-					  [[UIDevice currentDevice] systemVersion], 
+					  [[UIDevice currentDevice] systemVersion],
 					  [UIDevice currentDevice].availableMemory];
 	
 

@@ -342,11 +342,9 @@
 		
 	}
 	others.items = othersItems;
-	others.comment = [NSString stringWithFormat:@"Version %@, Build #%@ (%@)\n%@\nSystem Version %@\nMemory %3.1f MB",
+	others.comment = [NSString stringWithFormat:@"Version %@, Build #%@\nSystem Version %@\nMemory %3.1f MB",
 					  [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleShortVersionString"],
 					  [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleVersion"],
-					  [[NSBundle mainBundle] objectForInfoDictionaryKey:@"SM_BuildDate"],
-					  [[NSBundle mainBundle] objectForInfoDictionaryKey:@"SM_BuildComment"],
 					  [[UIDevice currentDevice] systemVersion], 
 					  [UIDevice currentDevice].availableMemory];
 	

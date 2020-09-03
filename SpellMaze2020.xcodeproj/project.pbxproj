@@ -315,7 +315,7 @@
 
 /* Begin PBXFileReference section */
 		E217958A24374ED40079123B /* SpellMaze2020.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SpellMaze2020.entitlements; sourceTree = "<group>"; };
-		E26A234624339DB600AEF6CF /* SpellMaze2020.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpellMaze2020.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E26A234624339DB600AEF6CF /* SpellMaze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpellMaze.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E26A234924339DB600AEF6CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E26A234A24339DB600AEF6CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E26A234C24339DB600AEF6CF /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
@@ -1370,7 +1370,7 @@
 		E26A234724339DB600AEF6CF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E26A234624339DB600AEF6CF /* SpellMaze2020.app */,
+				E26A234624339DB600AEF6CF /* SpellMaze.app */,
 				E26A236124339DB800AEF6CF /* SpellMaze2020Tests.xctest */,
 				E26A236C24339DB800AEF6CF /* SpellMaze2020UITests.xctest */,
 			);
@@ -1515,7 +1515,7 @@
 			);
 			name = SpellMaze2020;
 			productName = SpellMaze2020;
-			productReference = E26A234624339DB600AEF6CF /* SpellMaze2020.app */;
+			productReference = E26A234624339DB600AEF6CF /* SpellMaze.app */;
 			productType = "com.apple.product-type.application";
 		};
 		E26A236024339DB800AEF6CF /* SpellMaze2020Tests */ = {
@@ -2082,7 +2082,7 @@
 					"-IZipFile-OC/minizip",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dk.SpellMaze2020;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SpellMaze;
 				SUPPORTS_MACCATALYST = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -2111,7 +2111,7 @@
 					"-IZipFile-OC/minizip",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dk.SpellMaze2020;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SpellMaze;
 				SUPPORTS_MACCATALYST = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

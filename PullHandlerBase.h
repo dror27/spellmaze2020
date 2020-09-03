@@ -3,7 +3,7 @@
 //  Board3
 //
 //  Created by Dror Kessler on 9/25/09.
-//  Copyright 2009 Dror Kessler. All rights reserved.
+//  Copyright 2020 Dror Kessler. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

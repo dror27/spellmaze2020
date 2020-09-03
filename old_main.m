@@ -3,7 +3,7 @@
 //  Board3
 //
 //  Created by Dror Kessler on 4/29/09.
-//  Copyright Dror Kessler (M-1) 2009. All rights reserved.
+//  Copyright Dror Kessler (M-1) 2020. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

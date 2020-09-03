@@ -3,7 +3,7 @@
 //  SpellMaze
 //
 //  Created by Dror Kessler on 10/27/09.
-//  Copyright 2009 __MyCompanyName__. All rights reserved.
+//  Copyright 2020 __MyCompanyName__. All rights reserved.
 //
 
 #import "DigitPieceDecorator.h"
